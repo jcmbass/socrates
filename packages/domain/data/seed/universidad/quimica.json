@@ -1,0 +1,497 @@
+{
+  "level": "universidad",
+  "subject_key": "quimica",
+  "subject_name": {
+    "es": "Química",
+    "en": "Chemistry"
+  },
+  "sources": [
+    {
+      "lang": "es",
+      "title": "Química 2ed",
+      "publisher": "OpenStax (Rice University)",
+      "edition_or_year": "2ª edición (2022)",
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_declaration_url": "https://openstax.org/books/qu%C3%ADmica-2ed/pages/prefacio"
+      },
+      "source_url": "https://openstax.org/details/books/qu%C3%ADmica-2ed",
+      "pdf_url": "https://assets.openstax.org/oscms-prodcms/media/documents/Quimica-2ed-WEB.pdf",
+      "pdf_path": "pdf/universidad/quimica/es.pdf",
+      "pdf_pages": 1223,
+      "pdf_size_mb": 177.2,
+      "toc_pages": {
+        "from": 7,
+        "to": 13
+      },
+      "sha256": "5becff52627822c8ed1ed67a766ce8fbb8d90bfefbc08b7a95e15ca82a4eacda"
+    },
+    {
+      "lang": "en",
+      "title": "Chemistry",
+      "publisher": "OpenStax (Rice University)",
+      "edition_or_year": "1e (2012, rev. mar 2015)",
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_declaration_url": "https://web.archive.org/web/20160306005137id_/http://openstaxcollege.org/textbooks/chemistry"
+      },
+      "source_url": "https://web.archive.org/web/20160306005137id_/http://openstaxcollege.org/textbooks/chemistry",
+      "pdf_url": "https://web.archive.org/web/20170103034819id_/https://d3bxy9euw4e147.cloudfront.net/oscms-prodcms/media/documents/Chemistry-LR.pdf",
+      "pdf_path": "pdf/universidad/quimica/en.pdf",
+      "pdf_pages": 1347,
+      "pdf_size_mb": 42.0,
+      "toc_pages": {
+        "from": 5,
+        "to": 8
+      },
+      "sha256": "4302e3130c0a58d6324b4f82eb737a79b734f7bb921814faae48d71c33b3cb13"
+    }
+  ],
+  "syllabus": {
+    "en": [
+      {
+        "unit": "Chapter 1: Essential Ideas",
+        "topics": [
+          "1.1 Chemistry in Context",
+          "1.2 Phases and Classification of Matter",
+          "1.3 Physical and Chemical Properties",
+          "1.4 Measurements",
+          "1.5 Measurement Uncertainty, Accuracy, and Precision",
+          "1.6 Mathematical Treatment of Measurement Results"
+        ]
+      },
+      {
+        "unit": "Chapter 2: Atoms, Molecules, and Ions",
+        "topics": [
+          "2.1 Early Ideas in Atomic Theory",
+          "2.2 Evolution of Atomic Theory",
+          "2.3 Atomic Structure and Symbolism",
+          "2.4 Chemical Formulas",
+          "2.5 The Periodic Table",
+          "2.6 Molecular and Ionic Compounds",
+          "2.7 Chemical Nomenclature"
+        ]
+      },
+      {
+        "unit": "Chapter 3: Composition of Substances and Solutions",
+        "topics": [
+          "3.1 Formula Mass and the Mole Concept",
+          "3.2 Determining Empirical and Molecular Formulas",
+          "3.3 Molarity",
+          "3.4 Other Units for Solution Concentrations"
+        ]
+      },
+      {
+        "unit": "Chapter 4: Stoichiometry of Chemical Reactions",
+        "topics": [
+          "4.1 Writing and Balancing Chemical Equations",
+          "4.2 Classifying Chemical Reactions",
+          "4.3 Reaction Stoichiometry",
+          "4.4 Reaction Yields",
+          "4.5 Quantitative Chemical Analysis"
+        ]
+      },
+      {
+        "unit": "Chapter 5: Thermochemistry",
+        "topics": [
+          "5.1 Energy Basics",
+          "5.2 Calorimetry",
+          "5.3 Enthalpy"
+        ]
+      },
+      {
+        "unit": "Chapter 6: Electronic Structure and Periodic Properties of Elements",
+        "topics": [
+          "6.1 Electromagnetic Energy",
+          "6.2 The Bohr Model",
+          "6.3 Development of Quantum Theory",
+          "6.4 Electronic Structure of Atoms (Electron Configurations)",
+          "6.5 Periodic Variations in Element Properties"
+        ]
+      },
+      {
+        "unit": "Chapter 7: Chemical Bonding and Molecular Geometry",
+        "topics": [
+          "7.1 Ionic Bonding",
+          "7.2 Covalent Bonding",
+          "7.3 Lewis Symbols and Structures",
+          "7.4 Formal Charges and Resonance",
+          "7.5 Strengths of Ionic and Covalent Bonds",
+          "7.6 Molecular Structure and Polarity"
+        ]
+      },
+      {
+        "unit": "Chapter 8: Advanced Theories of Covalent Bonding",
+        "topics": [
+          "8.1 Valence Bond Theory",
+          "8.2 Hybrid Atomic Orbitals",
+          "8.3 Multiple Bonds",
+          "8.4 Molecular Orbital Theory"
+        ]
+      },
+      {
+        "unit": "Chapter 9: Gases",
+        "topics": [
+          "9.1 Gas Pressure",
+          "9.2 Relating Pressure, Volume, Amount, and Temperature: The Ideal Gas Law",
+          "9.3 Stoichiometry of Gaseous Substances, Mixtures, and Reactions",
+          "9.4 Effusion and Diffusion of Gases",
+          "9.5 The Kinetic-Molecular Theory",
+          "9.6 Non-Ideal Gas Behavior"
+        ]
+      },
+      {
+        "unit": "Chapter 10: Liquids and Solids",
+        "topics": [
+          "10.1 Intermolecular Forces",
+          "10.2 Properties of Liquids",
+          "10.3 Phase Transitions",
+          "10.4 Phase Diagrams",
+          "10.5 The Solid State of Matter",
+          "10.6 Lattice Structures in Crystalline Solids"
+        ]
+      },
+      {
+        "unit": "Chapter 11: Solutions and Colloids",
+        "topics": [
+          "11.1 The Dissolution Process",
+          "11.2 Electrolytes",
+          "11.3 Solubility",
+          "11.4 Colligative Properties",
+          "11.5 Colloids"
+        ]
+      },
+      {
+        "unit": "Chapter 12: Kinetics",
+        "topics": [
+          "12.1 Chemical Reaction Rates",
+          "12.2 Factors Affecting Reaction Rates",
+          "12.3 Rate Laws",
+          "12.4 Integrated Rate Laws",
+          "12.5 Collision Theory",
+          "12.6 Reaction Mechanisms",
+          "12.7 Catalysis"
+        ]
+      },
+      {
+        "unit": "Chapter 13: Fundamental Equilibrium Concepts",
+        "topics": [
+          "13.1 Chemical Equilibria",
+          "13.2 Equilibrium Constants",
+          "13.3 Shifting Equilibria: Le Châtelier's Principle",
+          "13.4 Equilibrium Calculations"
+        ]
+      },
+      {
+        "unit": "Chapter 14: Acid-Base Equilibria",
+        "topics": [
+          "14.1 Brønsted-Lowry Acids and Bases",
+          "14.2 pH and pOH",
+          "14.3 Relative Strengths of Acids and Bases",
+          "14.4 Hydrolysis of Salt Solutions",
+          "14.5 Polyprotic Acids",
+          "14.6 Buffers",
+          "14.7 Acid-Base Titrations"
+        ]
+      },
+      {
+        "unit": "Chapter 15: Equilibria of Other Reaction Classes",
+        "topics": [
+          "15.1 Precipitation and Dissolution",
+          "15.2 Lewis Acids and Bases",
+          "15.3 Multiple Equilibria"
+        ]
+      },
+      {
+        "unit": "Chapter 16: Thermodynamics",
+        "topics": [
+          "16.1 Spontaneity",
+          "16.2 Entropy",
+          "16.3 The Second and Third Laws of Thermodynamics",
+          "16.4 Free Energy"
+        ]
+      },
+      {
+        "unit": "Chapter 17: Electrochemistry",
+        "topics": [
+          "17.1 Balancing Oxidation-Reduction Reactions",
+          "17.2 Galvanic Cells",
+          "17.3 Standard Reduction Potentials",
+          "17.4 The Nernst Equation",
+          "17.5 Batteries and Fuel Cells",
+          "17.6 Corrosion",
+          "17.7 Electrolysis"
+        ]
+      },
+      {
+        "unit": "Chapter 18: Representative Metals, Metalloids, and Nonmetals",
+        "topics": [
+          "18.1 Periodicity",
+          "18.2 Occurrence and Preparation of the Representative Metals",
+          "18.3 Structure and General Properties of the Metalloids",
+          "18.4 Structure and General Properties of the Nonmetals",
+          "18.5 Occurrence, Preparation, and Compounds of Hydrogen",
+          "18.6 Occurrence, Preparation, and Properties of Carbonates",
+          "18.7 Occurrence, Preparation, and Properties of Nitrogen",
+          "18.8 Occurrence, Preparation, and Properties of Phosphorus",
+          "18.9 Occurrence, Preparation, and Compounds of Oxygen",
+          "18.10 Occurrence, Preparation, and Properties of Sulfur",
+          "18.11 Occurrence, Preparation, and Properties of Halogens",
+          "18.12 Occurrence, Preparation, and Properties of the Noble Gases"
+        ]
+      },
+      {
+        "unit": "Chapter 19: Transition Metals and Coordination Chemistry",
+        "topics": [
+          "19.1 Occurrence, Preparation, and Properties of Transition Metals and Their Compounds",
+          "19.2 Coordination Chemistry of Transition Metals",
+          "19.3 Spectroscopic and Magnetic Properties of Coordination Compounds"
+        ]
+      },
+      {
+        "unit": "Chapter 20: Organic Chemistry",
+        "topics": [
+          "20.1 Hydrocarbons",
+          "20.2 Alcohols and Ethers",
+          "20.3 Aldehydes, Ketones, Carboxylic Acids, and Esters",
+          "20.4 Amines and Amides"
+        ]
+      },
+      {
+        "unit": "Chapter 21: Nuclear Chemistry",
+        "topics": [
+          "21.1 Nuclear Structure and Stability",
+          "21.2 Nuclear Equations",
+          "21.3 Radioactive Decay",
+          "21.4 Transmutation and Nuclear Energy",
+          "21.5 Uses of Radioisotopes",
+          "21.6 Biological Effects of Radiation"
+        ]
+      }
+    ],
+    "es": [
+      {
+        "unit": "Capítulo 1: Ideas esenciales",
+        "topics": [
+          "1.1 La química en su contexto",
+          "1.2 Fases y clasificación de la materia",
+          "1.3 Propiedades físicas y químicas",
+          "1.4 Mediciones",
+          "1.5 Incertidumbre, exactitud y precisión de las mediciones",
+          "1.6 Tratamiento matemático de los resultados de las mediciones"
+        ]
+      },
+      {
+        "unit": "Capítulo 2: Átomos, moléculas e iones",
+        "topics": [
+          "2.1 Las primeras ideas de la teoría atómica",
+          "2.2 Evolución de la teoría atómica",
+          "2.3 Estructura atómica y simbolismo",
+          "2.4 Fórmulas químicas",
+          "2.5 La tabla periódica",
+          "2.6 Compuestos iónicos y moleculares",
+          "2.7 Nomenclatura química"
+        ]
+      },
+      {
+        "unit": "Capítulo 3: Composición de sustancias y soluciones",
+        "topics": [
+          "3.1 La fórmula de masa y el concepto de mol",
+          "3.2 Determinación de fórmulas empíricas y moleculares",
+          "3.3 Molaridad",
+          "3.4 Otras unidades para las concentraciones de las soluciones"
+        ]
+      },
+      {
+        "unit": "Capítulo 4: Estequiometría de las reacciones químicas",
+        "topics": [
+          "4.1 Escritura y balance de ecuaciones químicas",
+          "4.2 Clasificación de las reacciones químicas",
+          "4.3 Estequiometría de la reacción",
+          "4.4 Rendimiento de la reacción",
+          "4.5 Análisis químico cuantitativo"
+        ]
+      },
+      {
+        "unit": "Capítulo 5: Termoquímica",
+        "topics": [
+          "5.1 Conceptos básicos de energía",
+          "5.2 Calorimetría",
+          "5.3 Entalpía"
+        ]
+      },
+      {
+        "unit": "Capítulo 6: Estructura electrónica y propiedades periódicas de los elementos",
+        "topics": [
+          "6.1 Energía electromagnética",
+          "6.2 El modelo de Bohr",
+          "6.3 Desarrollo de la teoría cuántica",
+          "6.4 Estructura electrónica de los átomos (configuraciones de electrones)",
+          "6.5 Variaciones periódicas de las propiedades de los elementos"
+        ]
+      },
+      {
+        "unit": "Capítulo 7: Enlace químico y geometría molecular",
+        "topics": [
+          "7.1 Enlace iónico",
+          "7.2 Enlace covalente",
+          "7.3 Símbolos y estructuras de Lewis",
+          "7.4 Cargas formales y resonancia",
+          "7.5 Fuerza de los enlaces iónicos y covalentes",
+          "7.6 Estructura molecular y polaridad"
+        ]
+      },
+      {
+        "unit": "Capítulo 8: Teorías avanzadas del enlace covalente",
+        "topics": [
+          "8.1 Teoría de enlace de valencia",
+          "8.2 Orbitales atómicos híbridos",
+          "8.3 Enlaces múltiples",
+          "8.4 Teoría de los orbitales moleculares"
+        ]
+      },
+      {
+        "unit": "Capítulo 9: Gases",
+        "topics": [
+          "9.1 Presión del gas",
+          "9.2 Relaciones entre presión, volumen, cantidad y temperatura: la ley de los gases ideales",
+          "9.3 Estequiometría de sustancias gaseosas, mezclas y reacciones",
+          "9.4 Efusión y difusión de los gases",
+          "9.5 La teoría cinético-molecular",
+          "9.6 Comportamiento no ideal de los gases"
+        ]
+      },
+      {
+        "unit": "Capítulo 10: Líquidos y sólidos",
+        "topics": [
+          "10.1 Fuerzas intermoleculares",
+          "10.2 Propiedades de los líquidos",
+          "10.3 Transiciones de fase",
+          "10.4 Diagramas de fase",
+          "10.5 El estado sólido de la materia",
+          "10.6 Estructuras de red en los sólidos cristalinos"
+        ]
+      },
+      {
+        "unit": "Capítulo 11: Soluciones y coloides",
+        "topics": [
+          "11.1 El proceso de disolución",
+          "11.2 Electrolitos",
+          "11.3 Solubilidad",
+          "11.4 Propiedades coligativas",
+          "11.5 Coloides"
+        ]
+      },
+      {
+        "unit": "Capítulo 12: Cinética",
+        "topics": [
+          "12.1 Tasas de reacciones químicas",
+          "12.2 Factores que afectan las tasas de reacción",
+          "12.3 Leyes de velocidad",
+          "12.4 Leyes de tasas integradas",
+          "12.5 Teoría de colisiones",
+          "12.6 Mecanismos de reacción",
+          "12.7 Catálisis"
+        ]
+      },
+      {
+        "unit": "Capítulo 13: Conceptos fundamentales del equilibrio",
+        "topics": [
+          "13.1 Equilibrio químico",
+          "13.2 Constantes de equilibrio",
+          "13.3 Equilibrios cambiantes: el principio de Le Châtelier",
+          "13.4 Cálculos de equilibrio"
+        ]
+      },
+      {
+        "unit": "Capítulo 14: Equilibrios ácido-base",
+        "topics": [
+          "14.1 Ácidos y bases de Brønsted-Lowry",
+          "14.2 pH y pOH",
+          "14.3 Fuerza relativa de los ácidos y las bases",
+          "14.4 Hidrólisis de sales",
+          "14.5 Ácidos polipróticos",
+          "14.6 Tampones",
+          "14.7 Titulaciones ácido-base"
+        ]
+      },
+      {
+        "unit": "Capítulo 15: Equilibrios de otras clases de reacción",
+        "topics": [
+          "15.1 Precipitación y disolución",
+          "15.2 Ácidos y bases de Lewis",
+          "15.3 Equilibrios acoplados"
+        ]
+      },
+      {
+        "unit": "Capítulo 16: Termodinámica",
+        "topics": [
+          "16.1 Espontaneidad",
+          "16.2 Entropía",
+          "16.3 La segunda y la tercera ley de la termodinámica",
+          "16.4 Energía libre"
+        ]
+      },
+      {
+        "unit": "Capítulo 17: Electroquímica",
+        "topics": [
+          "17.1 Repaso de química redox",
+          "17.2 Celdas galvánicas",
+          "17.3 Potenciales del electrodo y de la celda",
+          "17.4 Potencial, energía libre y equilibrio",
+          "17.5 Baterías y pilas de combustible",
+          "17.6 Corrosión",
+          "17.7 Electrólisis"
+        ]
+      },
+      {
+        "unit": "Capítulo 18: Metales representativos, metaloides y no metales",
+        "topics": [
+          "18.1 Periodicidad",
+          "18.2 Incidencia y preparación de los metales representativos",
+          "18.3 Estructura y propiedades generales de los metaloides",
+          "18.4 Estructura y propiedades generales de los no metales",
+          "18.5 Incidencia, preparación y compuestos de hidrógeno",
+          "18.6 Incidencia, preparación y propiedades de los carbonatos",
+          "18.7 Incidencia, preparación y propiedades del nitrógeno",
+          "18.8 Incidencia, preparación y propiedades del fósforo",
+          "18.9 Incidencia, preparación y compuestos del oxígeno",
+          "18.10 Incidencia, preparación y propiedades del azufre",
+          "18.11 Incidencia, preparación y propiedades de los halógenos",
+          "18.12 Incidencia, preparación y propiedades de los gases nobles"
+        ]
+      },
+      {
+        "unit": "Capítulo 19: Metales de transición y química de coordinación",
+        "topics": [
+          "19.1 Incidencia, preparación y propiedades de los metales de transición y sus compuestos",
+          "19.2 Química de coordinación de los metales de transición",
+          "19.3 Propiedades espectroscópicas y magnéticas de los compuestos de coordinación"
+        ]
+      },
+      {
+        "unit": "Capítulo 20: Química orgánica",
+        "topics": [
+          "20.1 Hidrocarburos",
+          "20.2 Alcoholes y éteres",
+          "20.3 Aldehídos, cetonas, ácidos carboxílicos y ésteres",
+          "20.4 Aminas y amidas"
+        ]
+      },
+      {
+        "unit": "Capítulo 21: Química nuclear",
+        "topics": [
+          "21.1 Estructura y estabilidad nuclear",
+          "21.2 Ecuaciones nucleares",
+          "21.3 Decaimiento radiactivo",
+          "21.4 Transmutación y energía nuclear",
+          "21.5 Usos de los radioisótopos",
+          "21.6 Efectos biológicos de la radiación"
+        ]
+      }
+    ]
+  },
+  "notes": "Nivel universitario, curso introductorio de química general de dos semestres (Química I+II), alcance y secuencia estándar de general chemistry. syllabus.es construido EXCLUSIVAMENTE desde el TOC del PDF de 'Química 2ed' (páginas PDF 7-13, 2 niveles: unidades=capítulos, temas=secciones numeradas): 21 capítulos, 114 secciones. EXCLUIDOS a propósito: Prefacio, Introducciones de capítulo, Términos clave, Ecuaciones clave, Resumen y Ejercicios de fin de capítulo, Apéndices A-M, Clave de respuestas e Índice. El libro ES es la traducción oficial al español de OpenStax Chemistry 2e: SOLO la traducción ES es CC BY 4.0; la Chemistry 2e en inglés es CC BY-NC-SA y NO se usa. Edición 2ed: ©2022 Rice University, ISBN digital 978-1-951693-57-2, autores principales Paul Flowers, Klaus Theopold, Richard Langley y William R. Robinson. Licencia CC BY 4.0 declarada en la página de copyright del PDF (pág. 3) y en el prefacio (license_declaration_url; verificado por fetch). NÚMEROS DE PÁGINA DEL TOC de la 2ed: páginas IMPRESAS (offset de ~8 frente a las páginas del PDF); pdf_pages=1223 es el conteo real de pdfinfo del PDF WEB de la 2ed. --- sources[1] = Chemistry 1e (EN, AGREGADA 2026-09-06): syllabus.en NATIVO del TOC del PDF (páginas PDF 5-8), 21 capítulos, 114 secciones, mismo criterio de exclusión (Prefacio, Apéndices A-M, Índice). Edición 1e: ©2012, revisión mar. 2015 (el PDF es la reimpresión © 2016 Rice University), col11760. Licencia CC BY 4.0 International SIN NC/ND, declarada en la página de copyright del PDF (verificada con pdftotext págs. 1-10) y archivada en license_declaration_url. DESFASE 1e vs 2ed: los CONTEOS coinciden (21 capítulos / 114 secciones en ambos), pero el contenido NO es 1:1 — la 2ed reorganizó y redistribuyó secciones (p.ej. ch4 de 1e tiene 5 secciones con 4.5 Quantitative Chemical Analysis, la 2ed ES tiene 4; ch19 de 1e tiene 3 secciones); NO se forzó simetría en/es: cada syllabus es nativo de su propio libro."
+}

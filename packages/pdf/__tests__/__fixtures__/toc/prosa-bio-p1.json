@@ -1,0 +1,1501 @@
+{
+  "pageNumber": 1,
+  "width": 595.3,
+  "height": 841.89,
+  "textItems": [
+    {
+      "str": "Apuntes",
+      "x": 56.8,
+      "y": 768.86,
+      "width": 99.82,
+      "height": 32.69,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 162.86,
+      "y": 768.86,
+      "width": 29.38,
+      "height": 32.69,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Biologia:",
+      "x": 198.47,
+      "y": 768.86,
+      "width": 104.33,
+      "height": 32.69,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "La",
+      "x": 309.04,
+      "y": 768.86,
+      "width": 28.06,
+      "height": 32.69,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "celula",
+      "x": 343.34,
+      "y": 768.86,
+      "width": 71.42,
+      "height": 32.69,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "procariota",
+      "x": 421.0,
+      "y": 768.86,
+      "width": 125.76,
+      "height": 32.69,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Las",
+      "x": 56.8,
+      "y": 740.9,
+      "width": 17.3,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "celulas",
+      "x": 77.1,
+      "y": 740.9,
+      "width": 33.26,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "procariotas",
+      "x": 113.37,
+      "y": 740.9,
+      "width": 53.26,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "son",
+      "x": 169.62,
+      "y": 740.9,
+      "width": 16.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "organismos",
+      "x": 189.29,
+      "y": 740.9,
+      "width": 55.3,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "unicelulares",
+      "x": 247.59,
+      "y": 740.9,
+      "width": 57.9,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "que",
+      "x": 308.49,
+      "y": 740.9,
+      "width": 17.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "carecen",
+      "x": 328.8,
+      "y": 740.9,
+      "width": 36.58,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 368.38,
+      "y": 740.9,
+      "width": 11.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "un",
+      "x": 382.7,
+      "y": 740.9,
+      "width": 12.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "nucleo",
+      "x": 397.7,
+      "y": 740.9,
+      "width": 31.96,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "verdadero",
+      "x": 432.65,
+      "y": 740.9,
+      "width": 47.94,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "delimitado",
+      "x": 483.59,
+      "y": 740.9,
+      "width": 51.25,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "por",
+      "x": 537.84,
+      "y": 740.9,
+      "width": 16.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "membrana.",
+      "x": 56.8,
+      "y": 727.1,
+      "width": 53.59,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Su",
+      "x": 113.39,
+      "y": 727.1,
+      "width": 12.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "material",
+      "x": 129.06,
+      "y": 727.1,
+      "width": 39.24,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "genetico,",
+      "x": 171.3,
+      "y": 727.1,
+      "width": 43.6,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "tipicamente",
+      "x": 217.9,
+      "y": 727.1,
+      "width": 55.88,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "una",
+      "x": 276.78,
+      "y": 727.1,
+      "width": 17.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "unica",
+      "x": 297.1,
+      "y": 727.1,
+      "width": 25.96,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "molecula",
+      "x": 326.06,
+      "y": 727.1,
+      "width": 43.92,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 372.98,
+      "y": 727.1,
+      "width": 11.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "ADN",
+      "x": 387.29,
+      "y": 727.1,
+      "width": 25.99,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "circular,",
+      "x": 416.28,
+      "y": 727.1,
+      "width": 39.59,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "se",
+      "x": 458.87,
+      "y": 727.1,
+      "width": 9.98,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "encuentra",
+      "x": 471.86,
+      "y": 727.1,
+      "width": 46.58,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "concentrado",
+      "x": 56.8,
+      "y": 713.3,
+      "width": 58.58,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "en",
+      "x": 118.38,
+      "y": 713.3,
+      "width": 11.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "una",
+      "x": 132.7,
+      "y": 713.3,
+      "width": 17.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "region",
+      "x": 153.02,
+      "y": 713.3,
+      "width": 30.64,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "del",
+      "x": 186.65,
+      "y": 713.3,
+      "width": 14.64,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "citoplasma",
+      "x": 204.29,
+      "y": 713.3,
+      "width": 51.91,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "llamada",
+      "x": 259.2,
+      "y": 713.3,
+      "width": 37.92,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "nucleoide,",
+      "x": 300.12,
+      "y": 713.3,
+      "width": 49.6,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "sin",
+      "x": 352.72,
+      "y": 713.3,
+      "width": 13.99,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "estar",
+      "x": 369.71,
+      "y": 713.3,
+      "width": 22.62,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "rodeado",
+      "x": 395.33,
+      "y": 713.3,
+      "width": 38.63,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "por",
+      "x": 436.96,
+      "y": 713.3,
+      "width": 16.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "una",
+      "x": 455.96,
+      "y": 713.3,
+      "width": 17.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "envoltura",
+      "x": 476.27,
+      "y": 713.3,
+      "width": 45.28,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "nuclear.",
+      "x": 524.55,
+      "y": 713.3,
+      "width": 38.27,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "A",
+      "x": 56.8,
+      "y": 685.35,
+      "width": 8.66,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "diferencia",
+      "x": 68.46,
+      "y": 685.35,
+      "width": 47.9,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 119.37,
+      "y": 685.35,
+      "width": 11.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "las",
+      "x": 133.68,
+      "y": 685.35,
+      "width": 13.31,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "celulas",
+      "x": 149.99,
+      "y": 685.35,
+      "width": 33.26,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "eucariotas,",
+      "x": 186.26,
+      "y": 685.35,
+      "width": 51.58,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "las",
+      "x": 240.83,
+      "y": 685.35,
+      "width": 13.31,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "procariotas",
+      "x": 257.14,
+      "y": 685.35,
+      "width": 53.26,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "no",
+      "x": 313.4,
+      "y": 685.35,
+      "width": 12.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "poseen",
+      "x": 328.4,
+      "y": 685.35,
+      "width": 33.3,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "organelos",
+      "x": 364.7,
+      "y": 685.35,
+      "width": 46.62,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "membranosos",
+      "x": 414.32,
+      "y": 685.35,
+      "width": 66.61,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "como",
+      "x": 483.93,
+      "y": 685.35,
+      "width": 26.64,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "mitocondrias,",
+      "x": 56.8,
+      "y": 671.55,
+      "width": 65.59,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "cloroplastos",
+      "x": 125.39,
+      "y": 671.55,
+      "width": 57.94,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "o",
+      "x": 186.33,
+      "y": 671.55,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "aparato",
+      "x": 195.33,
+      "y": 671.55,
+      "width": 35.27,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 233.6,
+      "y": 671.55,
+      "width": 11.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Golgi.",
+      "x": 247.91,
+      "y": 671.55,
+      "width": 30.31,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Todas",
+      "x": 281.22,
+      "y": 671.55,
+      "width": 29.3,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "sus",
+      "x": 313.53,
+      "y": 671.55,
+      "width": 15.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "funciones",
+      "x": 331.86,
+      "y": 671.55,
+      "width": 46.62,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "metabolicas",
+      "x": 381.48,
+      "y": 671.55,
+      "width": 57.23,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "ocurren",
+      "x": 441.71,
+      "y": 671.55,
+      "width": 36.62,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "en",
+      "x": 481.34,
+      "y": 671.55,
+      "width": 11.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "el",
+      "x": 495.65,
+      "y": 671.55,
+      "width": 8.64,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "citoplasma",
+      "x": 507.29,
+      "y": 671.55,
+      "width": 51.91,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "o",
+      "x": 56.8,
+      "y": 657.75,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "en",
+      "x": 65.8,
+      "y": 657.75,
+      "width": 11.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "la",
+      "x": 80.12,
+      "y": 657.75,
+      "width": 8.64,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "membrana",
+      "x": 91.76,
+      "y": 657.75,
+      "width": 50.59,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "plasmatica.",
+      "x": 145.35,
+      "y": 657.75,
+      "width": 54.23,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Los",
+      "x": 202.58,
+      "y": 657.75,
+      "width": 17.99,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "ribosomas,",
+      "x": 223.56,
+      "y": 657.75,
+      "width": 52.3,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "responsables",
+      "x": 278.86,
+      "y": 657.75,
+      "width": 61.27,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 343.13,
+      "y": 657.75,
+      "width": 11.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "la",
+      "x": 357.45,
+      "y": 657.75,
+      "width": 8.64,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "sintesis",
+      "x": 369.09,
+      "y": 657.75,
+      "width": 35.29,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 407.38,
+      "y": 657.75,
+      "width": 11.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "proteinas,",
+      "x": 421.7,
+      "y": 657.75,
+      "width": 46.94,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "si",
+      "x": 471.64,
+      "y": 657.75,
+      "width": 7.99,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "estan",
+      "x": 482.63,
+      "y": 657.75,
+      "width": 24.62,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "presentes,",
+      "x": 510.26,
+      "y": 657.75,
+      "width": 47.6,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "aunque",
+      "x": 56.8,
+      "y": 643.95,
+      "width": 34.63,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "son",
+      "x": 94.43,
+      "y": 643.95,
+      "width": 16.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "mas",
+      "x": 114.1,
+      "y": 643.95,
+      "width": 19.31,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "pequenos",
+      "x": 136.41,
+      "y": 643.95,
+      "width": 45.3,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "que",
+      "x": 184.71,
+      "y": 643.95,
+      "width": 17.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "los",
+      "x": 205.02,
+      "y": 643.95,
+      "width": 13.99,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 222.02,
+      "y": 643.95,
+      "width": 11.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "las",
+      "x": 236.33,
+      "y": 643.95,
+      "width": 13.31,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "eucariotas.",
+      "x": 252.64,
+      "y": 643.95,
+      "width": 51.58,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Las",
+      "x": 56.8,
+      "y": 616.0,
+      "width": 17.3,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "bacterias",
+      "x": 77.1,
+      "y": 616.0,
+      "width": 42.58,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y",
+      "x": 122.68,
+      "y": 616.0,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "las",
+      "x": 131.68,
+      "y": 616.0,
+      "width": 13.31,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "arqueas",
+      "x": 147.99,
+      "y": 616.0,
+      "width": 36.61,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "son",
+      "x": 187.6,
+      "y": 616.0,
+      "width": 16.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "los",
+      "x": 207.27,
+      "y": 616.0,
+      "width": 13.99,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "dos",
+      "x": 224.26,
+      "y": 616.0,
+      "width": 16.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "grandes",
+      "x": 243.93,
+      "y": 616.0,
+      "width": 37.3,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "dominios",
+      "x": 284.22,
+      "y": 616.0,
+      "width": 44.64,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 331.86,
+      "y": 616.0,
+      "width": 11.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "organismos",
+      "x": 346.18,
+      "y": 616.0,
+      "width": 55.3,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "procariotas.",
+      "x": 404.48,
+      "y": 616.0,
+      "width": 56.26,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Muchas",
+      "x": 463.73,
+      "y": 616.0,
+      "width": 37.97,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "bacterias",
+      "x": 504.7,
+      "y": 616.0,
+      "width": 42.58,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "poseen",
+      "x": 56.8,
+      "y": 602.2,
+      "width": 33.3,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "una",
+      "x": 93.1,
+      "y": 602.2,
+      "width": 17.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "pared",
+      "x": 113.42,
+      "y": 602.2,
+      "width": 26.63,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "celular",
+      "x": 143.04,
+      "y": 602.2,
+      "width": 32.59,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "rigida",
+      "x": 178.64,
+      "y": 602.2,
+      "width": 27.96,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "compuesta",
+      "x": 209.6,
+      "y": 602.2,
+      "width": 51.26,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 263.86,
+      "y": 602.2,
+      "width": 11.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "peptidoglicano",
+      "x": 278.18,
+      "y": 602.2,
+      "width": 71.24,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "que",
+      "x": 352.42,
+      "y": 602.2,
+      "width": 17.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "les",
+      "x": 372.74,
+      "y": 602.2,
+      "width": 13.31,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "da",
+      "x": 389.04,
+      "y": 602.2,
+      "width": 11.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "forma",
+      "x": 403.36,
+      "y": 602.2,
+      "width": 28.63,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y",
+      "x": 434.99,
+      "y": 602.2,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "proteccion.",
+      "x": 443.99,
+      "y": 602.2,
+      "width": 53.59,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Algunas",
+      "x": 500.58,
+      "y": 602.2,
+      "width": 39.97,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "presentan",
+      "x": 56.8,
+      "y": 588.4,
+      "width": 45.94,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "flagelos",
+      "x": 105.74,
+      "y": 588.4,
+      "width": 37.94,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "para",
+      "x": 146.68,
+      "y": 588.4,
+      "width": 20.63,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "el",
+      "x": 170.31,
+      "y": 588.4,
+      "width": 8.64,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "movimiento",
+      "x": 181.95,
+      "y": 588.4,
+      "width": 57.94,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y",
+      "x": 242.88,
+      "y": 588.4,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "pili",
+      "x": 251.88,
+      "y": 588.4,
+      "width": 15.97,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "para",
+      "x": 270.86,
+      "y": 588.4,
+      "width": 20.63,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "el",
+      "x": 294.48,
+      "y": 588.4,
+      "width": 8.64,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "intercambio",
+      "x": 306.12,
+      "y": 588.4,
+      "width": 57.24,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 366.36,
+      "y": 588.4,
+      "width": 11.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "material",
+      "x": 380.68,
+      "y": 588.4,
+      "width": 39.24,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "genetico.",
+      "x": 422.92,
+      "y": 588.4,
+      "width": 43.6,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "La",
+      "x": 56.8,
+      "y": 560.45,
+      "width": 12.64,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "teoria",
+      "x": 72.44,
+      "y": 560.45,
+      "width": 27.28,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "endosimbiotica,",
+      "x": 102.71,
+      "y": 560.45,
+      "width": 76.24,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "propuesta",
+      "x": 181.95,
+      "y": 560.45,
+      "width": 46.62,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "por",
+      "x": 231.57,
+      "y": 560.45,
+      "width": 16.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Lynn",
+      "x": 250.56,
+      "y": 560.45,
+      "width": 25.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Margulis,",
+      "x": 278.88,
+      "y": 560.45,
+      "width": 46.3,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "sostiene",
+      "x": 328.18,
+      "y": 560.45,
+      "width": 38.62,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "que",
+      "x": 369.8,
+      "y": 560.45,
+      "width": 17.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "ciertos",
+      "x": 390.11,
+      "y": 560.45,
+      "width": 31.94,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "organelos",
+      "x": 425.06,
+      "y": 560.45,
+      "width": 46.62,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 474.68,
+      "y": 560.45,
+      "width": 11.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "las",
+      "x": 488.99,
+      "y": 560.45,
+      "width": 13.31,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "celulas",
+      "x": 505.3,
+      "y": 560.45,
+      "width": 33.26,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "eucariotas",
+      "x": 56.8,
+      "y": 546.65,
+      "width": 48.58,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "se",
+      "x": 108.38,
+      "y": 546.65,
+      "width": 9.98,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "originaron",
+      "x": 121.36,
+      "y": 546.65,
+      "width": 49.96,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "a",
+      "x": 174.32,
+      "y": 546.65,
+      "width": 5.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "partir",
+      "x": 182.63,
+      "y": 546.65,
+      "width": 25.96,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 211.59,
+      "y": 546.65,
+      "width": 11.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "procariotas",
+      "x": 225.9,
+      "y": 546.65,
+      "width": 53.26,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 282.16,
+      "y": 546.65,
+      "width": 11.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "vida",
+      "x": 296.48,
+      "y": 546.65,
+      "width": 20.64,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "libre",
+      "x": 320.12,
+      "y": 546.65,
+      "width": 21.96,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "que",
+      "x": 345.08,
+      "y": 546.65,
+      "width": 17.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "fueron",
+      "x": 365.39,
+      "y": 546.65,
+      "width": 31.31,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "incorporados",
+      "x": 399.7,
+      "y": 546.65,
+      "width": 62.62,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "por",
+      "x": 465.32,
+      "y": 546.65,
+      "width": 16.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "otra",
+      "x": 484.31,
+      "y": 546.65,
+      "width": 18.64,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "celula",
+      "x": 505.95,
+      "y": 546.65,
+      "width": 28.6,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "huesped.",
+      "x": 56.8,
+      "y": 532.85,
+      "width": 42.3,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Esta",
+      "x": 102.1,
+      "y": 532.85,
+      "width": 20.63,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "relacion",
+      "x": 125.73,
+      "y": 532.85,
+      "width": 38.59,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "simbiotica",
+      "x": 167.32,
+      "y": 532.85,
+      "width": 49.92,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "habria",
+      "x": 220.24,
+      "y": 532.85,
+      "width": 29.95,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "dado",
+      "x": 253.19,
+      "y": 532.85,
+      "width": 23.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "lugar",
+      "x": 279.51,
+      "y": 532.85,
+      "width": 24.64,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "a",
+      "x": 307.14,
+      "y": 532.85,
+      "width": 5.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "las",
+      "x": 315.46,
+      "y": 532.85,
+      "width": 13.31,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "mitocondrias",
+      "x": 331.77,
+      "y": 532.85,
+      "width": 62.59,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y",
+      "x": 397.36,
+      "y": 532.85,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "los",
+      "x": 406.36,
+      "y": 532.85,
+      "width": 13.99,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "cloroplastos.",
+      "x": 423.35,
+      "y": 532.85,
+      "width": 60.94,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    }
+  ],
+  "images": [],
+  "paths": {
+    "horizontalSegments": 0,
+    "verticalSegments": 0,
+    "rectangles": 0
+  }
+}

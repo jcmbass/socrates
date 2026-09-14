@@ -1,0 +1,19 @@
+{
+  "name": "@buxo/pdf",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "description": "buxo shared PDF ingest pipeline core (F2 WQ2 Part 0a, architect mandate): the pure, zero-dependency pieces of the tiered ingest pipeline (docs/plan-local-litert) that apps/harness (browser) and apps/server (Node) both need byte-identically — page classification heuristics (classify.ts, frozen per especificaciones/C-cliente-e-ingesta.md §3.2), the normalized page shape (types.ts), local text reconstruction (pageText.ts), reading-order material assembly (assemble.ts), and index/table-of-contents localization + parsing (toc.ts, docs/plan-temario-indice) for building a temario from a book's own index instead of its full text. No pdf.js, no DOM, no Node-only APIs — consumers bring their own I/O layer (apps/harness/lib/pdf/parse.ts for the browser, apps/server/src/pdf/parse-node.ts for Node) and only this package's pure functions are shared. Consumers transpile the .ts sources directly (same pattern as @buxo/core).",
+  "exports": {
+    "./classify": "./classify.ts",
+    "./types": "./types.ts",
+    "./pageText": "./pageText.ts",
+    "./assemble": "./assemble.ts",
+    "./toc": "./toc.ts"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  }
+}

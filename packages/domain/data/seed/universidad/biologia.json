@@ -1,0 +1,920 @@
+{
+  "level": "universidad",
+  "subject_key": "biologia",
+  "subject_name": {
+    "es": "Biología",
+    "en": "Biology"
+  },
+  "sources": [
+    {
+      "lang": "en",
+      "title": "Biology",
+      "publisher": "OpenStax (Rice University)",
+      "edition_or_year": "1e (marzo 2013)",
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_declaration_url": "https://web.archive.org/web/20150109041706id_/http://openstaxcollege.org/textbooks/biology"
+      },
+      "source_url": "https://web.archive.org/web/20150109041706id_/http://openstaxcollege.org/textbooks/biology",
+      "pdf_url": "https://web.archive.org/web/20161113185847id_/https://d3bxy9euw4e147.cloudfront.net/oscms-prodcms/media/documents/Biology-LR.pdf",
+      "pdf_path": "pdf/universidad/biologia/en.pdf",
+      "pdf_pages": 1478,
+      "pdf_size_mb": 58.7,
+      "toc_pages": {
+        "from": 5,
+        "to": 10
+      },
+      "sha256": "21aaeb92cd2b90286e4c20ae1e4be77a48dd3438db1df6d9705ab3855411a79b"
+    }
+  ],
+  "syllabus": {
+    "en": [
+      {
+        "topics": [
+          "The Science of Biology",
+          "Themes and Concepts of Biology"
+        ],
+        "unit": "The Study of Life"
+      },
+      {
+        "topics": [
+          "Atoms, Isotopes, Ions, and Molecules: The Building Blocks",
+          "Water",
+          "Carbon"
+        ],
+        "unit": "The Chemical Foundation of Life"
+      },
+      {
+        "topics": [
+          "Synthesis of Biological Macromolecules",
+          "Carbohydrates",
+          "Lipids",
+          "Proteins",
+          "Nucleic Acids"
+        ],
+        "unit": "Biological Macromolecules"
+      },
+      {
+        "topics": [
+          "Studying Cells",
+          "Prokaryotic Cells",
+          "Eukaryotic Cells",
+          "The Endomembrane System and Proteins",
+          "The Cytoskeleton",
+          "Connections between Cells and Cellular Activities"
+        ],
+        "unit": "Cell Structure"
+      },
+      {
+        "topics": [
+          "Components and Structure",
+          "Passive Transport",
+          "Active Transport",
+          "Bulk Transport"
+        ],
+        "unit": "Structure and Function of Plasma Membranes"
+      },
+      {
+        "topics": [
+          "Energy and Metabolism",
+          "Potential, Kinetic, Free, and Activation Energy",
+          "The Laws of Thermodynamics",
+          "ATP: Adenosine Triphosphate",
+          "Enzymes"
+        ],
+        "unit": "Metabolism"
+      },
+      {
+        "topics": [
+          "Energy in Living Systems",
+          "Glycolysis",
+          "Oxidation of Pyruvate and the Citric Acid Cycle",
+          "Oxidative Phosphorylation",
+          "Metabolism without Oxygen",
+          "Connections of Carbohydrate, Protein, and Lipid Metabolic Pathways",
+          "Regulation of Cellular Respiration"
+        ],
+        "unit": "Cellular Respiration"
+      },
+      {
+        "topics": [
+          "Overview of Photosynthesis",
+          "The Light-Dependent Reactions of Photosynthesis",
+          "Using Light Energy to Make Organic Molecules"
+        ],
+        "unit": "Photosynthesis"
+      },
+      {
+        "topics": [
+          "Signaling Molecules and Cellular Receptors",
+          "Propagation of the Signal",
+          "Response to the Signal",
+          "Signaling in Single-Celled Organisms"
+        ],
+        "unit": "Cell Communication"
+      },
+      {
+        "topics": [
+          "Cell Division",
+          "The Cell Cycle",
+          "Control of the Cell Cycle",
+          "Cancer and the Cell Cycle",
+          "Prokaryotic Cell Division"
+        ],
+        "unit": "Cell Reproduction"
+      },
+      {
+        "topics": [
+          "The Process of Meiosis",
+          "Sexual Reproduction"
+        ],
+        "unit": "Meiosis and Sexual Reproduction"
+      },
+      {
+        "topics": [
+          "Mendel's Experiments and the Laws of Probability",
+          "Characteristics and Traits",
+          "Laws of Inheritance"
+        ],
+        "unit": "Mendel's Experiments and Heredity"
+      },
+      {
+        "topics": [
+          "Chromosomal Theory and Genetic Linkage",
+          "Chromosomal Basis of Inherited Disorders"
+        ],
+        "unit": "Modern Understandings of Inheritance"
+      },
+      {
+        "topics": [
+          "Historical Basis of Modern Understanding",
+          "DNA Structure and Sequencing",
+          "Basics of DNA Replication",
+          "DNA Replication in Prokaryotes",
+          "DNA Replication in Eukaryotes",
+          "DNA Repair"
+        ],
+        "unit": "DNA Structure and Function"
+      },
+      {
+        "topics": [
+          "The Genetic Code",
+          "Prokaryotic Transcription",
+          "Eukaryotic Transcription",
+          "RNA Processing in Eukaryotes",
+          "Ribosomes and Protein Synthesis"
+        ],
+        "unit": "Genes and Proteins"
+      },
+      {
+        "topics": [
+          "Regulation of Gene Expression",
+          "Prokaryotic Gene Regulation",
+          "Eukaryotic Epigenetic Gene Regulation",
+          "Eukaryotic Transcription Gene Regulation",
+          "Eukaryotic Post-transcriptional Gene Regulation",
+          "Eukaryotic Translational and Post-translational Gene Regulation",
+          "Cancer and Gene Regulation"
+        ],
+        "unit": "Gene Expression"
+      },
+      {
+        "topics": [
+          "Biotechnology",
+          "Mapping Genomes",
+          "Whole-Genome Sequencing",
+          "Applying Genomics",
+          "Genomics and Proteomics"
+        ],
+        "unit": "Biotechnology and Genomics"
+      },
+      {
+        "topics": [
+          "Understanding Evolution",
+          "Formation of New Species",
+          "Reconnection and Rates of Speciation"
+        ],
+        "unit": "Evolution and the Origin of Species"
+      },
+      {
+        "topics": [
+          "Population Evolution",
+          "Population Genetics",
+          "Adaptive Evolution"
+        ],
+        "unit": "The Evolution of Populations"
+      },
+      {
+        "topics": [
+          "Organizing Life on Earth",
+          "Determining Evolutionary Relationships",
+          "Perspectives on the Phylogenetic Tree"
+        ],
+        "unit": "Phylogenies and the History of Life"
+      },
+      {
+        "topics": [
+          "Viral Evolution, Morphology, and Classification",
+          "Virus Infections and Hosts",
+          "Prevention and Treatment of Viral Infections",
+          "Other Acellular Entities: Prions and Viroids"
+        ],
+        "unit": "Viruses"
+      },
+      {
+        "topics": [
+          "Prokaryotic Diversity",
+          "Structure of Prokaryotes",
+          "Prokaryotic Metabolism",
+          "Bacterial Diseases in Humans",
+          "Beneficial Prokaryotes"
+        ],
+        "unit": "Prokaryotes: Bacteria and Archaea"
+      },
+      {
+        "topics": [
+          "Eukaryotic Origins",
+          "Characteristics of Protists",
+          "Groups of Protists",
+          "Ecology of Protists"
+        ],
+        "unit": "Protists"
+      },
+      {
+        "topics": [
+          "Characteristics of Fungi",
+          "Classifications of Fungi",
+          "Ecology of Fungi",
+          "Fungal Parasites and Pathogens",
+          "Importance of Fungi in Human Life"
+        ],
+        "unit": "Fungi"
+      },
+      {
+        "topics": [
+          "Early Plant Life",
+          "Green Algae: Precursors of Land Plants",
+          "Bryophytes",
+          "Seedless Vascular Plants"
+        ],
+        "unit": "Seedless Plants"
+      },
+      {
+        "topics": [
+          "Evolution of Seed Plants",
+          "Gymnosperms",
+          "Angiosperms",
+          "The Role of Seed Plants"
+        ],
+        "unit": "Seed Plants"
+      },
+      {
+        "topics": [
+          "Features of the Animal Kingdom",
+          "Features Used to Classify Animals",
+          "Animal Phylogeny",
+          "The Evolutionary History of the Animal Kingdom"
+        ],
+        "unit": "Introduction to Animal Diversity"
+      },
+      {
+        "topics": [
+          "Phylum Porifera",
+          "Phylum Cnidaria",
+          "Superphylum Lophotrochozoa",
+          "Superphylum Ecdysozoa",
+          "Superphylum Deuterostomia"
+        ],
+        "unit": "Invertebrates"
+      },
+      {
+        "topics": [
+          "Chordates",
+          "Fishes",
+          "Amphibians",
+          "Reptiles",
+          "Birds",
+          "Mammals",
+          "The Evolution of Primates"
+        ],
+        "unit": "Vertebrates"
+      },
+      {
+        "topics": [
+          "The Plant Body",
+          "Stems",
+          "Roots",
+          "Leaves",
+          "Transport of Water and Solutes in Plants",
+          "Plant Sensory Systems and Responses"
+        ],
+        "unit": "Plant Form and Physiology"
+      },
+      {
+        "topics": [
+          "Nutritional Requirements of Plants",
+          "The Soil",
+          "Nutritional Adaptations of Plants"
+        ],
+        "unit": "Soil and Plant Nutrition"
+      },
+      {
+        "topics": [
+          "Reproductive Development and Structure",
+          "Pollination and Fertilization",
+          "Asexual Reproduction"
+        ],
+        "unit": "Plant Reproduction"
+      },
+      {
+        "topics": [
+          "Animal Form and Function",
+          "Animal Primary Tissues",
+          "Homeostasis"
+        ],
+        "unit": "The Animal Body: Basic Form and Function"
+      },
+      {
+        "topics": [
+          "Digestive Systems",
+          "Nutrition and Energy Production",
+          "Digestive System Processes",
+          "Digestive System Regulation"
+        ],
+        "unit": "Animal Nutrition and the Digestive System"
+      },
+      {
+        "topics": [
+          "Neurons and Glial Cells",
+          "How Neurons Communicate",
+          "The Central Nervous System",
+          "The Peripheral Nervous System",
+          "Nervous System Disorders"
+        ],
+        "unit": "The Nervous System"
+      },
+      {
+        "topics": [
+          "Sensory Processes",
+          "Somatosensation",
+          "Taste and Smell",
+          "Hearing and Vestibular Sensation",
+          "Vision"
+        ],
+        "unit": "Sensory Systems"
+      },
+      {
+        "topics": [
+          "Types of Hormones",
+          "How Hormones Work",
+          "Regulation of Body Processes",
+          "Regulation of Hormone Production",
+          "Endocrine Glands"
+        ],
+        "unit": "The Endocrine System"
+      },
+      {
+        "topics": [
+          "Types of Skeletal Systems",
+          "Bone",
+          "Joints and Skeletal Movement",
+          "Muscle Contraction and Locomotion"
+        ],
+        "unit": "The Musculoskeletal System"
+      },
+      {
+        "topics": [
+          "Systems of Gas Exchange",
+          "Gas Exchange across Respiratory Surfaces",
+          "Breathing",
+          "Transport of Gases in Human Bodily Fluids"
+        ],
+        "unit": "The Respiratory System"
+      },
+      {
+        "topics": [
+          "Overview of the Circulatory System",
+          "Components of the Blood",
+          "Mammalian Heart and Blood Vessels",
+          "Blood Flow and Blood Pressure Regulation"
+        ],
+        "unit": "The Circulatory System"
+      },
+      {
+        "topics": [
+          "Osmoregulation and Osmotic Balance",
+          "The Kidneys and Osmoregulatory Organs",
+          "Excretion Systems",
+          "Nitrogenous Wastes",
+          "Hormonal Control of Osmoregulatory Functions"
+        ],
+        "unit": "Osmotic Regulation and Excretion"
+      },
+      {
+        "topics": [
+          "Innate Immune Response",
+          "Adaptive Immune Response",
+          "Antibodies",
+          "Disruptions in the Immune System"
+        ],
+        "unit": "The Immune System"
+      },
+      {
+        "topics": [
+          "Reproduction Methods",
+          "Fertilization",
+          "Human Reproductive Anatomy and Gametogenesis",
+          "Hormonal Control of Human Reproduction",
+          "Human Pregnancy and Birth",
+          "Fertilization and Early Embryonic Development",
+          "Organogenesis and Vertebrate Formation"
+        ],
+        "unit": "Animal Reproduction and Development"
+      },
+      {
+        "topics": [
+          "The Scope of Ecology",
+          "Biogeography",
+          "Terrestrial Biomes",
+          "Aquatic Biomes",
+          "Climate and the Effects of Global Climate Change"
+        ],
+        "unit": "Ecology and the Biosphere"
+      },
+      {
+        "topics": [
+          "Population Demography",
+          "Life Histories and Natural Selection",
+          "Environmental Limits to Population Growth",
+          "Population Dynamics and Regulation",
+          "Human Population Growth",
+          "Community Ecology",
+          "Behavioral Biology: Proximate and Ultimate Causes of Behavior"
+        ],
+        "unit": "Population and Community Ecology"
+      },
+      {
+        "topics": [
+          "Ecology of Ecosystems",
+          "Energy Flow through Ecosystems",
+          "Biogeochemical Cycles"
+        ],
+        "unit": "Ecosystems"
+      },
+      {
+        "topics": [
+          "The Biodiversity Crisis",
+          "The Importance of Biodiversity to Human Life",
+          "Threats to Biodiversity",
+          "Preserving Biodiversity"
+        ],
+        "unit": "Conservation Biology and Biodiversity"
+      }
+    ],
+    "es": [
+      {
+        "topics": [
+          "La ciencia de la biología",
+          "Temas y conceptos de la biología"
+        ],
+        "unit": "El estudio de la vida"
+      },
+      {
+        "topics": [
+          "Átomos, isótopos, iones y moléculas: los componentes básicos",
+          "El agua",
+          "El carbono"
+        ],
+        "unit": "La base química de la vida"
+      },
+      {
+        "topics": [
+          "Síntesis de macromoléculas biológicas",
+          "Carbohidratos",
+          "Lípidos",
+          "Proteínas",
+          "Ácidos nucleicos"
+        ],
+        "unit": "Macromoléculas biológicas"
+      },
+      {
+        "topics": [
+          "El estudio de las células",
+          "Células procariotas",
+          "Células eucariotas",
+          "El sistema de endomembranas y las proteínas",
+          "El citoesqueleto",
+          "Conexiones entre las células y las actividades celulares"
+        ],
+        "unit": "Estructura celular"
+      },
+      {
+        "topics": [
+          "Componentes y estructura",
+          "Transporte pasivo",
+          "Transporte activo",
+          "Transporte en masa"
+        ],
+        "unit": "Estructura y función de las membranas plasmáticas"
+      },
+      {
+        "topics": [
+          "Energía y metabolismo",
+          "Energía potencial, cinética, libre y de activación",
+          "Las leyes de la termodinámica",
+          "ATP: adenosín trifosfato",
+          "Enzimas"
+        ],
+        "unit": "Metabolismo"
+      },
+      {
+        "topics": [
+          "La energía en los sistemas vivos",
+          "Glucólisis",
+          "Oxidación del piruvato y ciclo del ácido cítrico",
+          "Fosforilación oxidativa",
+          "Metabolismo sin oxígeno",
+          "Conexiones de las rutas metabólicas de carbohidratos, proteínas y lípidos",
+          "Regulación de la respiración celular"
+        ],
+        "unit": "Respiración celular"
+      },
+      {
+        "topics": [
+          "Panorama de la fotosíntesis",
+          "Las reacciones dependientes de la luz de la fotosíntesis",
+          "Uso de la energía lumínica para producir moléculas orgánicas"
+        ],
+        "unit": "Fotosíntesis"
+      },
+      {
+        "topics": [
+          "Moléculas de señalización y receptores celulares",
+          "Propagación de la señal",
+          "Respuesta a la señal",
+          "Señalización en organismos unicelulares"
+        ],
+        "unit": "Comunicación celular"
+      },
+      {
+        "topics": [
+          "División celular",
+          "El ciclo celular",
+          "Control del ciclo celular",
+          "El cáncer y el ciclo celular",
+          "División celular procariota"
+        ],
+        "unit": "Reproducción celular"
+      },
+      {
+        "topics": [
+          "El proceso de la meiosis",
+          "La reproducción sexual"
+        ],
+        "unit": "Meiosis y reproducción sexual"
+      },
+      {
+        "topics": [
+          "Los experimentos de Mendel y las leyes de la probabilidad",
+          "Características y rasgos",
+          "Leyes de la herencia"
+        ],
+        "unit": "Los experimentos de Mendel y la herencia"
+      },
+      {
+        "topics": [
+          "Teoría cromosómica y ligamiento genético",
+          "Base cromosómica de los trastornos hereditarios"
+        ],
+        "unit": "La comprensión moderna de la herencia"
+      },
+      {
+        "topics": [
+          "Base histórica de la comprensión moderna",
+          "Estructura y secuenciación del ADN",
+          "Fundamentos de la replicación del ADN",
+          "Replicación del ADN en procariotas",
+          "Replicación del ADN en eucariotas",
+          "Reparación del ADN"
+        ],
+        "unit": "Estructura y función del ADN"
+      },
+      {
+        "topics": [
+          "El código genético",
+          "Transcripción procariota",
+          "Transcripción eucariota",
+          "Procesamiento del ARN en eucariotas",
+          "Ribosomas y síntesis de proteínas"
+        ],
+        "unit": "Genes y proteínas"
+      },
+      {
+        "topics": [
+          "Regulación de la expresión génica",
+          "Regulación génica procariota",
+          "Regulación génica epigenética en eucariotas",
+          "Regulación de la transcripción génica en eucariotas",
+          "Regulación génica postranscripcional en eucariotas",
+          "Regulación génica traduccional y postraduccional en eucariotas",
+          "El cáncer y la regulación génica"
+        ],
+        "unit": "Expresión génica"
+      },
+      {
+        "topics": [
+          "Biotecnología",
+          "Mapeo de genomas",
+          "Secuenciación del genoma completo",
+          "Aplicaciones de la genómica",
+          "Genómica y proteómica"
+        ],
+        "unit": "Biotecnología y genómica"
+      },
+      {
+        "topics": [
+          "La comprensión de la evolución",
+          "Formación de nuevas especies",
+          "Reconexión y tasas de especiación"
+        ],
+        "unit": "Evolución y origen de las especies"
+      },
+      {
+        "topics": [
+          "Evolución poblacional",
+          "Genética de poblaciones",
+          "Evolución adaptativa"
+        ],
+        "unit": "La evolución de las poblaciones"
+      },
+      {
+        "topics": [
+          "La organización de la vida en la Tierra",
+          "Determinación de las relaciones evolutivas",
+          "Perspectivas sobre el árbol filogenético"
+        ],
+        "unit": "Filogenias e historia de la vida"
+      },
+      {
+        "topics": [
+          "Evolución, morfología y clasificación de los virus",
+          "Infecciones virales y hospederos",
+          "Prevención y tratamiento de las infecciones virales",
+          "Otras entidades acelulares: priones y viroides"
+        ],
+        "unit": "Virus"
+      },
+      {
+        "topics": [
+          "Diversidad procariota",
+          "Estructura de los procariotas",
+          "Metabolismo procariota",
+          "Enfermedades bacterianas en los humanos",
+          "Procariotas beneficiosos"
+        ],
+        "unit": "Procariotas: bacterias y arqueas"
+      },
+      {
+        "topics": [
+          "Orígenes eucariotas",
+          "Características de los protistas",
+          "Grupos de protistas",
+          "Ecología de los protistas"
+        ],
+        "unit": "Protistas"
+      },
+      {
+        "topics": [
+          "Características de los hongos",
+          "Clasificación de los hongos",
+          "Ecología de los hongos",
+          "Parásitos y patógenos fúngicos",
+          "Importancia de los hongos en la vida humana"
+        ],
+        "unit": "Hongos"
+      },
+      {
+        "topics": [
+          "Las primeras plantas",
+          "Algas verdes: precursoras de las plantas terrestres",
+          "Briofitas",
+          "Plantas vasculares sin semillas"
+        ],
+        "unit": "Plantas sin semillas"
+      },
+      {
+        "topics": [
+          "Evolución de las plantas con semilla",
+          "Gimnospermas",
+          "Angiospermas",
+          "El papel de las plantas con semilla"
+        ],
+        "unit": "Plantas con semilla"
+      },
+      {
+        "topics": [
+          "Características del reino animal",
+          "Características usadas para clasificar a los animales",
+          "Filogenia animal",
+          "La historia evolutiva del reino animal"
+        ],
+        "unit": "Introducción a la diversidad animal"
+      },
+      {
+        "topics": [
+          "Filo Porifera",
+          "Filo Cnidaria",
+          "Superfilo Lophotrochozoa",
+          "Superfilo Ecdysozoa",
+          "Superfilo Deuterostomia"
+        ],
+        "unit": "Invertebrados"
+      },
+      {
+        "topics": [
+          "Cordados",
+          "Peces",
+          "Anfibios",
+          "Reptiles",
+          "Aves",
+          "Mamíferos",
+          "La evolución de los primates"
+        ],
+        "unit": "Vertebrados"
+      },
+      {
+        "topics": [
+          "El cuerpo de la planta",
+          "Tallos",
+          "Raíces",
+          "Hojas",
+          "Transporte de agua y solutos en las plantas",
+          "Sistemas sensoriales y respuestas de las plantas"
+        ],
+        "unit": "Forma y fisiología vegetal"
+      },
+      {
+        "topics": [
+          "Requerimientos nutricionales de las plantas",
+          "El suelo",
+          "Adaptaciones nutricionales de las plantas"
+        ],
+        "unit": "El suelo y la nutrición vegetal"
+      },
+      {
+        "topics": [
+          "Desarrollo y estructura reproductivos",
+          "Polinización y fertilización",
+          "Reproducción asexual"
+        ],
+        "unit": "Reproducción vegetal"
+      },
+      {
+        "topics": [
+          "Forma y función animales",
+          "Tejidos primarios animales",
+          "Homeostasis"
+        ],
+        "unit": "El cuerpo animal: forma y función básicas"
+      },
+      {
+        "topics": [
+          "Sistemas digestivos",
+          "Nutrición y producción de energía",
+          "Procesos del sistema digestivo",
+          "Regulación del sistema digestivo"
+        ],
+        "unit": "Nutrición animal y el sistema digestivo"
+      },
+      {
+        "topics": [
+          "Neuronas y células gliales",
+          "Cómo se comunican las neuronas",
+          "El sistema nervioso central",
+          "El sistema nervioso periférico",
+          "Trastornos del sistema nervioso"
+        ],
+        "unit": "El sistema nervioso"
+      },
+      {
+        "topics": [
+          "Procesos sensoriales",
+          "Somatosensación",
+          "El gusto y el olfato",
+          "La audición y la sensación vestibular",
+          "La visión"
+        ],
+        "unit": "Sistemas sensoriales"
+      },
+      {
+        "topics": [
+          "Tipos de hormonas",
+          "Cómo actúan las hormonas",
+          "Regulación de los procesos corporales",
+          "Regulación de la producción de hormonas",
+          "Glándulas endocrinas"
+        ],
+        "unit": "El sistema endocrino"
+      },
+      {
+        "topics": [
+          "Tipos de sistemas esqueléticos",
+          "El hueso",
+          "Articulaciones y movimiento esquelético",
+          "Contracción muscular y locomoción"
+        ],
+        "unit": "El sistema musculoesquelético"
+      },
+      {
+        "topics": [
+          "Sistemas de intercambio de gases",
+          "El intercambio de gases a través de las superficies respiratorias",
+          "La ventilación pulmonar",
+          "Transporte de gases en los fluidos corporales humanos"
+        ],
+        "unit": "El sistema respiratorio"
+      },
+      {
+        "topics": [
+          "Panorama del sistema circulatorio",
+          "Componentes de la sangre",
+          "El corazón de los mamíferos y los vasos sanguíneos",
+          "Flujo sanguíneo y regulación de la presión arterial"
+        ],
+        "unit": "El sistema circulatorio"
+      },
+      {
+        "topics": [
+          "Osmorregulación y balance osmótico",
+          "Los riñones y los órganos osmorreguladores",
+          "Sistemas de excreción",
+          "Desechos nitrogenados",
+          "Control hormonal de las funciones osmorreguladoras"
+        ],
+        "unit": "Regulación osmótica y excreción"
+      },
+      {
+        "topics": [
+          "Respuesta inmunitaria innata",
+          "Respuesta inmunitaria adaptativa",
+          "Anticuerpos",
+          "Alteraciones del sistema inmunitario"
+        ],
+        "unit": "El sistema inmunitario"
+      },
+      {
+        "topics": [
+          "Métodos de reproducción",
+          "Fertilización",
+          "Anatomía reproductiva humana y gametogénesis",
+          "Control hormonal de la reproducción humana",
+          "El embarazo y el parto humanos",
+          "Fertilización y desarrollo embrionario temprano",
+          "Organogénesis y formación de los vertebrados"
+        ],
+        "unit": "Reproducción y desarrollo animales"
+      },
+      {
+        "topics": [
+          "El alcance de la ecología",
+          "Biogeografía",
+          "Biomas terrestres",
+          "Biomas acuáticos",
+          "El clima y los efectos del cambio climático global"
+        ],
+        "unit": "Ecología y biosfera"
+      },
+      {
+        "topics": [
+          "Demografía de las poblaciones",
+          "Historias de vida y selección natural",
+          "Límites ambientales del crecimiento poblacional",
+          "Dinámica y regulación de las poblaciones",
+          "Crecimiento de la población humana",
+          "Ecología de comunidades",
+          "Biología del comportamiento: causas próximas y últimas del comportamiento"
+        ],
+        "unit": "Ecología de poblaciones y comunidades"
+      },
+      {
+        "topics": [
+          "Ecología de los ecosistemas",
+          "Flujo de energía a través de los ecosistemas",
+          "Ciclos biogeoquímicos"
+        ],
+        "unit": "Ecosistemas"
+      },
+      {
+        "topics": [
+          "La crisis de la biodiversidad",
+          "La importancia de la biodiversidad para la vida humana",
+          "Amenazas a la biodiversidad",
+          "Preservación de la biodiversidad"
+        ],
+        "unit": "Biología de la conservación y biodiversidad"
+      }
+    ]
+  },
+  "notes": "Verificación de portada interna (pdftotext páginas 1-10 del PDF archivado, col11448 v1.10): \"© 2016 Rice University. Textbook content produced by OpenStax is licensed under a Creative Commons Attribution 4.0 International License. Under this license, any user of this textbook or the textbook contents herein must provide proper attribution as follows: ...\". Consta CC BY sin cláusulas NC/ND: verificación APROBADA. Nota sobre licencia: el texto de portada de este PDF archivado declara CC BY 4.0 (impresión de mayo 2016 del col11448); la edición 1e original de marzo 2013 fue publicada bajo CC BY 3.0. Ambas son licencias de solo atribución (sin NC/ND), así que el uso educativo con atribución está cubierto; se registran ambas. Se eligió la edición 1e de 2013 (no la 2e) porque su licencia CC BY es irrevocable y libre para cualquier uso con atribución, mientras la 2e actual es CC BY-NC-SA. El en es el índice nativo del libro (TOC en páginas 5-10 del PDF: 8 unidades, 47 capítulos, 206 secciones; se excluyen Prefacio, apéndices, glosario e índice). El es es traducción propia con criterio académico universitario (no proviene del libro). Sílabo organizado por capítulos (unidades) y secciones (temas) según la instrucción de seed; los nombres de las 8 unidades del libro son: The Chemistry of Life, The Cell, Genetics, Evolutionary Processes, Biological Diversity, Plant Structure and Function, Animal Structure and Function, Ecology. Libro verificado como Biology 1e por el título del PDF (\"Biology\"), la URL cnx.org/content/col11448/1.10 estampada en cada página y el índice de 47 capítulos."
+}

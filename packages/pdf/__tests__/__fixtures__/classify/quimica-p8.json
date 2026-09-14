@@ -1,0 +1,925 @@
+{
+  "pageNumber": 8,
+  "width": 595,
+  "height": 842,
+  "textItems": [
+    {
+      "str": "Guía Docente:",
+      "x": 87.3,
+      "y": 787.4003,
+      "width": 110.27843399999992,
+      "height": 13.98,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": " ",
+      "x": 197.5784339999999,
+      "y": 787.4003,
+      "width": 4.3443000000000005,
+      "height": 0,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": "Química General",
+      "x": 258.3117479999999,
+      "y": 787.4003,
+      "width": 129.6211620000002,
+      "height": 13.98,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": "",
+      "x": 85.08,
+      "y": 718.1003,
+      "width": 0,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "VII.- METODOLOGÍA",
+      "x": 85.08,
+      "y": 718.1003,
+      "width": 143.02798199999998,
+      "height": 13.98,
+      "fontName": "serif"
+    },
+    {
+      "str": "",
+      "x": 85.08,
+      "y": 692.0003,
+      "width": 0,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "Los contenidos de la asignatura se presentan a los alumnos en clases presenciales,",
+      "x": 85.08,
+      "y": 692.0003,
+      "width": 439.45200000000045,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "divididas en dos tipos:",
+      "x": 85.08000000000001,
+      "y": 678.2003000000001,
+      "width": 107.68680000000006,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "",
+      "x": 85.08,
+      "y": 658.4003,
+      "width": 0,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "Las denominadas",
+      "x": 85.08,
+      "y": 658.4003,
+      "width": 83.88960000000006,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": " ",
+      "x": 168.9696000000001,
+      "y": 658.4003,
+      "width": 0.2691999999999908,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "clases presenciales de teoría",
+      "x": 172.2,
+      "y": 658.4003,
+      "width": 143.02200000000022,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": " ",
+      "x": 315.22200000000015,
+      "y": 658.4003,
+      "width": 0.2614999999999886,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "se impartirán al grupo completo, y en ellas",
+      "x": 318.36,
+      "y": 658.4003,
+      "width": 206.0652000000003,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "se darán a conocer al alumno los contenidos fundamentales de la asignatura. Al comienzo",
+      "x": 85.07999999999998,
+      "y": 644.6003000000001,
+      "width": 439.4136000000007,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "de cada tema se expondrán claramente el programa y los objetivos principales del mismo.",
+      "x": 85.07999999999998,
+      "y": 630.8003000000001,
+      "width": 439.49039999999883,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "Al final del tema se hará un breve resumen de los conceptos más relevantes y se plantearán",
+      "x": 85.07999999999998,
+      "y": 617.0003000000002,
+      "width": 439.4255999999997,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "nuevos objetivos que permitirán interrelacionar contenidos ya estudiados con los del resto",
+      "x": 85.07999999999998,
+      "y": 603.2003000000002,
+      "width": 439.4844000000006,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "de la asignatura y otras asignaturas afines. Durante la exposición de contenidos se",
+      "x": 85.07999999999998,
+      "y": 589.4003000000002,
+      "width": 439.38239999999985,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "propondrán problemas que ejemplifiquen los conceptos desarrollados o que sirvan de",
+      "x": 85.08000000000004,
+      "y": 575.6003000000003,
+      "width": 439.34639999999956,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "introducción a nuevos contenidos. Para facilitar la labor de seguimiento por parte del",
+      "x": 85.08000000000004,
+      "y": 561.8003000000003,
+      "width": 439.43519999999955,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "alumno de las clases presenciales se le proporcionará el material docente necesario, bien en",
+      "x": 85.08000000000004,
+      "y": 548.0003000000004,
+      "width": 439.6116000000004,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "fotocopia o en el Campus Virtual.",
+      "x": 85.08000000000004,
+      "y": 534.2003000000004,
+      "width": 162.67440000000016,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "",
+      "x": 85.08,
+      "y": 514.4003,
+      "width": 0,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "En las",
+      "x": 85.08,
+      "y": 514.4003,
+      "width": 33.591599999999985,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": " ",
+      "x": 118.67159999999998,
+      "y": 514.4003,
+      "width": 0.5754999999999993,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "clases presenciales",
+      "x": 125.57759999999998,
+      "y": 514.4003,
+      "width": 98.28240000000025,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": " ",
+      "x": 223.86000000000024,
+      "y": 514.4003,
+      "width": 0.5749999999999815,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "de problemas",
+      "x": 230.76000000000002,
+      "y": 514.4003,
+      "width": 72.9479999999999,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": " ",
+      "x": 303.7079999999999,
+      "y": 514.4003,
+      "width": 0.5751000000000109,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "se resolverán ejercicios y cuestiones que",
+      "x": 310.60920000000004,
+      "y": 514.4003,
+      "width": 213.84600000000052,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "ejemplifiquen los contenidos desarrollados en las clases de teoría. Periódicamente se",
+      "x": 85.08000000000004,
+      "y": 500.6003,
+      "width": 439.39919999999995,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "suministrará al alumno una relación de dichos problemas/ejercicios con el objetivo de que",
+      "x": 85.08000000000004,
+      "y": 486.8003,
+      "width": 439.40640000000053,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "intente su resolución previa a las clases. El proceso de resolución de estos problemas se",
+      "x": 85.08000000000007,
+      "y": 473.0603,
+      "width": 439.3991999999996,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "llevará a cabo mediante diferentes métodos: en algunos casos se propondrá al alumno la",
+      "x": 85.08000000000007,
+      "y": 459.2603,
+      "width": 439.35119999999984,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "exposición en clase de la resolución de algunos de estos problemas, debatiéndose sobre el",
+      "x": 85.08000000000004,
+      "y": 445.46029999999996,
+      "width": 439.4100000000003,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "procedimiento seguido, el resultado obtenido y su significado. En otros casos se discutirán",
+      "x": 85.08000000000004,
+      "y": 431.66029999999995,
+      "width": 439.3679999999999,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "los resultados de los alumnos en grupos reducidos y, posteriormente, se llevará a cabo su",
+      "x": 85.08000000000004,
+      "y": 417.86029999999994,
+      "width": 439.421999999999,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "puesta en común. Por último, algunos ejercicios serán recogidos por el profesor para su",
+      "x": 85.08000000000004,
+      "y": 404.0602999999999,
+      "width": 439.3692,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "evaluación.",
+      "x": 85.08000000000004,
+      "y": 390.2602999999999,
+      "width": 55.032000000000004,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "",
+      "x": 85.08,
+      "y": 370.4603,
+      "width": 0,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "Durante el desarrollo del temario, tanto en las clases presenciales de teoría, como en las de",
+      "x": 85.08,
+      "y": 370.4603,
+      "width": 439.36320000000035,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "problemas,",
+      "x": 85.08,
+      "y": 356.6603,
+      "width": 52.98119999999999,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": " ",
+      "x": 138.06119999999999,
+      "y": 356.6603,
+      "width": 0.6148999999999987,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "el",
+      "x": 145.43999999999997,
+      "y": 356.6603,
+      "width": 8.674799999999989,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": " ",
+      "x": 154.11479999999997,
+      "y": 356.6603,
+      "width": 0.6148999999999987,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "alumno",
+      "x": 161.49359999999996,
+      "y": 356.6603,
+      "width": 35.94599999999997,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": " ",
+      "x": 197.43959999999996,
+      "y": 356.6603,
+      "width": 0.6148999999999987,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "adquirirá",
+      "x": 204.81839999999994,
+      "y": 356.6603,
+      "width": 43.40639999999993,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": " ",
+      "x": 248.2247999999999,
+      "y": 356.6603,
+      "width": 0.6148999999999987,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "los",
+      "x": 255.6035999999999,
+      "y": 356.6603,
+      "width": 13.953600000000034,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": " ",
+      "x": 269.5571999999999,
+      "y": 356.6603,
+      "width": 0.614900000000001,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "conocimientos",
+      "x": 276.9359999999999,
+      "y": 356.6603,
+      "width": 69.96600000000004,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": " ",
+      "x": 346.90199999999993,
+      "y": 356.6603,
+      "width": 0.6154999999999973,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "y",
+      "x": 354.2879999999999,
+      "y": 356.6603,
+      "width": 6,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": " ",
+      "x": 360.2879999999999,
+      "y": 356.6603,
+      "width": 0.6154999999999973,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "la",
+      "x": 367.67399999999986,
+      "y": 356.6603,
+      "width": 8.669999999999973,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": " ",
+      "x": 376.3439999999998,
+      "y": 356.6603,
+      "width": 0.6154999999999973,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "experiencia",
+      "x": 383.7299999999998,
+      "y": 356.6603,
+      "width": 55.36799999999971,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": " ",
+      "x": 439.0979999999994,
+      "y": 356.6603,
+      "width": 0.6154999999999973,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "necesarios",
+      "x": 446.48399999999936,
+      "y": 356.6603,
+      "width": 49.9619999999998,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": " ",
+      "x": 496.44599999999906,
+      "y": 356.6603,
+      "width": 0.6154999999999973,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "para",
+      "x": 503.831999999999,
+      "y": 356.6603,
+      "width": 20.669999999999916,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "satisfacer todas las competencias específicas a cubrir, CE1-QG1, CE2-QG1, CE2-QG2 y",
+      "x": 85.08000000000001,
+      "y": 342.8603,
+      "width": 439.4328000000003,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "CE3-QG1. Además, durante el desarrollo de las sesiones se hará especial énfasis en",
+      "x": 85.07999999999998,
+      "y": 329.0603,
+      "width": 439.3787999999996,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "relacionar los aspectos estudiados con fenómenos cotidianos y en destacar las teorías que",
+      "x": 85.07999999999998,
+      "y": 315.2603,
+      "width": 439.4472000000004,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "permiten interpretar dichos fenómenos, lo que satisfará las competencias generales CG1 y",
+      "x": 85.08000000000004,
+      "y": 301.46029999999996,
+      "width": 439.43759999999907,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "CG5. Por último, el desarrollo de las clases presenciales de problemas asegurará al alumno",
+      "x": 85.08000000000001,
+      "y": 287.66029999999995,
+      "width": 439.42919999999987,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "competencia en el análisis y resolución de problemas cuantitativos, CG6.",
+      "x": 85.08000000000004,
+      "y": 273.86029999999994,
+      "width": 350.92319999999927,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "",
+      "x": 85.08,
+      "y": 254.0603,
+      "width": 0,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "Como complemento al trabajo personal realizado por el alumno, y para potenciar el",
+      "x": 85.08,
+      "y": 254.0603,
+      "width": 439.4364000000003,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "desarrollo del trabajo en grupo, se propondrá como actividad dirigida la",
+      "x": 85.08000000000001,
+      "y": 240.2603,
+      "width": 363.57719999999927,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": " ",
+      "x": 448.65719999999976,
+      "y": 240.2603,
+      "width": 0.4069000000000216,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "elaboración y",
+      "x": 453.54,
+      "y": 240.2603,
+      "width": 70.91999999999996,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "presentación de trabajos",
+      "x": 85.08000000000004,
+      "y": 226.4603,
+      "width": 126.45960000000014,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": " ",
+      "x": 211.53960000000023,
+      "y": 226.4603,
+      "width": 0.27079999999998233,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "sobre los contenidos de la asignatura. Todo ello permitirá que el",
+      "x": 214.78920000000002,
+      "y": 226.4603,
+      "width": 309.7032,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "alumno ponga en práctica sus habilidades en la obtención de información. Esto le permitirá",
+      "x": 85.0800000000001,
+      "y": 212.66029999999998,
+      "width": 439.46759999999904,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "desarrollar habilidades relacionadas con las tecnologías de la información (utilización de",
+      "x": 85.0800000000001,
+      "y": 198.86029999999997,
+      "width": 439.4244000000001,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "hojas de cálculo, bases de datos, etc.) (CT2, CT3 y CT8). Además, cada grupo de trabajo",
+      "x": 85.08000000000004,
+      "y": 185.06029999999996,
+      "width": 439.4231999999994,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "podrá evaluar, de forma anónima, el tema desarrollado por otro grupo, de manera análoga a",
+      "x": 85.08000000000001,
+      "y": 171.26029999999994,
+      "width": 439.4639999999998,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "la revisión entre pares propia de las publicaciones científicas, lo que desarrollará el sentido",
+      "x": 85.07999999999998,
+      "y": 157.46029999999993,
+      "width": 439.41719999999947,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "crítico y autocrítico contemplado en la competencia transversal CT3. Este proceso deberá",
+      "x": 85.07999999999998,
+      "y": 143.66029999999992,
+      "width": 439.4136000000004,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "llevarse a cabo de manera previa a la exposición de cada uno de los grupos, de modo que",
+      "x": 85.07999999999998,
+      "y": 129.8602999999999,
+      "width": 439.3104000000002,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "los alumnos implicados introduzcan las correcciones pertinentes en la versión final del",
+      "x": 85.07999999999998,
+      "y": 116.06029999999991,
+      "width": 439.45919999999956,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "trabajo. El proceso de evaluación servirá para que los alumnos desarrollen capacidades de",
+      "x": 85.07999999999998,
+      "y": 102.26029999999992,
+      "width": 439.4616000000011,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "análisis",
+      "x": 85.07999999999998,
+      "y": 88.46029999999992,
+      "width": 36.084,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": " ",
+      "x": 121.164,
+      "y": 88.46029999999992,
+      "width": 0.6760000000000007,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "crítico",
+      "x": 129.276,
+      "y": 88.46029999999992,
+      "width": 30.732000000000006,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": " ",
+      "x": 160.00800000000007,
+      "y": 88.46029999999992,
+      "width": 0.6759999999999996,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "de",
+      "x": 168.12000000000006,
+      "y": 88.46029999999992,
+      "width": 11.34,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": " ",
+      "x": 179.46000000000006,
+      "y": 88.46029999999992,
+      "width": 0.6759999999999996,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "trabajos",
+      "x": 187.57200000000006,
+      "y": 88.46029999999992,
+      "width": 38.004,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": " ",
+      "x": 225.5760000000001,
+      "y": 88.46029999999992,
+      "width": 0.6759999999999996,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "científicos",
+      "x": 233.6880000000001,
+      "y": 88.46029999999992,
+      "width": 49.931999999999995,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": " ",
+      "x": 283.6200000000001,
+      "y": 88.46029999999992,
+      "width": 0.6699999999999875,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "y",
+      "x": 291.65999999999997,
+      "y": 88.46029999999992,
+      "width": 6,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": " ",
+      "x": 297.65999999999997,
+      "y": 88.46029999999992,
+      "width": 0.6748,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "sean",
+      "x": 305.75759999999997,
+      "y": 88.46029999999992,
+      "width": 21.345600000000037,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": " ",
+      "x": 327.10319999999996,
+      "y": 88.46029999999992,
+      "width": 0.6748,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "capaces",
+      "x": 335.20079999999996,
+      "y": 88.46029999999992,
+      "width": 37.35120000000007,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": " ",
+      "x": 372.5519999999999,
+      "y": 88.46029999999992,
+      "width": 0.6748,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "de",
+      "x": 380.6495999999999,
+      "y": 88.46029999999992,
+      "width": 11.335200000000011,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": " ",
+      "x": 391.9847999999999,
+      "y": 88.46029999999992,
+      "width": 0.6748,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "corregir",
+      "x": 400.0823999999999,
+      "y": 88.46029999999992,
+      "width": 37.982400000000084,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": " ",
+      "x": 438.0647999999999,
+      "y": 88.46029999999992,
+      "width": 0.6748,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "en",
+      "x": 446.1623999999999,
+      "y": 88.46029999999992,
+      "width": 11.335200000000011,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": " ",
+      "x": 457.49759999999986,
+      "y": 88.46029999999992,
+      "width": 0.6748,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "sus",
+      "x": 465.59519999999986,
+      "y": 88.46029999999992,
+      "width": 15.350400000000025,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": " ",
+      "x": 480.9455999999999,
+      "y": 88.46029999999992,
+      "width": 0.6748,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "propias",
+      "x": 489.0431999999999,
+      "y": 88.46029999999992,
+      "width": 35.37120000000007,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "elaboraciones los defectos que encuentren en los trabajos que evalúen.",
+      "x": 85.07999999999998,
+      "y": 74.66029999999992,
+      "width": 337.8815999999996,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "",
+      "x": 294.72,
+      "y": 38.1803,
+      "width": 0,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "- 8 -",
+      "x": 294.72,
+      "y": 38.1803,
+      "width": 20.02320000000001,
+      "height": 12,
+      "fontName": "serif"
+    }
+  ],
+  "images": [],
+  "paths": {
+    "horizontalSegments": 0,
+    "verticalSegments": 0,
+    "rectangles": 0
+  }
+}

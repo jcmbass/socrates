@@ -1,0 +1,1781 @@
+{
+  "pageNumber": 3,
+  "width": 595.28,
+  "height": 841.89,
+  "textItems": [
+    {
+      "str": "1)",
+      "x": 79.78,
+      "y": 744.96,
+      "width": 9.7,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "1",
+      "x": 163.83,
+      "y": 725.42,
+      "width": 5.45,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "<",
+      "x": 172.32,
+      "y": 725.42,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "x",
+      "x": 188.67,
+      "y": 732.8,
+      "width": 6.24,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "+",
+      "x": 197.32,
+      "y": 732.8,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "5",
+      "x": 208.23,
+      "y": 732.8,
+      "width": 5.45,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "x",
+      "x": 188.66,
+      "y": 717.94,
+      "width": 6.24,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "−2",
+      "x": 197.32,
+      "y": 717.94,
+      "width": 16.36,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "<",
+      "x": 221.55,
+      "y": 725.42,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "2",
+      "x": 233.06,
+      "y": 725.42,
+      "width": 5.45,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "2)",
+      "x": 79.77,
+      "y": 700.74,
+      "width": 9.7,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "4x",
+      "x": 166.15,
+      "y": 688.58,
+      "width": 11.69,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "+",
+      "x": 180.27,
+      "y": 688.58,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "1",
+      "x": 191.18,
+      "y": 688.58,
+      "width": 5.45,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "x",
+      "x": 168.88,
+      "y": 673.72,
+      "width": 6.24,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "−6",
+      "x": 177.54,
+      "y": 673.72,
+      "width": 16.36,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "≤x",
+      "x": 204.49,
+      "y": 681.2,
+      "width": 17.76,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "+",
+      "x": 224.67,
+      "y": 681.2,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "1",
+      "x": 235.58,
+      "y": 681.2,
+      "width": 5.45,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "3)",
+      "x": 79.77,
+      "y": 656.52,
+      "width": 9.7,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "|2x",
+      "x": 163.12,
+      "y": 642.97,
+      "width": 14.72,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "−4|",
+      "x": 180.27,
+      "y": 642.97,
+      "width": 19.4,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "+",
+      "x": 202.09,
+      "y": 642.97,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "3",
+      "x": 213.0,
+      "y": 642.97,
+      "width": 5.45,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "≥x",
+      "x": 221.48,
+      "y": 642.97,
+      "width": 17.76,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "4)",
+      "x": 79.77,
+      "y": 624.29,
+      "width": 9.7,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "−2",
+      "x": 155.91,
+      "y": 610.74,
+      "width": 13.94,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "<",
+      "x": 172.88,
+      "y": 610.74,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "|x2",
+      "x": 184.39,
+      "y": 610.74,
+      "width": 13.5,
+      "height": 13.12,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "−3x|",
+      "x": 200.82,
+      "y": 610.74,
+      "width": 25.63,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "≤6",
+      "x": 229.48,
+      "y": 610.74,
+      "width": 16.97,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "5)",
+      "x": 79.78,
+      "y": 592.06,
+      "width": 9.7,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "|x",
+      "x": 150.7,
+      "y": 580.15,
+      "width": 9.27,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "−1|",
+      "x": 162.39,
+      "y": 580.15,
+      "width": 19.4,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "−|2x",
+      "x": 184.21,
+      "y": 580.15,
+      "width": 25.63,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "+",
+      "x": 212.26,
+      "y": 580.15,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "3|",
+      "x": 223.17,
+      "y": 580.15,
+      "width": 8.49,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "3x",
+      "x": 175.94,
+      "y": 565.29,
+      "width": 11.7,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "−4",
+      "x": 190.05,
+      "y": 565.29,
+      "width": 16.36,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "≥0",
+      "x": 235.88,
+      "y": 572.77,
+      "width": 16.97,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "6)",
+      "x": 79.78,
+      "y": 550.07,
+      "width": 9.7,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "x",
+      "x": 178.67,
+      "y": 537.91,
+      "width": 6.24,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "+",
+      "x": 187.32,
+      "y": 537.91,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "2",
+      "x": 198.23,
+      "y": 537.91,
+      "width": 5.45,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "9",
+      "x": 178.66,
+      "y": 523.04,
+      "width": 5.45,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "−x",
+      "x": 186.54,
+      "y": 523.04,
+      "width": 17.15,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "<",
+      "x": 211.55,
+      "y": 530.53,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "1",
+      "x": 223.06,
+      "y": 530.53,
+      "width": 5.45,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "7)",
+      "x": 326.24,
+      "y": 744.96,
+      "width": 9.7,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "−|1",
+      "x": 413.61,
+      "y": 729.34,
+      "width": 16.97,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "−x|",
+      "x": 433.01,
+      "y": 729.34,
+      "width": 20.18,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "≥−2",
+      "x": 456.22,
+      "y": 729.34,
+      "width": 25.45,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "8)",
+      "x": 326.24,
+      "y": 704.22,
+      "width": 9.7,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "|x",
+      "x": 409.28,
+      "y": 688.6,
+      "width": 9.27,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "+",
+      "x": 420.97,
+      "y": 688.6,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "6|",
+      "x": 431.88,
+      "y": 688.6,
+      "width": 8.49,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "≥|2",
+      "x": 443.4,
+      "y": 688.6,
+      "width": 20.0,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "−x|",
+      "x": 465.82,
+      "y": 688.6,
+      "width": 20.18,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "9)",
+      "x": 326.24,
+      "y": 663.48,
+      "width": 9.7,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "x2",
+      "x": 419.34,
+      "y": 647.86,
+      "width": 10.47,
+      "height": 13.12,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "≤|x",
+      "x": 433.34,
+      "y": 647.86,
+      "width": 20.79,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "+",
+      "x": 456.54,
+      "y": 647.86,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "1|",
+      "x": 467.45,
+      "y": 647.86,
+      "width": 8.49,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "10)",
+      "x": 320.78,
+      "y": 622.74,
+      "width": 15.15,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "|x",
+      "x": 415.95,
+      "y": 607.12,
+      "width": 9.27,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "−1||x|",
+      "x": 427.64,
+      "y": 607.12,
+      "width": 31.69,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "≤1",
+      "x": 462.36,
+      "y": 607.12,
+      "width": 16.96,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "11)",
+      "x": 320.78,
+      "y": 582.0,
+      "width": 15.15,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "|x",
+      "x": 387.07,
+      "y": 566.38,
+      "width": 9.27,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "−3|",
+      "x": 398.76,
+      "y": 566.38,
+      "width": 19.4,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "+",
+      "x": 420.58,
+      "y": 566.38,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "|x",
+      "x": 431.49,
+      "y": 566.38,
+      "width": 9.27,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "+",
+      "x": 443.18,
+      "y": 566.38,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "2|",
+      "x": 454.09,
+      "y": 566.38,
+      "width": 8.49,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "≥|x",
+      "x": 465.61,
+      "y": 566.38,
+      "width": 20.78,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "+",
+      "x": 488.81,
+      "y": 566.38,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "1|",
+      "x": 499.72,
+      "y": 566.38,
+      "width": 8.49,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "12)",
+      "x": 320.78,
+      "y": 541.26,
+      "width": 15.15,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "||x|",
+      "x": 419.07,
+      "y": 525.64,
+      "width": 15.33,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "+",
+      "x": 436.82,
+      "y": 525.64,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "1|",
+      "x": 447.73,
+      "y": 525.64,
+      "width": 8.49,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "≤1",
+      "x": 459.25,
+      "y": 525.64,
+      "width": 16.97,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "VII.-",
+      "x": 42.44,
+      "y": 495.65,
+      "width": 23.03,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Exprese",
+      "x": 70.92,
+      "y": 495.65,
+      "width": 37.52,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "los",
+      "x": 112.07,
+      "y": 495.65,
+      "width": 12.79,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "siguientes",
+      "x": 128.5,
+      "y": 495.65,
+      "width": 45.87,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "conjuntos",
+      "x": 178.01,
+      "y": 495.65,
+      "width": 45.52,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "como",
+      "x": 227.18,
+      "y": 495.65,
+      "width": 24.84,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "intervalos.",
+      "x": 255.65,
+      "y": 495.65,
+      "width": 48.59,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "a)",
+      "x": 79.77,
+      "y": 473.14,
+      "width": 9.7,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "H",
+      "x": 247.12,
+      "y": 452.94,
+      "width": 9.07,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "=",
+      "x": 260.11,
+      "y": 452.94,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "{x",
+      "x": 271.62,
+      "y": 452.94,
+      "width": 11.69,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "∈R/",
+      "x": 286.34,
+      "y": 452.94,
+      "width": 23.64,
+      "height": 13.29,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "x2",
+      "x": 316.63,
+      "y": 460.32,
+      "width": 10.47,
+      "height": 12.57,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "+",
+      "x": 330.02,
+      "y": 460.32,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "4x",
+      "x": 340.93,
+      "y": 460.32,
+      "width": 11.69,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "+",
+      "x": 355.04,
+      "y": 460.32,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "4",
+      "x": 365.95,
+      "y": 460.32,
+      "width": 5.45,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "x2",
+      "x": 319.36,
+      "y": 445.46,
+      "width": 10.47,
+      "height": 11.76,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "+",
+      "x": 332.75,
+      "y": 445.46,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "x",
+      "x": 343.66,
+      "y": 445.46,
+      "width": 6.24,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "−2",
+      "x": 352.32,
+      "y": 445.46,
+      "width": 16.36,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "≥2}",
+      "x": 379.27,
+      "y": 452.94,
+      "width": 22.42,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "b)",
+      "x": 79.17,
+      "y": 424.93,
+      "width": 10.31,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "E",
+      "x": 259.91,
+      "y": 405.39,
+      "width": 8.05,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "=",
+      "x": 271.62,
+      "y": 405.39,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "{x",
+      "x": 283.14,
+      "y": 405.39,
+      "width": 11.69,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "∈R/",
+      "x": 297.86,
+      "y": 405.39,
+      "width": 23.64,
+      "height": 13.29,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "2x",
+      "x": 328.14,
+      "y": 412.77,
+      "width": 11.69,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "−1",
+      "x": 342.26,
+      "y": 412.77,
+      "width": 16.36,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "1",
+      "x": 328.14,
+      "y": 397.9,
+      "width": 5.45,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "+",
+      "x": 336.02,
+      "y": 397.9,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "2x",
+      "x": 346.93,
+      "y": 397.9,
+      "width": 11.7,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "≤3}",
+      "x": 366.48,
+      "y": 405.39,
+      "width": 22.42,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "c)",
+      "x": 80.38,
+      "y": 377.38,
+      "width": 9.09,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "G",
+      "x": 239.27,
+      "y": 358.09,
+      "width": 8.57,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "=",
+      "x": 250.88,
+      "y": 358.09,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "{x",
+      "x": 262.39,
+      "y": 358.09,
+      "width": 11.69,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "∈R/|x",
+      "x": 277.11,
+      "y": 358.09,
+      "width": 34.1,
+      "height": 18.43,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "−2|",
+      "x": 313.63,
+      "y": 365.47,
+      "width": 19.4,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "−|3x",
+      "x": 335.45,
+      "y": 365.47,
+      "width": 25.63,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "+",
+      "x": 363.5,
+      "y": 365.47,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "6|",
+      "x": 374.41,
+      "y": 365.47,
+      "width": 8.49,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "x",
+      "x": 329.91,
+      "y": 350.61,
+      "width": 6.24,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "−1",
+      "x": 338.57,
+      "y": 350.61,
+      "width": 16.36,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "≥4}",
+      "x": 387.12,
+      "y": 358.09,
+      "width": 22.42,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "VIII.-",
+      "x": 38.2,
+      "y": 331.56,
+      "width": 27.27,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "1)",
+      "x": 79.77,
+      "y": 331.56,
+      "width": 9.7,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "En",
+      "x": 94.93,
+      "y": 331.56,
+      "width": 13.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "una",
+      "x": 112.68,
+      "y": 331.56,
+      "width": 17.59,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "poblaci´on",
+      "x": 134.53,
+      "y": 331.56,
+      "width": 45.77,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 184.57,
+      "y": 331.56,
+      "width": 10.9,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "salmones,",
+      "x": 199.73,
+      "y": 331.56,
+      "width": 45.57,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "la",
+      "x": 249.56,
+      "y": 331.56,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "relaci´on",
+      "x": 262.32,
+      "y": 331.56,
+      "width": 37.0,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "entre",
+      "x": 303.58,
+      "y": 331.56,
+      "width": 23.97,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "n´umero",
+      "x": 331.82,
+      "y": 331.56,
+      "width": 35.79,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 371.88,
+      "y": 331.56,
+      "width": 10.9,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "hembras",
+      "x": 387.04,
+      "y": 331.56,
+      "width": 39.79,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "x",
+      "x": 431.06,
+      "y": 331.56,
+      "width": 6.24,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y",
+      "x": 441.56,
+      "y": 331.56,
+      "width": 5.76,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "el",
+      "x": 451.59,
+      "y": 331.56,
+      "width": 7.88,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "n´umero",
+      "x": 463.73,
+      "y": 331.56,
+      "width": 35.78,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 503.78,
+      "y": 331.56,
+      "width": 10.91,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "cr´ıas",
+      "x": 518.95,
+      "y": 331.56,
+      "width": 21.91,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y,",
+      "x": 545.12,
+      "y": 331.56,
+      "width": 8.77,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "que",
+      "x": 94.93,
+      "y": 318.01,
+      "width": 16.67,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "sobreviven",
+      "x": 115.23,
+      "y": 318.01,
+      "width": 50.11,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "hasta",
+      "x": 168.97,
+      "y": 318.01,
+      "width": 25.52,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "la",
+      "x": 198.12,
+      "y": 318.01,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "edad",
+      "x": 210.24,
+      "y": 318.01,
+      "width": 22.43,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "madura",
+      "x": 236.31,
+      "y": 318.01,
+      "width": 36.4,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "est´a",
+      "x": 276.34,
+      "y": 318.01,
+      "width": 18.84,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "dada",
+      "x": 298.82,
+      "y": 318.01,
+      "width": 23.04,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "por",
+      "x": 325.5,
+      "y": 318.01,
+      "width": 16.09,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "la",
+      "x": 345.24,
+      "y": 318.01,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "formula",
+      "x": 357.36,
+      "y": 318.01,
+      "width": 36.4,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y",
+      "x": 272.59,
+      "y": 288.37,
+      "width": 5.35,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "=",
+      "x": 281.36,
+      "y": 288.37,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "4|7",
+      "x": 294.07,
+      "y": 295.75,
+      "width": 13.94,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "−x|",
+      "x": 310.44,
+      "y": 295.75,
+      "width": 20.18,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "−|x",
+      "x": 333.04,
+      "y": 295.75,
+      "width": 20.18,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "−3|",
+      "x": 355.63,
+      "y": 295.75,
+      "width": 19.4,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "2",
+      "x": 331.82,
+      "y": 280.88,
+      "width": 5.45,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Determine",
+      "x": 94.93,
+      "y": 261.35,
+      "width": 49.57,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "el",
+      "x": 148.66,
+      "y": 261.35,
+      "width": 7.88,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "conjunto",
+      "x": 160.71,
+      "y": 261.35,
+      "width": 41.23,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "soluci´on",
+      "x": 206.1,
+      "y": 261.35,
+      "width": 38.25,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "del",
+      "x": 248.52,
+      "y": 261.35,
+      "width": 13.94,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "numero",
+      "x": 266.62,
+      "y": 261.35,
+      "width": 35.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 306.28,
+      "y": 261.35,
+      "width": 10.91,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "hembras",
+      "x": 321.36,
+      "y": 261.35,
+      "width": 39.79,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "que",
+      "x": 365.31,
+      "y": 261.35,
+      "width": 16.67,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "es",
+      "x": 386.14,
+      "y": 261.35,
+      "width": 9.14,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "menor",
+      "x": 399.45,
+      "y": 261.35,
+      "width": 29.73,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "o",
+      "x": 433.35,
+      "y": 261.35,
+      "width": 5.45,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "igual",
+      "x": 442.96,
+      "y": 261.35,
+      "width": 23.04,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "que",
+      "x": 470.17,
+      "y": 261.35,
+      "width": 16.67,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "el",
+      "x": 491.0,
+      "y": 261.35,
+      "width": 7.88,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "n´umero",
+      "x": 503.05,
+      "y": 261.35,
+      "width": 35.79,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 543.01,
+      "y": 261.35,
+      "width": 10.91,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "cr´ıas",
+      "x": 94.93,
+      "y": 247.8,
+      "width": 21.91,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "que",
+      "x": 120.46,
+      "y": 247.8,
+      "width": 16.67,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "sobreviven.",
+      "x": 140.78,
+      "y": 247.8,
+      "width": 53.13,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "2)",
+      "x": 79.77,
+      "y": 230.27,
+      "width": 9.7,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Se",
+      "x": 94.93,
+      "y": 230.27,
+      "width": 10.91,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "ubican",
+      "x": 109.73,
+      "y": 230.27,
+      "width": 31.53,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "dos",
+      "x": 145.14,
+      "y": 230.27,
+      "width": 15.82,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "puntos",
+      "x": 164.86,
+      "y": 230.27,
+      "width": 31.89,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "p",
+      "x": 200.61,
+      "y": 230.27,
+      "width": 5.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "=",
+      "x": 209.56,
+      "y": 230.27,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "x2",
+      "x": 221.5,
+      "y": 230.27,
+      "width": 10.47,
+      "height": 12.57,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "−x",
+      "x": 235.06,
+      "y": 230.27,
+      "width": 17.32,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y",
+      "x": 256.26,
+      "y": 230.27,
+      "width": 5.76,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "q",
+      "x": 265.91,
+      "y": 230.27,
+      "width": 4.87,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "=",
+      "x": 274.63,
+      "y": 230.27,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "2x",
+      "x": 286.58,
+      "y": 230.27,
+      "width": 11.69,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "−6",
+      "x": 300.85,
+      "y": 230.27,
+      "width": 16.53,
+      "height": 11.05,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "en",
+      "x": 321.28,
+      "y": 230.27,
+      "width": 10.91,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "la",
+      "x": 336.07,
+      "y": 230.27,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "recta",
+      "x": 348.46,
+      "y": 230.27,
+      "width": 23.66,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "num´erica.",
+      "x": 376.01,
+      "y": 230.27,
+      "width": 46.4,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Determine",
+      "x": 426.3,
+      "y": 230.27,
+      "width": 49.57,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "los",
+      "x": 479.77,
+      "y": 230.27,
+      "width": 12.79,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "valores",
+      "x": 496.44,
+      "y": 230.27,
+      "width": 32.52,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 532.85,
+      "y": 230.27,
+      "width": 10.91,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "x",
+      "x": 547.65,
+      "y": 230.27,
+      "width": 6.24,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "para",
+      "x": 94.93,
+      "y": 216.72,
+      "width": 21.25,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "que",
+      "x": 119.81,
+      "y": 216.72,
+      "width": 16.67,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "la",
+      "x": 140.12,
+      "y": 216.72,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "distancia",
+      "x": 152.24,
+      "y": 216.72,
+      "width": 42.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "entre",
+      "x": 198.37,
+      "y": 216.72,
+      "width": 23.97,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "dichos",
+      "x": 225.98,
+      "y": 216.72,
+      "width": 29.45,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "puntos",
+      "x": 259.06,
+      "y": 216.72,
+      "width": 31.89,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "no",
+      "x": 294.6,
+      "y": 216.72,
+      "width": 11.52,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "supere",
+      "x": 309.75,
+      "y": 216.72,
+      "width": 30.7,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "las",
+      "x": 344.08,
+      "y": 216.72,
+      "width": 12.79,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "4",
+      "x": 360.51,
+      "y": 216.72,
+      "width": 5.45,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "unidades.",
+      "x": 369.6,
+      "y": 216.72,
+      "width": 44.92,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "3",
+      "x": 296.04,
+      "y": 151.45,
+      "width": 5.45,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    }
+  ],
+  "images": [],
+  "paths": {
+    "horizontalSegments": 0,
+    "verticalSegments": 0,
+    "rectangles": 0
+  }
+}

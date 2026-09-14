@@ -1,0 +1,68 @@
+{
+  "level": "bachillerato",
+  "subject_key": "matematicas",
+  "subject_name": {"es": "Matemáticas", "en": "Mathematics"},
+  "sources": [
+    {
+      "lang": "en",
+      "title": "Precalculus",
+      "publisher": "OpenStax (Rice University)",
+      "edition_or_year": "1e (oct 2014; © 2015 Rice University)",
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_declaration_url": "https://web.archive.org/web/20141026151910id_/http://openstaxcollege.org/textbooks/precalculus"
+      },
+      "source_url": "https://web.archive.org/web/20141026151910id_/http://openstaxcollege.org/textbooks/precalculus",
+      "pdf_url": "https://web.archive.org/web/20170103032322id_/https://d3bxy9euw4e147.cloudfront.net/oscms-prodcms/media/documents/OpenStax_Precalc_2015_v2-OP.pdf",
+      "pdf_path": "pdf/universidad/matematicas/en.pdf",
+      "pdf_pages": 1154,
+      "pdf_size_mb": 81.7,
+      "toc_pages": {"from": 5, "to": 11},
+      "sha256": "3f197fe3580f7aeec906c1eb4d42935e3558b71a3fbbd3ed82a11a9dfe794d1b"
+    },
+    {
+      "lang": "es",
+      "title": "Precálculo",
+      "publisher": "OpenStax (Rice University)",
+      "edition_or_year": "2ed (traducción de Precalculus 2e, 2021)",
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_declaration_url": "https://openstax.org/books/prec%C3%A1lculo-2ed/pages/prefacio"
+      },
+      "source_url": "https://openstax.org/details/books/prec%C3%A1lculo-2ed",
+      "pdf_url": "https://assets.openstax.org/oscms-prodcms/media/documents/Precalculo_2ed-WEB_R2h7jtX.pdf",
+      "pdf_path": "pdf/universidad/matematicas/es.pdf",
+      "pdf_pages": 1531,
+      "pdf_size_mb": 99.6,
+      "toc_pages": {"from": 7, "to": 10},
+      "sha256": "7f2b419d05a937e3475c61e27b4add929ebd8655b24850e0d140cb5bc2207f35"
+    }
+  ],
+  "syllabus": {
+    "en": [
+      {"unit": "Chapter 1: Functions", "topics": ["Functions and Function Notation", "Domain and Range", "Rates of Change and Behavior of Graphs", "Composition of Functions", "Transformation of Functions", "Absolute Value Functions", "Inverse Functions"]},
+      {"unit": "Chapter 2: Linear Functions", "topics": ["Linear Functions", "Graphs of Linear Functions", "Modeling with Linear Functions", "Fitting Linear Models to Data"]},
+      {"unit": "Chapter 3: Polynomial and Rational Functions", "topics": ["Complex Numbers", "Quadratic Functions", "Power Functions and Polynomial Functions", "Graphs of Polynomial Functions", "Dividing Polynomials", "Zeros of Polynomial Functions", "Rational Functions", "Inverses and Radical Functions", "Modeling Using Variation"]},
+      {"unit": "Chapter 4: Exponential and Logarithmic Functions", "topics": ["Exponential Functions", "Graphs of Exponential Functions", "Logarithmic Functions", "Graphs of Logarithmic Functions", "Logarithmic Properties", "Exponential and Logarithmic Equations", "Exponential and Logarithmic Models", "Fitting Exponential Models to Data"]},
+      {"unit": "Chapter 5: Trigonometric Functions", "topics": ["Angles", "Unit Circle: Sine and Cosine Functions", "The Other Trigonometric Functions", "Right Triangle Trigonometry"]},
+      {"unit": "Chapter 6: Periodic Functions", "topics": ["Graphs of the Sine and Cosine Functions", "Graphs of the Other Trigonometric Functions", "Inverse Trigonometric Functions"]},
+      {"unit": "Chapter 7: Trigonometric Identities and Equations", "topics": ["Solving Trigonometric Equations with Identities", "Sum and Difference Identities", "Double-Angle, Half-Angle, and Reduction Formulas", "Solving Trigonometric Equations", "Modeling with Trigonometric Equations"]},
+      {"unit": "Chapter 8: Non-right Triangles", "topics": ["Non-right Triangles: Law of Sines", "Non-right Triangles: Law of Cosines"]},
+      {"unit": "Chapter 9: Systems of Equations and Inequalities", "topics": ["Systems of Linear Equations: Two Variables", "Systems of Linear Equations: Three Variables", "Systems of Nonlinear Equations and Inequalities: Two Variables"]}
+    ],
+    "es": [
+      {"unit": "Capítulo 1: Funciones", "topics": ["Funciones y notación de funciones", "Dominio y rango", "Tasas de variación y comportamiento de los gráficos", "Composición de las funciones", "Transformación de funciones", "Funciones de valor absoluto", "Funciones inversas"]},
+      {"unit": "Capítulo 2: Funciones lineales", "topics": ["Funciones lineales", "Gráficos de funciones lineales", "Modelado con funciones lineales", "Ajuste de modelos lineales a los datos"]},
+      {"unit": "Capítulo 3: Funciones polinómicas y racionales", "topics": ["Números complejos", "Funciones cuadráticas", "Funciones potencia y funciones polinómicas", "Gráfico de funciones polinómicas", "Dividir polinomios", "Ceros de funciones polinómicas", "Funciones racionales", "Inversas y funciones radicales", "Modelado mediante la variación"]},
+      {"unit": "Capítulo 4: Funciones exponenciales y logarítmicas", "topics": ["Funciones exponenciales", "Gráficos de funciones exponenciales", "Funciones logarítmicas", "Gráficos de funciones logarítmicas", "Propiedades logarítmicas", "Ecuaciones exponenciales y logarítmicas", "Modelos exponenciales y logarítmicos", "Ajustar modelos exponenciales a los datos"]},
+      {"unit": "Capítulo 5: Funciones trigonométricas", "topics": ["Ángulos", "Círculo unitario: funciones seno y coseno", "Las otras funciones trigonométricas", "Trigonometría de triángulos rectángulos"]},
+      {"unit": "Capítulo 6: Funciones periódicas", "topics": ["Gráficos de las funciones seno y coseno", "Gráficos de las otras funciones trigonométricas", "Funciones trigonométricas inversas"]},
+      {"unit": "Capítulo 7: Identidades trigonométricas y ecuaciones", "topics": ["Resolver ecuaciones trigonométricas con identidades", "Identidades de suma y resta", "Fórmulas del ángulo doble, el ángulo medio y la reducción", "Resolver ecuaciones trigonométricas", "Modelado con funciones trigonométricas"]},
+      {"unit": "Capítulo 8: Triángulos no rectángulos", "topics": ["Triángulos no rectángulos: ley de senos", "Triángulos no rectángulos: ley de cosenos"]},
+      {"unit": "Capítulo 9: Sistemas de ecuaciones e inecuaciones", "topics": ["Sistemas de ecuaciones lineales: dos variables", "Sistemas de ecuaciones lineales: tres variables", "Sistemas de ecuaciones e inecuaciones no lineales: dos variables"]}
+    ]
+  },
+  "notes": "RECORTE del mismo PDF de universidad/matematicas (patrón Economía: misma source, MISMO archivo pdf/universidad/matematicas/en.pdf, sha256 idéntico, sin descargas). Syllabus derivado por FILTRO del catálogo universitario ya existente: los títulos 'es' REUTILIZAN la traducción paralela existente, no se re-traduce nada. Recorte capítulo a capítulo: (1) Funciones — INCLUIDO íntegro, núcleo de bachillerato. (2) Funciones lineales — INCLUIDO íntegro. (3) Polinomiales y racionales — INCLUIDO íntegro (números complejos incluidos: se ven en bachillerato). (4) Exponenciales y logarítmicas — INCLUIDO íntegro. (5) Funciones trigonométricas — INCLUIDO íntegro (trigonometría básica: ángulos, círculo unitario, triángulo rectángulo). (6) Funciones periódicas — INCLUIDO íntegro (gráficas de seno/coseno y trig inversa son estándar de bachillerato). (7) Identidades y ecuaciones trigonométricas — INCLUIDO menos 'Sum-to-Product and Product-to-Sum Formulas' (Fórmulas de suma a producto y de producto a suma), EXCLUIDO por ser transformadas avanzadas fuera del alcance de identidades elementales de bachillerato. (8) Del capítulo 'Further Applications of Trigonometry' SOLO se conservan ley de los senos y ley de los cosenos (renombrado a 'Non-right Triangles'), estándar de bachillerato; EXCLUIDOS: coordenadas polares (ambas secciones), forma polar de números complejos, ecuaciones paramétricas (ambas) y vectores por ser claramente universitarios o material extendido no nucleado en el criterio del arquitecto. (9) Sistemas de ecuaciones y desigualdades — se conservan sistemas 2 variables, 3 variables y no lineales; EXCLUIDOS: fracciones parciales y los cuatro temas de matrices (operaciones, Gauss, inversas, Cramer) por corresponder a introducción de álgebra lineal universitaria. (10) Analytic Geometry — EXCLUIDO completo: cónicas avanzadas (elipse, hipérbola, parábola, rotación de ejes, cónicas en polares) excluidas por criterio del arquitecto. (11) Sequences, Probability and Counting Theory — EXCLUIDO completo: sucesiones/series/conteo/probabilidad 'quedan largas' según criterio del arquitecto. (12) Introduction to Calculus — EXCLUIDO completo: límites/continuidad/derivadas son universitarios por criterio del arquitecto. Totales: 9 unidades, 45 temas (vs 12 unidades/73 temas del original). (TANDA 3, 2026-09-06) SOURCE 'es' agregada: OpenStax 'Precálculo 2ed' (traducción oficial de Precalculus 2e), MISMO archivo pdf/universidad/matematicas/es.pdf que universidad, sha256 idéntico. syllabus.es REEMPLAZADO por el recorte mapeado sobre el TOC nativo del libro ES: misma estructura del recorte EN (9 unidades / 45 temas, conteo idéntico en/es), títulos textuales del índice ES. Equivalencias del recorte sobre el libro nativo: caps 1-6 íntegros; cap 7 sin 'Fórmulas de suma a producto y de producto a suma' (7.4); cap 8 (título nativo 'Otras aplicaciones de la Trigonometría') recortado a 8.1-8.2 y renombrado 'Triángulos no rectángulos' como en el recorte EN; cap 9 recortado a 9.1-9.3; caps 10-12 excluidos completos. Ningún capítulo del 2e-ES quedó sin equivalente en el recorte: los 12 capítulos del libro ES mapean 1:1 con los 12 del recorte EN (misma numeración 1e/2e)."
+}

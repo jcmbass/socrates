@@ -1,0 +1,44 @@
+{
+  "name": "@buxo/domain",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "description": "buxo domain model (B3): entity shapes + zod schemas + executable invariants shared by client (Expo), backend, and harness. No DB, no SQL, no migrations engine (that's WP5/apps-server) — this package is the source of truth for SHAPES and RULES only. No DOM, no Node, no React/Next/Expo (same purity gate as @buxo/core).",
+  "exports": {
+    "./common": "./common.ts",
+    "./sentinels": "./sentinels.ts",
+    "./user": "./user.ts",
+    "./consent": "./consent.ts",
+    "./education-catalog": "./education-catalog.ts",
+    "./course": "./course.ts",
+    "./subject": "./subject.ts",
+    "./material-asset": "./material-asset.ts",
+    "./study-session": "./study-session.ts",
+    "./exchange": "./exchange.ts",
+    "./assessment": "./assessment.ts",
+    "./mastery": "./mastery.ts",
+    "./mastery-engine": "./mastery-engine.ts",
+    "./gamification": "./gamification.ts",
+    "./gamification-engine": "./gamification-engine.ts",
+    "./usage-quota": "./usage-quota.ts",
+    "./migration-record": "./migration-record.ts",
+    "./invariants": "./invariants.ts",
+    "./temario": "./temario.ts",
+    "./fuente": "./fuente.ts",
+    "./xp": "./xp.ts",
+    "./guided-item": "./guided-item.ts",
+    "./session-opening": "./session-opening.ts",
+    "./policy-versions": "./policy-versions.ts",
+    "./data/el-salvador": "./data/el-salvador.ts",
+    "./seed-catalog": "./seed-catalog.ts",
+    "./data/seed": "./data/seed/index.ts"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "4.4.3"
+  }
+}

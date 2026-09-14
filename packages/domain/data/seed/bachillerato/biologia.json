@@ -1,0 +1,409 @@
+{
+  "level": "bachillerato",
+  "subject_key": "biologia",
+  "subject_name": {
+    "es": "Biología",
+    "en": "Biology"
+  },
+  "sources": [
+    {
+      "lang": "en",
+      "title": "Concepts of Biology",
+      "publisher": "OpenStax (Rice University)",
+      "edition_or_year": "1e (abril 2013)",
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_declaration_url": "https://web.archive.org/web/20160116064923id_/https://openstaxcollege.org/textbooks/concepts-of-biology"
+      },
+      "source_url": "https://web.archive.org/web/20160116064923id_/https://openstaxcollege.org/textbooks/concepts-of-biology",
+      "pdf_url": "https://web.archive.org/web/20170103034055id_/https://d3bxy9euw4e147.cloudfront.net/oscms-prodcms/media/documents/Concepts_of_Biology-OP.pdf",
+      "pdf_path": "pdf/bachillerato/biologia/en.pdf",
+      "pdf_pages": 619,
+      "pdf_size_mb": 122.3,
+      "toc_pages": { "from": 5, "to": 6 },
+      "sha256": "6ce2382267c3ae21cf886b2da42e739ab149f698bb7e1c668881c937351d889f"
+    }
+  ],
+  "syllabus": {
+    "en": [
+      {
+        "unit": "Chapter 1: Introduction to Biology",
+        "topics": [
+          "Themes and Concepts of Biology",
+          "The Process of Science"
+        ]
+      },
+      {
+        "unit": "Chapter 2: Chemistry of Life",
+        "topics": [
+          "The Building Blocks of Molecules",
+          "Water",
+          "Biological Molecules"
+        ]
+      },
+      {
+        "unit": "Chapter 3: Cell Structure and Function",
+        "topics": [
+          "How Cells Are Studied",
+          "Comparing Prokaryotic and Eukaryotic Cells",
+          "Eukaryotic Cells",
+          "The Cell Membrane",
+          "Passive Transport",
+          "Active Transport"
+        ]
+      },
+      {
+        "unit": "Chapter 4: How Cells Obtain Energy",
+        "topics": [
+          "Energy and Metabolism",
+          "Glycolysis",
+          "Citric Acid Cycle and Oxidative Phosphorylation",
+          "Fermentation",
+          "Connections to Other Metabolic Pathways"
+        ]
+      },
+      {
+        "unit": "Chapter 5: Photosynthesis",
+        "topics": [
+          "Overview of Photosynthesis",
+          "The Light-Dependent Reactions of Photosynthesis",
+          "The Calvin Cycle"
+        ]
+      },
+      {
+        "unit": "Chapter 6: Reproduction at the Cellular Level",
+        "topics": [
+          "The Genome",
+          "The Cell Cycle",
+          "Cancer and the Cell Cycle",
+          "Prokaryotic Cell Division"
+        ]
+      },
+      {
+        "unit": "Chapter 7: The Cellular Basis of Inheritance",
+        "topics": [
+          "Sexual Reproduction",
+          "Meiosis",
+          "Errors in Meiosis"
+        ]
+      },
+      {
+        "unit": "Chapter 8: Patterns of Inheritance",
+        "topics": [
+          "Mendel's Experiments",
+          "Laws of Inheritance",
+          "Extensions of the Laws of Inheritance"
+        ]
+      },
+      {
+        "unit": "Chapter 9: Molecular Biology",
+        "topics": [
+          "The Structure of DNA",
+          "DNA Replication",
+          "Transcription",
+          "Translation",
+          "How Genes Are Regulated"
+        ]
+      },
+      {
+        "unit": "Chapter 10: Biotechnology",
+        "topics": [
+          "Cloning and Genetic Engineering",
+          "Biotechnology in Medicine and Agriculture",
+          "Genomics and Proteomics"
+        ]
+      },
+      {
+        "unit": "Chapter 11: Evolution and Its Processes",
+        "topics": [
+          "Discovering How Populations Change",
+          "Mechanisms of Evolution",
+          "Evidence of Evolution",
+          "Speciation",
+          "Common Misconceptions about Evolution"
+        ]
+      },
+      {
+        "unit": "Chapter 12: Diversity of Life",
+        "topics": [
+          "Organizing Life on Earth",
+          "Determining Evolutionary Relationships"
+        ]
+      },
+      {
+        "unit": "Chapter 13: Diversity of Microbes, Fungi, and Protists",
+        "topics": [
+          "Prokaryotic Diversity",
+          "Eukaryotic Origins",
+          "Protists",
+          "Fungi"
+        ]
+      },
+      {
+        "unit": "Chapter 14: Diversity of Plants",
+        "topics": [
+          "The Plant Kingdom",
+          "Seedless Plants",
+          "Seed Plants: Gymnosperms",
+          "Seed Plants: Angiosperms"
+        ]
+      },
+      {
+        "unit": "Chapter 15: Diversity of Animals",
+        "topics": [
+          "Features of the Animal Kingdom",
+          "Sponges and Cnidarians",
+          "Flatworms, Nematodes, and Arthropods",
+          "Mollusks and Annelids",
+          "Echinoderms and Chordates",
+          "Vertebrates"
+        ]
+      },
+      {
+        "unit": "Chapter 16: The Body's Systems",
+        "topics": [
+          "Homeostasis and Osmoregulation",
+          "Digestive System",
+          "Circulatory and Respiratory Systems",
+          "Endocrine System",
+          "Musculoskeletal System",
+          "Nervous System"
+        ]
+      },
+      {
+        "unit": "Chapter 17: The Immune System and Disease",
+        "topics": [
+          "Viruses",
+          "Innate Immunity",
+          "Adaptive Immunity",
+          "Disruptions in the Immune System"
+        ]
+      },
+      {
+        "unit": "Chapter 18: Animal Reproduction and Development",
+        "topics": [
+          "How Animals Reproduce",
+          "Development and Organogenesis",
+          "Human Reproduction"
+        ]
+      },
+      {
+        "unit": "Chapter 19: Population and Community Ecology",
+        "topics": [
+          "Population Demographics and Dynamics",
+          "Population Growth and Regulation",
+          "The Human Population",
+          "Community Ecology"
+        ]
+      },
+      {
+        "unit": "Chapter 20: Ecosystems and the Biosphere",
+        "topics": [
+          "Energy Flow through Ecosystems",
+          "Biogeochemical Cycles",
+          "Terrestrial Biomes",
+          "Aquatic and Marine Biomes"
+        ]
+      },
+      {
+        "unit": "Chapter 21: Conservation and Biodiversity",
+        "topics": [
+          "Importance of Biodiversity",
+          "Threats to Biodiversity",
+          "Preserving Biodiversity"
+        ]
+      }
+    ],
+    "es": [
+      {
+        "unit": "Capítulo 1: Introducción a la biología",
+        "topics": [
+          "Temas y conceptos de la biología",
+          "El proceso de la ciencia"
+        ]
+      },
+      {
+        "unit": "Capítulo 2: Química de la vida",
+        "topics": [
+          "Los componentes de las moléculas",
+          "El agua",
+          "Las moléculas biológicas"
+        ]
+      },
+      {
+        "unit": "Capítulo 3: Estructura y función celular",
+        "topics": [
+          "Cómo se estudian las células",
+          "Comparación entre células procariotas y eucariotas",
+          "Las células eucariotas",
+          "La membrana celular",
+          "Transporte pasivo",
+          "Transporte activo"
+        ]
+      },
+      {
+        "unit": "Capítulo 4: Cómo las células obtienen energía",
+        "topics": [
+          "Energía y metabolismo",
+          "Glucólisis",
+          "Ciclo del ácido cítrico y fosforilación oxidativa",
+          "Fermentación",
+          "Conexiones con otras rutas metabólicas"
+        ]
+      },
+      {
+        "unit": "Capítulo 5: Fotosíntesis",
+        "topics": [
+          "Panorama de la fotosíntesis",
+          "Las reacciones dependientes de la luz de la fotosíntesis",
+          "El ciclo de Calvin"
+        ]
+      },
+      {
+        "unit": "Capítulo 6: Reproducción a nivel celular",
+        "topics": [
+          "El genoma",
+          "El ciclo celular",
+          "El cáncer y el ciclo celular",
+          "División celular procariota"
+        ]
+      },
+      {
+        "unit": "Capítulo 7: La base celular de la herencia",
+        "topics": [
+          "Reproducción sexual",
+          "Meiosis",
+          "Errores en la meiosis"
+        ]
+      },
+      {
+        "unit": "Capítulo 8: Patrones de herencia",
+        "topics": [
+          "Los experimentos de Mendel",
+          "Las leyes de la herencia",
+          "Extensiones de las leyes de la herencia"
+        ]
+      },
+      {
+        "unit": "Capítulo 9: Biología molecular",
+        "topics": [
+          "La estructura del ADN",
+          "Replicación del ADN",
+          "Transcripción",
+          "Traducción",
+          "Cómo se regulan los genes"
+        ]
+      },
+      {
+        "unit": "Capítulo 10: Biotecnología",
+        "topics": [
+          "Clonación e ingeniería genética",
+          "La biotecnología en la medicina y la agricultura",
+          "Genómica y proteómica"
+        ]
+      },
+      {
+        "unit": "Capítulo 11: La evolución y sus procesos",
+        "topics": [
+          "Cómo cambian las poblaciones",
+          "Mecanismos de la evolución",
+          "Evidencias de la evolución",
+          "Especiación",
+          "Ideas erróneas frecuentes sobre la evolución"
+        ]
+      },
+      {
+        "unit": "Capítulo 12: Diversidad de la vida",
+        "topics": [
+          "La organización de la vida en la Tierra",
+          "Determinación de las relaciones evolutivas"
+        ]
+      },
+      {
+        "unit": "Capítulo 13: Diversidad de los microbios, los hongos y los protistas",
+        "topics": [
+          "Diversidad procariota",
+          "Orígenes de los eucariotas",
+          "Protistas",
+          "Hongos"
+        ]
+      },
+      {
+        "unit": "Capítulo 14: Diversidad de las plantas",
+        "topics": [
+          "El reino vegetal",
+          "Plantas sin semilla",
+          "Plantas con semilla: gimnospermas",
+          "Plantas con semilla: angiospermas"
+        ]
+      },
+      {
+        "unit": "Capítulo 15: Diversidad de los animales",
+        "topics": [
+          "Características del reino animal",
+          "Poríferos y cnidarios",
+          "Platelmintos, nematodos y artrópodos",
+          "Moluscos y anélidos",
+          "Equinodermos y cordados",
+          "Vertebrados"
+        ]
+      },
+      {
+        "unit": "Capítulo 16: Los sistemas del cuerpo",
+        "topics": [
+          "Homeostasis y osmorregulación",
+          "El sistema digestivo",
+          "Los sistemas circulatorio y respiratorio",
+          "El sistema endocrino",
+          "El sistema musculoesquelético",
+          "El sistema nervioso"
+        ]
+      },
+      {
+        "unit": "Capítulo 17: El sistema inmunitario y las enfermedades",
+        "topics": [
+          "Los virus",
+          "Inmunidad innata",
+          "Inmunidad adaptativa",
+          "Alteraciones del sistema inmunitario"
+        ]
+      },
+      {
+        "unit": "Capítulo 18: Reproducción y desarrollo animal",
+        "topics": [
+          "Cómo se reproducen los animales",
+          "Desarrollo y organogénesis",
+          "Reproducción humana"
+        ]
+      },
+      {
+        "unit": "Capítulo 19: Ecología de poblaciones y comunidades",
+        "topics": [
+          "Demografía y dinámica de poblaciones",
+          "Crecimiento y regulación poblacional",
+          "La población humana",
+          "Ecología de comunidades"
+        ]
+      },
+      {
+        "unit": "Capítulo 20: Ecosistemas y biosfera",
+        "topics": [
+          "Flujo de energía en los ecosistemas",
+          "Ciclos biogeoquímicos",
+          "Biomas terrestres",
+          "Biomas acuáticos y marinos"
+        ]
+      },
+      {
+        "unit": "Capítulo 21: Conservación y biodiversidad",
+        "topics": [
+          "Importancia de la biodiversidad",
+          "Amenazas a la biodiversidad",
+          "Preservación de la biodiversidad"
+        ]
+      }
+    ]
+  },
+  "notes": "Libro intro-college de OpenStax (Concepts of Biology 1e, abril 2013) usado por decisión del arquitecto para cubrir biología de bachillerato; inglés nativo, no es una obra de bachillerato escrita como tal. Syllabus construido desde el TOC del PDF (páginas 5-6), 2 niveles: unidades=capítulos, temas=secciones numeradas. EXCLUIDOS a propósito: Preface, Introducciones de capítulo, Key Terms, Section Summary, Chapter Review, Apéndices A-C (tabla periódica, tiempo geológico, sistema métrico) e Index; también los 6 'Unit N.' agrupadores del TOC (solo se conservan los 21 capítulos). VERIFICACIÓN DE PORTADA: páginas iniciales del PDF declaran '© 2016 Rice University. Textbook content produced by OpenStax is licensed under a Creative Commons Attribution 4.0 International License' y 'To broaden access and encourage community curation, Concepts of Biology is open source licensed under a Creative Commons Attribution (CC-BY) license' — CC BY, sin NC ni ND. El syllabus 'en' es nativo del TOC; el 'es' es traducción propia con terminología estándar de bachillerato hispanohablante (glucólisis, ciclo de Calvin, meiosis, osmorregulación, inmunidad innata/adaptativa)."
+}

@@ -1,0 +1,644 @@
+{
+  "level": "universidad",
+  "subject_key": "fisica",
+  "subject_name": {
+    "es": "Física",
+    "en": "Physics"
+  },
+  "sources": [
+    {
+      "lang": "es",
+      "title": "Física universitaria, volumen 1",
+      "publisher": "OpenStax (Rice University)",
+      "edition_or_year": "© 2021 Rice University (año de publicación original 2021; traducción al español de University Physics vol. 1, Ling/Sanny/Moebs; ISBN digital 978-1-951693-90-9)",
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_declaration_url": "https://openstax.org/books/f%C3%ADsica-universitaria-volumen-1/pages/prefacio"
+      },
+      "source_url": "https://openstax.org/details/books/f%C3%ADsica-universitaria-volumen-1",
+      "pdf_url": "https://assets.openstax.org/oscms-prodcms/media/documents/FisicaUniversitariaVolumen1-WEB_JDl3rTk.pdf",
+      "pdf_path": "pdf/universidad/fisica/es.pdf",
+      "pdf_pages": 1023,
+      "pdf_size_mb": 68.8,
+      "toc_pages": {
+        "from": 7,
+        "to": 12
+      },
+      "sha256": "36d9a201c9c41d1286d4e5c9a270fa8a3163d8c9329d60aca66686c475ae4228"
+    },
+    {
+      "lang": "en",
+      "title": "College Physics",
+      "publisher": "OpenStax (Rice University)",
+      "edition_or_year": "1e (jun 2012)",
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_declaration_url": "https://web.archive.org/web/20160201052847id_/http://openstaxcollege.org/textbooks/college-physics"
+      },
+      "source_url": "https://web.archive.org/web/20160201052847id_/http://openstaxcollege.org/textbooks/college-physics",
+      "pdf_url": "https://web.archive.org/web/20170103030828id_/https://d3bxy9euw4e147.cloudfront.net/oscms-prodcms/media/documents/CollegePhysics-LR.pdf",
+      "pdf_path": "pdf/universidad/fisica/en.pdf",
+      "pdf_pages": 1424,
+      "pdf_size_mb": 29.7,
+      "toc_pages": {
+        "from": 5,
+        "to": 8
+      },
+      "sha256": "7ee3d7a3b57fc416ba3f76f3b82d4ece3f53fee6392e9019dd5fc00d8b0b2c54"
+    }
+  ],
+  "syllabus": {
+    "en": [
+      {
+        "unit": "Chapter 1: Introduction: The Nature of Science and Physics",
+        "topics": [
+          "Physics: An Introduction",
+          "Physical Quantities and Units",
+          "Accuracy, Precision, and Significant Figures",
+          "Approximation"
+        ]
+      },
+      {
+        "unit": "Chapter 2: Kinematics",
+        "topics": [
+          "Displacement",
+          "Vectors, Scalars, and Coordinate Systems",
+          "Time, Velocity, and Speed",
+          "Acceleration",
+          "Motion Equations for Constant Acceleration in One Dimension",
+          "Problem-Solving Basics for One-Dimensional Kinematics",
+          "Falling Objects",
+          "Graphical Analysis of One-Dimensional Motion"
+        ]
+      },
+      {
+        "unit": "Chapter 3: Two-Dimensional Kinematics",
+        "topics": [
+          "Kinematics in Two Dimensions: An Introduction",
+          "Vector Addition and Subtraction: Graphical Methods",
+          "Vector Addition and Subtraction: Analytical Methods",
+          "Projectile Motion",
+          "Addition of Velocities"
+        ]
+      },
+      {
+        "unit": "Chapter 4: Dynamics: Force and Newton's Laws of Motion",
+        "topics": [
+          "Development of Force Concept",
+          "Newton's First Law of Motion: Inertia",
+          "Newton's Second Law of Motion: Concept of a System",
+          "Newton's Third Law of Motion: Symmetry in Forces",
+          "Normal, Tension, and Other Examples of Forces",
+          "Problem-Solving Strategies",
+          "Further Applications of Newton's Laws of Motion",
+          "Extended Topic: The Four Basic Forces—An Introduction"
+        ]
+      },
+      {
+        "unit": "Chapter 5: Further Applications of Newton's Laws: Friction, Drag, and Elasticity",
+        "topics": [
+          "Friction",
+          "Drag Forces",
+          "Elasticity: Stress and Strain"
+        ]
+      },
+      {
+        "unit": "Chapter 6: Uniform Circular Motion and Gravitation",
+        "topics": [
+          "Rotation Angle and Angular Velocity",
+          "Centripetal Acceleration",
+          "Centripetal Force",
+          "Fictitious Forces and Non-inertial Frames: The Coriolis Force",
+          "Newton's Universal Law of Gravitation",
+          "Satellites and Kepler's Laws: An Argument for Simplicity"
+        ]
+      },
+      {
+        "unit": "Chapter 7: Work, Energy, and Energy Resources",
+        "topics": [
+          "Work: The Scientific Definition",
+          "Kinetic Energy and the Work-Energy Theorem",
+          "Gravitational Potential Energy",
+          "Conservative Forces and Potential Energy",
+          "Nonconservative Forces",
+          "Conservation of Energy",
+          "Power",
+          "Work, Energy, and Power in Humans",
+          "World Energy Use"
+        ]
+      },
+      {
+        "unit": "Chapter 8: Linear Momentum and Collisions",
+        "topics": [
+          "Linear Momentum and Force",
+          "Impulse",
+          "Conservation of Momentum",
+          "Elastic Collisions in One Dimension",
+          "Inelastic Collisions in One Dimension",
+          "Collisions of Point Masses in Two Dimensions",
+          "Introduction to Rocket Propulsion"
+        ]
+      },
+      {
+        "unit": "Chapter 9: Statics and Torque",
+        "topics": [
+          "The First Condition for Equilibrium",
+          "The Second Condition for Equilibrium",
+          "Stability",
+          "Applications of Statics, Including Problem-Solving Strategies",
+          "Simple Machines",
+          "Forces and Torques in Muscles and Joints"
+        ]
+      },
+      {
+        "unit": "Chapter 10: Rotational Motion and Angular Momentum",
+        "topics": [
+          "Angular Acceleration",
+          "Kinematics of Rotational Motion",
+          "Dynamics of Rotational Motion: Rotational Inertia",
+          "Rotational Kinetic Energy: Work and Energy Revisited",
+          "Angular Momentum and Its Conservation",
+          "Collisions of Extended Bodies in Two Dimensions",
+          "Gyroscopic Effects: Vector Aspects of Angular Momentum"
+        ]
+      },
+      {
+        "unit": "Chapter 11: Fluid Statics",
+        "topics": [
+          "What Is a Fluid?",
+          "Density",
+          "Pressure",
+          "Variation of Pressure with Depth in a Fluid",
+          "Pascal's Principle",
+          "Gauge Pressure, Absolute Pressure, and Pressure Measurement",
+          "Archimedes' Principle",
+          "Cohesion and Adhesion in Liquids: Surface Tension and Capillary Action",
+          "Pressures in the Body"
+        ]
+      },
+      {
+        "unit": "Chapter 12: Fluid Dynamics and Its Biological and Medical Applications",
+        "topics": [
+          "Flow Rate and Its Relation to Velocity",
+          "Bernoulli's Equation",
+          "The Most General Applications of Bernoulli's Equation",
+          "Viscosity and Laminar Flow; Poiseuille's Law",
+          "The Onset of Turbulence",
+          "Motion of an Object in a Viscous Fluid",
+          "Molecular Transport Phenomena: Diffusion, Osmosis, and Related Processes"
+        ]
+      },
+      {
+        "unit": "Chapter 13: Temperature, Kinetic Theory, and the Gas Laws",
+        "topics": [
+          "Temperature",
+          "Thermal Expansion of Solids and Liquids",
+          "The Ideal Gas Law",
+          "Kinetic Theory: Atomic and Molecular Explanation of Pressure and Temperature",
+          "Phase Changes",
+          "Humidity, Evaporation, and Boiling"
+        ]
+      },
+      {
+        "unit": "Chapter 14: Heat and Heat Transfer Methods",
+        "topics": [
+          "Heat",
+          "Temperature Change and Heat Capacity",
+          "Phase Change and Latent Heat",
+          "Heat Transfer Methods",
+          "Conduction",
+          "Convection",
+          "Radiation"
+        ]
+      },
+      {
+        "unit": "Chapter 15: Thermodynamics",
+        "topics": [
+          "The First Law of Thermodynamics",
+          "The First Law of Thermodynamics and Some Simple Processes",
+          "Introduction to the Second Law of Thermodynamics: Heat Engines and Their Efficiency",
+          "Carnot's Perfect Heat Engine: The Second Law of Thermodynamics Restated",
+          "Applications of Thermodynamics: Heat Pumps and Refrigerators",
+          "Entropy and the Second Law of Thermodynamics: Disorder and the Unavailability of Energy",
+          "Statistical Interpretation of Entropy and the Second Law of Thermodynamics: The Underlying Explanation"
+        ]
+      },
+      {
+        "unit": "Chapter 16: Oscillatory Motion and Waves",
+        "topics": [
+          "Hooke's Law: Stress and Strain Revisited",
+          "Period and Frequency in Oscillations",
+          "Simple Harmonic Motion: A Special Periodic Motion",
+          "The Simple Pendulum",
+          "Energy and the Simple Harmonic Oscillator",
+          "Uniform Circular Motion and Simple Harmonic Motion",
+          "Damped Harmonic Motion",
+          "Forced Oscillations and Resonance",
+          "Waves",
+          "Superposition and Interference",
+          "Energy in Waves: Intensity"
+        ]
+      },
+      {
+        "unit": "Chapter 17: Physics of Hearing",
+        "topics": [
+          "Sound",
+          "Speed of Sound, Frequency, and Wavelength",
+          "Sound Intensity and Sound Level",
+          "Doppler Effect and Sonic Booms",
+          "Sound Interference and Resonance: Standing Waves in Air Columns",
+          "Hearing",
+          "Ultrasound"
+        ]
+      },
+      {
+        "unit": "Chapter 18: Electric Charge and Electric Field",
+        "topics": [
+          "Static Electricity and Charge: Conservation of Charge",
+          "Conductors and Insulators",
+          "Coulomb's Law",
+          "Electric Field: Concept of a Field Revisited",
+          "Electric Field Lines: Multiple Charges",
+          "Electric Forces in Biology",
+          "Conductors and Electric Fields in Static Equilibrium",
+          "Applications of Electrostatics"
+        ]
+      },
+      {
+        "unit": "Chapter 19: Electric Potential and Electric Field",
+        "topics": [
+          "Electric Potential Energy: Potential Difference",
+          "Electric Potential in a Uniform Electric Field",
+          "Electrical Potential Due to a Point Charge",
+          "Equipotential Lines",
+          "Capacitors and Dielectrics",
+          "Capacitors in Series and Parallel",
+          "Energy Stored in Capacitors"
+        ]
+      },
+      {
+        "unit": "Chapter 20: Electric Current, Resistance, and Ohm's Law",
+        "topics": [
+          "Current",
+          "Ohm's Law: Resistance and Simple Circuits",
+          "Resistance and Resistivity",
+          "Electric Power and Energy",
+          "Alternating Current versus Direct Current",
+          "Electric Hazards and the Human Body",
+          "Nerve Conduction—Electrocardiograms"
+        ]
+      },
+      {
+        "unit": "Chapter 21: Circuits and DC Instruments",
+        "topics": [
+          "Resistors in Series and Parallel",
+          "Electromotive Force: Terminal Voltage",
+          "Kirchhoff's Rules",
+          "DC Voltmeters and Ammeters",
+          "Null Measurements",
+          "DC Circuits Containing Resistors and Capacitors"
+        ]
+      },
+      {
+        "unit": "Chapter 22: Magnetism",
+        "topics": [
+          "Magnets",
+          "Ferromagnets and Electromagnets",
+          "Magnetic Fields and Magnetic Field Lines",
+          "Magnetic Field Strength: Force on a Moving Charge in a Magnetic Field",
+          "Force on a Moving Charge in a Magnetic Field: Examples and Applications",
+          "The Hall Effect",
+          "Magnetic Force on a Current-Carrying Conductor",
+          "Torque on a Current Loop: Motors and Meters",
+          "Magnetic Fields Produced by Currents: Ampere's Law",
+          "Magnetic Force between Two Parallel Conductors",
+          "More Applications of Magnetism"
+        ]
+      },
+      {
+        "unit": "Chapter 23: Electromagnetic Induction, AC Circuits, and Electrical Technologies",
+        "topics": [
+          "Induced Emf and Magnetic Flux",
+          "Faraday's Law of Induction: Lenz's Law",
+          "Motional Emf",
+          "Eddy Currents and Magnetic Damping",
+          "Electric Generators",
+          "Back Emf",
+          "Transformers",
+          "Electrical Safety: Systems and Devices",
+          "Inductance",
+          "RL Circuits",
+          "Reactance, Inductive and Capacitive",
+          "RLC Series AC Circuits"
+        ]
+      },
+      {
+        "unit": "Chapter 24: Electromagnetic Waves",
+        "topics": [
+          "Maxwell's Equations: Electromagnetic Waves Predicted and Observed",
+          "Production of Electromagnetic Waves",
+          "The Electromagnetic Spectrum",
+          "Energy in Electromagnetic Waves"
+        ]
+      },
+      {
+        "unit": "Chapter 25: Geometric Optics",
+        "topics": [
+          "The Ray Aspect of Light",
+          "The Law of Reflection",
+          "The Law of Refraction",
+          "Total Internal Reflection",
+          "Dispersion: The Rainbow and Prisms",
+          "Image Formation by Lenses",
+          "Image Formation by Mirrors"
+        ]
+      },
+      {
+        "unit": "Chapter 26: Vision and Optical Instruments",
+        "topics": [
+          "Physics of the Eye",
+          "Vision Correction",
+          "Color and Color Vision",
+          "Microscopes",
+          "Telescopes",
+          "Aberrations"
+        ]
+      },
+      {
+        "unit": "Chapter 27: Wave Optics",
+        "topics": [
+          "The Wave Aspect of Light: Interference",
+          "Huygens's Principle: Diffraction",
+          "Young's Double Slit Experiment",
+          "Multiple Slit Diffraction",
+          "Single Slit Diffraction",
+          "Limits of Resolution: The Rayleigh Criterion",
+          "Thin Film Interference",
+          "Polarization",
+          "*Extended Topic* Microscopy Enhanced by the Wave Characteristics of Light"
+        ]
+      },
+      {
+        "unit": "Chapter 28: Special Relativity",
+        "topics": [
+          "Einstein's Postulates",
+          "Simultaneity and Time Dilation",
+          "Length Contraction",
+          "Relativistic Addition of Velocities",
+          "Relativistic Momentum",
+          "Relativistic Energy"
+        ]
+      },
+      {
+        "unit": "Chapter 29: Introduction to Quantum Physics",
+        "topics": [
+          "Quantization of Energy",
+          "The Photoelectric Effect",
+          "Photon Energies and the Electromagnetic Spectrum",
+          "Photon Momentum",
+          "The Particle-Wave Duality",
+          "The Wave Nature of Matter",
+          "Probability: The Heisenberg Uncertainty Principle",
+          "The Particle-Wave Duality Reviewed"
+        ]
+      },
+      {
+        "unit": "Chapter 30: Atomic Physics",
+        "topics": [
+          "Discovery of the Atom",
+          "Discovery of the Parts of the Atom: Electrons and Nuclei",
+          "Bohr's Theory of the Hydrogen Atom",
+          "X Rays: Atomic Origins and Applications",
+          "Applications of Atomic Excitations and De-Excitations",
+          "The Wave Nature of Matter Causes Quantization",
+          "Patterns in Spectra Reveal More Quantization",
+          "Quantum Numbers and Rules",
+          "The Pauli Exclusion Principle"
+        ]
+      },
+      {
+        "unit": "Chapter 31: Radioactivity and Nuclear Physics",
+        "topics": [
+          "Nuclear Radioactivity",
+          "Radiation Detection and Detectors",
+          "Substructure of the Nucleus",
+          "Nuclear Decay and Conservation Laws",
+          "Half-Life and Activity",
+          "Binding Energy",
+          "Tunneling"
+        ]
+      },
+      {
+        "unit": "Chapter 32: Medical Applications of Nuclear Physics",
+        "topics": [
+          "Medical Imaging and Diagnostics",
+          "Biological Effects of Ionizing Radiation",
+          "Therapeutic Uses of Ionizing Radiation",
+          "Food Irradiation",
+          "Fusion",
+          "Fission",
+          "Nuclear Weapons"
+        ]
+      },
+      {
+        "unit": "Chapter 33: Particle Physics",
+        "topics": [
+          "The Yukawa Particle and the Heisenberg Uncertainty Principle Revisited",
+          "The Four Basic Forces",
+          "Accelerators Create Matter from Energy",
+          "Particles, Patterns, and Conservation Laws",
+          "Quarks: Is That All There Is?"
+        ]
+      }
+    ],
+    "es": [
+      {
+        "unit": "Capítulo 1: Unidades y medidas",
+        "topics": [
+          "El alcance y la escala de la física",
+          "Unidades y estándares",
+          "Conversión de unidades",
+          "Análisis dimensional",
+          "Estimaciones y cálculos de Fermi",
+          "Cifras significativas",
+          "Resolver problemas de física"
+        ]
+      },
+      {
+        "unit": "Capítulo 2: Vectores",
+        "topics": [
+          "Escalares y vectores",
+          "Sistemas de coordenadas y componentes de un vector",
+          "Álgebra de vectores",
+          "Productos de los vectores"
+        ]
+      },
+      {
+        "unit": "Capítulo 3: Movimiento rectilíneo",
+        "topics": [
+          "Posición, desplazamiento y velocidad media",
+          "Velocidad y rapidez instantáneas",
+          "Aceleración media e instantánea",
+          "Movimiento con aceleración constante",
+          "Caída libre",
+          "Calcular la velocidad y el desplazamiento a partir de la aceleración"
+        ]
+      },
+      {
+        "unit": "Capítulo 4: Movimiento en dos y tres dimensiones",
+        "topics": [
+          "Vectores de desplazamiento y velocidad",
+          "Vector de aceleración",
+          "Movimiento de proyectil",
+          "Movimiento circular uniforme",
+          "Movimiento relativo en una y dos dimensiones"
+        ]
+      },
+      {
+        "unit": "Capítulo 5: Leyes del movimiento de Newton",
+        "topics": [
+          "Fuerzas",
+          "Primera ley de Newton",
+          "Segunda ley de Newton",
+          "Masa y peso",
+          "Tercera ley de Newton",
+          "Fuerzas comunes",
+          "Dibujar diagramas de cuerpo libre"
+        ]
+      },
+      {
+        "unit": "Capítulo 6: Aplicaciones de las leyes de Newton",
+        "topics": [
+          "Resolución de problemas con las leyes de Newton",
+          "Fricción",
+          "Fuerza centrípeta",
+          "Fuerza de arrastre y velocidad límite"
+        ]
+      },
+      {
+        "unit": "Capítulo 7: Trabajo y energía cinética",
+        "topics": [
+          "Trabajo",
+          "Energía cinética",
+          "Teorema de trabajo-energía",
+          "Potencia"
+        ]
+      },
+      {
+        "unit": "Capítulo 8: Energía potencial y conservación de la energía",
+        "topics": [
+          "Energía potencial de un sistema",
+          "Fuerzas conservativas y no conservativas",
+          "Conservación de la energía",
+          "Diagramas de energía potencial y estabilidad",
+          "Fuentes de energía"
+        ]
+      },
+      {
+        "unit": "Capítulo 9: Momento lineal y colisiones",
+        "topics": [
+          "Momento lineal",
+          "Impulso y colisiones",
+          "Conservación del momento lineal",
+          "Tipos de colisiones",
+          "Colisiones en varias dimensiones",
+          "Centro de masa",
+          "Propulsión de cohetes"
+        ]
+      },
+      {
+        "unit": "Capítulo 10: Rotación de un eje fijo",
+        "topics": [
+          "Variables rotacionales",
+          "Rotación con aceleración angular constante",
+          "Relacionar cantidades angulares y traslacionales",
+          "Momento de inercia y energía cinética rotacional",
+          "Calcular momentos de inercia",
+          "Torque",
+          "Segunda ley de Newton para la rotación",
+          "Trabajo y potencia en el movimiento rotacional"
+        ]
+      },
+      {
+        "unit": "Capítulo 11: Momento angular",
+        "topics": [
+          "Movimiento rodadura",
+          "Momento angular",
+          "Conservación del momento angular",
+          "Precesión de un giroscopio"
+        ]
+      },
+      {
+        "unit": "Capítulo 12: Equilibrio estático y elasticidad",
+        "topics": [
+          "Condiciones para el equilibrio estático",
+          "Ejemplos de equilibrio estático",
+          "Estrés, tensión y módulo elástico",
+          "Elasticidad y plasticidad"
+        ]
+      },
+      {
+        "unit": "Capítulo 13: Gravitación",
+        "topics": [
+          "Ley de la gravitación universal de Newton",
+          "Gravitación cerca de la superficie terrestre",
+          "Energía potencial gravitacional y energía total",
+          "Órbita satelital y energía",
+          "Leyes del movimiento planetario de Kepler",
+          "Fuerzas de marea",
+          "La teoría de la gravedad de Einstein"
+        ]
+      },
+      {
+        "unit": "Capítulo 14: Mecánica de fluidos",
+        "topics": [
+          "Fluidos, densidad y presión",
+          "Medir la presión",
+          "Principio de Pascal y la hidráulica",
+          "Principio de Arquímedes y flotabilidad",
+          "Dinámica de fluidos",
+          "Ecuación de Bernoulli",
+          "Viscosidad y turbulencia"
+        ]
+      },
+      {
+        "unit": "Capítulo 15: Oscilaciones",
+        "topics": [
+          "Movimiento armónico simple",
+          "Energía en el movimiento armónico simple",
+          "Comparación del movimiento armónico simple y el movimiento circular",
+          "Péndulos",
+          "Oscilaciones amortiguadas",
+          "Oscilaciones forzadas"
+        ]
+      },
+      {
+        "unit": "Capítulo 16: Ondas",
+        "topics": [
+          "Ondas en desplazamiento",
+          "Matemáticas de las ondas",
+          "Rapidez de onda en una cuerda estirada",
+          "Energía y potencia de una onda",
+          "Interferencia de ondas",
+          "Ondas estacionarias y resonancia"
+        ]
+      },
+      {
+        "unit": "Capítulo 17: Sonido",
+        "topics": [
+          "Ondas sonoras",
+          "Velocidad del sonido",
+          "Intensidad del sonido",
+          "Modos normales de una onda sonora estacionaria",
+          "Fuentes de sonido musical",
+          "Batimientos",
+          "El efecto Doppler",
+          "Ondas expansivas"
+        ]
+      }
+    ]
+  },
+  "notes": "Syllabus construido desde el TOC del PDF (páginas 7-12), 2 niveles: unidades=capítulos, temas=secciones numeradas. EXCLUIDOS a propósito: Introducciones de capítulo, Revisión del Capítulo, Apéndices A-G, Clave de Respuestas e Índice. 17 capítulos en 2 unidades del libro: Unidad 1 Mecánica (cap. 1-14) y Unidad 2 Ondas y Acústica (cap. 15-17). El syllabus 'es' es nativo del TOC; el 'en' es traducción propia con terminología estándar de física universitaria (traveling waves por ondas en desplazamiento, fixed-axis rotation, stress/strain/torque, beats, etc.) — marcar como traducción no oficial. IMPORTANTE: el libro NO incluye termodinámica — OpenStax la ubica en el volumen 2; el volumen 1 cubre mecánica + oscilaciones/ondas/sonido. Libro: Física Universitaria Volumen 1, © 2021 Rice University (OpenStax), autores Samuel J. Ling, Jeff Sanny y William Moebs; prefacio declara licencia CC BY 4.0. PDF: 1023 páginas, 68.8 MB, CreationDate 2021-09-24, verificado con pdfinfo y sha256sum. SOURCE 2 (2026-09-06): College Physics 1e, OpenStax College/Rice University, 21 junio 2012 (revision CP-1-004-DW, ISBN-13 978-1-938168-00-0), algebra-based; prefacio declara CC BY 4.0 International sin NC/ND (verificado en el propio PDF, paginas 1-10). PDF: 1424 paginas, 29.7 MB, sha256 7ee3d7a3b57fc416..., via Wayback del PDF de cloudfront. Syllabus en nativo del TOC del PDF (paginas 5-8), 33 capitulos, temas=secciones; excluidos Preface y materia final. DESFASE FRENTRE LIBROS: College Physics (algebra-based, 33 caps) NO coincide capitulo a capitulo con Fisica universitaria vol. 1 (calc-based, 17 caps): termodinamica esta en College Physics caps. 13-15 pero en Fisica universitaria va en el volumen 2, y electricidad/magnetismo/optica/moderna (caps. 18-33 de College Physics) no tiene equivalente en el vol. 1; ademas la secuencia mecanica difiere (estatica/torque como cap. 9 propio, fluidos en caps. 11-12). Por eso syllabus.en y syllabus.es son listas independientes, NO traducciones una de otra, y no se forzo simetria en/es."
+}

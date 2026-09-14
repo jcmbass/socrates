@@ -1,0 +1,35 @@
+{
+  "name": "@buxo/models",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "description": "buxo C7: the model-agnostic adapter (DF-1). Owns, PER TASK (tutor/assessor/judge/ingest/safety), which (provider, model) is used, how its correct behavior is forced, and what happens when it fails — via its OWN hand-populated capabilities registry (never the AI SDK's), never asking @ai-sdk/* 'does this model support X' (docs/LECCIONES-Y-BUGS.md 2026-07-11). Wraps the AI SDK (streamText/generateObject), doesn't replace it. No DOM, no Node-specific APIs, no imports from apps/* (same purity gate as @buxo/core and @buxo/domain). Zero network calls in this package or its tests — provider instances are always injected by the caller.",
+  "exports": {
+    "./task": "./task.ts",
+    "./errors": "./errors.ts",
+    "./capabilities": "./capabilities.ts",
+    "./registry": "./registry.ts",
+    "./gate": "./gate.ts",
+    "./telemetry": "./telemetry.ts",
+    "./provider": "./provider.ts",
+    "./config": "./config.ts",
+    "./failover": "./failover.ts",
+    "./execution/tutor": "./execution/tutor.ts",
+    "./execution/milestone": "./execution/milestone.ts",
+    "./execution/structured": "./execution/structured.ts",
+    "./execution/ingest": "./execution/ingest.ts",
+    "./execution/temario-builder": "./execution/temario-builder.ts",
+    "./tools": "./tools.ts",
+    "./prompts/temario-builder-prompt": "./prompts/temario-builder-prompt.ts"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "ai": "7.0.4",
+    "zod": "4.4.3",
+    "@buxo/core": "*"
+  }
+}

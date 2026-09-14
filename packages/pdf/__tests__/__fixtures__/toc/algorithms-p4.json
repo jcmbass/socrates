@@ -1,0 +1,821 @@
+{
+  "pageNumber": 4,
+  "width": 612.0,
+  "height": 792.0,
+  "textItems": [
+    {
+      "str": "iv",
+      "x": 92.88,
+      "y": 741.62,
+      "width": 6.47,
+      "height": 8.97,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Contents",
+      "x": 158.63,
+      "y": 741.62,
+      "width": 31.88,
+      "height": 8.97,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Chapter",
+      "x": 182.64,
+      "y": 707.3,
+      "width": 38.78,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "15:",
+      "x": 224.06,
+      "y": 707.3,
+      "width": 14.54,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Dynamic",
+      "x": 242.2,
+      "y": 707.3,
+      "width": 41.81,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Programming",
+      "x": 286.78,
+      "y": 707.3,
+      "width": 65.2,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Lecture",
+      "x": 198.48,
+      "y": 694.34,
+      "width": 33.32,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Notes",
+      "x": 234.8,
+      "y": 694.34,
+      "width": 25.45,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "15-1",
+      "x": 271.28,
+      "y": 694.34,
+      "width": 20.0,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Solutions",
+      "x": 198.48,
+      "y": 681.38,
+      "width": 41.23,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "15-19",
+      "x": 250.98,
+      "y": 681.38,
+      "width": 25.45,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Chapter",
+      "x": 182.64,
+      "y": 664.46,
+      "width": 38.78,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "16:",
+      "x": 224.06,
+      "y": 664.46,
+      "width": 14.54,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Greedy",
+      "x": 242.2,
+      "y": 664.46,
+      "width": 34.3,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Algorithms",
+      "x": 279.38,
+      "y": 664.46,
+      "width": 52.72,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Lecture",
+      "x": 198.48,
+      "y": 651.5,
+      "width": 33.32,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Notes",
+      "x": 234.8,
+      "y": 651.5,
+      "width": 25.45,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "16-1",
+      "x": 271.28,
+      "y": 651.5,
+      "width": 20.0,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Solutions",
+      "x": 198.48,
+      "y": 638.54,
+      "width": 41.23,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "16-9",
+      "x": 250.98,
+      "y": 638.54,
+      "width": 20.0,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Chapter",
+      "x": 182.64,
+      "y": 621.62,
+      "width": 38.78,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "17:",
+      "x": 224.06,
+      "y": 621.62,
+      "width": 14.54,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Amortized",
+      "x": 242.2,
+      "y": 621.62,
+      "width": 49.68,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Analysis",
+      "x": 294.76,
+      "y": 621.62,
+      "width": 39.4,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Lecture",
+      "x": 198.48,
+      "y": 608.66,
+      "width": 33.32,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Notes",
+      "x": 234.8,
+      "y": 608.66,
+      "width": 25.45,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "17-1",
+      "x": 271.28,
+      "y": 608.66,
+      "width": 20.0,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Solutions",
+      "x": 198.48,
+      "y": 595.7,
+      "width": 41.23,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "17-14",
+      "x": 250.98,
+      "y": 595.7,
+      "width": 25.45,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Chapter",
+      "x": 182.64,
+      "y": 578.78,
+      "width": 38.78,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "21:",
+      "x": 224.06,
+      "y": 578.78,
+      "width": 14.54,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Data",
+      "x": 242.2,
+      "y": 578.78,
+      "width": 22.42,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Structures",
+      "x": 267.38,
+      "y": 578.78,
+      "width": 48.84,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "for",
+      "x": 319.1,
+      "y": 578.78,
+      "width": 13.69,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Disjoint",
+      "x": 335.67,
+      "y": 578.78,
+      "width": 36.97,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Sets",
+      "x": 375.52,
+      "y": 578.78,
+      "width": 18.79,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Lecture",
+      "x": 198.48,
+      "y": 565.82,
+      "width": 33.32,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Notes",
+      "x": 234.8,
+      "y": 565.82,
+      "width": 25.45,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "21-1",
+      "x": 271.28,
+      "y": 565.82,
+      "width": 20.0,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Solutions",
+      "x": 198.48,
+      "y": 552.86,
+      "width": 41.23,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "21-6",
+      "x": 250.98,
+      "y": 552.86,
+      "width": 20.0,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Chapter",
+      "x": 182.64,
+      "y": 535.94,
+      "width": 38.78,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "22:",
+      "x": 224.06,
+      "y": 535.94,
+      "width": 14.54,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Elementary",
+      "x": 242.2,
+      "y": 535.94,
+      "width": 54.53,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Graph",
+      "x": 299.62,
+      "y": 535.94,
+      "width": 30.92,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Algorithms",
+      "x": 333.17,
+      "y": 535.94,
+      "width": 52.72,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Lecture",
+      "x": 198.48,
+      "y": 522.98,
+      "width": 33.32,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Notes",
+      "x": 234.8,
+      "y": 522.98,
+      "width": 25.45,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "22-1",
+      "x": 271.28,
+      "y": 522.98,
+      "width": 20.0,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Solutions",
+      "x": 198.48,
+      "y": 510.02,
+      "width": 41.23,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "22-12",
+      "x": 250.98,
+      "y": 510.02,
+      "width": 25.45,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Chapter",
+      "x": 182.64,
+      "y": 493.1,
+      "width": 38.78,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "23:",
+      "x": 224.06,
+      "y": 493.1,
+      "width": 14.54,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Minimum",
+      "x": 242.2,
+      "y": 493.1,
+      "width": 46.67,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Spanning",
+      "x": 291.39,
+      "y": 493.1,
+      "width": 44.27,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Trees",
+      "x": 338.3,
+      "y": 493.1,
+      "width": 24.97,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Lecture",
+      "x": 198.48,
+      "y": 480.14,
+      "width": 33.32,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Notes",
+      "x": 234.8,
+      "y": 480.14,
+      "width": 25.45,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "23-1",
+      "x": 271.28,
+      "y": 480.14,
+      "width": 20.0,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Solutions",
+      "x": 198.48,
+      "y": 467.18,
+      "width": 41.23,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "23-8",
+      "x": 250.98,
+      "y": 467.18,
+      "width": 20.0,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Chapter",
+      "x": 182.64,
+      "y": 450.26,
+      "width": 38.78,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "24:",
+      "x": 224.06,
+      "y": 450.26,
+      "width": 14.54,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Single-Source",
+      "x": 242.2,
+      "y": 450.26,
+      "width": 64.0,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Shortest",
+      "x": 309.09,
+      "y": 450.26,
+      "width": 38.78,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Paths",
+      "x": 350.75,
+      "y": 450.26,
+      "width": 25.94,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Lecture",
+      "x": 198.48,
+      "y": 437.3,
+      "width": 33.32,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Notes",
+      "x": 234.8,
+      "y": 437.3,
+      "width": 25.45,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "24-1",
+      "x": 271.28,
+      "y": 437.3,
+      "width": 20.0,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Solutions",
+      "x": 198.48,
+      "y": 424.34,
+      "width": 41.23,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "24-13",
+      "x": 250.98,
+      "y": 424.34,
+      "width": 25.45,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Chapter",
+      "x": 182.64,
+      "y": 407.42,
+      "width": 38.78,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "25:",
+      "x": 224.06,
+      "y": 407.42,
+      "width": 14.54,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "All-Pairs",
+      "x": 242.2,
+      "y": 407.42,
+      "width": 41.69,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Shortest",
+      "x": 286.78,
+      "y": 407.42,
+      "width": 38.78,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Paths",
+      "x": 328.44,
+      "y": 407.42,
+      "width": 25.94,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Lecture",
+      "x": 198.48,
+      "y": 394.46,
+      "width": 33.32,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Notes",
+      "x": 234.8,
+      "y": 394.46,
+      "width": 25.45,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "25-1",
+      "x": 271.28,
+      "y": 394.46,
+      "width": 20.0,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Solutions",
+      "x": 198.48,
+      "y": 381.5,
+      "width": 41.23,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "25-8",
+      "x": 250.98,
+      "y": 381.5,
+      "width": 20.0,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Chapter",
+      "x": 182.64,
+      "y": 364.58,
+      "width": 38.78,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "26:",
+      "x": 224.06,
+      "y": 364.58,
+      "width": 14.54,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Maximum",
+      "x": 242.2,
+      "y": 364.58,
+      "width": 48.48,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Flow",
+      "x": 293.44,
+      "y": 364.58,
+      "width": 22.91,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Lecture",
+      "x": 198.48,
+      "y": 351.62,
+      "width": 33.32,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Notes",
+      "x": 234.8,
+      "y": 351.62,
+      "width": 25.45,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "26-1",
+      "x": 271.28,
+      "y": 351.62,
+      "width": 20.0,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Solutions",
+      "x": 198.48,
+      "y": 338.66,
+      "width": 41.23,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "26-15",
+      "x": 250.98,
+      "y": 338.66,
+      "width": 25.45,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Chapter",
+      "x": 182.64,
+      "y": 321.74,
+      "width": 38.78,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "27:",
+      "x": 224.06,
+      "y": 321.74,
+      "width": 14.54,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Sorting",
+      "x": 242.2,
+      "y": 321.74,
+      "width": 34.55,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Networks",
+      "x": 279.51,
+      "y": 321.74,
+      "width": 44.72,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Lecture",
+      "x": 198.48,
+      "y": 308.78,
+      "width": 33.32,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Notes",
+      "x": 234.8,
+      "y": 308.78,
+      "width": 25.45,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "27-1",
+      "x": 271.28,
+      "y": 308.78,
+      "width": 20.0,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Solutions",
+      "x": 198.48,
+      "y": 295.82,
+      "width": 41.23,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "27-8",
+      "x": 250.98,
+      "y": 295.82,
+      "width": 20.0,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Index",
+      "x": 182.64,
+      "y": 278.9,
+      "width": 26.67,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "I-1",
+      "x": 231.16,
+      "y": 278.9,
+      "width": 13.33,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    }
+  ],
+  "images": [],
+  "paths": {
+    "horizontalSegments": 0,
+    "verticalSegments": 0,
+    "rectangles": 0
+  }
+}

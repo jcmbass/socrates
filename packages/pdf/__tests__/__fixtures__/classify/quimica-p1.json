@@ -1,0 +1,69 @@
+{
+  "pageNumber": 1,
+  "width": 595,
+  "height": 842,
+  "textItems": [
+    {
+      "str": "Guía Docente:",
+      "x": 220.62,
+      "y": 604.4603,
+      "width": 307.2303,
+      "height": 39,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": "",
+      "x": 223.26,
+      "y": 543.5003,
+      "width": 0,
+      "height": 0,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": "QUÍMICA GENERAL",
+      "x": 223.26,
+      "y": 543.5003,
+      "width": 301.3242779999999,
+      "height": 28.02,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": "",
+      "x": 209.52,
+      "y": 143.3004,
+      "width": 0,
+      "height": 0,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": "FACULTAD DE CIENCIAS QUÍMICAS",
+      "x": 209.52,
+      "y": 143.3004,
+      "width": 318.27574800000025,
+      "height": 16.02,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": "",
+      "x": 148.86,
+      "y": 123.8604,
+      "width": 0,
+      "height": 0,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": "UNIVERSIDAD COMPLUTENSE DE MADRID",
+      "x": 148.86,
+      "y": 123.8604,
+      "width": 378.9755279999997,
+      "height": 16.02,
+      "fontName": "sans-serif"
+    }
+  ],
+  "images": [],
+  "paths": {
+    "horizontalSegments": 0,
+    "verticalSegments": 0,
+    "rectangles": 0
+  }
+}

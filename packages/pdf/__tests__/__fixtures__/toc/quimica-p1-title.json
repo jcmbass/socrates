@@ -1,0 +1,109 @@
+{
+  "pageNumber": 1,
+  "width": 595.0,
+  "height": 842.0,
+  "textItems": [
+    {
+      "str": "Guía",
+      "x": 220.62,
+      "y": 596.31,
+      "width": 98.79,
+      "height": 47.35,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Docente:",
+      "x": 332.73,
+      "y": 596.31,
+      "width": 195.12,
+      "height": 47.35,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "QUÍMICA",
+      "x": 223.26,
+      "y": 537.64,
+      "width": 145.66,
+      "height": 34.02,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "GENERAL",
+      "x": 378.45,
+      "y": 537.64,
+      "width": 146.14,
+      "height": 34.02,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "FACULTAD",
+      "x": 209.52,
+      "y": 139.95,
+      "width": 94.22,
+      "height": 19.45,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "DE",
+      "x": 309.17,
+      "y": 139.95,
+      "width": 24.23,
+      "height": 19.45,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "CIENCIAS",
+      "x": 338.83,
+      "y": 139.95,
+      "width": 88.92,
+      "height": 19.45,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "QUÍMICAS",
+      "x": 433.18,
+      "y": 139.95,
+      "width": 94.62,
+      "height": 19.45,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "UNIVERSIDAD",
+      "x": 148.86,
+      "y": 120.51,
+      "width": 129.99,
+      "height": 19.45,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "COMPLUTENSE",
+      "x": 284.3,
+      "y": 120.51,
+      "width": 132.93,
+      "height": 19.45,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "DE",
+      "x": 422.69,
+      "y": 120.51,
+      "width": 24.23,
+      "height": 19.45,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "MADRID",
+      "x": 452.38,
+      "y": 120.51,
+      "width": 75.45,
+      "height": 19.45,
+      "fontName": "Helvetica"
+    }
+  ],
+  "images": [],
+  "paths": {
+    "horizontalSegments": 0,
+    "verticalSegments": 0,
+    "rectangles": 0
+  }
+}

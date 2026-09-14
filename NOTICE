@@ -1,0 +1,23 @@
+Socrates (repository folder: buxo)
+==================================
+
+Original source in this repository is licensed under the MIT License
+(see LICENSE). Material listed below is not relicensed as MIT.
+
+OpenStax seed catalogs (CC BY 4.0)
+----------------------------------
+JSON catalogs under packages/domain/data/seed/ derive topic lists from
+OpenStax textbooks published by Rice University. Those catalogs remain
+licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+They are not relicensed as MIT. Per-catalog attribution lives in each
+JSON file (publisher, title, license name, license_declaration_url).
+
+SIL Open Font License fonts
+---------------------------
+The Android app loads Inter and JetBrains Mono through
+@expo-google-fonts/inter and @expo-google-fonts/jetbrains-mono. Those
+typefaces are licensed under the SIL Open Font License 1.1.
+
+Mozilla Public License 2.0
+--------------------------
+Expo pulls lightningcss, which is licensed under MPL-2.0.

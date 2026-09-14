@@ -1,0 +1,66 @@
+{
+  "level": "bachillerato",
+  "subject_key": "economia",
+  "subject_name": {"es": "Economía", "en": "Economics"},
+  "sources": [
+    {
+      "lang": "en",
+      "title": "Principles of Economics 2e",
+      "publisher": "OpenStax",
+      "edition_or_year": "2e (2017/2018; original publication year 2017, copyright 2018 Rice University, revisión PE2-2017-002-(03/18))",
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_declaration_url": "https://openstax.org/books/principles-economics-2e/pages/preface"
+      },
+      "source_url": "https://openstax.org/details/books/principles-economics-2e",
+      "pdf_url": "https://assets.openstax.org/oscms-prodcms/media/documents/Economics2e-OP_s2jF42u.pdf",
+      "pdf_path": "pdf/universidad/economia/en.pdf",
+      "pdf_pages": 974,
+      "pdf_size_mb": 49.4,
+      "toc_pages": {"from": 7, "to": 10},
+      "sha256": "fb4dc24f2623ceea612ef040066f3d3d36f94be8959558dc864fb7c897b442d6"
+    }
+  ],
+  "syllabus": {
+    "en": [
+      {"unit": "Chapter 1: Welcome to Economics!", "topics": ["What Is Economics, and Why Is It Important?", "Microeconomics and Macroeconomics", "How Economists Use Theories and Models to Understand Economic Issues", "How To Organize Economies: An Overview of Economic Systems"]},
+      {"unit": "Chapter 2: Choice in a World of Scarcity", "topics": ["How Individuals Make Choices Based on Their Budget Constraint", "The Production Possibilities Frontier and Social Choices"]},
+      {"unit": "Chapter 3: Demand and Supply", "topics": ["Demand, Supply, and Equilibrium in Markets for Goods and Services", "Shifts in Demand and Supply for Goods and Services", "Changes in Equilibrium Price and Quantity: The Four-Step Process", "Price Ceilings and Price Floors", "Demand, Supply, and Efficiency"]},
+      {"unit": "Chapter 5: Elasticity", "topics": ["Price Elasticity of Demand and Price Elasticity of Supply", "Polar Cases of Elasticity and Constant Elasticity", "Elasticity and Pricing", "Elasticity in Areas Other Than Price"]},
+      {"unit": "Chapter 7: Production, Costs, and Industry Structure", "topics": ["Explicit and Implicit Costs, and Accounting and Economic Profit", "Costs in the Short Run", "Costs in the Long Run"]},
+      {"unit": "Chapter 8: Perfect Competition", "topics": ["Perfect Competition and Why It Matters", "How Perfectly Competitive Firms Make Output Decisions"]},
+      {"unit": "Chapter 9: Monopoly", "topics": ["How Monopolies Form: Barriers to Entry", "How a Profit-Maximizing Monopoly Chooses Output and Price"]},
+      {"unit": "Chapter 10: Monopolistic Competition and Oligopoly", "topics": ["Monopolistic Competition", "Oligopoly"]},
+      {"unit": "Chapter 19: The Macroeconomic Perspective", "topics": ["Measuring the Size of the Economy: Gross Domestic Product", "Adjusting Nominal Values to Real Values", "Tracking Real GDP over Time", "How Well GDP Measures the Well-Being of Society"]},
+      {"unit": "Chapter 20: Economic Growth", "topics": ["The Relatively Recent Arrival of Economic Growth", "Labor Productivity and Economic Growth"]},
+      {"unit": "Chapter 21: Unemployment", "topics": ["How Economists Define and Compute Unemployment Rate", "Patterns of Unemployment", "What Causes Changes in Unemployment over the Short Run"]},
+      {"unit": "Chapter 22: Inflation", "topics": ["Tracking Inflation", "How to Measure Changes in the Cost of Living", "The Confusion Over Inflation"]},
+      {"unit": "Chapter 24: The Aggregate Demand/Aggregate Supply Model", "topics": ["Building a Model of Aggregate Demand and Aggregate Supply", "Shifts in Aggregate Demand", "How the AD/AS Model Incorporates Growth, Unemployment, and Inflation"]},
+      {"unit": "Chapter 27: Money and Banking", "topics": ["Defining Money by Its Functions", "Measuring Money: Currency, M1, and M2", "How Banks Create Money"]},
+      {"unit": "Chapter 28: Monetary Policy and Bank Regulation", "topics": ["The Federal Reserve Banking System and Central Banks", "How a Central Bank Executes Monetary Policy", "Monetary Policy and Economic Outcomes"]},
+      {"unit": "Chapter 30: Government Budgets and Fiscal Policy", "topics": ["Government Spending", "Taxation", "Federal Deficits and the National Debt", "Using Fiscal Policy to Fight Recession, Unemployment, and Inflation", "Automatic Stabilizers"]},
+      {"unit": "Chapter 33: International Trade", "topics": ["Absolute and Comparative Advantage"]}
+    ],
+    "es": [
+      {"unit": "Capítulo 1: Bienvenido a la economía", "topics": ["¿Qué es la economía y por qué es importante?", "Microeconomía y macroeconomía", "Cómo usan los economistas las teorías y los modelos para comprender los problemas económicos", "Cómo se organizan las economías: panorama de los sistemas económicos"]},
+      {"unit": "Capítulo 2: La elección en un mundo de escasez", "topics": ["Cómo toman decisiones los individuos a partir de su restricción presupuestaria", "La frontera de posibilidades de producción y las elecciones sociales"]},
+      {"unit": "Capítulo 3: La demanda y la oferta", "topics": ["Demanda, oferta y equilibrio en los mercados de bienes y servicios", "Desplazamientos de la demanda y la oferta de bienes y servicios", "Cambios en el precio y la cantidad de equilibrio: el proceso de cuatro pasos", "Precios máximos y precios mínimos", "Demanda, oferta y eficiencia"]},
+      {"unit": "Capítulo 5: La elasticidad", "topics": ["Elasticidad-precio de la demanda y elasticidad-precio de la oferta", "Casos límite de elasticidad y elasticidad constante", "Elasticidad y precios", "Elasticidad en áreas distintas del precio"]},
+      {"unit": "Capítulo 7: Producción, costos y estructura de la industria", "topics": ["Costos explícitos e implícitos, y utilidad contable y económica", "Los costos en el corto plazo", "Los costos en el largo plazo"]},
+      {"unit": "Capítulo 8: La competencia perfecta", "topics": ["La competencia perfecta y por qué es importante", "Cómo toman decisiones de producción las empresas perfectamente competitivas"]},
+      {"unit": "Capítulo 9: El monopolio", "topics": ["Cómo se forman los monopolios: barreras de entrada", "Cómo elige la producción y el precio un monopolio que maximiza su utilidad"]},
+      {"unit": "Capítulo 10: La competencia monopolística y el oligopolio", "topics": ["Competencia monopolística", "Oligopolio"]},
+      {"unit": "Capítulo 19: La perspectiva macroeconómica", "topics": ["Medir el tamaño de la economía: el producto interno bruto", "Ajuste de los valores nominales a valores reales", "Seguimiento del PIB real a lo largo del tiempo", "Qué tan bien mide el PIB el bienestar de la sociedad"]},
+      {"unit": "Capítulo 20: El crecimiento económico", "topics": ["La relativamente reciente llegada del crecimiento económico", "Productividad laboral y crecimiento económico"]},
+      {"unit": "Capítulo 21: El desempleo", "topics": ["Cómo definen y calculan los economistas la tasa de desempleo", "Patrones del desempleo", "Qué provoca los cambios del desempleo en el corto plazo"]},
+      {"unit": "Capítulo 22: La inflación", "topics": ["Seguimiento de la inflación", "Cómo medir los cambios en el costo de vida", "La confusión sobre la inflación"]},
+      {"unit": "Capítulo 24: El modelo de demanda agregada y oferta agregada", "topics": ["Construcción del modelo de demanda agregada y oferta agregada", "Desplazamientos de la demanda agregada", "Cómo el modelo DA/OA incorpora el crecimiento, el desempleo y la inflación"]},
+      {"unit": "Capítulo 27: El dinero y la banca", "topics": ["Definir el dinero por sus funciones", "Medición del dinero: el efectivo, M1 y M2", "Cómo crean dinero los bancos"]},
+      {"unit": "Capítulo 28: La política monetaria y la regulación bancaria", "topics": ["El sistema de la Reserva Federal y los bancos centrales", "Cómo ejecuta la política monetaria un banco central", "Política monetaria y resultados económicos"]},
+      {"unit": "Capítulo 30: Los presupuestos gubernamentales y la política fiscal", "topics": ["El gasto público", "La tributación", "Déficits federales y deuda nacional", "Uso de la política fiscal para combatir la recesión, el desempleo y la inflación", "Estabilizadores automáticos"]},
+      {"unit": "Capítulo 33: El comercio internacional", "topics": ["Ventaja absoluta y ventaja comparativa"]}
+    ]
+  },
+  "notes": "Recorte de bachillerato del MISMO PDF que el nivel universitario (pdf_path apunta a pdf/universidad/economia/en.pdf; misma fuente, misma licencia, mismo sha256). Del TOC real (páginas PDF 7-10, 34 capítulos) se incluyeron 17 unidades — los fundamentos estándar de un curso de bachillerato: (a) fundamento y micro: capítulos 1 (qué es la economía), 2 (escasez y elección, sin la sección 2.3 sobre objeciones filosóficas), 3 (oferta y demanda completa, incluye precios máximos/mínimos), 5 (elasticidad completa), 7 (solo costos: 7.1, 7.3, 7.5 — se omiten la producción de corto/largo plazo 7.2/7.4 por ser más técnica), 8-10 (mercados: competencia perfecta recortada a 8.1-8.2, monopolio y competencia monopolística/oligopolio completos); (b) macro: 19 (PIB completo, se omite 19.4 por comparación internacional redundante), 20 (crecimiento, solo 20.1-20.2), 21 (desempleo, solo 21.1-21.3), 22 (inflación, se omiten 22.3/22.5 por ser datos y detalle de indexación), 24 (DA/OA versión esencial: 24.2, 24.4, 24.5 — se omiten los detalles de Keynes/Say), 27-28 (dinero, banca y política monetaria, versión esencial), 30 (política fiscal, se omiten 30.6/30.7 que son discusión avanzada), 33 (solo ventaja absoluta y comparativa, puerta al comercio). EXCLUIDOS de bachillerato: capítulos 4 (mercados laborales/financieros analíticos), 6 (teoría del consumidor), 11-18 (política micro aplicada: antimonopolio, externalidades, pobreza, seguros, mercados financieros, economía pública — se cubren cualitativamente en otras materias), 23 (flujos de capital), 25-26 (keynesianos vs. neoclásicos, nivel universitario), 29 (tipos de cambio), 31 (endeudamiento gubernamental), 32 (política macro comparada), 34 (globalización/proteccionismo). El recorte es decisión académica propia desde el TOC, no del editor. Syllabus 'en' nativo del TOC; 'es' traducción propia con criterio académico (DA/OA para AD/AS, PIB para GDP, etc.) — traducción no oficial."
+}

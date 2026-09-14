@@ -1,0 +1,78 @@
+{
+  "level": "bachillerato",
+  "subject_key": "fisica",
+  "subject_name": {"es": "Física", "en": "Physics"},
+  "sources": [
+    {
+      "lang": "en",
+      "title": "Physics",
+      "publisher": "OpenStax",
+      "edition_or_year": "High School edition, 2020 (adaptación Texas Education Agency de Urone & Hinrichs; revisiones web posteriores)",
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_declaration_url": "https://openstax.org/books/physics/pages/preface"
+      },
+      "source_url": "https://openstax.org/details/books/physics",
+      "pdf_url": "https://assets.openstax.org/oscms-prodcms/media/documents/Physics_-_WEB.pdf",
+      "pdf_path": "pdf/bachillerato/fisica/en.pdf",
+      "pdf_pages": 875,
+      "pdf_size_mb": 54.8,
+      "toc_pages": {"from": 6, "to": 11},
+      "sha256": "a3f75487411ef13d0270c65fc801ceff2b28e6b339afed9b407fe477f7e8453e"
+    }
+  ],
+  "syllabus": {
+    "en": [
+      {"unit": "Chapter 1: What is Physics?", "topics": ["Physics: Definitions and Applications", "The Scientific Methods", "The Language of Physics: Physical Quantities and Units"]},
+      {"unit": "Chapter 2: Motion in One Dimension", "topics": ["Relative Motion, Distance, and Displacement", "Speed and Velocity", "Position vs. Time Graphs", "Velocity vs. Time Graphs"]},
+      {"unit": "Chapter 3: Acceleration", "topics": ["Acceleration", "Representing Acceleration with Equations and Graphs"]},
+      {"unit": "Chapter 4: Forces and Newton's Laws of Motion", "topics": ["Force", "Newton's First Law of Motion: Inertia", "Newton's Second Law of Motion", "Newton's Third Law of Motion"]},
+      {"unit": "Chapter 5: Motion in Two Dimensions", "topics": ["Vector Addition and Subtraction: Graphical Methods", "Vector Addition and Subtraction: Analytical Methods", "Projectile Motion", "Inclined Planes", "Simple Harmonic Motion"]},
+      {"unit": "Chapter 6: Circular and Rotational Motion", "topics": ["Angle of Rotation and Angular Velocity", "Uniform Circular Motion", "Rotational Motion"]},
+      {"unit": "Chapter 7: Newton's Law of Gravitation", "topics": ["Kepler's Laws of Planetary Motion", "Newton's Law of Universal Gravitation and Einstein's Theory of General Relativity"]},
+      {"unit": "Chapter 8: Momentum", "topics": ["Linear Momentum, Force, and Impulse", "Conservation of Momentum", "Elastic and Inelastic Collisions"]},
+      {"unit": "Chapter 9: Work, Energy, and Simple Machines", "topics": ["Work, Power, and the Work–Energy Theorem", "Mechanical Energy and Conservation of Energy", "Simple Machines"]},
+      {"unit": "Chapter 10: Special Relativity", "topics": ["Postulates of Special Relativity", "Consequences of Special Relativity"]},
+      {"unit": "Chapter 11: Thermal Energy, Heat, and Work", "topics": ["Temperature and Thermal Energy", "Heat, Specific Heat, and Heat Transfer", "Phase Change and Latent Heat"]},
+      {"unit": "Chapter 12: Thermodynamics", "topics": ["Zeroth Law of Thermodynamics: Thermal Equilibrium", "First Law of Thermodynamics: Thermal Energy and Work", "Second Law of Thermodynamics: Entropy", "Applications of Thermodynamics: Heat Engines, Heat Pumps, and Refrigerators"]},
+      {"unit": "Chapter 13: Waves and Their Properties", "topics": ["Types of Waves", "Wave Properties: Speed, Amplitude, Frequency, and Period", "Wave Interaction: Superposition and Interference"]},
+      {"unit": "Chapter 14: Sound", "topics": ["Speed of Sound, Frequency, and Wavelength", "Sound Intensity and Sound Level", "Doppler Effect and Sonic Booms", "Sound Interference and Resonance"]},
+      {"unit": "Chapter 15: Light", "topics": ["The Electromagnetic Spectrum", "The Behavior of Electromagnetic Radiation"]},
+      {"unit": "Chapter 16: Mirrors and Lenses", "topics": ["Reflection", "Refraction", "Lenses"]},
+      {"unit": "Chapter 17: Diffraction and Interference", "topics": ["Understanding Diffraction and Interference", "Applications of Diffraction, Interference, and Coherence"]},
+      {"unit": "Chapter 18: Static Electricity", "topics": ["Electrical Charges, Conservation of Charge, and Transfer of Charge", "Coulomb's Law", "Electric Field", "Electric Potential", "Capacitors and Dielectrics"]},
+      {"unit": "Chapter 19: Electrical Circuits", "topics": ["Ohm's Law", "Series Circuits", "Parallel Circuits", "Electric Power"]},
+      {"unit": "Chapter 20: Magnetism", "topics": ["Magnetic Fields, Field Lines, and Force", "Motors, Generators, and Transformers", "Electromagnetic Induction"]},
+      {"unit": "Chapter 21: The Quantum Nature of Light", "topics": ["Planck and Quantum Nature of Light", "Einstein and the Photoelectric Effect", "The Dual Nature of Light"]},
+      {"unit": "Chapter 22: The Atom", "topics": ["The Structure of the Atom", "Nuclear Forces and Radioactivity", "Half-Life and Radiometric Dating", "Nuclear Fission and Fusion", "Medical Applications of Radioactivity: Diagnostic Imaging and Radiation"]},
+      {"unit": "Chapter 23: Particle Physics", "topics": ["The Four Fundamental Forces", "Quarks", "The Unification of Forces"]}
+    ],
+    "es": [
+      {"unit": "Capítulo 1: ¿Qué es la física?", "topics": ["La física: definiciones y aplicaciones", "Los métodos científicos", "El lenguaje de la física: magnitudes y unidades"]},
+      {"unit": "Capítulo 2: Movimiento en una dimensión", "topics": ["Movimiento relativo, distancia y desplazamiento", "Rapidez y velocidad", "Gráficas de posición contra tiempo", "Gráficas de velocidad contra tiempo"]},
+      {"unit": "Capítulo 3: Aceleración", "topics": ["Aceleración", "Representación de la aceleración con ecuaciones y gráficas"]},
+      {"unit": "Capítulo 4: Fuerzas y leyes del movimiento de Newton", "topics": ["Fuerza", "Primera ley de Newton: inercia", "Segunda ley de Newton", "Tercera ley de Newton"]},
+      {"unit": "Capítulo 5: Movimiento en dos dimensiones", "topics": ["Suma y resta de vectores: métodos gráficos", "Suma y resta de vectores: métodos analíticos", "Movimiento de proyectiles", "Planos inclinados", "Movimiento armónico simple"]},
+      {"unit": "Capítulo 6: Movimiento circular y rotacional", "topics": ["Ángulo de rotación y velocidad angular", "Movimiento circular uniforme", "Movimiento rotacional"]},
+      {"unit": "Capítulo 7: Ley de gravitación de Newton", "topics": ["Leyes de Kepler del movimiento planetario", "Ley de gravitación universal de Newton y relatividad general de Einstein"]},
+      {"unit": "Capítulo 8: Momento lineal", "topics": ["Momento lineal, fuerza e impulso", "Conservación del momento lineal", "Colisiones elásticas e inelásticas"]},
+      {"unit": "Capítulo 9: Trabajo, energía y máquinas simples", "topics": ["Trabajo, potencia y teorema del trabajo y la energía", "Energía mecánica y conservación de la energía", "Máquinas simples"]},
+      {"unit": "Capítulo 10: Relatividad especial", "topics": ["Postulados de la relatividad especial", "Consecuencias de la relatividad especial"]},
+      {"unit": "Capítulo 11: Energía térmica, calor y trabajo", "topics": ["Temperatura y energía térmica", "Calor, calor específico y transferencia de calor", "Cambio de fase y calor latente"]},
+      {"unit": "Capítulo 12: Termodinámica", "topics": ["Ley cero de la termodinámica: equilibrio térmico", "Primera ley de la termodinámica: energía térmica y trabajo", "Segunda ley de la termodinámica: entropía", "Aplicaciones de la termodinámica: motores térmicos, bombas de calor y refrigeradores"]},
+      {"unit": "Capítulo 13: Ondas y sus propiedades", "topics": ["Tipos de ondas", "Propiedades de las ondas: velocidad, amplitud, frecuencia y período", "Interacción de ondas: superposición e interferencia"]},
+      {"unit": "Capítulo 14: Sonido", "topics": ["Velocidad del sonido, frecuencia y longitud de onda", "Intensidad y nivel del sonido", "Efecto Doppler y estampidos sónicos", "Interferencia y resonancia del sonido"]},
+      {"unit": "Capítulo 15: Luz", "topics": ["El espectro electromagnético", "El comportamiento de la radiación electromagnética"]},
+      {"unit": "Capítulo 16: Espejos y lentes", "topics": ["Reflexión", "Refracción", "Lentes"]},
+      {"unit": "Capítulo 17: Difracción e interferencia", "topics": ["Comprensión de la difracción y la interferencia", "Aplicaciones de la difracción, la interferencia y la coherencia"]},
+      {"unit": "Capítulo 18: Electricidad estática", "topics": ["Cargas eléctricas: conservación y transferencia de la carga", "Ley de Coulomb", "Campo eléctrico", "Potencial eléctrico", "Capacitores y dieléctricos"]},
+      {"unit": "Capítulo 19: Circuitos eléctricos", "topics": ["Ley de Ohm", "Circuitos en serie", "Circuitos en paralelo", "Potencia eléctrica"]},
+      {"unit": "Capítulo 20: Magnetismo", "topics": ["Campos magnéticos, líneas de campo y fuerza", "Motores, generadores y transformadores", "Inducción electromagnética"]},
+      {"unit": "Capítulo 21: Naturaleza cuántica de la luz", "topics": ["Planck y la naturaleza cuántica de la luz", "Einstein y el efecto fotoeléctrico", "La doble naturaleza de la luz"]},
+      {"unit": "Capítulo 22: El átomo", "topics": ["La estructura del átomo", "Fuerzas nucleares y radiactividad", "Vida media y datación radiométrica", "Fisión y fusión nuclear", "Aplicaciones médicas de la radiactividad: diagnóstico por imagen y radiación"]},
+      {"unit": "Capítulo 23: Física de partículas", "topics": ["Las cuatro fuerzas fundamentales", "Quarks", "La unificación de las fuerzas"]}
+    ]
+  },
+  "notes": "Syllabus construido desde el TOC del PDF (páginas 6-11), 2 niveles: unidades=capítulos, temas=secciones numeradas. EXCLUIDOS a propósito: Introducciones, Key Terms, Section Summary, Key Equations, Chapter Review, Test Prep, Apéndice A (Reference Tables) e Index. El syllabus 'en' es nativo del TOC; el 'es' es traducción propia con terminología estándar de bachillerato hispanohablante (rapidez/velocidad según el original speed/velocity, momento lineal por momentum, etc.) — marcar como traducción no oficial. Libro: OpenStax Physics (high school), © 2020 Texas Education Agency, adaptación de la obra de Paul Peter Urone y Roger Hinrichs; el PDF descargado es la revisión web regenerada (fecha de creación del archivo: junio 2026). Licencia CC BY 4.0 declarada en el prefacio del libro."
+}

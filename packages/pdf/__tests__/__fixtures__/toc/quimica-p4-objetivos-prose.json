@@ -1,0 +1,3325 @@
+{
+  "pageNumber": 4,
+  "width": 595.0,
+  "height": 842.0,
+  "textItems": [
+    {
+      "str": "Guía",
+      "x": 87.3,
+      "y": 784.48,
+      "width": 35.44,
+      "height": 16.97,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Docente:",
+      "x": 127.56,
+      "y": 784.48,
+      "width": 70.02,
+      "height": 16.97,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Química",
+      "x": 258.31,
+      "y": 784.48,
+      "width": 63.82,
+      "height": 16.97,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "General",
+      "x": 326.94,
+      "y": 784.48,
+      "width": 60.99,
+      "height": 16.97,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "II.-",
+      "x": 85.08,
+      "y": 727.08,
+      "width": 19.05,
+      "height": 15.48,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "OBJETIVOS",
+      "x": 107.61,
+      "y": 727.08,
+      "width": 80.08,
+      "height": 15.48,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "",
+      "x": 85.08,
+      "y": 695.36,
+      "width": 8.95,
+      "height": 13.3,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "OBJETIVO",
+      "x": 103.08,
+      "y": 695.29,
+      "width": 61.99,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "GENERAL",
+      "x": 168.07,
+      "y": 695.29,
+      "width": 59.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Se",
+      "x": 102.96,
+      "y": 675.61,
+      "width": 12.01,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "trata",
+      "x": 120.97,
+      "y": 675.61,
+      "width": 21.35,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 148.33,
+      "y": 675.61,
+      "width": 11.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "una",
+      "x": 165.68,
+      "y": 675.61,
+      "width": 17.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "asignatura",
+      "x": 189.03,
+      "y": 675.61,
+      "width": 49.38,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "introductoria",
+      "x": 244.38,
+      "y": 675.61,
+      "width": 62.02,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "cuyo",
+      "x": 312.4,
+      "y": 675.61,
+      "width": 23.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "objetivo",
+      "x": 341.74,
+      "y": 675.61,
+      "width": 39.35,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "es",
+      "x": 387.06,
+      "y": 675.61,
+      "width": 10.01,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "que",
+      "x": 403.02,
+      "y": 675.61,
+      "width": 17.35,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "el",
+      "x": 426.37,
+      "y": 675.61,
+      "width": 8.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "alumno",
+      "x": 441.06,
+      "y": 675.61,
+      "width": 36.05,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "entre",
+      "x": 483.11,
+      "y": 675.61,
+      "width": 24.03,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "en",
+      "x": 513.15,
+      "y": 675.61,
+      "width": 11.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "contacto",
+      "x": 102.96,
+      "y": 661.81,
+      "width": 40.69,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "con",
+      "x": 146.65,
+      "y": 661.81,
+      "width": 17.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "los",
+      "x": 167.0,
+      "y": 661.81,
+      "width": 14.01,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "conceptos",
+      "x": 184.02,
+      "y": 661.81,
+      "width": 48.03,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "básicos",
+      "x": 235.05,
+      "y": 661.81,
+      "width": 35.36,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 273.41,
+      "y": 661.81,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "la",
+      "x": 287.75,
+      "y": 661.81,
+      "width": 8.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Ciencia",
+      "x": 299.42,
+      "y": 661.81,
+      "width": 36.73,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Química,",
+      "x": 339.15,
+      "y": 661.81,
+      "width": 44.35,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "aportándole",
+      "x": 386.49,
+      "y": 661.81,
+      "width": 56.66,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "las",
+      "x": 446.15,
+      "y": 661.81,
+      "width": 13.35,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "herramientas",
+      "x": 462.49,
+      "y": 661.81,
+      "width": 61.98,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "adecuadas",
+      "x": 102.96,
+      "y": 648.01,
+      "width": 49.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "para",
+      "x": 155.28,
+      "y": 648.01,
+      "width": 20.66,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "afrontar",
+      "x": 178.92,
+      "y": 648.01,
+      "width": 38.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "los",
+      "x": 219.91,
+      "y": 648.01,
+      "width": 14.01,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "contenidos",
+      "x": 236.9,
+      "y": 648.01,
+      "width": 52.02,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "del",
+      "x": 291.93,
+      "y": 648.01,
+      "width": 14.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Módulo",
+      "x": 309.61,
+      "y": 648.01,
+      "width": 38.02,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Fundamental.",
+      "x": 350.63,
+      "y": 648.01,
+      "width": 65.68,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "En",
+      "x": 102.96,
+      "y": 631.21,
+      "width": 13.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "esta",
+      "x": 122.42,
+      "y": 631.21,
+      "width": 18.69,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "asignatura",
+      "x": 147.24,
+      "y": 631.21,
+      "width": 49.42,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "se",
+      "x": 202.77,
+      "y": 631.21,
+      "width": 10.01,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "introducirán",
+      "x": 218.9,
+      "y": 631.21,
+      "width": 58.65,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "los",
+      "x": 283.6,
+      "y": 631.21,
+      "width": 14.03,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "conceptos",
+      "x": 303.75,
+      "y": 631.21,
+      "width": 48.03,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "teóricos",
+      "x": 357.91,
+      "y": 631.21,
+      "width": 38.05,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "básicos",
+      "x": 402.09,
+      "y": 631.21,
+      "width": 35.38,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "que",
+      "x": 443.59,
+      "y": 631.21,
+      "width": 17.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "permitan",
+      "x": 467.07,
+      "y": 631.21,
+      "width": 42.61,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "al",
+      "x": 515.81,
+      "y": 631.21,
+      "width": 8.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "alumno",
+      "x": 102.96,
+      "y": 617.41,
+      "width": 35.92,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "comprender",
+      "x": 144.39,
+      "y": 617.41,
+      "width": 57.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "la",
+      "x": 207.25,
+      "y": 617.41,
+      "width": 8.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "naturaleza",
+      "x": 221.43,
+      "y": 617.41,
+      "width": 49.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 276.29,
+      "y": 617.41,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "la",
+      "x": 293.13,
+      "y": 617.41,
+      "width": 8.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "materia,",
+      "x": 307.31,
+      "y": 617.41,
+      "width": 38.83,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "con",
+      "x": 351.66,
+      "y": 617.41,
+      "width": 17.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "una",
+      "x": 374.52,
+      "y": 617.41,
+      "width": 17.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "concepción",
+      "x": 397.37,
+      "y": 617.41,
+      "width": 54.66,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "microscópica,",
+      "x": 457.55,
+      "y": 617.41,
+      "width": 66.93,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "pasando",
+      "x": 102.96,
+      "y": 603.61,
+      "width": 39.35,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 145.97,
+      "y": 603.61,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "los",
+      "x": 160.96,
+      "y": 603.61,
+      "width": 14.01,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "átomos",
+      "x": 178.64,
+      "y": 603.61,
+      "width": 34.59,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "a",
+      "x": 216.89,
+      "y": 603.61,
+      "width": 5.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "las",
+      "x": 225.88,
+      "y": 603.61,
+      "width": 13.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "moléculas",
+      "x": 242.89,
+      "y": 603.61,
+      "width": 48.59,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y",
+      "x": 295.14,
+      "y": 603.61,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 304.81,
+      "y": 603.61,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "éstas",
+      "x": 319.74,
+      "y": 603.61,
+      "width": 23.31,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "a",
+      "x": 346.7,
+      "y": 603.61,
+      "width": 5.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "los",
+      "x": 355.67,
+      "y": 603.61,
+      "width": 14.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "estados",
+      "x": 373.32,
+      "y": 603.61,
+      "width": 35.31,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 412.27,
+      "y": 603.61,
+      "width": 11.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "agregación",
+      "x": 427.24,
+      "y": 603.61,
+      "width": 52.61,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "(sólidos,",
+      "x": 483.49,
+      "y": 603.61,
+      "width": 40.98,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "gases",
+      "x": 102.96,
+      "y": 589.81,
+      "width": 26.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y",
+      "x": 137.27,
+      "y": 589.81,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "líquidos),",
+      "x": 151.57,
+      "y": 589.81,
+      "width": 45.69,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "introduciendo",
+      "x": 205.57,
+      "y": 589.81,
+      "width": 66.69,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "las",
+      "x": 280.57,
+      "y": 589.81,
+      "width": 13.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "fuerzas",
+      "x": 302.21,
+      "y": 589.81,
+      "width": 34.68,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "intermoleculares.",
+      "x": 345.2,
+      "y": 589.81,
+      "width": 82.92,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Se",
+      "x": 436.44,
+      "y": 589.81,
+      "width": 12.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "aportarán",
+      "x": 456.75,
+      "y": 589.81,
+      "width": 45.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "los",
+      "x": 510.39,
+      "y": 589.81,
+      "width": 14.01,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "fundamentos",
+      "x": 102.96,
+      "y": 576.01,
+      "width": 62.03,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 169.32,
+      "y": 576.01,
+      "width": 11.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "cinética",
+      "x": 184.98,
+      "y": 576.01,
+      "width": 37.38,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "química",
+      "x": 226.69,
+      "y": 576.01,
+      "width": 38.62,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y",
+      "x": 269.64,
+      "y": 576.01,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "termodinámica",
+      "x": 279.96,
+      "y": 576.01,
+      "width": 71.88,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "necesarios",
+      "x": 356.18,
+      "y": 576.01,
+      "width": 50.06,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "para",
+      "x": 410.56,
+      "y": 576.01,
+      "width": 20.68,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "poder",
+      "x": 435.57,
+      "y": 576.01,
+      "width": 27.36,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "comprender",
+      "x": 467.25,
+      "y": 576.01,
+      "width": 57.27,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "las",
+      "x": 102.96,
+      "y": 562.21,
+      "width": 13.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "reacciones",
+      "x": 120.98,
+      "y": 562.21,
+      "width": 50.63,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y",
+      "x": 176.29,
+      "y": 562.21,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "equilibrios",
+      "x": 186.96,
+      "y": 562.21,
+      "width": 51.29,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "químicos,",
+      "x": 242.92,
+      "y": 562.21,
+      "width": 46.88,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "así",
+      "x": 294.48,
+      "y": 562.21,
+      "width": 13.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "como",
+      "x": 312.54,
+      "y": 562.21,
+      "width": 26.69,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "la",
+      "x": 343.9,
+      "y": 562.21,
+      "width": 8.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "termodinámica",
+      "x": 357.24,
+      "y": 562.21,
+      "width": 71.9,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "involucrada",
+      "x": 433.8,
+      "y": 562.21,
+      "width": 56.68,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "en",
+      "x": 495.14,
+      "y": 562.21,
+      "width": 11.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "las",
+      "x": 511.15,
+      "y": 562.21,
+      "width": 13.35,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "transiciones",
+      "x": 102.96,
+      "y": 548.41,
+      "width": 57.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 171.32,
+      "y": 548.41,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "fase",
+      "x": 193.69,
+      "y": 548.41,
+      "width": 19.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y",
+      "x": 224.05,
+      "y": 548.41,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "disoluciones.",
+      "x": 241.09,
+      "y": 548.41,
+      "width": 63.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Se",
+      "x": 315.12,
+      "y": 548.41,
+      "width": 11.99,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "introducirán",
+      "x": 338.15,
+      "y": 548.41,
+      "width": 58.59,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "conceptos",
+      "x": 407.77,
+      "y": 548.41,
+      "width": 47.94,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "básicos",
+      "x": 466.75,
+      "y": 548.41,
+      "width": 35.29,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 513.07,
+      "y": 548.41,
+      "width": 11.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "electroquímica,",
+      "x": 102.96,
+      "y": 534.61,
+      "width": 74.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 184.93,
+      "y": 534.61,
+      "width": 11.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "química",
+      "x": 203.89,
+      "y": 534.61,
+      "width": 38.64,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "nuclear",
+      "x": 250.16,
+      "y": 534.61,
+      "width": 35.36,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y",
+      "x": 293.14,
+      "y": 534.61,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 306.77,
+      "y": 534.61,
+      "width": 11.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "la",
+      "x": 325.68,
+      "y": 534.61,
+      "width": 8.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "química",
+      "x": 341.97,
+      "y": 534.61,
+      "width": 38.61,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 388.21,
+      "y": 534.61,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "los",
+      "x": 407.16,
+      "y": 534.61,
+      "width": 14.01,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "grupos",
+      "x": 428.8,
+      "y": 534.61,
+      "width": 32.68,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "funcionales",
+      "x": 469.1,
+      "y": 534.61,
+      "width": 55.36,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "orgánicos.",
+      "x": 102.96,
+      "y": 520.81,
+      "width": 49.73,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Un",
+      "x": 102.96,
+      "y": 504.01,
+      "width": 14.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "objetivo",
+      "x": 120.98,
+      "y": 504.01,
+      "width": 39.39,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "general,",
+      "x": 163.73,
+      "y": 504.01,
+      "width": 38.37,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 205.46,
+      "y": 504.01,
+      "width": 11.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "vital",
+      "x": 220.14,
+      "y": 504.01,
+      "width": 21.37,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "importancia,",
+      "x": 244.87,
+      "y": 504.01,
+      "width": 60.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "es",
+      "x": 308.54,
+      "y": 504.01,
+      "width": 10.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "el",
+      "x": 321.89,
+      "y": 504.01,
+      "width": 8.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 333.75,
+      "y": 504.01,
+      "width": 11.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "fomentar",
+      "x": 348.43,
+      "y": 504.01,
+      "width": 43.3,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "en",
+      "x": 395.08,
+      "y": 504.01,
+      "width": 11.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "el",
+      "x": 409.77,
+      "y": 504.01,
+      "width": 8.68,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "alumno",
+      "x": 421.8,
+      "y": 504.01,
+      "width": 35.91,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "interés",
+      "x": 461.07,
+      "y": 504.01,
+      "width": 32.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "por",
+      "x": 496.43,
+      "y": 504.01,
+      "width": 16.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "el",
+      "x": 515.79,
+      "y": 504.01,
+      "width": 8.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "aprendizaje",
+      "x": 102.96,
+      "y": 490.21,
+      "width": 55.42,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 161.42,
+      "y": 490.21,
+      "width": 11.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "la",
+      "x": 175.81,
+      "y": 490.21,
+      "width": 8.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Química",
+      "x": 187.53,
+      "y": 490.21,
+      "width": 41.28,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "e",
+      "x": 231.86,
+      "y": 490.21,
+      "width": 5.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "instruirle",
+      "x": 240.24,
+      "y": 490.21,
+      "width": 43.25,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "en",
+      "x": 286.56,
+      "y": 490.21,
+      "width": 11.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "el",
+      "x": 300.96,
+      "y": 490.21,
+      "width": 8.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "papel",
+      "x": 312.7,
+      "y": 490.21,
+      "width": 26.02,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "que",
+      "x": 341.78,
+      "y": 490.21,
+      "width": 17.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "ésta",
+      "x": 362.19,
+      "y": 490.21,
+      "width": 18.68,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "desempeña",
+      "x": 383.7,
+      "y": 490.21,
+      "width": 53.25,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "en",
+      "x": 440.01,
+      "y": 490.21,
+      "width": 11.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "la",
+      "x": 454.41,
+      "y": 490.21,
+      "width": 8.68,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "naturaleza",
+      "x": 466.15,
+      "y": 490.21,
+      "width": 49.37,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y",
+      "x": 518.57,
+      "y": 490.21,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "en",
+      "x": 102.96,
+      "y": 476.47,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "la",
+      "x": 117.3,
+      "y": 476.47,
+      "width": 8.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "sociedad",
+      "x": 128.98,
+      "y": 476.47,
+      "width": 41.96,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "actual.",
+      "x": 173.94,
+      "y": 476.47,
+      "width": 31.69,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "",
+      "x": 85.08,
+      "y": 450.62,
+      "width": 8.95,
+      "height": 13.3,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "OBJETIVOS",
+      "x": 103.08,
+      "y": 450.55,
+      "width": 68.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "ESPECÍFICOS",
+      "x": 174.75,
+      "y": 450.55,
+      "width": 79.99,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "o",
+      "x": 102.96,
+      "y": 422.79,
+      "width": 8.39,
+      "height": 15.83,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Conocer",
+      "x": 121.08,
+      "y": 424.39,
+      "width": 40.7,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "los",
+      "x": 164.78,
+      "y": 424.39,
+      "width": 14.02,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "fundamentos",
+      "x": 181.79,
+      "y": 424.39,
+      "width": 62.05,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 246.84,
+      "y": 424.39,
+      "width": 11.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "la",
+      "x": 261.18,
+      "y": 424.39,
+      "width": 8.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "mecánica",
+      "x": 272.84,
+      "y": 424.39,
+      "width": 45.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "cuántica",
+      "x": 321.18,
+      "y": 424.39,
+      "width": 39.91,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y",
+      "x": 364.08,
+      "y": 424.39,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "su",
+      "x": 373.08,
+      "y": 424.39,
+      "width": 10.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "aplicación",
+      "x": 386.75,
+      "y": 424.39,
+      "width": 49.37,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "para",
+      "x": 439.11,
+      "y": 424.39,
+      "width": 20.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "interpretar",
+      "x": 462.78,
+      "y": 424.39,
+      "width": 50.04,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "la",
+      "x": 515.82,
+      "y": 424.39,
+      "width": 8.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "estructura",
+      "x": 120.78,
+      "y": 410.59,
+      "width": 47.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 171.1,
+      "y": 410.59,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "los",
+      "x": 185.42,
+      "y": 410.59,
+      "width": 14.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "átomos.",
+      "x": 202.43,
+      "y": 410.59,
+      "width": 37.64,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "o",
+      "x": 102.96,
+      "y": 394.71,
+      "width": 8.39,
+      "height": 15.83,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Entender",
+      "x": 121.08,
+      "y": 396.31,
+      "width": 43.35,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "la",
+      "x": 167.97,
+      "y": 396.31,
+      "width": 8.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "construcción",
+      "x": 180.18,
+      "y": 396.31,
+      "width": 61.36,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 245.08,
+      "y": 396.31,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "la",
+      "x": 259.96,
+      "y": 396.31,
+      "width": 8.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Tabla",
+      "x": 272.17,
+      "y": 396.31,
+      "width": 27.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Periódica",
+      "x": 303.05,
+      "y": 396.31,
+      "width": 45.35,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 351.96,
+      "y": 396.31,
+      "width": 11.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "los",
+      "x": 366.86,
+      "y": 396.31,
+      "width": 14.02,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "elementos",
+      "x": 384.43,
+      "y": 396.31,
+      "width": 48.62,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y",
+      "x": 436.61,
+      "y": 396.31,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "como",
+      "x": 446.17,
+      "y": 396.31,
+      "width": 26.58,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "extraer",
+      "x": 476.29,
+      "y": 396.31,
+      "width": 33.36,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 513.21,
+      "y": 396.31,
+      "width": 11.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "ella",
+      "x": 120.78,
+      "y": 382.57,
+      "width": 17.35,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "información",
+      "x": 141.11,
+      "y": 382.57,
+      "width": 58.73,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "sobre",
+      "x": 202.82,
+      "y": 382.57,
+      "width": 26.03,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "las",
+      "x": 231.83,
+      "y": 382.57,
+      "width": 13.35,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "propiedades",
+      "x": 248.15,
+      "y": 382.57,
+      "width": 57.99,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 309.14,
+      "y": 382.57,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "los",
+      "x": 323.46,
+      "y": 382.57,
+      "width": 14.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "elementos",
+      "x": 340.47,
+      "y": 382.57,
+      "width": 48.55,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "químicos.",
+      "x": 392.02,
+      "y": 382.57,
+      "width": 46.92,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "o",
+      "x": 102.96,
+      "y": 366.69,
+      "width": 8.39,
+      "height": 15.83,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Conocer",
+      "x": 121.08,
+      "y": 368.29,
+      "width": 40.71,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "los",
+      "x": 166.07,
+      "y": 368.29,
+      "width": 14.02,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "distintos",
+      "x": 184.31,
+      "y": 368.29,
+      "width": 40.68,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "tipos",
+      "x": 229.26,
+      "y": 368.29,
+      "width": 23.38,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 256.92,
+      "y": 368.29,
+      "width": 11.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "enlace",
+      "x": 272.53,
+      "y": 368.29,
+      "width": 30.7,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "químico:",
+      "x": 307.5,
+      "y": 368.29,
+      "width": 42.64,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "covalente,",
+      "x": 354.42,
+      "y": 368.29,
+      "width": 49.07,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "iónico",
+      "x": 407.76,
+      "y": 368.29,
+      "width": 30.05,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y",
+      "x": 442.08,
+      "y": 368.29,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "metálico,",
+      "x": 452.36,
+      "y": 368.29,
+      "width": 44.3,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y",
+      "x": 500.93,
+      "y": 368.29,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "las",
+      "x": 511.21,
+      "y": 368.29,
+      "width": 13.35,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "teorías",
+      "x": 120.78,
+      "y": 354.49,
+      "width": 32.06,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "más",
+      "x": 155.84,
+      "y": 354.49,
+      "width": 19.25,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "simples",
+      "x": 178.09,
+      "y": 354.49,
+      "width": 36.62,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "empleadas",
+      "x": 217.72,
+      "y": 354.49,
+      "width": 50.64,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "para",
+      "x": 271.36,
+      "y": 354.49,
+      "width": 20.62,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "describirlos.",
+      "x": 294.97,
+      "y": 354.49,
+      "width": 59.08,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "o",
+      "x": 102.96,
+      "y": 338.61,
+      "width": 8.39,
+      "height": 15.83,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Establecer",
+      "x": 121.08,
+      "y": 340.21,
+      "width": 50.04,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "relaciones",
+      "x": 176.35,
+      "y": 340.21,
+      "width": 48.71,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "entre",
+      "x": 230.29,
+      "y": 340.21,
+      "width": 23.94,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "las",
+      "x": 259.46,
+      "y": 340.21,
+      "width": 13.35,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "propiedades",
+      "x": 278.04,
+      "y": 340.21,
+      "width": 57.95,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 341.2,
+      "y": 340.21,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "las",
+      "x": 357.75,
+      "y": 340.21,
+      "width": 13.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "sustancias",
+      "x": 376.3,
+      "y": 340.21,
+      "width": 48.63,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y",
+      "x": 430.15,
+      "y": 340.21,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "la",
+      "x": 441.36,
+      "y": 340.21,
+      "width": 8.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "naturaleza",
+      "x": 455.24,
+      "y": 340.21,
+      "width": 49.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "del",
+      "x": 509.8,
+      "y": 340.21,
+      "width": 14.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "enlace",
+      "x": 120.78,
+      "y": 326.47,
+      "width": 30.68,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "que",
+      "x": 154.47,
+      "y": 326.47,
+      "width": 17.27,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "presentan.",
+      "x": 174.75,
+      "y": 326.47,
+      "width": 48.99,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "o",
+      "x": 102.96,
+      "y": 310.59,
+      "width": 8.39,
+      "height": 15.83,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Comprender",
+      "x": 121.08,
+      "y": 312.19,
+      "width": 59.97,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "la",
+      "x": 184.48,
+      "y": 312.19,
+      "width": 8.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "naturaleza",
+      "x": 196.58,
+      "y": 312.19,
+      "width": 49.35,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 249.36,
+      "y": 312.19,
+      "width": 11.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "los",
+      "x": 264.13,
+      "y": 312.19,
+      "width": 14.03,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "distintos",
+      "x": 281.58,
+      "y": 312.19,
+      "width": 40.77,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "estados",
+      "x": 325.74,
+      "y": 312.19,
+      "width": 35.36,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 364.53,
+      "y": 312.19,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "agregación",
+      "x": 379.3,
+      "y": 312.19,
+      "width": 52.69,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 435.42,
+      "y": 312.19,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "la",
+      "x": 450.18,
+      "y": 312.19,
+      "width": 8.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "materia",
+      "x": 462.28,
+      "y": 312.19,
+      "width": 35.93,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y",
+      "x": 501.65,
+      "y": 312.19,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "las",
+      "x": 511.08,
+      "y": 312.19,
+      "width": 13.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "fuerzas",
+      "x": 120.78,
+      "y": 298.39,
+      "width": 34.66,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "intermoleculares",
+      "x": 158.43,
+      "y": 298.39,
+      "width": 80.02,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "que",
+      "x": 241.43,
+      "y": 298.39,
+      "width": 17.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "los",
+      "x": 261.75,
+      "y": 298.39,
+      "width": 14.01,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "originan.",
+      "x": 278.75,
+      "y": 298.39,
+      "width": 43.02,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "o",
+      "x": 102.96,
+      "y": 282.51,
+      "width": 8.39,
+      "height": 15.83,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Conocer",
+      "x": 121.08,
+      "y": 284.11,
+      "width": 40.64,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "la",
+      "x": 167.77,
+      "y": 284.11,
+      "width": 8.66,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "estructura",
+      "x": 182.47,
+      "y": 284.11,
+      "width": 47.29,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y",
+      "x": 235.81,
+      "y": 284.11,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "propiedades",
+      "x": 247.86,
+      "y": 284.11,
+      "width": 57.96,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "más",
+      "x": 311.87,
+      "y": 284.11,
+      "width": 19.24,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "relevantes",
+      "x": 337.2,
+      "y": 284.11,
+      "width": 48.65,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "para",
+      "x": 391.91,
+      "y": 284.11,
+      "width": 20.65,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "los",
+      "x": 418.62,
+      "y": 284.11,
+      "width": 14.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "gases,",
+      "x": 438.68,
+      "y": 284.11,
+      "width": 28.99,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "líquidos",
+      "x": 473.74,
+      "y": 284.11,
+      "width": 38.68,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y",
+      "x": 518.47,
+      "y": 284.11,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "sólidos.",
+      "x": 120.78,
+      "y": 270.37,
+      "width": 37.07,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "o",
+      "x": 102.96,
+      "y": 254.49,
+      "width": 8.39,
+      "height": 15.83,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Comprender",
+      "x": 121.08,
+      "y": 256.09,
+      "width": 59.94,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "los",
+      "x": 186.64,
+      "y": 256.09,
+      "width": 14.01,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "conceptos",
+      "x": 206.27,
+      "y": 256.09,
+      "width": 48.03,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "básicos",
+      "x": 259.92,
+      "y": 256.09,
+      "width": 35.36,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 300.9,
+      "y": 256.09,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "la",
+      "x": 317.85,
+      "y": 256.09,
+      "width": 8.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "cinética",
+      "x": 332.09,
+      "y": 256.09,
+      "width": 37.35,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "química,",
+      "x": 375.08,
+      "y": 256.09,
+      "width": 41.63,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "su",
+      "x": 422.34,
+      "y": 256.09,
+      "width": 10.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "metodología",
+      "x": 438.65,
+      "y": 256.09,
+      "width": 59.96,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y",
+      "x": 504.25,
+      "y": 256.09,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "la",
+      "x": 515.88,
+      "y": 256.09,
+      "width": 8.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "aplicación",
+      "x": 120.78,
+      "y": 242.29,
+      "width": 49.36,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "al",
+      "x": 173.15,
+      "y": 242.29,
+      "width": 8.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "estudio",
+      "x": 184.82,
+      "y": 242.29,
+      "width": 34.7,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 222.53,
+      "y": 242.29,
+      "width": 11.27,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "reacciones",
+      "x": 236.82,
+      "y": 242.29,
+      "width": 50.62,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "simples.",
+      "x": 290.45,
+      "y": 242.29,
+      "width": 39.71,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "o",
+      "x": 102.96,
+      "y": 226.41,
+      "width": 8.39,
+      "height": 15.83,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "o",
+      "x": 102.96,
+      "y": 212.19,
+      "width": 8.39,
+      "height": 15.83,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Conocer",
+      "x": 121.08,
+      "y": 213.79,
+      "width": 40.7,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "los",
+      "x": 166.11,
+      "y": 213.79,
+      "width": 14.02,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "conceptos",
+      "x": 184.45,
+      "y": 213.79,
+      "width": 48.05,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "básicos",
+      "x": 236.82,
+      "y": 213.79,
+      "width": 35.37,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 276.52,
+      "y": 213.79,
+      "width": 11.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "la",
+      "x": 292.19,
+      "y": 213.79,
+      "width": 8.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "química",
+      "x": 305.18,
+      "y": 213.79,
+      "width": 38.64,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "orgánica:",
+      "x": 348.15,
+      "y": 213.79,
+      "width": 44.71,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "estructura",
+      "x": 397.18,
+      "y": 213.79,
+      "width": 47.38,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y",
+      "x": 448.89,
+      "y": 213.79,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "nomenclatura",
+      "x": 459.22,
+      "y": 213.79,
+      "width": 65.3,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 120.78,
+      "y": 199.99,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "los",
+      "x": 138.84,
+      "y": 199.99,
+      "width": 14.01,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "compuestos",
+      "x": 159.57,
+      "y": 199.99,
+      "width": 56.7,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "orgánicos,",
+      "x": 222.99,
+      "y": 199.99,
+      "width": 49.69,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "grupos",
+      "x": 279.4,
+      "y": 199.99,
+      "width": 32.68,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "funcionales",
+      "x": 318.78,
+      "y": 199.99,
+      "width": 55.4,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "más",
+      "x": 380.9,
+      "y": 199.99,
+      "width": 19.24,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "importantes",
+      "x": 406.86,
+      "y": 199.99,
+      "width": 56.75,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y",
+      "x": 470.32,
+      "y": 199.99,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "tipos",
+      "x": 483.04,
+      "y": 199.99,
+      "width": 23.37,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 513.13,
+      "y": 199.99,
+      "width": 11.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "isomería.",
+      "x": 120.78,
+      "y": 186.19,
+      "width": 44.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Conocer",
+      "x": 121.08,
+      "y": 228.01,
+      "width": 40.71,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "los",
+      "x": 164.79,
+      "y": 228.01,
+      "width": 14.02,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "factores",
+      "x": 181.8,
+      "y": 228.01,
+      "width": 38.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "que",
+      "x": 222.8,
+      "y": 228.01,
+      "width": 17.35,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "afectan",
+      "x": 243.14,
+      "y": 228.01,
+      "width": 34.65,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "a",
+      "x": 280.79,
+      "y": 228.01,
+      "width": 5.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "la",
+      "x": 289.11,
+      "y": 228.01,
+      "width": 8.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "estabilidad",
+      "x": 300.78,
+      "y": 228.01,
+      "width": 51.95,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 355.72,
+      "y": 228.01,
+      "width": 11.27,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "los",
+      "x": 369.98,
+      "y": 228.01,
+      "width": 14.02,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "núcleos",
+      "x": 387.0,
+      "y": 228.01,
+      "width": 36.59,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "atómicos.",
+      "x": 426.58,
+      "y": 228.01,
+      "width": 46.3,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "o",
+      "x": 102.96,
+      "y": 170.31,
+      "width": 8.39,
+      "height": 15.83,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Entender",
+      "x": 121.08,
+      "y": 157.69,
+      "width": 43.37,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "la",
+      "x": 167.44,
+      "y": 157.69,
+      "width": 8.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "termodinámica",
+      "x": 179.1,
+      "y": 157.69,
+      "width": 71.98,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 254.06,
+      "y": 157.69,
+      "width": 11.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "la",
+      "x": 268.39,
+      "y": 157.69,
+      "width": 8.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "reacción",
+      "x": 280.05,
+      "y": 157.69,
+      "width": 40.69,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "química.",
+      "x": 323.73,
+      "y": 157.69,
+      "width": 41.64,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Comprender",
+      "x": 121.08,
+      "y": 171.91,
+      "width": 59.93,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "los",
+      "x": 184.02,
+      "y": 171.91,
+      "width": 14.02,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "principios",
+      "x": 201.04,
+      "y": 171.91,
+      "width": 48.05,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "básicos",
+      "x": 252.1,
+      "y": 171.91,
+      "width": 35.36,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 290.47,
+      "y": 171.91,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "la",
+      "x": 304.81,
+      "y": 171.91,
+      "width": 8.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "termodinámica.",
+      "x": 316.49,
+      "y": 171.91,
+      "width": 74.9,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "o",
+      "x": 102.96,
+      "y": 156.09,
+      "width": 8.39,
+      "height": 15.83,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Aplicar",
+      "x": 121.08,
+      "y": 143.41,
+      "width": 36.05,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "los",
+      "x": 160.1,
+      "y": 143.41,
+      "width": 14.03,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "conceptos",
+      "x": 177.1,
+      "y": 143.41,
+      "width": 48.01,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "termodinámicos",
+      "x": 228.09,
+      "y": 143.41,
+      "width": 77.25,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "a",
+      "x": 308.33,
+      "y": 143.41,
+      "width": 5.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "las",
+      "x": 316.66,
+      "y": 143.41,
+      "width": 13.35,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "transiciones",
+      "x": 333.01,
+      "y": 143.41,
+      "width": 57.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 393.33,
+      "y": 143.41,
+      "width": 11.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "fase.",
+      "x": 407.66,
+      "y": 143.41,
+      "width": 22.3,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "o",
+      "x": 102.96,
+      "y": 141.81,
+      "width": 8.39,
+      "height": 15.83,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "o",
+      "x": 102.96,
+      "y": 127.59,
+      "width": 8.39,
+      "height": 15.83,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Comprender",
+      "x": 121.08,
+      "y": 129.19,
+      "width": 60.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "el",
+      "x": 184.81,
+      "y": 129.19,
+      "width": 8.68,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "concepto",
+      "x": 197.22,
+      "y": 129.19,
+      "width": 43.42,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 244.31,
+      "y": 129.19,
+      "width": 11.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "equilibrio",
+      "x": 259.38,
+      "y": 129.19,
+      "width": 46.73,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "químico",
+      "x": 309.84,
+      "y": 129.19,
+      "width": 39.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y",
+      "x": 352.91,
+      "y": 129.19,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "los",
+      "x": 362.64,
+      "y": 129.19,
+      "width": 14.03,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "factores",
+      "x": 380.41,
+      "y": 129.19,
+      "width": 38.03,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "que",
+      "x": 422.11,
+      "y": 129.19,
+      "width": 17.36,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "afectan",
+      "x": 443.21,
+      "y": 129.19,
+      "width": 34.68,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "al",
+      "x": 481.55,
+      "y": 129.19,
+      "width": 8.68,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "estado",
+      "x": 493.96,
+      "y": 129.19,
+      "width": 30.73,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 120.78,
+      "y": 115.39,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "equilibrio.",
+      "x": 135.11,
+      "y": 115.39,
+      "width": 49.66,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "o",
+      "x": 102.96,
+      "y": 99.51,
+      "width": 8.39,
+      "height": 15.83,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Aplicar",
+      "x": 121.08,
+      "y": 101.11,
+      "width": 35.99,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "los",
+      "x": 162.81,
+      "y": 101.11,
+      "width": 14.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "conceptos",
+      "x": 182.55,
+      "y": 101.11,
+      "width": 47.99,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 236.28,
+      "y": 101.11,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "equilibrio",
+      "x": 253.38,
+      "y": 101.11,
+      "width": 46.69,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "químico",
+      "x": 305.82,
+      "y": 101.11,
+      "width": 39.28,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "a",
+      "x": 350.85,
+      "y": 101.11,
+      "width": 5.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "sistemas",
+      "x": 361.93,
+      "y": 101.11,
+      "width": 40.59,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "ácido-base,",
+      "x": 408.28,
+      "y": 101.11,
+      "width": 54.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "redox",
+      "x": 468.37,
+      "y": 101.11,
+      "width": 27.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y",
+      "x": 501.45,
+      "y": 101.11,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 513.2,
+      "y": 101.11,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "precipitación.",
+      "x": 120.78,
+      "y": 87.37,
+      "width": 65.63,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "o",
+      "x": 102.96,
+      "y": 71.49,
+      "width": 8.39,
+      "height": 15.83,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Conocer",
+      "x": 121.08,
+      "y": 73.09,
+      "width": 40.69,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "los",
+      "x": 164.75,
+      "y": 73.09,
+      "width": 14.02,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "conceptos",
+      "x": 181.75,
+      "y": 73.09,
+      "width": 48.04,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "básicos",
+      "x": 232.77,
+      "y": 73.09,
+      "width": 35.36,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 271.12,
+      "y": 73.09,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "la",
+      "x": 285.43,
+      "y": 73.09,
+      "width": 8.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "electroquímica",
+      "x": 297.11,
+      "y": 73.09,
+      "width": 71.29,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 371.39,
+      "y": 73.09,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "pilas",
+      "x": 385.71,
+      "y": 73.09,
+      "width": 22.68,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "galvánicas.",
+      "x": 411.38,
+      "y": 73.09,
+      "width": 53.69,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "-",
+      "x": 294.72,
+      "y": 35.59,
+      "width": 4.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "4",
+      "x": 301.73,
+      "y": 35.59,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "-",
+      "x": 310.75,
+      "y": 35.59,
+      "width": 4.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    }
+  ],
+  "images": [],
+  "paths": {
+    "horizontalSegments": 0,
+    "verticalSegments": 0,
+    "rectangles": 0
+  }
+}

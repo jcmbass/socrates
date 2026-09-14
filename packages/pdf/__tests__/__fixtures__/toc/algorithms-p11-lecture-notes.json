@@ -1,0 +1,1821 @@
+{
+  "pageNumber": 11,
+  "width": 612.0,
+  "height": 792.0,
+  "textItems": [
+    {
+      "str": "Lecture",
+      "x": 166.68,
+      "y": 685.62,
+      "width": 59.39,
+      "height": 17.93,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Notes",
+      "x": 230.63,
+      "y": 685.62,
+      "width": 42.82,
+      "height": 17.93,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "for",
+      "x": 278.02,
+      "y": 685.62,
+      "width": 22.42,
+      "height": 17.93,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Chapter",
+      "x": 304.88,
+      "y": 685.62,
+      "width": 63.75,
+      "height": 17.93,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "2:",
+      "x": 373.19,
+      "y": 685.62,
+      "width": 14.94,
+      "height": 17.93,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Getting",
+      "x": 166.68,
+      "y": 663.66,
+      "width": 57.78,
+      "height": 17.93,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Started",
+      "x": 228.9,
+      "y": 663.66,
+      "width": 56.78,
+      "height": 17.93,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Chapter",
+      "x": 100.92,
+      "y": 543.6,
+      "width": 42.5,
+      "height": 11.96,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "2",
+      "x": 146.54,
+      "y": 543.6,
+      "width": 5.98,
+      "height": 11.96,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "overview",
+      "x": 155.52,
+      "y": 543.6,
+      "width": 45.45,
+      "height": 11.96,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Goals:",
+      "x": 166.68,
+      "y": 510.98,
+      "width": 29.69,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "•",
+      "x": 166.68,
+      "y": 495.11,
+      "width": 2.99,
+      "height": 5.98,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Start",
+      "x": 181.56,
+      "y": 491.06,
+      "width": 20.61,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "using",
+      "x": 205.05,
+      "y": 491.06,
+      "width": 23.64,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "frameworks",
+      "x": 231.57,
+      "y": 491.06,
+      "width": 51.74,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "for",
+      "x": 286.31,
+      "y": 491.06,
+      "width": 12.72,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "describing",
+      "x": 301.91,
+      "y": 491.06,
+      "width": 45.45,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "and",
+      "x": 350.48,
+      "y": 491.06,
+      "width": 15.75,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "analyzing",
+      "x": 369.11,
+      "y": 491.06,
+      "width": 42.41,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "algorithms.",
+      "x": 414.64,
+      "y": 491.06,
+      "width": 49.4,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "•",
+      "x": 166.68,
+      "y": 479.15,
+      "width": 2.99,
+      "height": 5.98,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Examine",
+      "x": 181.56,
+      "y": 475.22,
+      "width": 38.78,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "two",
+      "x": 223.22,
+      "y": 475.22,
+      "width": 16.24,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "algorithms",
+      "x": 242.23,
+      "y": 475.22,
+      "width": 46.67,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "for",
+      "x": 292.01,
+      "y": 475.22,
+      "width": 12.72,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "sorting:",
+      "x": 307.61,
+      "y": 475.22,
+      "width": 33.34,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "insertion",
+      "x": 344.67,
+      "y": 475.22,
+      "width": 38.18,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "sort",
+      "x": 385.97,
+      "y": 475.22,
+      "width": 16.36,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "and",
+      "x": 405.22,
+      "y": 475.22,
+      "width": 15.75,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "merge",
+      "x": 423.85,
+      "y": 475.22,
+      "width": 27.02,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "sort.",
+      "x": 453.75,
+      "y": 475.22,
+      "width": 19.09,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "•",
+      "x": 166.68,
+      "y": 463.19,
+      "width": 2.99,
+      "height": 5.98,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "See",
+      "x": 181.56,
+      "y": 459.26,
+      "width": 15.75,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "how",
+      "x": 200.07,
+      "y": 459.26,
+      "width": 18.55,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "to",
+      "x": 221.38,
+      "y": 459.26,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "describe",
+      "x": 232.75,
+      "y": 459.26,
+      "width": 36.35,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "algorithms",
+      "x": 272.09,
+      "y": 459.26,
+      "width": 46.67,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "in",
+      "x": 321.88,
+      "y": 459.26,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "pseudocode.",
+      "x": 333.13,
+      "y": 459.26,
+      "width": 54.23,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "•",
+      "x": 166.68,
+      "y": 447.23,
+      "width": 2.99,
+      "height": 5.98,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Begin",
+      "x": 181.56,
+      "y": 443.3,
+      "width": 25.94,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "using",
+      "x": 210.38,
+      "y": 443.3,
+      "width": 23.64,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "asymptotic",
+      "x": 237.02,
+      "y": 443.3,
+      "width": 47.88,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "notation",
+      "x": 287.9,
+      "y": 443.3,
+      "width": 35.76,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "to",
+      "x": 326.78,
+      "y": 443.3,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "express",
+      "x": 338.03,
+      "y": 443.3,
+      "width": 32.6,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "running-time",
+      "x": 373.63,
+      "y": 443.3,
+      "width": 56.97,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "analysis.",
+      "x": 433.83,
+      "y": 443.3,
+      "width": 37.88,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "•",
+      "x": 166.68,
+      "y": 431.39,
+      "width": 2.99,
+      "height": 5.98,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Learn",
+      "x": 181.56,
+      "y": 427.34,
+      "width": 25.44,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "the",
+      "x": 209.88,
+      "y": 427.34,
+      "width": 13.33,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "technique",
+      "x": 226.09,
+      "y": 427.34,
+      "width": 42.41,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "of",
+      "x": 271.63,
+      "y": 427.34,
+      "width": 9.09,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "“divide",
+      "x": 283.47,
+      "y": 427.34,
+      "width": 31.88,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "and",
+      "x": 318.47,
+      "y": 427.34,
+      "width": 15.75,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "conquer”",
+      "x": 337.1,
+      "y": 427.34,
+      "width": 39.98,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "in",
+      "x": 380.08,
+      "y": 427.34,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "the",
+      "x": 391.45,
+      "y": 427.34,
+      "width": 13.33,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "context",
+      "x": 407.66,
+      "y": 427.34,
+      "width": 32.0,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "of",
+      "x": 442.66,
+      "y": 427.34,
+      "width": 9.09,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "merge",
+      "x": 454.51,
+      "y": 427.34,
+      "width": 27.02,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "sort.",
+      "x": 484.41,
+      "y": 427.34,
+      "width": 19.09,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Insertion",
+      "x": 100.92,
+      "y": 381.24,
+      "width": 46.49,
+      "height": 11.96,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "sort",
+      "x": 150.41,
+      "y": 381.24,
+      "width": 19.92,
+      "height": 11.96,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "The",
+      "x": 166.68,
+      "y": 348.62,
+      "width": 18.19,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "sorting",
+      "x": 187.51,
+      "y": 348.62,
+      "width": 32.73,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "problem",
+      "x": 223.11,
+      "y": 348.62,
+      "width": 39.15,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Input:",
+      "x": 166.68,
+      "y": 323.78,
+      "width": 29.71,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "A",
+      "x": 201.79,
+      "y": 323.78,
+      "width": 7.88,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "sequence",
+      "x": 212.31,
+      "y": 323.78,
+      "width": 39.98,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "of",
+      "x": 255.41,
+      "y": 323.78,
+      "width": 9.09,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "n",
+      "x": 267.25,
+      "y": 323.78,
+      "width": 5.45,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "numbers",
+      "x": 276.07,
+      "y": 323.78,
+      "width": 37.57,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "⟨a1,",
+      "x": 316.64,
+      "y": 322.93,
+      "width": 16.61,
+      "height": 12.3,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "a2,",
+      "x": 335.04,
+      "y": 322.93,
+      "width": 13.33,
+      "height": 12.3,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": ".",
+      "x": 350.17,
+      "y": 324.32,
+      "width": 3.0,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": ".",
+      "x": 354.97,
+      "y": 324.32,
+      "width": 3.0,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": ".",
+      "x": 359.76,
+      "y": 324.32,
+      "width": 3.0,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": ",",
+      "x": 364.68,
+      "y": 324.32,
+      "width": 3.61,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "an⟩.",
+      "x": 370.08,
+      "y": 322.93,
+      "width": 16.77,
+      "height": 12.3,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Output:",
+      "x": 166.68,
+      "y": 307.82,
+      "width": 37.58,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "A",
+      "x": 209.54,
+      "y": 307.82,
+      "width": 7.88,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "permutation",
+      "x": 220.78,
+      "y": 307.82,
+      "width": 52.72,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "(reordering)",
+      "x": 277.34,
+      "y": 307.82,
+      "width": 52.7,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "⟨a′",
+      "x": 333.87,
+      "y": 307.82,
+      "width": 11.13,
+      "height": 12.74,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "1,",
+      "x": 342.48,
+      "y": 305.41,
+      "width": 7.93,
+      "height": 13.86,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "a′",
+      "x": 353.04,
+      "y": 307.82,
+      "width": 7.92,
+      "height": 12.74,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "2,",
+      "x": 358.44,
+      "y": 305.41,
+      "width": 7.93,
+      "height": 13.86,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": ".",
+      "x": 368.88,
+      "y": 308.36,
+      "width": 3.0,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": ".",
+      "x": 373.68,
+      "y": 308.36,
+      "width": 3.0,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": ".",
+      "x": 378.48,
+      "y": 308.36,
+      "width": 3.0,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": ",",
+      "x": 383.4,
+      "y": 308.36,
+      "width": 3.61,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "a′",
+      "x": 389.52,
+      "y": 307.82,
+      "width": 7.92,
+      "height": 12.74,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "n⟩of",
+      "x": 394.92,
+      "y": 305.65,
+      "width": 21.09,
+      "height": 13.62,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "the",
+      "x": 419.49,
+      "y": 307.82,
+      "width": 13.33,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "input",
+      "x": 436.3,
+      "y": 307.82,
+      "width": 22.43,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "sequence",
+      "x": 462.45,
+      "y": 307.82,
+      "width": 39.98,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "such",
+      "x": 506.15,
+      "y": 307.82,
+      "width": 20.0,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "that",
+      "x": 181.56,
+      "y": 294.86,
+      "width": 16.36,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "a′",
+      "x": 200.8,
+      "y": 294.86,
+      "width": 7.77,
+      "height": 12.74,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "1",
+      "x": 206.04,
+      "y": 292.57,
+      "width": 3.79,
+      "height": 7.57,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "≤a′",
+      "x": 213.48,
+      "y": 294.86,
+      "width": 19.2,
+      "height": 12.74,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "2",
+      "x": 230.16,
+      "y": 292.57,
+      "width": 3.79,
+      "height": 7.57,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "≤·",
+      "x": 237.48,
+      "y": 295.4,
+      "width": 14.31,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "·",
+      "x": 253.56,
+      "y": 295.4,
+      "width": 3.03,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "·",
+      "x": 258.36,
+      "y": 295.4,
+      "width": 3.03,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "≤a′",
+      "x": 264.48,
+      "y": 294.86,
+      "width": 19.2,
+      "height": 12.74,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "n.",
+      "x": 281.16,
+      "y": 292.69,
+      "width": 7.41,
+      "height": 13.07,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "The",
+      "x": 166.68,
+      "y": 272.9,
+      "width": 16.96,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "sequences",
+      "x": 186.4,
+      "y": 272.9,
+      "width": 44.23,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "are",
+      "x": 233.75,
+      "y": 272.9,
+      "width": 13.32,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "typically",
+      "x": 249.95,
+      "y": 272.9,
+      "width": 38.18,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "stored",
+      "x": 291.25,
+      "y": 272.9,
+      "width": 26.66,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "in",
+      "x": 320.91,
+      "y": 272.9,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "arrays.",
+      "x": 332.16,
+      "y": 272.9,
+      "width": 29.38,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "We",
+      "x": 166.68,
+      "y": 255.98,
+      "width": 14.3,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "also",
+      "x": 185.06,
+      "y": 255.98,
+      "width": 17.57,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "refer",
+      "x": 206.96,
+      "y": 255.98,
+      "width": 20.59,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "to",
+      "x": 231.86,
+      "y": 255.98,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "the",
+      "x": 244.55,
+      "y": 255.98,
+      "width": 13.33,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "numbers",
+      "x": 262.08,
+      "y": 255.98,
+      "width": 37.57,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "as",
+      "x": 303.97,
+      "y": 255.98,
+      "width": 9.09,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "keys.",
+      "x": 317.36,
+      "y": 255.98,
+      "width": 21.75,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Along",
+      "x": 346.79,
+      "y": 255.98,
+      "width": 27.27,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "with",
+      "x": 378.39,
+      "y": 255.98,
+      "width": 19.4,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "each",
+      "x": 401.98,
+      "y": 255.98,
+      "width": 19.99,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "key",
+      "x": 426.29,
+      "y": 255.98,
+      "width": 15.51,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "may",
+      "x": 446.0,
+      "y": 255.98,
+      "width": 18.79,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "be",
+      "x": 468.99,
+      "y": 255.98,
+      "width": 10.3,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "additional",
+      "x": 483.49,
+      "y": 255.98,
+      "width": 43.64,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "information,",
+      "x": 166.68,
+      "y": 243.02,
+      "width": 54.24,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "known",
+      "x": 225.72,
+      "y": 243.02,
+      "width": 29.45,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "as",
+      "x": 259.49,
+      "y": 243.02,
+      "width": 9.09,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "satellite",
+      "x": 272.78,
+      "y": 243.02,
+      "width": 34.55,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "data.",
+      "x": 311.76,
+      "y": 243.02,
+      "width": 22.11,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "[You",
+      "x": 341.22,
+      "y": 243.02,
+      "width": 23.04,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "might",
+      "x": 366.76,
+      "y": 243.02,
+      "width": 27.28,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "want",
+      "x": 396.42,
+      "y": 243.02,
+      "width": 22.91,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "to",
+      "x": 421.83,
+      "y": 243.02,
+      "width": 10.31,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "clarify",
+      "x": 434.51,
+      "y": 243.02,
+      "width": 30.29,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "that",
+      "x": 467.31,
+      "y": 243.02,
+      "width": 18.19,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "“satellite",
+      "x": 487.99,
+      "y": 243.02,
+      "width": 40.6,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "data”",
+      "x": 166.22,
+      "y": 230.06,
+      "width": 24.84,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "does",
+      "x": 192.12,
+      "y": 230.06,
+      "width": 21.82,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "not",
+      "x": 215.12,
+      "y": 230.06,
+      "width": 15.76,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "necessarily",
+      "x": 231.94,
+      "y": 230.06,
+      "width": 50.29,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "come",
+      "x": 283.53,
+      "y": 230.06,
+      "width": 25.45,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "from",
+      "x": 310.04,
+      "y": 230.06,
+      "width": 23.03,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "a",
+      "x": 334.01,
+      "y": 230.06,
+      "width": 6.67,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "satellite!]",
+      "x": 341.61,
+      "y": 230.06,
+      "width": 43.03,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "We",
+      "x": 166.68,
+      "y": 213.14,
+      "width": 14.3,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "will",
+      "x": 183.5,
+      "y": 213.14,
+      "width": 16.97,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "see",
+      "x": 203.12,
+      "y": 213.14,
+      "width": 13.93,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "several",
+      "x": 219.69,
+      "y": 213.14,
+      "width": 30.53,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "ways",
+      "x": 252.98,
+      "y": 213.14,
+      "width": 22.3,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "to",
+      "x": 278.04,
+      "y": 213.14,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "solve",
+      "x": 289.17,
+      "y": 213.14,
+      "width": 22.91,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "the",
+      "x": 314.84,
+      "y": 213.14,
+      "width": 13.33,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "sorting",
+      "x": 330.81,
+      "y": 213.14,
+      "width": 30.31,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "problem.",
+      "x": 363.99,
+      "y": 213.14,
+      "width": 39.09,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Each",
+      "x": 406.56,
+      "y": 213.14,
+      "width": 21.81,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "way",
+      "x": 431.13,
+      "y": 213.14,
+      "width": 18.05,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "will",
+      "x": 451.7,
+      "y": 213.14,
+      "width": 16.97,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "be",
+      "x": 471.32,
+      "y": 213.14,
+      "width": 10.3,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "expressed",
+      "x": 484.25,
+      "y": 213.14,
+      "width": 42.89,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "as",
+      "x": 166.68,
+      "y": 200.18,
+      "width": 9.09,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "an",
+      "x": 178.41,
+      "y": 200.18,
+      "width": 10.3,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "algorithm:",
+      "x": 191.46,
+      "y": 200.18,
+      "width": 47.29,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "a",
+      "x": 242.35,
+      "y": 200.18,
+      "width": 4.84,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "well-deÞned",
+      "x": 249.83,
+      "y": 200.18,
+      "width": 54.53,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "computational",
+      "x": 307.36,
+      "y": 200.18,
+      "width": 62.42,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "procedure",
+      "x": 372.9,
+      "y": 200.18,
+      "width": 43.61,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "that",
+      "x": 419.52,
+      "y": 200.18,
+      "width": 16.36,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "takes",
+      "x": 438.76,
+      "y": 200.18,
+      "width": 22.3,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "some",
+      "x": 463.82,
+      "y": 200.18,
+      "width": 23.03,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "value,",
+      "x": 489.61,
+      "y": 200.18,
+      "width": 26.12,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "or",
+      "x": 518.61,
+      "y": 200.18,
+      "width": 9.09,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "set",
+      "x": 166.68,
+      "y": 187.22,
+      "width": 12.12,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "of",
+      "x": 181.56,
+      "y": 187.22,
+      "width": 9.09,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "values,",
+      "x": 193.53,
+      "y": 187.22,
+      "width": 30.36,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "as",
+      "x": 226.77,
+      "y": 187.22,
+      "width": 9.09,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "input",
+      "x": 238.73,
+      "y": 187.22,
+      "width": 22.43,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "and",
+      "x": 264.04,
+      "y": 187.22,
+      "width": 15.75,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "produces",
+      "x": 282.68,
+      "y": 187.22,
+      "width": 39.38,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "some",
+      "x": 325.18,
+      "y": 187.22,
+      "width": 23.03,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "value,",
+      "x": 351.09,
+      "y": 187.22,
+      "width": 26.12,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "or",
+      "x": 380.08,
+      "y": 187.22,
+      "width": 9.09,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "set",
+      "x": 392.05,
+      "y": 187.22,
+      "width": 12.12,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "of",
+      "x": 406.93,
+      "y": 187.22,
+      "width": 9.09,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "values,",
+      "x": 418.9,
+      "y": 187.22,
+      "width": 30.36,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "as",
+      "x": 452.14,
+      "y": 187.22,
+      "width": 9.09,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "output.",
+      "x": 464.11,
+      "y": 187.22,
+      "width": 30.61,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Expressing",
+      "x": 166.68,
+      "y": 154.34,
+      "width": 51.28,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "algorithms",
+      "x": 220.84,
+      "y": 154.34,
+      "width": 50.3,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "We",
+      "x": 166.68,
+      "y": 129.5,
+      "width": 14.3,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "express",
+      "x": 183.62,
+      "y": 129.5,
+      "width": 32.6,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "algorithms",
+      "x": 219.22,
+      "y": 129.5,
+      "width": 46.67,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "in",
+      "x": 269.01,
+      "y": 129.5,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "whatever",
+      "x": 280.25,
+      "y": 129.5,
+      "width": 39.62,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "way",
+      "x": 322.88,
+      "y": 129.5,
+      "width": 18.05,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "is",
+      "x": 343.69,
+      "y": 129.5,
+      "width": 7.28,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "the",
+      "x": 353.73,
+      "y": 129.5,
+      "width": 13.33,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "clearest",
+      "x": 369.94,
+      "y": 129.5,
+      "width": 33.32,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "and",
+      "x": 406.37,
+      "y": 129.5,
+      "width": 15.75,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "most",
+      "x": 425.01,
+      "y": 129.5,
+      "width": 21.22,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "concise.",
+      "x": 448.99,
+      "y": 129.5,
+      "width": 35.44,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "English",
+      "x": 166.68,
+      "y": 112.58,
+      "width": 33.34,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "is",
+      "x": 202.9,
+      "y": 112.58,
+      "width": 7.28,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "sometimes",
+      "x": 213.05,
+      "y": 112.58,
+      "width": 46.67,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "the",
+      "x": 262.6,
+      "y": 112.58,
+      "width": 13.33,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "best",
+      "x": 278.81,
+      "y": 112.58,
+      "width": 17.57,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "way.",
+      "x": 299.27,
+      "y": 112.58,
+      "width": 20.06,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "When",
+      "x": 166.68,
+      "y": 95.54,
+      "width": 26.05,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "issues",
+      "x": 195.61,
+      "y": 95.54,
+      "width": 26.06,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "of",
+      "x": 224.55,
+      "y": 95.54,
+      "width": 9.09,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "control",
+      "x": 236.52,
+      "y": 95.54,
+      "width": 30.91,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "need",
+      "x": 270.43,
+      "y": 95.54,
+      "width": 20.6,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "to",
+      "x": 294.02,
+      "y": 95.54,
+      "width": 8.49,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "be",
+      "x": 305.27,
+      "y": 95.54,
+      "width": 10.3,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "made",
+      "x": 318.45,
+      "y": 95.54,
+      "width": 23.63,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "perfectly",
+      "x": 344.84,
+      "y": 95.54,
+      "width": 38.77,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "clear,",
+      "x": 386.73,
+      "y": 95.54,
+      "width": 23.44,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "we",
+      "x": 413.05,
+      "y": 95.54,
+      "width": 12.72,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "often",
+      "x": 428.53,
+      "y": 95.54,
+      "width": 22.42,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "use",
+      "x": 453.95,
+      "y": 95.54,
+      "width": 14.54,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "pseudocode.",
+      "x": 471.33,
+      "y": 95.54,
+      "width": 54.84,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    }
+  ],
+  "images": [],
+  "paths": {
+    "horizontalSegments": 0,
+    "verticalSegments": 0,
+    "rectangles": 0
+  }
+}

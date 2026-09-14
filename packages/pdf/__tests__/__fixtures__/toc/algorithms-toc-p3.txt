@@ -1,0 +1,65 @@
+Contents
+Revision History
+R-1
+Preface
+P-1
+Chapter 2: Getting Started
+Lecture Notes
+2-1
+Solutions
+2-16
+Chapter 3: Growth of Functions
+Lecture Notes
+3-1
+Solutions
+3-7
+Chapter 4: Recurrences
+Lecture Notes
+4-1
+Solutions
+4-8
+Chapter 5: Probabilistic Analysis and Randomized Algorithms
+Lecture Notes
+5-1
+Solutions
+5-8
+Chapter 6: Heapsort
+Lecture Notes
+6-1
+Solutions
+6-10
+Chapter 7: Quicksort
+Lecture Notes
+7-1
+Solutions
+7-9
+Chapter 8: Sorting in Linear Time
+Lecture Notes
+8-1
+Solutions
+8-9
+Chapter 9: Medians and Order Statistics
+Lecture Notes
+9-1
+Solutions
+9-9
+Chapter 11: Hash Tables
+Lecture Notes
+11-1
+Solutions
+11-16
+Chapter 12: Binary Search Trees
+Lecture Notes
+12-1
+Solutions
+12-12
+Chapter 13: Red-Black Trees
+Lecture Notes
+13-1
+Solutions
+13-13
+Chapter 14: Augmenting Data Structures
+Lecture Notes
+14-1
+Solutions
+14-9

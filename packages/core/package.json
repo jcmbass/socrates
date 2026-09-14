@@ -1,0 +1,24 @@
+{
+  "name": "@buxo/core",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "description": "buxo pure TS core: Socratic prompts, assessment, session model, scoring, truncation, subject profiles, transcript types. No DOM, no Node, no React/Next, no SDKs (G1: byte-identical prompt render). Consumers transpile the .ts sources directly.",
+  "exports": {
+    "./prompts": "./prompts.ts",
+    "./subject": "./subject.ts",
+    "./score": "./score.ts",
+    "./truncate": "./truncate.ts",
+    "./model": "./model.ts",
+    "./transcript": "./transcript.ts",
+    "./session": "./session.ts",
+    "./assess": "./assess.ts",
+    "./mechanical-rubric": "./mechanical-rubric.ts",
+    "./milestone-prompt": "./milestone-prompt.ts"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  }
+}

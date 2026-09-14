@@ -1,0 +1,28 @@
+{
+  "name": "buxo",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "apps/server",
+    "apps/mobile",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w apps/server",
+    "build": "npm run build -w apps/server",
+    "start": "npm run start -w apps/server",
+    "lint": "eslint .",
+    "test": "npm run test --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present"
+  },
+  "dependencies": {
+    "expo-router": "~57.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^9",
+    "eslint-config-next": "16.2.9",
+    "typescript": "^5",
+    "vitest": "4.1.9"
+  }
+}

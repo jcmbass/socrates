@@ -1,0 +1,229 @@
+{
+  "pageNumber": 1,
+  "width": 595.303937007874,
+  "height": 841.889763779528,
+  "textItems": [
+    {
+      "str": "Apuntes de Biologia: La celula procariota",
+      "x": 56.8,
+      "y": 775.889,
+      "width": 489.96,
+      "height": 24,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": "",
+      "x": 56.8,
+      "y": 743.489,
+      "width": 0,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "Las celulas procariotas son organismos unicelulares que carecen de un nucleo verdadero delimitado por",
+      "x": 56.8,
+      "y": 743.489,
+      "width": 497.03999999999974,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "",
+      "x": 56.8,
+      "y": 729.689,
+      "width": 0,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "membrana. Su material genetico, tipicamente una unica molecula de ADN circular, se encuentra",
+      "x": 56.8,
+      "y": 729.689,
+      "width": 461.63999999999976,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "",
+      "x": 56.8,
+      "y": 715.889,
+      "width": 0,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "concentrado en una region del citoplasma llamada nucleoide, sin estar rodeado por una envoltura nuclear.",
+      "x": 56.8,
+      "y": 715.889,
+      "width": 506.0159999999998,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "",
+      "x": 56.8,
+      "y": 687.939,
+      "width": 0,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "A diferencia de las celulas eucariotas, las procariotas no poseen organelos membranosos como",
+      "x": 56.8,
+      "y": 687.939,
+      "width": 453.768,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "",
+      "x": 56.8,
+      "y": 674.139,
+      "width": 0,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "mitocondrias, cloroplastos o aparato de Golgi. Todas sus funciones metabolicas ocurren en el citoplasma",
+      "x": 56.8,
+      "y": 674.139,
+      "width": 502.4039999999998,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "",
+      "x": 56.8,
+      "y": 660.339,
+      "width": 0,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "o en la membrana plasmatica. Los ribosomas, responsables de la sintesis de proteinas, si estan presentes,",
+      "x": 56.8,
+      "y": 660.339,
+      "width": 501.0599999999999,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "",
+      "x": 56.8,
+      "y": 646.539,
+      "width": 0,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "aunque son mas pequenos que los de las eucariotas.",
+      "x": 56.8,
+      "y": 646.539,
+      "width": 247.4160000000001,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "",
+      "x": 56.8,
+      "y": 618.589,
+      "width": 0,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "Las bacterias y las arqueas son los dos grandes dominios de organismos procariotas. Muchas bacterias",
+      "x": 56.8,
+      "y": 618.589,
+      "width": 490.4759999999999,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "",
+      "x": 56.8,
+      "y": 604.789,
+      "width": 0,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "poseen una pared celular rigida compuesta de peptidoglicano que les da forma y proteccion. Algunas",
+      "x": 56.8,
+      "y": 604.789,
+      "width": 483.75599999999986,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "",
+      "x": 56.8,
+      "y": 590.989,
+      "width": 0,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "presentan flagelos para el movimiento y pili para el intercambio de material genetico.",
+      "x": 56.8,
+      "y": 590.989,
+      "width": 409.71599999999995,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "",
+      "x": 56.8,
+      "y": 563.039,
+      "width": 0,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "La teoria endosimbiotica, propuesta por Lynn Margulis, sostiene que ciertos organelos de las celulas",
+      "x": 56.8,
+      "y": 563.039,
+      "width": 481.7639999999999,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "",
+      "x": 56.8,
+      "y": 549.239,
+      "width": 0,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "eucariotas se originaron a partir de procariotas de vida libre que fueron incorporados por otra celula",
+      "x": 56.8,
+      "y": 549.239,
+      "width": 477.7439999999998,
+      "height": 12,
+      "fontName": "serif"
+    },
+    {
+      "str": "",
+      "x": 56.8,
+      "y": 535.439,
+      "width": 0,
+      "height": 0,
+      "fontName": "serif"
+    },
+    {
+      "str": "huesped. Esta relacion simbiotica habria dado lugar a las mitocondrias y los cloroplastos.",
+      "x": 56.8,
+      "y": 535.439,
+      "width": 427.48800000000006,
+      "height": 12,
+      "fontName": "serif"
+    }
+  ],
+  "images": [],
+  "paths": {
+    "horizontalSegments": 0,
+    "verticalSegments": 0,
+    "rectangles": 0
+  }
+}

@@ -1,0 +1,25 @@
+name: oss-scan
+
+on:
+  pull_request:
+  push:
+    branches: [master, main]
+
+jobs:
+  export-and-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - name: Export public snapshot
+        run: bash scripts/oss/export.sh "$RUNNER_TEMP/oss-export"
+      - name: Scan secrets in export
+        run: bash scripts/oss/scan-secrets.sh "$RUNNER_TEMP/oss-export"
+      - name: Scan licenses in export
+        run: bash scripts/oss/scan-licenses.sh "$RUNNER_TEMP/oss-export"
+      - name: Audit export when node_modules exist
+        run: bash scripts/oss/scan-audit.sh "$RUNNER_TEMP/oss-export"
+        continue-on-error: true

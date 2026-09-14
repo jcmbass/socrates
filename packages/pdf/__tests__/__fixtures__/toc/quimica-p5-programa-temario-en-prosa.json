@@ -1,0 +1,2021 @@
+{
+  "pageNumber": 5,
+  "width": 595.0,
+  "height": 842.0,
+  "textItems": [
+    {
+      "str": "Guía",
+      "x": 87.3,
+      "y": 784.48,
+      "width": 35.44,
+      "height": 16.97,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Docente:",
+      "x": 127.56,
+      "y": 784.48,
+      "width": 70.02,
+      "height": 16.97,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Química",
+      "x": 258.31,
+      "y": 784.48,
+      "width": 63.82,
+      "height": 16.97,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "General",
+      "x": 326.94,
+      "y": 784.48,
+      "width": 60.99,
+      "height": 16.97,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "III.-",
+      "x": 85.08,
+      "y": 728.7,
+      "width": 24.5,
+      "height": 15.48,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "CONOCIMIENTOS",
+      "x": 113.07,
+      "y": 728.7,
+      "width": 123.62,
+      "height": 15.48,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "PREVIOS",
+      "x": 240.18,
+      "y": 728.7,
+      "width": 62.21,
+      "height": 15.48,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Y",
+      "x": 305.91,
+      "y": 728.7,
+      "width": 10.09,
+      "height": 15.48,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "RECOMENDACIONES",
+      "x": 319.53,
+      "y": 728.7,
+      "width": 146.99,
+      "height": 15.48,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "",
+      "x": 85.08,
+      "y": 697.04,
+      "width": 8.95,
+      "height": 13.3,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "CONOCIMIENTOS",
+      "x": 103.08,
+      "y": 696.97,
+      "width": 105.96,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "PREVIOS:",
+      "x": 212.04,
+      "y": 696.97,
+      "width": 57.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Los",
+      "x": 102.96,
+      "y": 677.29,
+      "width": 18.01,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "requeridos",
+      "x": 123.97,
+      "y": 677.29,
+      "width": 50.62,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "en",
+      "x": 177.59,
+      "y": 677.29,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "la",
+      "x": 191.92,
+      "y": 677.29,
+      "width": 8.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "etapa",
+      "x": 203.58,
+      "y": 677.29,
+      "width": 25.27,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "educativa",
+      "x": 231.85,
+      "y": 677.29,
+      "width": 46.03,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "anterior.",
+      "x": 280.88,
+      "y": 677.29,
+      "width": 40.95,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "",
+      "x": 85.08,
+      "y": 651.44,
+      "width": 8.95,
+      "height": 13.3,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "RECOMENDACIONES:",
+      "x": 103.08,
+      "y": 651.37,
+      "width": 130.05,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Se",
+      "x": 102.96,
+      "y": 631.69,
+      "width": 12.01,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "recomienda",
+      "x": 118.62,
+      "y": 631.69,
+      "width": 55.96,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "tener",
+      "x": 178.23,
+      "y": 631.69,
+      "width": 23.95,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "conocimientos",
+      "x": 205.84,
+      "y": 631.69,
+      "width": 69.92,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "básicos",
+      "x": 279.41,
+      "y": 631.69,
+      "width": 35.4,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 318.46,
+      "y": 631.69,
+      "width": 11.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "nomenclatura",
+      "x": 333.44,
+      "y": 631.69,
+      "width": 65.2,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "química",
+      "x": 402.3,
+      "y": 631.69,
+      "width": 38.62,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y",
+      "x": 444.56,
+      "y": 631.69,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 454.2,
+      "y": 631.69,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "magnitudes",
+      "x": 469.17,
+      "y": 631.69,
+      "width": 55.26,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y",
+      "x": 102.96,
+      "y": 617.89,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "unidades",
+      "x": 111.97,
+      "y": 617.89,
+      "width": 42.7,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "físico-químicas.",
+      "x": 157.67,
+      "y": 617.89,
+      "width": 77.01,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Es",
+      "x": 102.96,
+      "y": 598.09,
+      "width": 12.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "recomendable",
+      "x": 117.96,
+      "y": 598.09,
+      "width": 67.25,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "que",
+      "x": 188.2,
+      "y": 598.09,
+      "width": 17.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "el",
+      "x": 208.52,
+      "y": 598.09,
+      "width": 8.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "alumno",
+      "x": 220.18,
+      "y": 598.09,
+      "width": 35.92,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "posea",
+      "x": 259.09,
+      "y": 598.09,
+      "width": 27.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "cierto",
+      "x": 289.42,
+      "y": 598.09,
+      "width": 27.42,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "bagaje",
+      "x": 319.83,
+      "y": 598.09,
+      "width": 31.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "en",
+      "x": 354.17,
+      "y": 598.09,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Física",
+      "x": 368.5,
+      "y": 598.09,
+      "width": 28.69,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y",
+      "x": 400.18,
+      "y": 598.09,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Matemáticas.",
+      "x": 409.17,
+      "y": 598.09,
+      "width": 64.29,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "IV.-",
+      "x": 85.08,
+      "y": 556.02,
+      "width": 23.72,
+      "height": 15.48,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "CONTENIDOS",
+      "x": 112.3,
+      "y": 556.02,
+      "width": 94.11,
+      "height": 15.48,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "",
+      "x": 85.08,
+      "y": 524.3,
+      "width": 8.95,
+      "height": 13.3,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "BREVE",
+      "x": 103.08,
+      "y": 524.23,
+      "width": 41.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "DESCRIPCIÓN",
+      "x": 147.42,
+      "y": 524.23,
+      "width": 84.01,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "DE",
+      "x": 234.44,
+      "y": 524.23,
+      "width": 16.66,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "LOS",
+      "x": 254.11,
+      "y": 524.23,
+      "width": 24.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "CONTENIDOS:",
+      "x": 281.12,
+      "y": 524.23,
+      "width": 84.62,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Estructura",
+      "x": 102.96,
+      "y": 504.55,
+      "width": 49.35,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "atómica.",
+      "x": 158.18,
+      "y": 504.55,
+      "width": 40.92,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Tabla",
+      "x": 204.97,
+      "y": 504.55,
+      "width": 27.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "periódica",
+      "x": 238.18,
+      "y": 504.55,
+      "width": 44.68,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 288.72,
+      "y": 504.55,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "los",
+      "x": 305.88,
+      "y": 504.55,
+      "width": 14.01,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "elementos.",
+      "x": 325.71,
+      "y": 504.55,
+      "width": 51.6,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Enlace",
+      "x": 383.19,
+      "y": 504.55,
+      "width": 32.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "químico.",
+      "x": 421.74,
+      "y": 504.55,
+      "width": 42.23,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Estados",
+      "x": 469.86,
+      "y": 504.55,
+      "width": 37.35,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 513.09,
+      "y": 504.55,
+      "width": 11.27,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "agregación.",
+      "x": 102.96,
+      "y": 490.75,
+      "width": 55.68,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Nociones",
+      "x": 164.85,
+      "y": 490.75,
+      "width": 45.35,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "básicas",
+      "x": 216.42,
+      "y": 490.75,
+      "width": 34.68,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 257.31,
+      "y": 490.75,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Química",
+      "x": 274.85,
+      "y": 490.75,
+      "width": 41.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Nuclear.",
+      "x": 322.38,
+      "y": 490.75,
+      "width": 40.96,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Introducción",
+      "x": 369.58,
+      "y": 490.75,
+      "width": 61.29,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "al",
+      "x": 437.11,
+      "y": 490.75,
+      "width": 8.66,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "estudio",
+      "x": 452.01,
+      "y": 490.75,
+      "width": 34.65,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 492.9,
+      "y": 490.75,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "los",
+      "x": 510.47,
+      "y": 490.75,
+      "width": 14.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "compuestos",
+      "x": 102.96,
+      "y": 477.01,
+      "width": 56.59,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "orgánicos.",
+      "x": 169.02,
+      "y": 477.01,
+      "width": 49.68,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Cinética",
+      "x": 228.16,
+      "y": 477.01,
+      "width": 40.01,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y",
+      "x": 277.64,
+      "y": 477.01,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "termodinámica",
+      "x": 293.11,
+      "y": 477.01,
+      "width": 71.84,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 374.41,
+      "y": 477.01,
+      "width": 11.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "las",
+      "x": 395.22,
+      "y": 477.01,
+      "width": 13.36,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "reacciones",
+      "x": 418.04,
+      "y": 477.01,
+      "width": 50.63,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "químicas.",
+      "x": 478.13,
+      "y": 477.01,
+      "width": 46.35,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Equilibrio",
+      "x": 102.96,
+      "y": 463.21,
+      "width": 48.71,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "químico.",
+      "x": 154.67,
+      "y": 463.21,
+      "width": 42.23,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Equilibrios",
+      "x": 199.89,
+      "y": 463.21,
+      "width": 53.39,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "en",
+      "x": 256.28,
+      "y": 463.21,
+      "width": 11.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "disolución.",
+      "x": 270.61,
+      "y": 463.21,
+      "width": 53.12,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "",
+      "x": 85.08,
+      "y": 437.36,
+      "width": 8.95,
+      "height": 13.3,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "PROGRAMA:",
+      "x": 103.08,
+      "y": 437.29,
+      "width": 76.01,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Tema",
+      "x": 102.96,
+      "y": 411.49,
+      "width": 29.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "1:",
+      "x": 135.3,
+      "y": 411.49,
+      "width": 10.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Estructura",
+      "x": 148.28,
+      "y": 411.49,
+      "width": 56.05,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "atómica",
+      "x": 207.32,
+      "y": 411.49,
+      "width": 40.69,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Espectros",
+      "x": 102.96,
+      "y": 391.81,
+      "width": 46.71,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "atómicos.",
+      "x": 155.08,
+      "y": 391.81,
+      "width": 46.29,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Ecuación",
+      "x": 206.78,
+      "y": 391.81,
+      "width": 44.7,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 256.89,
+      "y": 391.81,
+      "width": 11.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Schrödinger",
+      "x": 273.63,
+      "y": 391.81,
+      "width": 58.73,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y",
+      "x": 337.68,
+      "y": 391.81,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "números",
+      "x": 349.1,
+      "y": 391.81,
+      "width": 41.28,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "cuánticos.",
+      "x": 395.81,
+      "y": 391.81,
+      "width": 48.42,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Orbitales",
+      "x": 449.65,
+      "y": 391.81,
+      "width": 44.02,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "en",
+      "x": 499.1,
+      "y": 391.81,
+      "width": 11.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "el",
+      "x": 515.79,
+      "y": 391.81,
+      "width": 8.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "átomo",
+      "x": 102.96,
+      "y": 378.01,
+      "width": 29.92,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 136.79,
+      "y": 378.01,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "hidrógeno.",
+      "x": 152.03,
+      "y": 378.01,
+      "width": 51.79,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Átomos",
+      "x": 207.72,
+      "y": 378.01,
+      "width": 37.93,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "polielectrónicos:",
+      "x": 249.55,
+      "y": 378.01,
+      "width": 80.07,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "carga",
+      "x": 333.54,
+      "y": 378.01,
+      "width": 26.01,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "nuclear",
+      "x": 363.46,
+      "y": 378.01,
+      "width": 35.36,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "efectiva;",
+      "x": 402.72,
+      "y": 378.01,
+      "width": 41.3,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "configuraciones",
+      "x": 447.91,
+      "y": 378.01,
+      "width": 76.58,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "electrónicas.",
+      "x": 102.96,
+      "y": 364.21,
+      "width": 60.38,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Tema",
+      "x": 102.96,
+      "y": 338.29,
+      "width": 29.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "2:",
+      "x": 135.3,
+      "y": 338.29,
+      "width": 10.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Tabla",
+      "x": 148.3,
+      "y": 338.29,
+      "width": 30.03,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Periódica",
+      "x": 181.33,
+      "y": 338.29,
+      "width": 48.69,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 233.02,
+      "y": 338.29,
+      "width": 12.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "los",
+      "x": 248.03,
+      "y": 338.29,
+      "width": 14.01,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "elementos.",
+      "x": 265.04,
+      "y": 338.29,
+      "width": 53.6,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Propiedades",
+      "x": 321.63,
+      "y": 338.29,
+      "width": 63.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "periódicas",
+      "x": 387.95,
+      "y": 338.29,
+      "width": 52.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "La",
+      "x": 102.96,
+      "y": 318.61,
+      "width": 12.66,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Tabla",
+      "x": 124.11,
+      "y": 318.61,
+      "width": 27.3,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Periódica:",
+      "x": 159.91,
+      "y": 318.61,
+      "width": 48.62,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "relación",
+      "x": 217.02,
+      "y": 318.61,
+      "width": 38.69,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "con",
+      "x": 264.23,
+      "y": 318.61,
+      "width": 17.31,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "las",
+      "x": 290.05,
+      "y": 318.61,
+      "width": 13.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "configuraciones",
+      "x": 311.88,
+      "y": 318.61,
+      "width": 76.54,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "electrónicas.",
+      "x": 397.02,
+      "y": 318.61,
+      "width": 60.37,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Propiedades",
+      "x": 465.85,
+      "y": 318.61,
+      "width": 58.64,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "periódicas:",
+      "x": 102.96,
+      "y": 304.81,
+      "width": 52.7,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "radio",
+      "x": 158.67,
+      "y": 304.81,
+      "width": 24.68,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "atómico,",
+      "x": 186.36,
+      "y": 304.81,
+      "width": 41.6,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "energía",
+      "x": 230.96,
+      "y": 304.81,
+      "width": 35.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 269.31,
+      "y": 304.81,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "ionización,",
+      "x": 283.57,
+      "y": 304.81,
+      "width": 53.04,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "afinidad",
+      "x": 339.55,
+      "y": 304.81,
+      "width": 39.36,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "electrónica.",
+      "x": 381.92,
+      "y": 304.81,
+      "width": 55.64,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Tema",
+      "x": 102.96,
+      "y": 278.89,
+      "width": 29.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "3:",
+      "x": 135.3,
+      "y": 278.89,
+      "width": 10.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "El",
+      "x": 148.27,
+      "y": 278.89,
+      "width": 11.35,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "enlace",
+      "x": 162.59,
+      "y": 278.89,
+      "width": 32.02,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "químico:",
+      "x": 197.59,
+      "y": 278.89,
+      "width": 45.38,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "teorías",
+      "x": 245.95,
+      "y": 278.89,
+      "width": 34.6,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y",
+      "x": 283.54,
+      "y": 278.89,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "tipos",
+      "x": 292.54,
+      "y": 278.89,
+      "width": 24.71,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 320.24,
+      "y": 278.89,
+      "width": 11.92,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "enlace",
+      "x": 335.16,
+      "y": 278.89,
+      "width": 32.03,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Enlace",
+      "x": 102.96,
+      "y": 259.21,
+      "width": 32.66,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "químico",
+      "x": 141.98,
+      "y": 259.21,
+      "width": 39.19,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y",
+      "x": 187.52,
+      "y": 259.21,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "tipos",
+      "x": 199.87,
+      "y": 259.21,
+      "width": 23.29,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 229.53,
+      "y": 259.21,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "enlace.",
+      "x": 247.21,
+      "y": 259.21,
+      "width": 33.66,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Enlace",
+      "x": 287.22,
+      "y": 259.21,
+      "width": 32.63,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "covalente.",
+      "x": 326.22,
+      "y": 259.21,
+      "width": 48.91,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Teoría",
+      "x": 381.49,
+      "y": 259.21,
+      "width": 31.31,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 419.16,
+      "y": 259.21,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Lewis.",
+      "x": 436.85,
+      "y": 259.21,
+      "width": 32.29,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Teoría",
+      "x": 475.5,
+      "y": 259.21,
+      "width": 31.3,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 513.15,
+      "y": 259.21,
+      "width": 11.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "orbitales",
+      "x": 102.96,
+      "y": 245.41,
+      "width": 41.38,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "moleculares-CLOA:",
+      "x": 148.56,
+      "y": 245.41,
+      "width": 97.98,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "moléculas",
+      "x": 250.83,
+      "y": 245.41,
+      "width": 48.6,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "diatómicas",
+      "x": 303.65,
+      "y": 245.41,
+      "width": 51.85,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "homo",
+      "x": 359.76,
+      "y": 245.41,
+      "width": 27.24,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y",
+      "x": 391.33,
+      "y": 245.41,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "heteronucleares.",
+      "x": 401.59,
+      "y": 245.41,
+      "width": 78.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Energía,",
+      "x": 484.17,
+      "y": 245.41,
+      "width": 40.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "distancia",
+      "x": 102.96,
+      "y": 231.61,
+      "width": 42.63,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "y",
+      "x": 150.44,
+      "y": 231.61,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "orden",
+      "x": 161.29,
+      "y": 231.61,
+      "width": 27.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 193.49,
+      "y": 231.61,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "enlace.",
+      "x": 209.67,
+      "y": 231.61,
+      "width": 33.61,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Polaridad",
+      "x": 248.07,
+      "y": 231.61,
+      "width": 46.02,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 298.95,
+      "y": 231.61,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "los",
+      "x": 315.06,
+      "y": 231.61,
+      "width": 14.02,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "enlaces:",
+      "x": 333.91,
+      "y": 231.61,
+      "width": 38.71,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "electronegatividad.",
+      "x": 377.45,
+      "y": 231.61,
+      "width": 91.65,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Geometría",
+      "x": 473.93,
+      "y": 231.61,
+      "width": 50.61,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "molecular:",
+      "x": 102.96,
+      "y": 217.81,
+      "width": 51.4,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "TRPECV.",
+      "x": 158.01,
+      "y": 217.81,
+      "width": 49.06,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Hibridación",
+      "x": 210.73,
+      "y": 217.81,
+      "width": 57.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 271.72,
+      "y": 217.81,
+      "width": 11.26,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "orbitales",
+      "x": 286.65,
+      "y": 217.81,
+      "width": 41.24,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "atómicos.",
+      "x": 331.56,
+      "y": 217.81,
+      "width": 46.29,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Resonancia.",
+      "x": 381.52,
+      "y": 217.81,
+      "width": 58.4,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Enlace",
+      "x": 443.59,
+      "y": 217.81,
+      "width": 32.6,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "metálico:",
+      "x": 479.85,
+      "y": 217.81,
+      "width": 44.62,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "modelo",
+      "x": 102.96,
+      "y": 204.01,
+      "width": 36.01,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 141.97,
+      "y": 204.01,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "bandas.",
+      "x": 156.3,
+      "y": 204.01,
+      "width": 36.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Enlace",
+      "x": 195.63,
+      "y": 204.01,
+      "width": 32.66,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "iónico:",
+      "x": 231.29,
+      "y": 204.01,
+      "width": 33.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "energía",
+      "x": 267.63,
+      "y": 204.01,
+      "width": 35.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "reticular;",
+      "x": 305.98,
+      "y": 204.01,
+      "width": 43.37,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "ciclo",
+      "x": 352.36,
+      "y": 204.01,
+      "width": 23.35,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 378.72,
+      "y": 204.01,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Born-Haber.",
+      "x": 393.06,
+      "y": 204.01,
+      "width": 60.26,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Tema",
+      "x": 102.96,
+      "y": 178.09,
+      "width": 29.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "4:",
+      "x": 135.3,
+      "y": 178.09,
+      "width": 10.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Estados",
+      "x": 148.29,
+      "y": 178.09,
+      "width": 40.02,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 191.31,
+      "y": 178.09,
+      "width": 12.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "agregación",
+      "x": 206.3,
+      "y": 178.09,
+      "width": 56.01,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 265.31,
+      "y": 178.09,
+      "width": 12.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "la",
+      "x": 280.31,
+      "y": 178.09,
+      "width": 9.34,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "materia",
+      "x": 292.64,
+      "y": 178.09,
+      "width": 40.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Fuerzas",
+      "x": 102.96,
+      "y": 158.41,
+      "width": 37.39,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "intermoleculares.",
+      "x": 145.88,
+      "y": 158.41,
+      "width": 82.87,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Estado",
+      "x": 234.29,
+      "y": 158.41,
+      "width": 32.72,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "sólido:",
+      "x": 272.54,
+      "y": 158.41,
+      "width": 32.75,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "distintos",
+      "x": 310.82,
+      "y": 158.41,
+      "width": 40.63,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "tipos",
+      "x": 356.98,
+      "y": 158.41,
+      "width": 23.35,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 385.85,
+      "y": 158.41,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "sólidos.",
+      "x": 402.71,
+      "y": 158.41,
+      "width": 37.02,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Estado",
+      "x": 445.25,
+      "y": 158.41,
+      "width": 32.68,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "gaseoso.",
+      "x": 483.45,
+      "y": 158.41,
+      "width": 41.01,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Ecuación",
+      "x": 102.96,
+      "y": 144.61,
+      "width": 44.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 152.42,
+      "y": 144.61,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "estado",
+      "x": 168.54,
+      "y": 144.61,
+      "width": 30.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 204.0,
+      "y": 144.61,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "un",
+      "x": 220.12,
+      "y": 144.61,
+      "width": 12.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "gas",
+      "x": 236.92,
+      "y": 144.61,
+      "width": 16.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "ideal.",
+      "x": 257.7,
+      "y": 144.61,
+      "width": 26.32,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Mezcla",
+      "x": 288.81,
+      "y": 144.61,
+      "width": 35.3,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 328.92,
+      "y": 144.61,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "gases",
+      "x": 345.04,
+      "y": 144.61,
+      "width": 25.97,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "ideales:",
+      "x": 375.77,
+      "y": 144.61,
+      "width": 36.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "ley",
+      "x": 417.21,
+      "y": 144.61,
+      "width": 14.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 436.64,
+      "y": 144.61,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Dalton.",
+      "x": 452.73,
+      "y": 144.61,
+      "width": 35.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Teoría",
+      "x": 493.17,
+      "y": 144.61,
+      "width": 31.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "cinético-molecular",
+      "x": 102.96,
+      "y": 130.81,
+      "width": 89.94,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "de",
+      "x": 195.9,
+      "y": 130.81,
+      "width": 11.33,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "los",
+      "x": 210.24,
+      "y": 130.81,
+      "width": 14.01,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "gases.",
+      "x": 227.25,
+      "y": 130.81,
+      "width": 29.01,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Gases",
+      "x": 259.27,
+      "y": 130.81,
+      "width": 28.7,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "reales.",
+      "x": 290.96,
+      "y": 130.81,
+      "width": 30.99,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Estado",
+      "x": 324.94,
+      "y": 130.81,
+      "width": 32.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "líquido:",
+      "x": 360.6,
+      "y": 130.81,
+      "width": 37.35,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "el",
+      "x": 400.94,
+      "y": 130.81,
+      "width": 8.67,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "agua.",
+      "x": 412.59,
+      "y": 130.81,
+      "width": 25.66,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "-",
+      "x": 294.72,
+      "y": 35.59,
+      "width": 4.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "5",
+      "x": 301.73,
+      "y": 35.59,
+      "width": 6.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "-",
+      "x": 310.75,
+      "y": 35.59,
+      "width": 4.0,
+      "height": 13.28,
+      "fontName": "Helvetica"
+    }
+  ],
+  "images": [],
+  "paths": {
+    "horizontalSegments": 0,
+    "verticalSegments": 0,
+    "rectangles": 0
+  }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "level": 1,
+    "title": "Contents",
+    "pageNumber": 3
+  },
+  {
+    "level": 1,
+    "title": "Preface",
+    "pageNumber": 7
+  },
+  {
+    "level": 1,
+    "title": "Chapter 2",
+    "pageNumber": 11
+  },
+  {
+    "level": 2,
+    "title": "Chapter 2 : Solutions",
+    "pageNumber": 26
+  },
+  {
+    "level": 1,
+    "title": "Chapter 3",
+    "pageNumber": 35
+  },
+  {
+    "level": 2,
+    "title": "Chapter 3 : Solutions",
+    "pageNumber": 41
+  },
+  {
+    "level": 1,
+    "title": "Chapter 4",
+    "pageNumber": 47
+  },
+  {
+    "level": 2,
+    "title": "Chapter 4 : Solutions",
+    "pageNumber": 54
+  },
+  {
+    "level": 1,
+    "title": "Chapter 5",
+    "pageNumber": 63
+  },
+  {
+    "level": 2,
+    "title": "Chapter 5 : Solutions",
+    "pageNumber": 70
+  },
+  {
+    "level": 1,
+    "title": "Chapter 6",
+    "pageNumber": 79
+  },
+  {
+    "level": 2,
+    "title": "Chapter 6 : Solutions",
+    "pageNumber": 88
+  }
+]

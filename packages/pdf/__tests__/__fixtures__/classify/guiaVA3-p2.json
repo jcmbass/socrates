@@ -1,0 +1,285 @@
+{
+  "pageNumber": 2,
+  "width": 595.276,
+  "height": 841.89,
+  "textItems": [
+    {
+      "str": "Determine el conjunto soluci´",
+      "x": 94.926,
+      "y": 747.344,
+      "width": 143.34884673000002,
+      "height": 10.9091,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": "on del numero de hembras que es menor o igual que el n´",
+      "x": 232.82029673,
+      "y": 747.344,
+      "width": 282.02641683999997,
+      "height": 10.9091,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": "umero de",
+      "x": 509.0867087699997,
+      "y": 747.344,
+      "width": 44.803673699999955,
+      "height": 10.9091,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": "cr´",
+      "x": 94.926,
+      "y": 733.7950000000001,
+      "width": 13.364738409999994,
+      "height": 10.9091,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": "ıas que sobreviven.",
+      "x": 104.04709851,
+      "y": 733.7950000000001,
+      "width": 89.85062033000003,
+      "height": 10.9091,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": "2) Se ubican dos puntos",
+      "x": 79.775,
+      "y": 716.2600000000001,
+      "width": 116.94555200000003,
+      "height": 10.9091,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": " ",
+      "x": 196.720552,
+      "y": 716.2600000000001,
+      "width": 3.8924480000000017,
+      "height": 0,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": "p",
+      "x": 200.613,
+      "y": 716.2600000000001,
+      "width": 5.488368210000001,
+      "height": 10.9091,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": " ",
+      "x": 206.10136821,
+      "y": 716.2600000000001,
+      "width": 3.455631789999984,
+      "height": 0,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": "=",
+      "x": 209.557,
+      "y": 716.2600000000001,
+      "width": 8.48509798,
+      "height": 10.9091,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": " ",
+      "x": 218.04209798,
+      "y": 716.2600000000001,
+      "width": 3.4559020199999964,
+      "height": 0,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": "x",
+      "x": 221.498,
+      "y": 716.2600000000001,
+      "width": 6.234550650000001,
+      "height": 10.9091,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": "2",
+      "x": 227.732,
+      "y": 720.219,
+      "width": 4.23451413,
+      "height": 7.9701,
+      "fontName": "monospace"
+    },
+    {
+      "str": " ",
+      "x": 231.96651413,
+      "y": 720.219,
+      "width": 3.09248586999999,
+      "height": 0,
+      "fontName": "monospace"
+    },
+    {
+      "str": "−",
+      "x": 235.059,
+      "y": 716.2600000000001,
+      "width": 8.48509798,
+      "height": 10.9091,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": " ",
+      "x": 243.54409798,
+      "y": 716.2600000000001,
+      "width": 2.5939020200000016,
+      "height": 0,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": "x",
+      "x": 246.138,
+      "y": 716.2600000000001,
+      "width": 6.234550650000001,
+      "height": 10.9091,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": " ",
+      "x": 252.37255065,
+      "y": 716.2600000000001,
+      "width": 3.8914493500000162,
+      "height": 0,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": "y",
+      "x": 256.264,
+      "y": 716.2600000000001,
+      "width": 5.75782298,
+      "height": 10.9091,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": " ",
+      "x": 262.02182298,
+      "y": 716.2600000000001,
+      "width": 3.8911770199999864,
+      "height": 0,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": "q",
+      "x": 265.913,
+      "y": 716.2600000000001,
+      "width": 4.86982224,
+      "height": 10.9091,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": " ",
+      "x": 270.78282224000003,
+      "y": 716.2600000000001,
+      "width": 3.8471777599999655,
+      "height": 0,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": "= 2",
+      "x": 274.63,
+      "y": 716.2600000000001,
+      "width": 17.397832680000008,
+      "height": 10.9091,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": "x",
+      "x": 292.025,
+      "y": 716.2600000000001,
+      "width": 6.234550650000001,
+      "height": 10.9091,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": " ",
+      "x": 298.25955065,
+      "y": 716.2600000000001,
+      "width": 2.5944493499999908,
+      "height": 0,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": "−",
+      "x": 300.854,
+      "y": 716.2600000000001,
+      "width": 8.48509798,
+      "height": 10.9091,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": " ",
+      "x": 309.33909797999996,
+      "y": 716.2600000000001,
+      "width": 2.59390202000003,
+      "height": 0,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": "6 en la recta num´",
+      "x": 311.933,
+      "y": 716.2600000000001,
+      "width": 90.13862056999989,
+      "height": 10.9091,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": "erica. Determine los valores de",
+      "x": 396.92252536999973,
+      "y": 716.2600000000001,
+      "width": 146.84521327999988,
+      "height": 10.9091,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": " ",
+      "x": 543.7677386499994,
+      "y": 716.2600000000001,
+      "width": 3.8872613500005855,
+      "height": 0,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": "x",
+      "x": 547.655,
+      "y": 716.2600000000001,
+      "width": 6.234550650000001,
+      "height": 10.9091,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": "",
+      "x": 94.92599999999999,
+      "y": 702.7110000000001,
+      "width": 0,
+      "height": 0,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": "para que la distancia entre dichos puntos no supere las 4 unidades.",
+      "x": 94.92599999999999,
+      "y": 702.7110000000001,
+      "width": 319.54935719999975,
+      "height": 10.9091,
+      "fontName": "sans-serif"
+    },
+    {
+      "str": "2",
+      "x": 296.044,
+      "y": 153.83500000000015,
+      "width": 5.454550000000001,
+      "height": 10.9091,
+      "fontName": "sans-serif"
+    }
+  ],
+  "images": [],
+  "paths": {
+    "horizontalSegments": 0,
+    "verticalSegments": 0,
+    "rectangles": 0
+  }
+}

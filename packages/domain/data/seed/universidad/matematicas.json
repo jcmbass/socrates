@@ -1,0 +1,74 @@
+{
+  "level": "universidad",
+  "subject_key": "matematicas",
+  "subject_name": {"es": "Matemáticas", "en": "Mathematics"},
+  "sources": [
+    {
+      "lang": "en",
+      "title": "Precalculus",
+      "publisher": "OpenStax (Rice University)",
+      "edition_or_year": "1e (oct 2014; © 2015 Rice University)",
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_declaration_url": "https://web.archive.org/web/20141026151910id_/http://openstaxcollege.org/textbooks/precalculus"
+      },
+      "source_url": "https://web.archive.org/web/20141026151910id_/http://openstaxcollege.org/textbooks/precalculus",
+      "pdf_url": "https://web.archive.org/web/20170103032322id_/https://d3bxy9euw4e147.cloudfront.net/oscms-prodcms/media/documents/OpenStax_Precalc_2015_v2-OP.pdf",
+      "pdf_path": "pdf/universidad/matematicas/en.pdf",
+      "pdf_pages": 1154,
+      "pdf_size_mb": 81.7,
+      "toc_pages": {"from": 5, "to": 11},
+      "sha256": "3f197fe3580f7aeec906c1eb4d42935e3558b71a3fbbd3ed82a11a9dfe794d1b"
+    },
+    {
+      "lang": "es",
+      "title": "Precálculo",
+      "publisher": "OpenStax (Rice University)",
+      "edition_or_year": "2ed (traducción de Precalculus 2e, 2021)",
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_declaration_url": "https://openstax.org/books/prec%C3%A1lculo-2ed/pages/prefacio"
+      },
+      "source_url": "https://openstax.org/details/books/prec%C3%A1lculo-2ed",
+      "pdf_url": "https://assets.openstax.org/oscms-prodcms/media/documents/Precalculo_2ed-WEB_R2h7jtX.pdf",
+      "pdf_path": "pdf/universidad/matematicas/es.pdf",
+      "pdf_pages": 1531,
+      "pdf_size_mb": 99.6,
+      "toc_pages": {"from": 7, "to": 10},
+      "sha256": "7f2b419d05a937e3475c61e27b4add929ebd8655b24850e0d140cb5bc2207f35"
+    }
+  ],
+  "syllabus": {
+    "en": [
+      {"unit": "Chapter 1: Functions", "topics": ["Functions and Function Notation", "Domain and Range", "Rates of Change and Behavior of Graphs", "Composition of Functions", "Transformation of Functions", "Absolute Value Functions", "Inverse Functions"]},
+      {"unit": "Chapter 2: Linear Functions", "topics": ["Linear Functions", "Graphs of Linear Functions", "Modeling with Linear Functions", "Fitting Linear Models to Data"]},
+      {"unit": "Chapter 3: Polynomial and Rational Functions", "topics": ["Complex Numbers", "Quadratic Functions", "Power Functions and Polynomial Functions", "Graphs of Polynomial Functions", "Dividing Polynomials", "Zeros of Polynomial Functions", "Rational Functions", "Inverses and Radical Functions", "Modeling Using Variation"]},
+      {"unit": "Chapter 4: Exponential and Logarithmic Functions", "topics": ["Exponential Functions", "Graphs of Exponential Functions", "Logarithmic Functions", "Graphs of Logarithmic Functions", "Logarithmic Properties", "Exponential and Logarithmic Equations", "Exponential and Logarithmic Models", "Fitting Exponential Models to Data"]},
+      {"unit": "Chapter 5: Trigonometric Functions", "topics": ["Angles", "Unit Circle: Sine and Cosine Functions", "The Other Trigonometric Functions", "Right Triangle Trigonometry"]},
+      {"unit": "Chapter 6: Periodic Functions", "topics": ["Graphs of the Sine and Cosine Functions", "Graphs of the Other Trigonometric Functions", "Inverse Trigonometric Functions"]},
+      {"unit": "Chapter 7: Trigonometric Identities and Equations", "topics": ["Solving Trigonometric Equations with Identities", "Sum and Difference Identities", "Double-Angle, Half-Angle, and Reduction Formulas", "Sum-to-Product and Product-to-Sum Formulas", "Solving Trigonometric Equations", "Modeling with Trigonometric Equations"]},
+      {"unit": "Chapter 8: Further Applications of Trigonometry", "topics": ["Non-right Triangles: Law of Sines", "Non-right Triangles: Law of Cosines", "Polar Coordinates", "Polar Coordinates: Graphs", "Polar Form of Complex Numbers", "Parametric Equations", "Parametric Equations: Graphs", "Vectors"]},
+      {"unit": "Chapter 9: Systems of Equations and Inequalities", "topics": ["Systems of Linear Equations: Two Variables", "Systems of Linear Equations: Three Variables", "Systems of Nonlinear Equations and Inequalities: Two Variables", "Partial Fractions", "Matrices and Matrix Operations", "Solving Systems with Gaussian Elimination", "Solving Systems with Inverses", "Solving Systems with Cramer's Rule"]},
+      {"unit": "Chapter 10: Analytic Geometry", "topics": ["The Ellipse", "The Hyperbola", "The Parabola", "Rotation of Axis", "Conic Sections in Polar Coordinates"]},
+      {"unit": "Chapter 11: Sequences, Probability and Counting Theory", "topics": ["Sequences and Their Notations", "Arithmetic Sequences", "Geometric Sequences", "Series and Their Notations", "Counting Principles", "Binomial Theorem", "Probability"]},
+      {"unit": "Chapter 12: Introduction to Calculus", "topics": ["Finding Limits: Numerical and Graphical Approaches", "Finding Limits: Properties of Limits", "Continuity", "Derivatives"]}
+    ],
+    "es": [
+      {"unit": "Capítulo 1: Funciones", "topics": ["Funciones y notación de funciones", "Dominio y rango", "Tasas de variación y comportamiento de los gráficos", "Composición de las funciones", "Transformación de funciones", "Funciones de valor absoluto", "Funciones inversas"]},
+      {"unit": "Capítulo 2: Funciones lineales", "topics": ["Funciones lineales", "Gráficos de funciones lineales", "Modelado con funciones lineales", "Ajuste de modelos lineales a los datos"]},
+      {"unit": "Capítulo 3: Funciones polinómicas y racionales", "topics": ["Números complejos", "Funciones cuadráticas", "Funciones potencia y funciones polinómicas", "Gráfico de funciones polinómicas", "Dividir polinomios", "Ceros de funciones polinómicas", "Funciones racionales", "Inversas y funciones radicales", "Modelado mediante la variación"]},
+      {"unit": "Capítulo 4: Funciones exponenciales y logarítmicas", "topics": ["Funciones exponenciales", "Gráficos de funciones exponenciales", "Funciones logarítmicas", "Gráficos de funciones logarítmicas", "Propiedades logarítmicas", "Ecuaciones exponenciales y logarítmicas", "Modelos exponenciales y logarítmicos", "Ajustar modelos exponenciales a los datos"]},
+      {"unit": "Capítulo 5: Funciones trigonométricas", "topics": ["Ángulos", "Círculo unitario: funciones seno y coseno", "Las otras funciones trigonométricas", "Trigonometría de triángulos rectángulos"]},
+      {"unit": "Capítulo 6: Funciones periódicas", "topics": ["Gráficos de las funciones seno y coseno", "Gráficos de las otras funciones trigonométricas", "Funciones trigonométricas inversas"]},
+      {"unit": "Capítulo 7: Identidades trigonométricas y ecuaciones", "topics": ["Resolver ecuaciones trigonométricas con identidades", "Identidades de suma y resta", "Fórmulas del ángulo doble, el ángulo medio y la reducción", "Fórmulas de suma a producto y de producto a suma", "Resolver ecuaciones trigonométricas", "Modelado con funciones trigonométricas"]},
+      {"unit": "Capítulo 8: Otras aplicaciones de la Trigonometría", "topics": ["Triángulos no rectángulos: ley de senos", "Triángulos no rectángulos: ley de cosenos", "Coordenadas polares", "Coordenadas polares: gráficos", "Forma polar de los números complejos", "Ecuaciones paramétricas", "Ecuaciones paramétricas: gráficos", "Vectores"]},
+      {"unit": "Capítulo 9: Sistemas de ecuaciones e inecuaciones", "topics": ["Sistemas de ecuaciones lineales: dos variables", "Sistemas de ecuaciones lineales: tres variables", "Sistemas de ecuaciones e inecuaciones no lineales: dos variables", "Fracciones parciales", "Matrices y operaciones con matrices", "Resolver sistemas con eliminación de Gauss-Jordan", "Resolver sistemas con inversas", "Resolver sistemas con la regla de Cramer"]},
+      {"unit": "Capítulo 10: Geometría analítica", "topics": ["La elipse", "La hipérbola", "La parábola", "Rotación de ejes", "Secciones cónicas en coordenadas polares"]},
+      {"unit": "Capítulo 11: Secuencia, probabilidad y teoría del recuento", "topics": ["Secuencias y sus notaciones", "Secuencias aritméticas", "Secuencias geométricas", "Series y sus notaciones", "Principios de conteo", "Teorema del binomio", "Probabilidad"]},
+      {"unit": "Capítulo 12: Introducción a Cálculo", "topics": ["Hallar los límites: enfoques numéricos y gráficos", "Hallar los límites: propiedades de los límites", "Continuidad", "Derivadas"]}
+    ]
+  },
+  "notes": "Portada verificada en el PDF (reconfirmado por el catalogador con pdftotext f1-l20): '© 2015 Rice University. Textbook content produced by OpenStax College is licensed under a Creative Commons Attribution 4.0 International License.' — el libro declara CC BY 4.0 (no 3.0 como se esperaba en la plantilla del orquestador); es Attribution puro, SIN NC ni ND. License name/url actualizados a CC BY 4.0 según el texto real de la obra; el enlace de declaración archivado (openstaxcollege.org/textbooks/precalculus, 2014-10-26) describe la serie como Attribution (CC BY). (b) ES PRECÁLCULO: OpenStax no ofrece ningún libro de Cálculo bajo licencia CC BY — la serie Calculus fue siempre CC BY-NC-SA —, decisión del arquitecto usar Precalculus 1e como fuente de universidad/matemáticas. (c) Se usa la 1e porque su licencia CC BY es irrevocable; la 2e vigente es CC BY-NC-SA. (d) SOURCE 'es' (TANDA 3, 2026-09-06): agregado OpenStax 'Precálculo 2ed', traducción oficial en español de Precalculus 2e (PDF Precalculo_2ed-WEB_R2h7jtX.pdf, 1531 págs, 104,457,432 bytes = 99.6 MiB). Licencia verificada dos veces: portada interna del PDF (pdftotext f1-l10: 'El contenido de los libros de texto que produce OpenStax tiene una licencia de atribución internacional de Creative Commons 4.0 (CC BY 4.0)') y prefacio en línea (openstax.org/books/precálculo-2ed/pages/prefacio: 'Precálculo 2ed cuenta con una licencia internacional de Creative Commons Atribución 4.0 (CC BY 4.0)'). Atribución pura, SIN NC ni ND. DESFASE EDICIONES: el libro ES es traducción de la 2e (2021), no de la 1e (2014) que usa la source 'en'; PERO la estructura capítulo/sección de la 2e es idéntica a la de la 1e (mismos 12 capítulos, mismas 73 secciones con la misma numeración), por lo que syllabus.en (1e) y syllabus.es (2ed) quedan paralelos 1:1 sin forzar nada. syllabus.es REEMPLAZADO por el TOC nativo del libro ES (páginas PDF 7-10), con títulos textuales del índice (el libro ES usa 'Secuencias' donde la traducción propia anterior decía 'sucesiones', 'inecuaciones' por 'desigualdades', 'polinómicas' por 'polinomiales', 'Tasas de variación' por 'tasas de cambio'); excluidos Introducción, Revisión del capítulo, Ejercicios, Apéndice A, Clave de respuestas e Índice. Totales ES: 12 unidades / 73 temas (igual que EN)."
+}

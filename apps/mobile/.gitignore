@@ -1,0 +1,58 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Keystore properties (secrets — DO NOT COMMIT)
+keystore.properties
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+example
+
+# generated native folders
+/ios
+/android
+
+# SPIKE F0.5 (throwaway, __DEV__ only): build.mjs output embeds base64 of
+# docs/*.pdf, which are themselves untracked by design — see
+# spike-f05/build.mjs docblock ("WHY generated/ IS GITIGNORED").
+/spike-f05/generated/
+
+# Material ingest WebView bundle (F2 WQ2 Part 2, PRODUCTION but still a
+# deterministic build artifact of checked-in source) — see
+# materials/build.mjs docblock. MUST be regenerated (`npm run
+# build:materials-webview`) before Metro/`expo run:android`/`expo export`.
+/materials/generated/

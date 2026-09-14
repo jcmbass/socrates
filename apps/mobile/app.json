@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Socrates",
+    "slug": "buxo",
+    "version": "0.4.4",
+    "orientation": "portrait",
+    "icon": "./assets/images/socrates-icon.png",
+    "scheme": "buxo",
+    "userInterfaceStyle": "automatic",
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#58a6ff",
+        "foregroundImage": "./assets/images/socrates-adaptive-foreground.png",
+        "monochromeImage": "./assets/images/socrates-adaptive-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.socrates.tutor",
+      "softwareKeyboardLayoutMode": "resize",
+      "versionCode": 9
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#0d1117",
+          "image": "./assets/images/socrates-welcome.png",
+          "imageWidth": 200
+        }
+      ],
+      [
+        "expo-navigation-bar",
+        {
+          "style": "light",
+          "enforceContrast": false
+        }
+      ],
+      "./plugins/withQaCleartext",
+      "./plugins/withReleaseSigning",
+      "expo-localization"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}

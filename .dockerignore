@@ -1,0 +1,13 @@
+# Companion to apps/server/Dockerfile (build context = repo root).
+node_modules
+**/node_modules
+**/.next
+**/dist
+**/.expo
+apps/mobile/dist
+docs
+sessions
+eval-results
+.git
+.gstack
+*.log

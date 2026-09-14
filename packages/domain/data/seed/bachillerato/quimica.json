@@ -1,0 +1,53 @@
+{
+  "level": "bachillerato",
+  "subject_key": "quimica",
+  "subject_name": {"es": "Química", "en": "Chemistry"},
+  "sources": [
+    {
+      "lang": "en",
+      "title": "Chemistry",
+      "publisher": "OpenStax (Rice University)",
+      "edition_or_year": "1e (2012, rev. mar 2015)",
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_declaration_url": "https://web.archive.org/web/20160306005137id_/http://openstaxcollege.org/textbooks/chemistry"
+      },
+      "source_url": "https://web.archive.org/web/20160306005137id_/http://openstaxcollege.org/textbooks/chemistry",
+      "pdf_url": "https://web.archive.org/web/20170103034819id_/https://d3bxy9euw4e147.cloudfront.net/oscms-prodcms/media/documents/Chemistry-LR.pdf",
+      "pdf_path": "pdf/universidad/quimica/en.pdf",
+      "pdf_pages": 1347,
+      "pdf_size_mb": 42.0,
+      "toc_pages": {
+        "from": 5,
+        "to": 8
+      },
+      "sha256": "4302e3130c0a58d6324b4f82eb737a79b734f7bb921814faae48d71c33b3cb13"
+    }
+  ],
+  "syllabus": {
+    "en": [
+      {"unit": "Chapter 1: Essential Ideas", "topics": ["1.1 Chemistry in Context", "1.2 Phases and Classification of Matter", "1.3 Physical and Chemical Properties", "1.4 Measurements", "1.5 Measurement Uncertainty, Accuracy, and Precision", "1.6 Mathematical Treatment of Measurement Results"]},
+      {"unit": "Chapter 2: Atoms, Molecules, and Ions", "topics": ["2.1 Early Ideas in Atomic Theory", "2.2 Evolution of Atomic Theory", "2.3 Atomic Structure and Symbolism", "2.4 Chemical Formulas", "2.5 The Periodic Table", "2.6 Molecular and Ionic Compounds", "2.7 Chemical Nomenclature"]},
+      {"unit": "Chapter 3: Composition of Substances and Solutions", "topics": ["3.1 Formula Mass and the Mole Concept", "3.2 Determining Empirical and Molecular Formulas", "3.3 Molarity", "3.4 Other Units for Solution Concentrations"]},
+      {"unit": "Chapter 4: Stoichiometry of Chemical Reactions", "topics": ["4.1 Writing and Balancing Chemical Equations", "4.2 Classifying Chemical Reactions", "4.3 Reaction Stoichiometry", "4.4 Reaction Yields"]},
+      {"unit": "Chapter 6: Electronic Structure and Periodic Properties of Elements", "topics": ["6.1 Electromagnetic Energy", "6.2 The Bohr Model", "6.3 Development of Quantum Theory", "6.4 Electronic Structure of Atoms (Electron Configurations)", "6.5 Periodic Variations in Element Properties"]},
+      {"unit": "Chapter 7: Chemical Bonding and Molecular Geometry", "topics": ["7.1 Ionic Bonding", "7.2 Covalent Bonding", "7.3 Lewis Symbols and Structures", "7.4 Formal Charges and Resonance", "7.5 Strengths of Ionic and Covalent Bonds", "7.6 Molecular Structure and Polarity"]},
+      {"unit": "Chapter 9: Gases", "topics": ["9.1 Gas Pressure", "9.2 Relating Pressure, Volume, Amount, and Temperature: The Ideal Gas Law", "9.3 Stoichiometry of Gaseous Substances, Mixtures, and Reactions", "9.4 Effusion and Diffusion of Gases", "9.5 The Kinetic-Molecular Theory"]},
+      {"unit": "Chapter 11: Solutions and Colloids", "topics": ["11.1 The Dissolution Process", "11.2 Electrolytes", "11.3 Solubility"]},
+      {"unit": "Chapter 14: Acid-Base Equilibria", "topics": ["14.1 Brønsted-Lowry Acids and Bases", "14.2 pH and pOH", "14.3 Relative Strengths of Acids and Bases"]}
+    ],
+    "es": [
+      {"unit": "Capítulo 1: Ideas fundamentales", "topics": ["1.1 La química en contexto", "1.2 Fases y clasificación de la materia", "1.3 Propiedades físicas y químicas", "1.4 Mediciones", "1.5 Incertidumbre, exactitud y precisión de las mediciones", "1.6 Tratamiento matemático de los resultados de medición"]},
+      {"unit": "Capítulo 2: Átomos, moléculas e iones", "topics": ["2.1 Primeras ideas sobre la teoría atómica", "2.2 Evolución de la teoría atómica", "2.3 Estructura y simbolismo atómicos", "2.4 Fórmulas químicas", "2.5 La tabla periódica", "2.6 Compuestos moleculares y iónicos", "2.7 Nomenclatura química"]},
+      {"unit": "Capítulo 3: Composición de las sustancias y las disoluciones", "topics": ["3.1 Masa fórmula y el concepto de mol", "3.2 Determinación de fórmulas empíricas y moleculares", "3.3 Molaridad", "3.4 Otras unidades de concentración de las disoluciones"]},
+      {"unit": "Capítulo 4: Estequiometría de las reacciones químicas", "topics": ["4.1 Escritura y balanceo de ecuaciones químicas", "4.2 Clasificación de las reacciones químicas", "4.3 Estequiometría de las reacciones", "4.4 Rendimiento de las reacciones"]},
+      {"unit": "Capítulo 6: Estructura electrónica y propiedades periódicas de los elementos", "topics": ["6.1 Energía electromagnética", "6.2 El modelo de Bohr", "6.3 Desarrollo de la teoría cuántica", "6.4 Estructura electrónica de los átomos (configuraciones electrónicas)", "6.5 Variaciones periódicas en las propiedades de los elementos"]},
+      {"unit": "Capítulo 7: Enlace químico y geometría molecular", "topics": ["7.1 Enlace iónico", "7.2 Enlace covalente", "7.3 Símbolos y estructuras de Lewis", "7.4 Cargas formales y resonancia", "7.5 Fortaleza de los enlaces iónico y covalente", "7.6 Estructura molecular y polaridad"]},
+      {"unit": "Capítulo 9: Los gases", "topics": ["9.1 Presión de los gases", "9.2 Relación entre presión, volumen, cantidad y temperatura: la ley de los gases ideales", "9.3 Estequiometría de sustancias, mezclas y reacciones gaseosas", "9.4 Efusión y difusión de los gases", "9.5 La teoría cinético-molecular"]},
+      {"unit": "Capítulo 11: Disoluciones y coloides", "topics": ["11.1 El proceso de disolución", "11.2 Electrolitos", "11.3 Solubilidad"]},
+      {"unit": "Capítulo 14: Equilibrios ácido-base", "topics": ["14.1 Ácidos y bases de Brønsted-Lowry", "14.2 pH y pOH", "14.3 Fortalezas relativas de los ácidos y las bases"]}
+    ]
+  },
+  "notes": "Recorte de bachillerato del MISMO PDF que el nivel universitario (pdf_path apunta a pdf/universidad/quimica/en.pdf; misma fuente, misma licencia, mismo sha256). Chemistry 1e es un libro intro-college recortado, igual que Concepts of Biology para biología — decisión del arquitecto. Del TOC nativo (21 capítulos, 114 temas) se incluyeron 9 unidades / 43 temas, los fundamentos estándar de un curso de bachillerato. INCLUIDOS: cap. 1 completo (materia, medición, incertidumbre — base de todo el curso); cap. 2 completo (átomos, tabla periódica, nomenclatura); cap. 3 completo (mol, fórmulas empíricas, molaridad — puente a estequiometría y disoluciones); cap. 4 sin 4.5 (Quantitative Chemical Analysis, técnica de laboratorio universitario — se omite); cap. 6 completo (estructura electrónica y periodicidad: Bohr, configuraciones y tendencias periódicas son núcleo de 'átomos y tabla periódica' en bachillerato); cap. 7 completo (enlace iónico/covalente, Lewis, geometría y polaridad — enlace químico fundamental); cap. 9 sin 9.6 (Non-Ideal Gas Behavior, avanzado — se omite; el resto de gases completo); cap. 11 solo 11.1-11.3 (disolución, electrolitos, solubilidad — se omiten 11.4 Colligative Properties y 11.5 Colloids por ser avanzados); cap. 14 solo 14.1-14.3 (ácidos y bases básicos: Brønsted-Lowry, pH/pOH, fortalezas — se omiten 14.4-14.7 hidrólisis, polipróticos, buffers y titulaciones por ser equilibrio complejo). EXCLUIDOS de bachillerato: cap. 5 (Termoquímica — termodinámica química, fuera del criterio), cap. 8 (teorías avanzadas de enlace: valencia, híbridos, orbitales moleculares), cap. 10 (líquidos y sólidos: fuerzas intermoleculares y fase condensada — no está en los fundamentos pedidos), cap. 12 (cinética), cap. 13 (equilibrio general), cap. 15 (otros equilibrios: precipitación, Lewis, múltiples equilibrios), cap. 16 (termodinámica: espontaneidad, entropía, energía libre), cap. 17 (electroquímica), cap. 18-19 (química descriptiva de elementos y metales de transición), cap. 20 (química orgánica), cap. 21 (química nuclear). El recorte es decisión académica propia desde el TOC, no del editor. Syllabus 'en' nativo del TOC de Chemistry 1e; 'es' traducción propia con criterio académico de bachillerato (disolución para solution, balanceo para balancing, fortaleza para strength) — traducción no oficial; los títulos del syllabus.es del catálogo universitario corresponden a la Química 2ed (capítulos distintos) y NO se reutilizaron."
+}

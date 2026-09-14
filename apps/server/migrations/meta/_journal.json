@@ -1,0 +1,132 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1784135795496,
+      "tag": "0000_early_microbe",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1784300498708,
+      "tag": "0001_icy_shadow_king",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1784302908605,
+      "tag": "0002_hard_mikhail_rasputin",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1784303000000,
+      "tag": "0003_quota_cost_incomplete",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1784400000000,
+      "tag": "0004_gamification_tables",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1784400000001,
+      "tag": "0005_temarios_topics_milestones",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1784400000002,
+      "tag": "0006_fuentes_text_only",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1784400000003,
+      "tag": "0007_mastery_topic_id",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1784400000004,
+      "tag": "0008_xp_ledger",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1784400000005,
+      "tag": "0009_sessions_topic_milestone",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1784400000006,
+      "tag": "0010_beta_observability",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1784400000007,
+      "tag": "0011_turn_idempotency",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1784400000008,
+      "tag": "0012_fuentes_context_metrics",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1785449803425,
+      "tag": "0013_fuente_chunks_pgvector",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1785600000000,
+      "tag": "0014_material_upload_idempotency",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "7",
+      "when": 1788722148355,
+      "tag": "0015_onboarding_seed_columns",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "7",
+      "when": 1788806400000,
+      "tag": "0016_topic_items_guided",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "7",
+      "when": 1788892800000,
+      "tag": "0017_session_openings",
+      "breakpoints": true
+    }
+  ]
+}

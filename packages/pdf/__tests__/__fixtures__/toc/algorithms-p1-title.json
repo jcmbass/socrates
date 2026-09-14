@@ -1,0 +1,453 @@
+{
+  "pageNumber": 1,
+  "width": 612.0,
+  "height": 792.0,
+  "textItems": [
+    {
+      "str": "Instructor’s",
+      "x": 166.68,
+      "y": 481.86,
+      "width": 90.92,
+      "height": 17.93,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Manual",
+      "x": 262.16,
+      "y": 481.86,
+      "width": 59.79,
+      "height": 17.93,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "by",
+      "x": 166.68,
+      "y": 464.52,
+      "width": 11.96,
+      "height": 11.96,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Thomas",
+      "x": 184.51,
+      "y": 464.52,
+      "width": 38.52,
+      "height": 11.96,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "H.",
+      "x": 225.91,
+      "y": 464.52,
+      "width": 11.62,
+      "height": 11.96,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Cormen",
+      "x": 240.53,
+      "y": 464.52,
+      "width": 38.52,
+      "height": 11.96,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Clara",
+      "x": 184.56,
+      "y": 449.52,
+      "width": 25.89,
+      "height": 11.96,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Lee",
+      "x": 213.58,
+      "y": 449.52,
+      "width": 17.92,
+      "height": 11.96,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Erica",
+      "x": 184.56,
+      "y": 434.64,
+      "width": 25.23,
+      "height": 11.96,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Lin",
+      "x": 212.79,
+      "y": 434.64,
+      "width": 16.61,
+      "height": 11.96,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "to",
+      "x": 166.68,
+      "y": 415.08,
+      "width": 11.95,
+      "height": 14.35,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Accompany",
+      "x": 182.11,
+      "y": 415.08,
+      "width": 72.52,
+      "height": 14.35,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Introduction",
+      "x": 166.68,
+      "y": 385.98,
+      "width": 97.28,
+      "height": 17.93,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "to",
+      "x": 268.4,
+      "y": 385.98,
+      "width": 14.94,
+      "height": 17.93,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Algorithms",
+      "x": 287.78,
+      "y": 385.98,
+      "width": 86.67,
+      "height": 17.93,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Second",
+      "x": 166.68,
+      "y": 366.24,
+      "width": 43.04,
+      "height": 14.35,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Edition",
+      "x": 213.32,
+      "y": 366.24,
+      "width": 43.86,
+      "height": 14.35,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "by",
+      "x": 166.68,
+      "y": 347.88,
+      "width": 11.96,
+      "height": 11.96,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Thomas",
+      "x": 184.51,
+      "y": 347.88,
+      "width": 38.52,
+      "height": 11.96,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "H.",
+      "x": 225.91,
+      "y": 347.88,
+      "width": 11.62,
+      "height": 11.96,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Cormen",
+      "x": 240.53,
+      "y": 347.88,
+      "width": 38.52,
+      "height": 11.96,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Charles",
+      "x": 184.56,
+      "y": 333.0,
+      "width": 36.52,
+      "height": 11.96,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "E.",
+      "x": 224.08,
+      "y": 333.0,
+      "width": 10.29,
+      "height": 11.96,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Leiserson",
+      "x": 237.38,
+      "y": 333.0,
+      "width": 46.48,
+      "height": 11.96,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Ronald",
+      "x": 184.56,
+      "y": 318.0,
+      "width": 34.54,
+      "height": 11.96,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "L.",
+      "x": 222.1,
+      "y": 318.0,
+      "width": 10.29,
+      "height": 11.96,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Rivest",
+      "x": 235.39,
+      "y": 318.0,
+      "width": 30.2,
+      "height": 11.96,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Clifford",
+      "x": 184.56,
+      "y": 303.0,
+      "width": 38.28,
+      "height": 11.96,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Stein",
+      "x": 225.84,
+      "y": 303.0,
+      "width": 24.58,
+      "height": 11.96,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "The",
+      "x": 166.68,
+      "y": 152.06,
+      "width": 16.96,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "MIT",
+      "x": 186.4,
+      "y": 152.06,
+      "width": 20.0,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Press",
+      "x": 209.04,
+      "y": 152.06,
+      "width": 23.03,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Cambridge,",
+      "x": 166.68,
+      "y": 139.22,
+      "width": 51.21,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Massachusetts",
+      "x": 220.77,
+      "y": 139.22,
+      "width": 63.02,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "London,",
+      "x": 295.19,
+      "y": 139.22,
+      "width": 36.67,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "England",
+      "x": 334.85,
+      "y": 139.22,
+      "width": 36.36,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "McGraw-Hill",
+      "x": 166.68,
+      "y": 115.34,
+      "width": 59.26,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Book",
+      "x": 228.7,
+      "y": 115.34,
+      "width": 23.64,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Company",
+      "x": 255.22,
+      "y": 115.34,
+      "width": 42.31,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Boston",
+      "x": 166.68,
+      "y": 102.38,
+      "width": 30.92,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Burr",
+      "x": 247.4,
+      "y": 102.38,
+      "width": 20.0,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Ridge,",
+      "x": 270.15,
+      "y": 102.38,
+      "width": 28.79,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "IL",
+      "x": 301.82,
+      "y": 102.38,
+      "width": 10.3,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Dubuque,",
+      "x": 361.68,
+      "y": 102.38,
+      "width": 42.48,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "IA",
+      "x": 407.16,
+      "y": 102.38,
+      "width": 11.51,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Madison,",
+      "x": 468.35,
+      "y": 102.38,
+      "width": 40.91,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "WI",
+      "x": 512.14,
+      "y": 102.38,
+      "width": 13.93,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "New",
+      "x": 166.68,
+      "y": 89.42,
+      "width": 20.36,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "York",
+      "x": 189.68,
+      "y": 89.42,
+      "width": 21.22,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "San",
+      "x": 245.81,
+      "y": 89.42,
+      "width": 16.36,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Francisco",
+      "x": 264.94,
+      "y": 89.42,
+      "width": 42.41,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "St.",
+      "x": 342.39,
+      "y": 89.42,
+      "width": 11.83,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Louis",
+      "x": 356.86,
+      "y": 89.42,
+      "width": 24.85,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Montr´eal",
+      "x": 416.75,
+      "y": 89.42,
+      "width": 40.02,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Toronto",
+      "x": 491.81,
+      "y": 89.42,
+      "width": 34.31,
+      "height": 10.91,
+      "fontName": "Helvetica"
+    }
+  ],
+  "images": [],
+  "paths": {
+    "horizontalSegments": 0,
+    "verticalSegments": 0,
+    "rectangles": 0
+  }
+}

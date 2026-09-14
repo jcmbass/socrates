@@ -1,0 +1,85 @@
+{
+  "pageNumber": 1,
+  "width": 960.0,
+  "height": 540.0,
+  "textItems": [
+    {
+      "str": "Cálculo",
+      "x": 93.62,
+      "y": 285.06,
+      "width": 246.68,
+      "height": 93.83,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Multivariable",
+      "x": 93.62,
+      "y": 203.44,
+      "width": 449.98,
+      "height": 93.81,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "MATEMÁTICA",
+      "x": 93.84,
+      "y": 159.65,
+      "width": 163.06,
+      "height": 28.13,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "III",
+      "x": 265.78,
+      "y": 159.65,
+      "width": 27.41,
+      "height": 28.13,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Ing.",
+      "x": 93.62,
+      "y": 130.46,
+      "width": 22.2,
+      "height": 16.45,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "José",
+      "x": 118.83,
+      "y": 130.46,
+      "width": 24.61,
+      "height": 16.45,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "María",
+      "x": 146.53,
+      "y": 130.46,
+      "width": 34.82,
+      "height": 16.45,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "Velásquez,",
+      "x": 184.34,
+      "y": 130.46,
+      "width": 62.65,
+      "height": 16.45,
+      "fontName": "Helvetica"
+    },
+    {
+      "str": "MCs.",
+      "x": 250.07,
+      "y": 130.46,
+      "width": 28.22,
+      "height": 16.45,
+      "fontName": "Helvetica"
+    }
+  ],
+  "images": [],
+  "paths": {
+    "horizontalSegments": 0,
+    "verticalSegments": 0,
+    "rectangles": 0
+  }
+}
