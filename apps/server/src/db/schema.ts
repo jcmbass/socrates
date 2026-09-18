@@ -86,7 +86,25 @@ export const users = pgTable("users", {
 
   /** D-C07: NULL means the user has not completed the seed onboarding flow yet (C1-b). */
   onboardingCompletedAt: text("onboarding_completed_at"),
-}, (t) => [unique("users_primary_email_unique").on(t.primaryEmail)]);
+}, (t) => [
+  /**
+   * R11 (beta cerrada, lote 3 — docs/plan-beta-real/11-observaciones-beta-cerrada.md):
+   * la unicidad del correo vale SOLO entre cuentas vivas. El constraint plano
+   * anterior (`users_primary_email_unique`) hacía que el tombstone de una
+   * cuenta borrada (`account_status = 'deleted'`, que conserva su
+   * `primary_email` a propósito, para auditoría) bloqueara para siempre el
+   * re-registro con ese mismo correo. El índice parcial libera el correo sin
+   * mutar una sola fila histórica.
+   *
+   * Su espejo en la aplicación es el filtro `accountStatus <> 'deleted'` de
+   * `findUserByEmail` (repositories/users.ts): sin ese filtro el índice no
+   * alcanza — `POST /v1/auth/signup` seguiría devolviendo 409 contra la fila
+   * tombstoned. Los dos cambios son una sola corrección, no dos.
+   */
+  uniqueIndex("users_primary_email_active_uidx")
+    .on(t.primaryEmail)
+    .where(sql`${t.accountStatus} <> 'deleted'`),
+]);
 
 export const consents = pgTable("consents", {
   id: text("id").primaryKey(),

@@ -1,4 +1,4 @@
-import { eq } from "drizzle-orm";
+import { and, eq, ne } from "drizzle-orm";
 import type { Db } from "../db/client";
 import { users } from "../db/schema";
 import type { User, AuthIdentifier, AccountKind } from "@buxo/domain/user";
@@ -61,8 +61,27 @@ export async function createUser(db: Db, input: CreateUserInput): Promise<User> 
   return rowToUser(row);
 }
 
+/**
+ * Lookup by correo para los flujos de auth (signup / login / recover /
+ * verify). **Excluye los tombstones** (`accountStatus === "deleted"`): una
+ * cuenta borrada ya no ocupa su correo.
+ *
+ * R11 (beta cerrada, lote 3): sin este filtro, `POST /v1/auth/signup`
+ * rechazaba con 409 para siempre el correo de una cuenta borrada
+ * (routes/auth.ts), y `/login` + `/recover` seguían emitiendo magic-links
+ * hacia una cuenta que `requireAuth` después rechaza. Va de la mano del
+ * índice único parcial `users_primary_email_active_uidx` (db/schema.ts):
+ * el índice permite la fila nueva, este filtro hace que la app la cree.
+ *
+ * Los lectores que SÍ necesitan ver un tombstone (p. ej. `requireAuth`)
+ * usan `findUserById`, que no filtra.
+ */
 export async function findUserByEmail(db: Db, email: string): Promise<User | null> {
-  const [row] = await db.select().from(users).where(eq(users.primaryEmail, email.toLowerCase())).limit(1);
+  const [row] = await db
+    .select()
+    .from(users)
+    .where(and(eq(users.primaryEmail, email.toLowerCase()), ne(users.accountStatus, "deleted")))
+    .limit(1);
   return row ? rowToUser(row) : null;
 }
 

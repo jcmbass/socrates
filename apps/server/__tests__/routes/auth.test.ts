@@ -3,6 +3,7 @@ import { createApp } from "../../src/app";
 import { buildTestDeps, type TestContext } from "../support/test-deps";
 import type { RecordingEmailSender } from "../../src/auth/email";
 import { readJson } from "../support/json";
+import { signupAndVerify } from "../support/signup";
 
 describe("auth routes: signup -> verify -> bearer session (DF-6.2 magic-link)", () => {
   let ctx: TestContext;
@@ -302,6 +303,118 @@ describe("auth routes: signup -> verify -> bearer session (DF-6.2 magic-link)", 
 
     const badAuth = await app.request("/v1/courses", { headers: { authorization: "Bearer garbage" } });
     expect(badAuth.status).toBe(401);
+  });
+});
+
+/**
+ * R11 (beta cerrada, lote 3 — docs/plan-beta-real/11-observaciones-beta-cerrada.md):
+ * «Account deletion didn't work and i am unable to sign up with the same
+ * account.» El borrado sí corría; lo que fallaba era el re-registro, porque
+ * el tombstone seguía ocupando el correo (UNIQUE plano + `findUserByEmail`
+ * sin filtro de `accountStatus`). La corrección son dos piezas que solo
+ * sirven juntas: el índice parcial `users_primary_email_active_uidx`
+ * (migración 0018) y el filtro en `findUserByEmail`.
+ */
+describe("auth routes: a deleted account releases its email (R11, beta lote 3)", () => {
+  let ctx: TestContext;
+
+  const signupBody = (email: string) =>
+    JSON.stringify({
+      email,
+      ageConfirmedAt: new Date().toISOString(),
+      consents: [
+        { type: "terms_13plus", policyVersion: "v1" },
+        { type: "privacy_policy", policyVersion: "v1" },
+      ],
+    });
+
+  afterEach(async () => {
+    await ctx?.testDb.close();
+  });
+
+  it("delete account -> signup + verify with the SAME email mints a BRAND-NEW account", async () => {
+    ctx = await buildTestDeps();
+    const app = createApp(ctx.deps);
+    const email = "reborn@example.com";
+
+    const first = await signupAndVerify(app, ctx.deps, email);
+    const deleted = await app.request("/v1/account", {
+      method: "DELETE",
+      headers: { authorization: `Bearer ${first.token}`, "content-type": "application/json" },
+    });
+    expect(deleted.status).toBe(202);
+
+    // Lo que R11 no pudo hacer: volver a registrarse.
+    const second = await signupAndVerify(app, ctx.deps, email);
+    expect(second.userId).not.toBe(first.userId);
+
+    // Y la cuenta nueva es usable de verdad, no solo un 202 de cortesía.
+    const courses = await app.request("/v1/courses", { headers: { authorization: `Bearer ${second.token}` } });
+    expect(courses.status).toBe(200);
+
+    // El tombstone sobrevive intacto (auditoría): no se mutó ninguna fila histórica.
+    const { findUserById } = await import("../../src/repositories/users");
+    const tombstone = await findUserById(ctx.deps.db, first.userId);
+    expect(tombstone?.accountStatus).toBe("deleted");
+    const { users } = await import("../../src/db/schema");
+    const { eq } = await import("drizzle-orm");
+    const [row] = await ctx.deps.db.select().from(users).where(eq(users.id, first.userId));
+    expect(row.primaryEmail).toBe(email);
+  });
+
+  it("signup against a LIVE account with the same email still conflicts (409) — el fix no abre un hueco", async () => {
+    ctx = await buildTestDeps();
+    const app = createApp(ctx.deps);
+    await signupAndVerify(app, ctx.deps, "taken@example.com");
+
+    const res = await app.request("/v1/auth/signup", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: signupBody("taken@example.com"),
+    });
+    expect(res.status).toBe(409);
+    expect((await readJson<{ code: string }>(res)).code).toBe("conflict");
+  });
+
+  it("the DB still refuses two LIVE rows with the same email (el índice parcial no es un UNIQUE desactivado)", async () => {
+    ctx = await buildTestDeps();
+    const { createUser } = await import("../../src/repositories/users");
+    const input = { email: "dupe@example.com", displayName: "Dupe", ageConfirmedAt: new Date().toISOString() };
+
+    await createUser(ctx.deps.db, input);
+    await expect(createUser(ctx.deps.db, input)).rejects.toThrow();
+  });
+
+  it("login/recover stop issuing magic links once the account is deleted", async () => {
+    ctx = await buildTestDeps();
+    const app = createApp(ctx.deps);
+    const email = "gone@example.com";
+
+    const { token } = await signupAndVerify(app, ctx.deps, email);
+    await app.request("/v1/account", {
+      method: "DELETE",
+      headers: { authorization: `Bearer ${token}`, "content-type": "application/json" },
+    });
+
+    const emailSender = ctx.deps.emailSender as RecordingEmailSender;
+    const sentBefore = emailSender.sent.length;
+
+    const login = await app.request("/v1/auth/login", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ email }),
+    });
+    const recover = await app.request("/v1/auth/recover", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ email }),
+    });
+
+    // Anti-enumeración intacta: mismos códigos que para un correo desconocido...
+    expect(login.status).toBe(202);
+    expect(recover.status).toBe(204);
+    // ...pero sin emitir un link hacia una cuenta que `requireAuth` ya rechaza.
+    expect(emailSender.sent).toHaveLength(sentBefore);
   });
 });
 

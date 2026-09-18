@@ -145,4 +145,31 @@ describe("DELETE /v1/account and GET /v1/account/export (§5.3, A7)", () => {
     const later = await app.request("/v1/sessions", { headers });
     expect(later.status).toBe(401);
   });
+
+  /**
+   * R11 (beta lote 3): el tombstone conserva su `primaryEmail` para
+   * auditoría, pero deja de OCUPARLO. La contraparte end-to-end
+   * (borrar → volver a registrarse) vive en routes/auth.test.ts.
+   */
+  it("delete frees the email for re-registration while keeping the tombstone's own copy", async () => {
+    ctx = await buildTestDeps();
+    const app = createApp(ctx.deps);
+    const email = "free-my-email@example.com";
+    const { userId, token } = await signupAndVerify(app, ctx.deps, email);
+    const headers = { authorization: `Bearer ${token}`, "content-type": "application/json" };
+
+    const { findUserByEmail } = await import("../../src/repositories/users");
+    expect((await findUserByEmail(ctx.deps.db, email))?.id).toBe(userId);
+
+    expect((await app.request("/v1/account", { method: "DELETE", headers })).status).toBe(202);
+
+    // Los flujos de auth ya no ven la fila...
+    expect(await findUserByEmail(ctx.deps.db, email)).toBeNull();
+    // ...pero la fila sigue ahí, con su correo original sin mutar.
+    const { users } = await import("../../src/db/schema");
+    const { eq } = await import("drizzle-orm");
+    const [row] = await ctx.deps.db.select().from(users).where(eq(users.id, userId));
+    expect(row.accountStatus).toBe("deleted");
+    expect(row.primaryEmail).toBe(email);
+  });
 });

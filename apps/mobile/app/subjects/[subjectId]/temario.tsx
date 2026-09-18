@@ -69,7 +69,7 @@
  * frames (mismo criterio device-e13 de `glowScrollPauseDebounce`),
  * soltándose en el callback de completado.
  */
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState, type ReactNode } from "react";
 import { ActivityIndicator, Linking, Pressable, ScrollView, Text, View } from "react-native";
 import Animated, {
   cancelAnimation,
@@ -88,11 +88,14 @@ import { Redirect, router, Stack, useLocalSearchParams } from "expo-router";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 import { CollapsibleUnitSection } from "../../../components/CollapsibleUnitSection";
+import { FuentesPill } from "../../../components/FuentesPill";
 import { OnboardBackButton } from "../../../components/OnboardBackButton";
 import { PrimaryButton } from "../../../components/PrimaryButton";
 import { SkillTree } from "../../../components/SkillTree";
+import { SourcesModal } from "../../../components/SourcesModal";
 import { TemarioTopicEditor } from "../../../components/TemarioTopicEditor";
 import { useIngestToFuente } from "../../../components/useIngestToFuente";
+import { useSourcesIngestOnScreen } from "../../../components/useSourcesIngestOnScreen";
 import { useT } from "../../../i18n/react";
 import { apiClient } from "../../../lib/api/expoClient";
 import { ApiError, isUnauthorized } from "../../../lib/api/errors";
@@ -107,6 +110,7 @@ import { isIngestAwaitingServer, isIngestBusy } from "../../../lib/materialInges
 import { deriveTemarioProgress, resolveRecommendedTopicId } from "../../../lib/skillTree";
 import { resolveAutoScrollTarget } from "../../../lib/temarioAutoscroll";
 import { findUnitGroupForTopic, groupTopicsByUnit, seedLevelFromCatalogKey } from "../../../lib/temarioGroups";
+import { isSubjectSourcesEntryActive, sourcesReconcileSubjectId } from "../../../lib/subjectSourcesEntry";
 import { isTemarioEffectivelyEmpty, pickRetryFuente } from "../../../lib/temarioEmpty";
 import { glowScrollPauseDebounce, springs, temarioAutoscroll } from "../../../theme/motion";
 import { useReduceMotion, useTheme } from "../../../theme/useTheme";
@@ -146,6 +150,14 @@ function ScreenHeader(props: {
   progress: { doneCount: number; total: number; percent: number };
   onBack: () => void;
   topInset: number;
+  /**
+   * Obs. 2a de la beta cerrada: la píldora "Fuentes" a nivel MATERIA — la
+   * misma que ya viven los chats de tema/hito, en la misma esquina. Llega
+   * como slot (no como props sueltas) para que este header siga sin saber
+   * nada de ingesta. `null` mientras la entrada no corresponde
+   * (`lib/subjectSourcesEntry.ts`).
+   */
+  sourcesSlot?: ReactNode;
 }) {
   const t = useT();
   const { colors } = useTheme();
@@ -177,6 +189,7 @@ function ScreenHeader(props: {
             </Text>
           ) : null}
         </View>
+        {props.sourcesSlot ?? null}
       </View>
 
       {progress.total > 0 ? (
@@ -433,6 +446,9 @@ export default function SubjectTemario() {
   const [createError, setCreateError] = useState<string | null>(null);
   const [progressMessage, setProgressMessage] = useState<string | null>(null);
   const [pendingFuente, setPendingFuente] = useState<Fuente | null>(null);
+  /** Obs. 2a — cuenta para la píldora "Fuentes" del header; `listEpoch` re-lista el modal cuando adjunta con la hoja cerrada. */
+  const [fuentesCount, setFuentesCount] = useState(0);
+  const [fuentesListEpoch, setFuentesListEpoch] = useState(0);
   /** Manual path: edit topics outside onboarding (beta-real 06 Fase 2). */
   const [editing, setEditing] = useState(false);
   const [newTopicTitle, setNewTopicTitle] = useState("");
@@ -509,6 +525,53 @@ export default function SubjectTemario() {
     setProgressMessage(ingestStatusMessage(ingest.ingest));
   }, [ingest.ingest]);
 
+  /**
+   * Obs. 2a de la beta cerrada — material de estudio a nivel MATERIA.
+   *
+   * Es la MISMA composición que ya usan `TopicFreeChat` y la pantalla de
+   * hito (`useSourcesIngestOnScreen` + `FuentesPill` + `SourcesModal`), sin
+   * una línea de pipeline nueva: acá solo se monta un toque más arriba, en
+   * la pantalla a la que se llega con UN toque desde home. Antes de esto,
+   * el único camino para subir un PDF a una materia YA configurada pasaba
+   * por entrar a un tema concreto y reconocer el clip del composer.
+   *
+   * Convive con el `useIngestToFuente` de arriba (el del estado vacío)
+   * porque los dos hacen cosas distintas con el PDF: aquél GENERA el
+   * temario, éste solo adjunta una Fuente. Nunca están activos a la vez —
+   * `isSubjectSourcesEntryActive` apaga éste mientras manda aquél, y
+   * `sourcesReconcileSubjectId` corta además su reconcile de huérfanos
+   * para que no adjunte por su cuenta un material que el otro flujo está
+   * por adjuntar (ver `lib/subjectSourcesEntry.ts`).
+   */
+  const refreshFuentesCount = useCallback(async () => {
+    const token = auth?.token;
+    if (!token || !subjectId) return;
+    try {
+      const fuentes = await apiClient.listFuentes(token, subjectId);
+      setFuentesCount(fuentes.length);
+    } catch {
+      // Best-effort, igual que en los chats: la cuenta vieja miente menos
+      // que un 0 inventado por un fallo de red.
+    }
+  }, [auth?.token, subjectId]);
+
+  const sourcesEntryActive = isSubjectSourcesEntryActive({
+    loading,
+    error,
+    temarioEmpty: isTemarioEffectivelyEmpty(temario),
+    buildingTemario: creating,
+    editing,
+  });
+
+  const sourcesIngest = useSourcesIngestOnScreen({
+    token: auth?.token ?? "",
+    subjectId: sourcesReconcileSubjectId(subjectId, sourcesEntryActive),
+    onFuenteAttached: () => {
+      setFuentesListEpoch((n) => n + 1);
+      void refreshFuentesCount();
+    },
+  });
+
   // Cancelar solo tiene sentido mientras corre la ingesta. Durante
   // `runGenerate` (temario-builder) `creating` sigue en true pero cancelar no
   // detendría nada: sería un botón que miente.
@@ -543,15 +606,21 @@ export default function SubjectTemario() {
         if (cancelled) return;
         setTemario(nextTemario);
 
-        if (isTemarioEffectivelyEmpty(nextTemario)) {
-          try {
-            const fuentes = await apiClient.listFuentes(currentAuth.token, subjectId);
-            if (!cancelled) setPendingFuente(pickRetryFuente(fuentes));
-          } catch {
-            if (!cancelled) setPendingFuente(null);
+        // Las fuentes se listan SIEMPRE ahora (obs. 2a): con temario vacío
+        // alimentan "Reintentar generación", y con temario armado alimentan
+        // la cuenta de la píldora del header. Un fallo acá nunca rompe la
+        // pantalla — degrada a 0 / sin reintento, igual que antes.
+        try {
+          const fuentes = await apiClient.listFuentes(currentAuth.token, subjectId);
+          if (!cancelled) {
+            setFuentesCount(fuentes.length);
+            setPendingFuente(isTemarioEffectivelyEmpty(nextTemario) ? pickRetryFuente(fuentes) : null);
           }
-        } else if (!cancelled) {
-          setPendingFuente(null);
+        } catch {
+          if (!cancelled) {
+            setFuentesCount(0);
+            setPendingFuente(null);
+          }
         }
       } catch {
         if (!cancelled) setError(true);
@@ -782,8 +851,24 @@ export default function SubjectTemario() {
     <>
       <Stack.Screen options={{ headerShown: false }} />
       {ingest.host}
+      {sourcesIngest.host}
       <View style={{ flex: 1, backgroundColor: colors.surface }}>
-        <ScreenHeader name={displayName} seedLevel={seedLevel} progress={progress} onBack={handleBack} topInset={insets.top} />
+        <ScreenHeader
+          name={displayName}
+          seedLevel={seedLevel}
+          progress={progress}
+          onBack={handleBack}
+          topInset={insets.top}
+          sourcesSlot={
+            sourcesEntryActive ? (
+              <FuentesPill
+                count={fuentesCount}
+                ingest={sourcesIngest.ingest}
+                onPress={() => sourcesIngest.setSourcesOpen(true)}
+              />
+            ) : null
+          }
+        />
 
         {loading ? (
           <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
@@ -944,6 +1029,25 @@ export default function SubjectTemario() {
           </>
         )}
       </View>
+
+      {/* Obs. 2a — la misma hoja de Fuentes de los chats, ahora también a
+          nivel materia. Se monta aunque la píldora esté oculta: si el
+          estudiante la abrió y el temario se recargó, cerrarla debe seguir
+          animando (misma decisión que el host de arriba). */}
+      <SourcesModal
+        visible={sourcesIngest.sourcesOpen}
+        onClose={() => {
+          sourcesIngest.setSourcesOpen(false);
+          void refreshFuentesCount();
+        }}
+        token={auth.token}
+        subjectId={subjectId}
+        ingest={sourcesIngest.ingest}
+        busy={sourcesIngest.busy}
+        startPick={sourcesIngest.startPick}
+        cancel={sourcesIngest.cancel}
+        listEpoch={fuentesListEpoch}
+      />
     </>
   );
 }
