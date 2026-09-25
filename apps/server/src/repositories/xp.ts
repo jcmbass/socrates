@@ -6,7 +6,7 @@
  * The aggregation policy (subtract | floor | grow_only) is configurable via
  * BUXO_XP_DEMOTION_POLICY; the default is "subtract".
  */
-import { and, asc, eq, sql } from "drizzle-orm";
+import { and, asc, eq, inArray, sql } from "drizzle-orm";
 import type { Db } from "../db/client";
 import { xpEvents } from "../db/schema";
 import type { XpEvent, XpReason } from "@buxo/domain/xp";
@@ -102,6 +102,52 @@ export async function hasGuidedSessionComplete(db: Db, userId: string, topicId: 
     )
     .limit(1);
   return !!row;
+}
+
+const GUIDED_ITEM_XP_REASONS: XpReason[] = ["guided_item_correct", "guided_item_retry"];
+
+/** True if this user already earned guided item XP for this item in the topic. */
+export async function hasGuidedItemXp(db: Db, userId: string, topicId: string, itemId: string): Promise<boolean> {
+  const [row] = await db
+    .select({ id: xpEvents.id })
+    .from(xpEvents)
+    .where(
+      and(
+        eq(xpEvents.userId, userId),
+        eq(xpEvents.topicId, topicId),
+        eq(xpEvents.itemId, itemId),
+        inArray(xpEvents.reason, GUIDED_ITEM_XP_REASONS),
+      ),
+    )
+    .limit(1);
+  return !!row;
+}
+
+/** Distinct item ids that already earned guided item XP, grouped by topic. */
+export async function listGuidedAnsweredItemIdsByTopic(
+  db: Db,
+  userId: string,
+  topicIds: readonly string[],
+): Promise<Map<string, Set<string>>> {
+  const byTopic = new Map<string, Set<string>>();
+  if (topicIds.length === 0) return byTopic;
+  const rows = await db
+    .selectDistinct({ topicId: xpEvents.topicId, itemId: xpEvents.itemId })
+    .from(xpEvents)
+    .where(
+      and(
+        eq(xpEvents.userId, userId),
+        inArray(xpEvents.topicId, [...topicIds]),
+        inArray(xpEvents.reason, GUIDED_ITEM_XP_REASONS),
+      ),
+    );
+  for (const row of rows) {
+    if (!row.topicId || !row.itemId) continue;
+    const ids = byTopic.get(row.topicId) ?? new Set<string>();
+    ids.add(row.itemId);
+    byTopic.set(row.topicId, ids);
+  }
+  return byTopic;
 }
 
 export async function listXpEventsByUser(

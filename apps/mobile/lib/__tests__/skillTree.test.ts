@@ -2,9 +2,11 @@ import { describe, expect, it } from "vitest";
 import {
   buildSkillTreeNodes,
   deriveTemarioProgress,
+  deriveTopicGuidedProgress,
   formatSkillTreeCap,
   orderForBottomUpDisplay,
   orderSkillTreeNodes,
+  resolveContinueTopicId,
   resolveRecommendedTopicId,
   skillTreeChrome,
 } from "../skillTree";
@@ -236,5 +238,69 @@ describe("skillTreeChrome", () => {
     const chrome = skillTreeChrome("gameMap");
     expect(formatSkillTreeCap(chrome.top, copy)).toBe("↑ Los temas avanzados aparecen arriba");
     expect(formatSkillTreeCap(chrome.bottom, copy)).toBe("INICIO DEL TEMARIO");
+  });
+});
+
+describe("deriveTopicGuidedProgress (hallazgo C)", () => {
+  it("is null when the field is missing or total is 0", () => {
+    expect(deriveTopicGuidedProgress(undefined)).toBeNull();
+    expect(deriveTopicGuidedProgress({ completed: 0, total: 0 })).toBeNull();
+  });
+
+  it("returns completed/total and a rounded percent", () => {
+    expect(deriveTopicGuidedProgress({ completed: 3, total: 10 })).toEqual({ completed: 3, total: 10, percent: 30 });
+    expect(deriveTopicGuidedProgress({ completed: 1, total: 3 })).toEqual({ completed: 1, total: 3, percent: 33 });
+  });
+
+  it("clamps completed into [0, total]", () => {
+    expect(deriveTopicGuidedProgress({ completed: 12, total: 10 })).toEqual({ completed: 10, total: 10, percent: 100 });
+    expect(deriveTopicGuidedProgress({ completed: -1, total: 10 })).toEqual({ completed: 0, total: 10, percent: 0 });
+  });
+
+  it("is carried on topic nodes by buildSkillTreeNodes", () => {
+    const nodes = buildSkillTreeNodes({
+      topics: [fakeTopic({ id: "t1", guidedProgress: { completed: 3, total: 10 } }), fakeTopic({ id: "t2", order: 1 })],
+      milestones: [],
+    });
+    expect(nodes[0]).toMatchObject({ kind: "topic", guidedProgress: { completed: 3, total: 10, percent: 30 } });
+    expect(nodes[1]).toMatchObject({ kind: "topic", guidedProgress: null });
+  });
+});
+
+describe("resolveContinueTopicId (hallazgo C)", () => {
+  const full = { completed: 10, total: 10 };
+
+  it("keeps the recommended topic when it is not guided-complete", () => {
+    const topics = [fakeTopic({ id: "t1", guidedProgress: { completed: 3, total: 10 } }), fakeTopic({ id: "t2", order: 1 })];
+    expect(resolveContinueTopicId(topics, "t1")).toBe("t1");
+  });
+
+  it("keeps the recommended topic when it has no guided progress", () => {
+    const topics = [fakeTopic({ id: "t1" }), fakeTopic({ id: "t2", order: 1 })];
+    expect(resolveContinueTopicId(topics, "t1")).toBe("t1");
+  });
+
+  it("moves to the next syllabus topic that is neither done nor guided-complete", () => {
+    const topics = [
+      fakeTopic({ id: "t1", guidedProgress: full }),
+      fakeTopic({ id: "t2", order: 1, status: "done" }),
+      fakeTopic({ id: "t3", order: 2, guidedProgress: full }),
+      fakeTopic({ id: "t4", order: 3, guidedProgress: { completed: 2, total: 10 } }),
+    ];
+    expect(resolveContinueTopicId(topics, "t1")).toBe("t4");
+  });
+
+  it("wraps around to earlier topics", () => {
+    const topics = [fakeTopic({ id: "t1" }), fakeTopic({ id: "t2", order: 1, guidedProgress: full })];
+    expect(resolveContinueTopicId(topics, "t2")).toBe("t1");
+  });
+
+  it("falls back to the recommended topic when every topic is complete", () => {
+    const topics = [fakeTopic({ id: "t1", guidedProgress: full }), fakeTopic({ id: "t2", order: 1, status: "done" })];
+    expect(resolveContinueTopicId(topics, "t1")).toBe("t1");
+  });
+
+  it("is null when there is no recommended topic", () => {
+    expect(resolveContinueTopicId([fakeTopic({ status: "done" })], null)).toBeNull();
   });
 });

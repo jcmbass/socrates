@@ -17,7 +17,12 @@ import { useT } from "../../i18n/react";
 import { getStrings } from "../../i18n";
 import { apiClient } from "../../lib/api/expoClient";
 import { isUnauthorized } from "../../lib/api/errors";
-import type { ActiveSessionSummary, FullStudySession, SessionOpening, XpSummary } from "../../lib/api/types";
+import type {
+  ActiveSessionSummary,
+  FullStudySession,
+  SessionOpening,
+  XpSummary,
+} from "../../lib/api/types";
 import { appStore } from "../../lib/appStore";
 import {
   buildDegradedSteps,
@@ -33,6 +38,29 @@ import { shouldRequestTutorOpening } from "../../lib/transcriptEvents";
 import { router } from "expo-router";
 import { useTheme } from "../../theme/useTheme";
 import { spacing, typography } from "../../theme/tokens";
+
+/** First index at or after `from` that is not an item step already answered correctly. */
+function nextUnansweredStep(steps: readonly RecipeFlatStep[], answered: ReadonlySet<string>, from: number): number {
+  let i = from;
+  while (i < steps.length - 1) {
+    const step = steps[i];
+    if (step?.kind !== "item" || !answered.has(step.item.id)) break;
+    i++;
+  }
+  return i;
+}
+
+/**
+ * Fresh topic → step 0. Returning to a topic with answered items → the first
+ * unanswered item step, or the closure step when every item is answered.
+ */
+function resumeStepIndex(steps: readonly RecipeFlatStep[], answered: ReadonlySet<string>): number {
+  if (!steps.some((s) => s.kind === "item" && answered.has(s.item.id))) return 0;
+  const firstOpenItem = steps.findIndex((s) => s.kind === "item" && !answered.has(s.item.id));
+  if (firstOpenItem >= 0) return firstOpenItem;
+  const closure = steps.findIndex((s) => s.kind === "closure");
+  return closure >= 0 ? closure : 0;
+}
 
 export function GuidedSession(props: {
   userId: string;
@@ -63,6 +91,7 @@ export function GuidedSession(props: {
   const [correctCount, setCorrectCount] = useState(0);
   const [itemTotal, setItemTotal] = useState(0);
   const [closureReady, setClosureReady] = useState(false);
+  const [answeredItemIds, setAnsweredItemIds] = useState<ReadonlySet<string>>(new Set());
 
   const xpDisplay = deriveXpDisplay(xp);
   const totalXp = (xpDisplay.visible ? xpDisplay.total : 0) + sessionXp;
@@ -105,8 +134,11 @@ export function GuidedSession(props: {
 
         if (cancelled) return;
 
+        const answered = new Set(degradedRun ? [] : (itemsResult.answeredItemIds ?? []));
         const itemsInRecipe = recipeSteps.filter((s) => s.kind === "item").length;
+        const alreadyCorrect = recipeSteps.filter((s) => s.kind === "item" && answered.has(s.item.id)).length;
         setSteps(recipeSteps);
+        setAnsweredItemIds(answered);
         setDegraded(degradedRun);
         setDegradedReason(itemsResult.degradedReason);
         setGrounding(itemsResult.grounding);
@@ -114,9 +146,9 @@ export function GuidedSession(props: {
         setSessionId(full.id);
         setOpening(full.opening ?? null);
         setXp(xpResult);
-        setStepIndex(0);
+        setStepIndex(resumeStepIndex(recipeSteps, answered));
         setSessionXp(0);
-        setCorrectCount(0);
+        setCorrectCount(alreadyCorrect);
         setClosureReady(false);
 
         // Same session context as exposure cards (buildTopicSessionContext on
@@ -162,7 +194,7 @@ export function GuidedSession(props: {
 
   function advance() {
     if (stepIndex >= steps.length - 1) return;
-    setStepIndex((i) => i + 1);
+    setStepIndex((i) => nextUnansweredStep(steps, answeredItemIds, i + 1));
   }
 
   async function finishClosure() {

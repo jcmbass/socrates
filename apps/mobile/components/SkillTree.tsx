@@ -458,7 +458,35 @@ function TopicCard({ node, showStars }: { node: TopicNodeData; showStars: boolea
           {/* Plan-xp-progreso Fase 2: in shadow, hide stars entirely — don't draw empty ones. */}
           {showStars ? <Stars count={node.stars} /> : null}
         </View>
+      ) : node.guidedProgress ? (
+        <TopicGuidedProgressRow progress={node.guidedProgress} />
       ) : null}
+    </View>
+  );
+}
+
+/** Hallazgo C — "3/10 · 30%" plus a mini bar, sized to the card's single status row (`CARD_ESTIMATED_HEIGHT` budgets exactly one caption line). */
+function TopicGuidedProgressRow({ progress }: { progress: NonNullable<TopicNodeData["guidedProgress"]> }) {
+  const t = useT();
+  const { colors } = useTheme();
+  return (
+    <View style={{ flexDirection: "row", alignItems: "center", gap: spacing.xs }}>
+      <Text
+        numberOfLines={1}
+        style={{
+          flexShrink: 0,
+          color: colors.accent,
+          fontSize: typography.caption.fontSize,
+          lineHeight: typography.caption.lineHeight,
+          fontWeight: typography.weights.semibold,
+          fontVariant: [...typography.tabularNums],
+        }}
+      >
+        {t.skillTree.topicGuidedProgress(progress.completed, progress.total, progress.percent)}
+      </Text>
+      <View style={{ flex: 1, minWidth: 0, height: 4, borderRadius: radius.full, backgroundColor: colors.border, overflow: "hidden" }}>
+        <View style={{ width: `${progress.percent}%`, height: "100%", backgroundColor: colors.accent }} />
+      </View>
     </View>
   );
 }
@@ -548,7 +576,11 @@ function TreeRow({
       <MilestoneDiamond node={node} offset={nodeOffset} />
     );
   const card = node.kind === "topic" ? <TopicCard node={node} showStars={showStars} /> : <MilestoneCard node={node} />;
-  const label = node.kind === "topic" ? (node.recommended ? `${t.skillTree.recommendedBadge}: ${node.title}` : node.title) : node.title;
+  const topicLabel = node.kind === "topic" ? (node.recommended ? `${t.skillTree.recommendedBadge}: ${node.title}` : node.title) : node.title;
+  const label =
+    node.kind === "topic" && node.guidedProgress && node.status !== "done"
+      ? `${topicLabel}, ${t.skillTree.topicGuidedProgressA11y(node.guidedProgress.completed, node.guidedProgress.total, node.guidedProgress.percent)}`
+      : topicLabel;
 
   return (
     <Animated.View style={entranceStyle}>

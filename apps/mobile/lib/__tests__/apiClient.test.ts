@@ -5,9 +5,11 @@
  * `ReadableStream` (Node global) to exercise `readStreamedText` exactly the
  * way a genuine chunked HTTP body would.
  */
-import { describe, expect, it, vi } from "vitest";
+import { afterEach, describe, expect, it, vi } from "vitest";
 import { createApiClient, readStreamedText, type ApiFetch, type ApiFetchResponse } from "../api/client";
 import { ApiError, isNetworkError, isQuotaExceeded, isUnauthorized } from "../api/errors";
+import { setActiveLocale } from "../../i18n";
+import type { SignupInput } from "../api/types";
 
 function jsonResponse(status: number, body: unknown): ApiFetchResponse {
   return {
@@ -77,6 +79,21 @@ describe("readStreamedText", () => {
 });
 
 describe("createApiClient", () => {
+  // The signup body carries the UI locale (see below): every test in this
+  // block runs with the default catalog unless it says otherwise.
+  afterEach(() => setActiveLocale("es"));
+
+  const signupInput: SignupInput = {
+    email: "a@b.com",
+    displayName: "A",
+    ageConfirmedAt: "2026-01-01T00:00:00.000Z",
+    consents: [],
+  };
+
+  function sentBody(fetchImpl: ReturnType<typeof vi.fn<ApiFetch>>): Record<string, unknown> {
+    return JSON.parse(String(fetchImpl.mock.calls[0]![1]!.body)) as Record<string, unknown>;
+  }
+
   it("signup() posts the payload and resolves on 202 with no body", async () => {
     const fetchImpl = vi.fn<ApiFetch>(async () => emptyResponse(202));
     const client = createApiClient({ baseUrl: "http://test", fetchImpl });
@@ -85,6 +102,38 @@ describe("createApiClient", () => {
       "http://test/v1/auth/signup",
       expect.objectContaining({ method: "POST" }),
     );
+  });
+
+  /**
+   * Bug del 2026-09-18 (tester en inglés): sin `preferredLanguageCode` en el
+   * body, `resolveSignupLocale` del server caía a "es" para TODA cuenta nueva
+   * (el cliente tampoco manda Accept-Language), así que el correo del
+   * magic-link salía en español y la fila nacía en "es". El locale efectivo
+   * se toma del espejo del catálogo activo (`i18n/index.ts`), el mismo que
+   * usan los helpers puros — no de un parámetro que cada pantalla pueda
+   * olvidar.
+   */
+  it("signup() carries the ACTIVE ui locale as preferredLanguageCode", async () => {
+    const fetchImpl = vi.fn<ApiFetch>(async () => emptyResponse(202));
+    const client = createApiClient({ baseUrl: "http://test", fetchImpl });
+    setActiveLocale("en");
+    await client.signup(signupInput);
+    expect(sentBody(fetchImpl)).toMatchObject({ email: "a@b.com", preferredLanguageCode: "en" });
+  });
+
+  it("signup() defaults to es when the active locale is the founding one", async () => {
+    const fetchImpl = vi.fn<ApiFetch>(async () => emptyResponse(202));
+    const client = createApiClient({ baseUrl: "http://test", fetchImpl });
+    await client.signup(signupInput);
+    expect(sentBody(fetchImpl).preferredLanguageCode).toBe("es");
+  });
+
+  it("signup() lets an explicit preferredLanguageCode win over the active locale", async () => {
+    const fetchImpl = vi.fn<ApiFetch>(async () => emptyResponse(202));
+    const client = createApiClient({ baseUrl: "http://test", fetchImpl });
+    setActiveLocale("es");
+    await client.signup({ ...signupInput, preferredLanguageCode: "en" });
+    expect(sentBody(fetchImpl).preferredLanguageCode).toBe("en");
   });
 
   it("verify() returns {userId, token, email, displayName} on success", async () => {

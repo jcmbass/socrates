@@ -8,7 +8,7 @@ import { buildTestDeps, type BuildTestDepsOptions, type TestContext } from "../s
 import { signupAndVerify } from "../support/signup";
 import { readJson } from "../support/json";
 import type { CourseBody, SubjectBody } from "../support/http-types";
-import { topicItems, usageQuotas, quotaRejections } from "../../src/db/schema";
+import { topicItems, usageQuotas, quotaRejections, xpEvents } from "../../src/db/schema";
 import { XP_GUIDED_CORRECT, XP_GUIDED_RETRY, XP_GUIDED_SESSION } from "@buxo/domain/xp";
 import { parseTopicItemsPayload } from "@buxo/domain/guided-item";
 import { recordUsage } from "../../src/repositories/quotas";
@@ -390,6 +390,82 @@ describe("guided topic_items routes", () => {
     );
     expect(res.correct).toBe(true);
     expect(res.xpDelta).toBe(XP_GUIDED_CORRECT);
+  });
+
+  it("a correct answer earns item XP once per (user, topic, item) and reports answeredItemIds", async () => {
+    const { app, headers, userId, subject, topic } = await setupUser("guided-item-idem@example.com");
+    const ensurePath = `/v1/subjects/${subject.id}/topics/${topic.id}/items:ensure`;
+    const fresh = await readJson<EnsureItemsBody & { answeredItemIds: string[] }>(
+      await app.request(ensurePath, { method: "POST", headers }),
+    );
+    expect(fresh.answeredItemIds).toEqual([]);
+
+    const [row] = await ctx.deps.db.select().from(topicItems).where(eq(topicItems.topicId, topic.id)).limit(1);
+    const payload = parseTopicItemsPayload(row!.payload);
+    const vf = payload.items.find((i) => i.type === "verdadero_falso");
+    expect(vf).toBeDefined();
+    const answerPath = `/v1/subjects/${subject.id}/topics/${topic.id}/items/${vf!.id}/answer`;
+
+    const first = await readJson<{ correct: boolean; xpDelta: number; explanation: string }>(
+      await app.request(answerPath, {
+        method: "POST",
+        headers,
+        body: JSON.stringify({ selected: vf!.answer, attempt: 1, responseMs: 500 }),
+      }),
+    );
+    expect(first).toMatchObject({ correct: true, xpDelta: XP_GUIDED_CORRECT, explanation: vf!.explanation });
+
+    for (const attempt of [1, 2] as const) {
+      const again = await readJson<{ correct: boolean; xpDelta: number; explanation: string }>(
+        await app.request(answerPath, {
+          method: "POST",
+          headers,
+          body: JSON.stringify({ selected: vf!.answer, attempt, responseMs: 300 }),
+        }),
+      );
+      expect(again).toEqual({ correct: true, xpDelta: 0, explanation: vf!.explanation });
+    }
+
+    const itemEvents = (await ctx.deps.db.select().from(xpEvents).where(eq(xpEvents.userId, userId))).filter(
+      (e) => e.itemId === vf!.id,
+    );
+    expect(itemEvents).toHaveLength(1);
+
+    const resumed = await readJson<{ answeredItemIds: string[] }>(await app.request(ensurePath, { method: "POST", headers }));
+    expect(resumed.answeredItemIds).toEqual([vf!.id]);
+    const listed = await readJson<{ answeredItemIds: string[] }>(
+      await app.request(`/v1/subjects/${subject.id}/topics/${topic.id}/items`, { headers }),
+    );
+    expect(listed.answeredItemIds).toEqual([vf!.id]);
+  });
+
+  it("temario GET reports guidedProgress only for topics with generated items", async () => {
+    const { app, headers, subject, topic } = await setupUser("guided-progress@example.com");
+    const otherTopic = await readJson<TopicBody>(
+      await app.request(`/v1/temario/${subject.id}/topics`, {
+        method: "POST",
+        headers,
+        body: JSON.stringify({ title: "Caída libre" }),
+      }),
+    );
+    await app.request(`/v1/subjects/${subject.id}/topics/${topic.id}/items:ensure`, { method: "POST", headers });
+
+    const [row] = await ctx.deps.db.select().from(topicItems).where(eq(topicItems.topicId, topic.id)).limit(1);
+    const payload = parseTopicItemsPayload(row!.payload);
+    const answerable = payload.items.filter((i) => i.type !== "expose");
+    const vf = answerable.find((i) => i.type === "verdadero_falso")!;
+    await app.request(`/v1/subjects/${subject.id}/topics/${topic.id}/items/${vf.id}/answer`, {
+      method: "POST",
+      headers,
+      body: JSON.stringify({ selected: vf.answer, attempt: 1, responseMs: 500 }),
+    });
+
+    type TemarioTopic = TopicBody & { guidedProgress?: { completed: number; total: number } };
+    const temario = await readJson<{ topics: TemarioTopic[] }>(await app.request(`/v1/temario/${subject.id}`, { headers }));
+    const withItems = temario.topics.find((t) => t.id === topic.id)!;
+    const withoutItems = temario.topics.find((t) => t.id === otherTopic.id)!;
+    expect(withItems.guidedProgress).toEqual({ completed: 1, total: answerable.length });
+    expect("guidedProgress" in withoutItems).toBe(false);
   });
 
   it("guided:complete is idempotent", async () => {

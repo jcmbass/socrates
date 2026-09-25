@@ -166,6 +166,15 @@ export const es = {
     title: "Despertando a Socrates…",
     subtitle: "El servidor está arrancando. Puede tomar hasta un par de minutos la primera vez.",
     retrying: "Reintentando…",
+    /** Rotan bajo el subtítulo mientras dura la espera (se ocultan con reduce-motion). */
+    bootLines: [
+      "Encendiendo motores…",
+      "Socrates se está desperezando…",
+      "Preparando el café…",
+      "Desempolvando los pergaminos…",
+      "Afinando las preguntas…",
+      "Buscando las sandalias…",
+    ],
   },
 
   // P4 — home (tarjetas de materia + XP total). Reemplaza el contenido de
@@ -211,6 +220,10 @@ export const es = {
     topicLabel: (order1based: number) => `TEMA ${order1based}`,
     completedLabel: "Completado",
     progressLabel: (doneCount: number, total: number, percent: number) => `Tema ${doneCount} / ${total} · ${percent}%`,
+    /** Hallazgo C — progreso guiado DENTRO de un tema (tarjeta del árbol). */
+    topicGuidedProgress: (completed: number, total: number, percent: number) => `${completed}/${total} · ${percent}%`,
+    topicGuidedProgressA11y: (completed: number, total: number, percent: number) =>
+      `${completed} de ${total} ejercicios, ${percent}%`,
     routeLabel: "TU RUTA DE APRENDIZAJE",
     /** No candado language (DF-P02) — "aparecen", never "se desbloquean". */
     routeHint: "Los temas avanzados aparecen arriba",

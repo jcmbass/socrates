@@ -4,10 +4,15 @@
  * The student's EFFECTIVE UI locale is written to
  * `users.preferredLanguageCode` (server default "es") at three moments:
  *  (a) when the language selector changes (i18n/react.tsx setOverride),
- *  (b) after login/signup completes (app/login.tsx verify success),
- *  (c) once per app start when already authenticated and the effective
- *      locale differs from what we last synced this session
- *      (`shouldSyncPreferredLanguage` guards the "once").
+ *  (b) cuando el login/signup termina y el token aparece en el store,
+ *  (c) una vez por arranque de app con sesión ya guardada.
+ * (b) y (c) son el mismo efecto del provider — ver el docblock de
+ * i18n/react.tsx; `shouldSyncPreferredLanguage` guarda el "una vez".
+ *
+ * La cuenta nace con la locale correcta desde el signup
+ * (`client.ts#signup` manda `preferredLanguageCode`); esto es la red de
+ * seguridad para todo lo demás: cuentas viejas, enrolamiento por deep-link
+ * (que no tiene formulario ni señal de idioma) y cambios de idioma después.
  *
  * PURE + dependency-injected (the client is a parameter, mirroring
  * lib/api/client.ts's discipline) so this is unit-testable offline. The
@@ -35,13 +40,30 @@ export interface SyncAttempts {
 const DEFAULT_ATTEMPTS = 2;
 const DEFAULT_RETRY_DELAY_MS = 1500;
 
+/** Lo último que ESTE arranque de la app le dejó dicho al server. */
+export interface PreferredLanguageSyncMark {
+  token: string;
+  locale: "es" | "en";
+}
+
 /**
- * Whether an app-start sync (moment c) should fire: only once per effective
- * locale per session — the selector (a) and login (b) sync eagerly, so
- * repeat triggers with an unchanged locale are spam.
+ * Whether a sync should fire: only once per (sesión de auth, locale efectivo)
+ * — el selector (a) y el login (b) sincronizan de inmediato, así que repetir
+ * el disparo con el mismo token y la misma locale es spam.
+ *
+ * El TOKEN es parte de la llave a propósito (bug del 2026-09-18): deduplicar
+ * solo por locale hacía que un logout + login de OTRA cuenta sin cerrar la
+ * app no sincronizara nada — la cuenta nueva se quedaba con la locale que
+ * tuviera guardada (típicamente "es") hasta el siguiente arranque en frío.
+ * El PATCH escribe en la fila del dueño del token, así que "ya sincronicé
+ * 'en'" no dice nada sobre una fila distinta.
  */
-export function shouldSyncPreferredLanguage(lastSynced: "es" | "en" | null, locale: "es" | "en"): boolean {
-  return lastSynced !== locale;
+export function shouldSyncPreferredLanguage(
+  lastSynced: PreferredLanguageSyncMark | null,
+  next: PreferredLanguageSyncMark,
+): boolean {
+  if (!lastSynced) return true;
+  return lastSynced.token !== next.token || lastSynced.locale !== next.locale;
 }
 
 /** Resolves to true on success; false when every attempt failed. Never throws. */

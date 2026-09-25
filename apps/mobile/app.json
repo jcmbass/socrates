@@ -2,7 +2,7 @@
   "expo": {
     "name": "Socrates",
     "slug": "buxo",
-    "version": "0.4.5",
+    "version": "0.4.7",
     "orientation": "portrait",
     "icon": "./assets/images/socrates-icon.png",
     "scheme": "buxo",
@@ -16,7 +16,7 @@
       "predictiveBackGestureEnabled": false,
       "package": "com.socrates.tutor",
       "softwareKeyboardLayoutMode": "resize",
-      "versionCode": 10
+      "versionCode": 12
     },
     "web": {
       "output": "static",

@@ -13,11 +13,10 @@
  *   estático (apple-design skill §14).
  *
  * **`variant` (D2, craft spec §3 home item 2):** default `"standalone"`
- * keeps the original floating pill (own `surfaceRaised` background/border) —
- * unchanged for existing call sites (`app/subjects/[subjectId]/temario.tsx`,
- * `temas/[topicId].tsx`, both out of D2's scope). `"bare"` strips that outer
- * chip and renders only the dot+text row, so `components/StatsStrip.tsx`
- * (D2, home screen) can host both `StreakDisplay` and `XpBadge` as "piezas
+ * keeps the original floating pill (own `surfaceRaised` background/border).
+ * `"bare"` strips that outer chip and renders only the dot+text row, so
+ * `components/StatsStrip.tsx` (home and the syllabus screen
+ * `app/subjects/[subjectId]/temario.tsx`) can host both `StreakDisplay` and `XpBadge` as "piezas
  * internas" inside ONE shared discreet strip instead of nesting a pill
  * inside a pill.
  *

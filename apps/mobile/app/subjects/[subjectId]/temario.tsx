@@ -35,7 +35,8 @@
  * 3. A bottom "Continuar: <título>" CTA (mockup precedent) appears
  *    whenever there's a recommended topic (`resolveRecommendedTopicId`);
  *    hidden once every topic is done or the temario is empty — never a
- *    dishonest affordance pointing at nothing.
+ *    dishonest affordance pointing at nothing. If the recommended topic's
+ *    guided items are all answered, it skips ahead (`resolveContinueTopicId`).
  * 4. **404-vs-real-error branch (bug #3 fix, tracked since the W0 harness
  *    DEVLOG entry):** a subject with NO temario at all returns
  *    `ApiError.code === "not_found"` from `getTemario` — that used to fall
@@ -84,7 +85,7 @@ import Animated, {
   withSpring,
   withTiming,
 } from "react-native-reanimated";
-import { Redirect, router, Stack, useLocalSearchParams } from "expo-router";
+import { Redirect, router, Stack, useFocusEffect, useLocalSearchParams } from "expo-router";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 import { CollapsibleUnitSection } from "../../../components/CollapsibleUnitSection";
@@ -93,13 +94,15 @@ import { OnboardBackButton } from "../../../components/OnboardBackButton";
 import { PrimaryButton } from "../../../components/PrimaryButton";
 import { SkillTree } from "../../../components/SkillTree";
 import { SourcesModal } from "../../../components/SourcesModal";
+import { StatsStrip } from "../../../components/StatsStrip";
 import { TemarioTopicEditor } from "../../../components/TemarioTopicEditor";
 import { useIngestToFuente } from "../../../components/useIngestToFuente";
 import { useSourcesIngestOnScreen } from "../../../components/useSourcesIngestOnScreen";
 import { useT } from "../../../i18n/react";
 import { apiClient } from "../../../lib/api/expoClient";
 import { ApiError, isUnauthorized } from "../../../lib/api/errors";
-import type { Fuente, SeedAttribution, Temario } from "../../../lib/api/types";
+import type { Fuente, SeedAttribution, StreakResult, Temario } from "../../../lib/api/types";
+import { deriveXpDisplay } from "../../../lib/homeCards";
 import { appStore, useAppState } from "../../../lib/appStore";
 import { createManualTemario, generateTemarioForSubject } from "../../../lib/onboardFlow";
 import { moveOrderedId, orderedTopicIds, sortedTopics } from "../../../lib/onboardTemario";
@@ -107,7 +110,7 @@ import { retryGenerateTemarioFromFuente, type PdfToTemarioErrorKind } from "../.
 import { skillTreeIngestErrorCopy } from "../../../lib/ingestErrorCopy";
 import { ingestCancelLabel, ingestStatusMessage } from "../../../lib/ingestStatusMessage";
 import { isIngestAwaitingServer, isIngestBusy } from "../../../lib/materialIngestState";
-import { deriveTemarioProgress, resolveRecommendedTopicId } from "../../../lib/skillTree";
+import { deriveTemarioProgress, resolveContinueTopicId, resolveRecommendedTopicId } from "../../../lib/skillTree";
 import { resolveAutoScrollTarget } from "../../../lib/temarioAutoscroll";
 import { findUnitGroupForTopic, groupTopicsByUnit, seedLevelFromCatalogKey } from "../../../lib/temarioGroups";
 import { isSubjectSourcesEntryActive, sourcesReconcileSubjectId } from "../../../lib/subjectSourcesEntry";
@@ -634,6 +637,35 @@ export default function SubjectTemario() {
     };
   }, [auth, subjectId, reloadKey]);
 
+  /**
+   * Hallazgo B de la beta cerrada — racha + XP también acá, con las MISMAS
+   * llamadas y reglas que home (`app/courses/index.tsx`): `getXp` global y
+   * `getStreak`, y el XP solo se ve si `deriveXpDisplay` lo permite (en
+   * shadow el server omite `visible`, así que nunca hay número que mostrar).
+   * Best-effort: un fallo deja ambos en `null` y `StatsStrip` no renderiza
+   * nada — el temario nunca espera por esto. Se refresca al volver de un
+   * tema, donde se gana XP.
+   */
+  const [streak, setStreak] = useState<StreakResult | null>(null);
+  const [xp, setXp] = useState<{ visible?: number } | null>(null);
+  useFocusEffect(
+    useCallback(() => {
+      const token = auth?.token;
+      if (!token) return;
+      let cancelled = false;
+      void Promise.all([apiClient.getXp(token).catch(() => null), apiClient.getStreak(token).catch(() => null)]).then(
+        ([xpResult, streakResult]) => {
+          if (cancelled) return;
+          setXp(xpResult);
+          setStreak(streakResult);
+        },
+      );
+      return () => {
+        cancelled = true;
+      };
+    }, [auth?.token]),
+  );
+
   const reduceMotion = useReduceMotion();
 
   // Autoscroll de entrada (module doc). El reloj arranca UNA vez, cuando el
@@ -693,7 +725,9 @@ export default function SubjectTemario() {
   const needsSetup = !loading && !error && isTemarioEffectivelyEmpty(temario) && !editing;
   const progress = deriveTemarioProgress(temario?.topics ?? []);
   const recommendedTopicId = temario ? resolveRecommendedTopicId(temario.topics) : null;
-  const recommendedTopic = temario ? temario.topics.find((topic) => topic.id === recommendedTopicId) : undefined;
+  const continueTopicId = temario ? resolveContinueTopicId(temario.topics, recommendedTopicId) : null;
+  const continueTopic = temario ? temario.topics.find((topic) => topic.id === continueTopicId) : undefined;
+  const xpDisplay = deriveXpDisplay(xp);
   const showStars = temario?.visibility === "visible";
   const seedLevel = seedLevelFromCatalogKey(temario?.seedCatalogKey ?? null);
   // C2-d: `null` for a student's own subject (every topic's `unitLabel` is
@@ -912,8 +946,16 @@ export default function SubjectTemario() {
           </View>
         ) : (
           <>
+            {streak !== null || xpDisplay.visible ? (
+              <View style={{ paddingHorizontal: spacing.lg, paddingTop: spacing.md }}>
+                <StatsStrip streak={streak} xp={xpDisplay} />
+              </View>
+            ) : null}
+            {/* `flex: 1` + `minHeight: 0` bound the scroller to the space left
+                over, so the Continue footer below stays on screen (hallazgo D). */}
             <Animated.ScrollView
               ref={scrollRef}
+              style={{ flex: 1, minHeight: 0 }}
               onScroll={scrollHandler}
               scrollEventThrottle={16}
               onLayout={(e) => {
@@ -1016,12 +1058,12 @@ export default function SubjectTemario() {
               ) : null}
             </Animated.ScrollView>
 
-            {recommendedTopic ? (
+            {continueTopic ? (
               <View style={{ padding: spacing.lg, paddingBottom: insets.bottom + spacing.md, backgroundColor: colors.surface }}>
                 <PrimaryButton
-                  label={t.skillTree.continueCta(recommendedTopic.title)}
+                  label={t.skillTree.continueCta(continueTopic.title)}
                   onPress={() =>
-                    router.push({ pathname: "/subjects/[subjectId]/temas/[topicId]", params: { subjectId, topicId: recommendedTopic.id, name } })
+                    router.push({ pathname: "/subjects/[subjectId]/temas/[topicId]", params: { subjectId, topicId: continueTopic.id, name } })
                   }
                 />
               </View>

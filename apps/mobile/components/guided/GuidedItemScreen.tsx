@@ -2,7 +2,7 @@
  * One guided item — prompt + option rows (≥48dp), selected state, feedback.
  */
 import { useRef, useState } from "react";
-import { ActivityIndicator, Text, View } from "react-native";
+import { ActivityIndicator, ScrollView, Text, View } from "react-native";
 
 import { FeedbackBand } from "./FeedbackBand";
 import { PrimaryButton } from "../PrimaryButton";
@@ -14,7 +14,7 @@ import type { GuidedItemPublic } from "../../lib/api/types";
 import { nextMicrocopyIndex } from "../../lib/guidedRecipe";
 import { appStore } from "../../lib/appStore";
 import { router } from "expo-router";
-import { useTheme } from "../../theme/useTheme";
+import { useReduceMotion, useTheme } from "../../theme/useTheme";
 import { MIN_TOUCH_TARGET, radius, spacing, typography } from "../../theme/tokens";
 
 export function GuidedItemScreen(props: {
@@ -28,6 +28,8 @@ export function GuidedItemScreen(props: {
 }) {
   const t = useT();
   const { colors } = useTheme();
+  const reduceMotion = useReduceMotion();
+  const scrollRef = useRef<ScrollView>(null);
   const [selected, setSelected] = useState<string | null>(null);
   const [submitting, setSubmitting] = useState(false);
   const [feedback, setFeedback] = useState<{
@@ -95,8 +97,19 @@ export function GuidedItemScreen(props: {
     startedAtRef.current = Date.now();
   }
 
+  // A long prompt + options + feedback can exceed the viewport; scrolling
+  // keeps FeedbackBand's Continue reachable. `flexGrow: 1` preserves the
+  // Confirm button's `marginTop: "auto"` bottom anchoring when content is short.
   return (
-    <View style={{ flex: 1, padding: spacing.lg, gap: spacing.md }}>
+    <ScrollView
+      ref={scrollRef}
+      onContentSizeChange={() => {
+        if (feedback !== null) scrollRef.current?.scrollToEnd({ animated: !reduceMotion });
+      }}
+      style={{ flex: 1, minHeight: 0 }}
+      contentContainerStyle={{ flexGrow: 1, padding: spacing.lg, gap: spacing.md }}
+      keyboardShouldPersistTaps="handled"
+    >
       <Text style={{ color: colors.muted, fontSize: typography.caption.fontSize, fontWeight: typography.weights.semibold }}>
         {props.phaseLabel}
       </Text>
@@ -155,6 +168,6 @@ export function GuidedItemScreen(props: {
           onContinue={props.onComplete}
         />
       )}
-    </View>
+    </ScrollView>
   );
 }

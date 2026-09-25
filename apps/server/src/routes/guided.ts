@@ -12,9 +12,15 @@ import { findTemarioBySubject } from "../repositories/temarios";
 import { ensureTopicItems, findTopicItems, GuidedItemsQuotaExceededError } from "../repositories/topic-items";
 import { listFuentesBySubject } from "../repositories/fuentes";
 import { buildFuentesSourceText } from "../materials/session-context";
-import { createXpEvent, hasGuidedSessionComplete } from "../repositories/xp";
+import {
+  createXpEvent,
+  hasGuidedItemXp,
+  hasGuidedSessionComplete,
+  listGuidedAnsweredItemIdsByTopic,
+} from "../repositories/xp";
 import { createQuotaRejection } from "../repositories/quota-rejections";
 import { findUserById } from "../repositories/users";
+import { normalizePreferredLanguageCode } from "../locale";
 import { temas } from "../db/schema";
 import {
   type GuidedItem,
@@ -56,11 +62,30 @@ async function ensureGuidedItems(deps: AppDeps, input: {
   return ensureTopicItems(deps.db, {
     ...input,
     sourcesText: sources?.text,
+    /**
+     * Bug del 2026-09-18: los ítems de la sesión guiada (las preguntas Y sus
+     * explicaciones) se generaban con un prompt en español fijo, así que un
+     * estudiante con la app en inglés recibía la sesión en español. Único
+     * punto donde el idioma del estudiante entra a esta cadena.
+     */
+    locale: normalizePreferredLanguageCode(user.preferredLanguageCode),
     requireSources: deps.env.BUXO_GUIDED_REQUIRE_SOURCES,
     structuredAdapter: deps.models.structuredAdapter,
     now: deps.now(),
     quota: { accountKind: user.accountKind, config: deps.quotaConfig },
   });
+}
+
+/** Ids of the current batch that already earned guided item XP (stale ids from a regenerated batch are dropped). */
+async function answeredItemIdsFor(
+  db: AppDeps["db"],
+  userId: string,
+  topicId: string,
+  items: readonly GuidedItem[],
+): Promise<string[]> {
+  const answered = (await listGuidedAnsweredItemIdsByTopic(db, userId, [topicId])).get(topicId);
+  if (!answered) return [];
+  return items.filter((item) => answered.has(item.id)).map((item) => item.id);
 }
 
 function isAnswerCorrect(item: GuidedItem, selected: string | number): boolean {
@@ -101,6 +126,9 @@ export function createGuidedRoutes(deps: AppDeps): Hono<{ Variables: AuthVariabl
 
       return c.json({
         items: result.payload ? stripGuidedItemAnswers(result.payload.items) : [],
+        answeredItemIds: result.payload
+          ? await answeredItemIdsFor(deps.db, userId, topicId, result.payload.items)
+          : [],
         degraded: result.degraded,
         degradedReason: result.degradedReason,
         grounding: result.grounding,
@@ -131,6 +159,7 @@ export function createGuidedRoutes(deps: AppDeps): Hono<{ Variables: AuthVariabl
 
     return c.json({
       items: stripGuidedItemAnswers(record.payload.items),
+      answeredItemIds: await answeredItemIdsFor(deps.db, userId, topicId, record.payload.items),
       degraded: false,
       degradedReason: null,
       grounding: record.payload.grounding,
@@ -162,7 +191,7 @@ export function createGuidedRoutes(deps: AppDeps): Hono<{ Variables: AuthVariabl
     const correct = isAnswerCorrect(item, parsed.data.selected);
     let xpDelta = 0;
 
-    if (correct) {
+    if (correct && !(await hasGuidedItemXp(deps.db, userId, topicId, item.id))) {
       const { delta, reason } = guidedItemXp(parsed.data.attempt);
       xpDelta = delta;
       await createXpEvent(deps.db, {

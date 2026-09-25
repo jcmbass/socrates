@@ -23,7 +23,7 @@
  * data transform of the WebView bridge's `IngestResult`).
  */
 import { ApiError } from "./errors";
-import type { Locale } from "../../i18n";
+import { getActiveLocale, type Locale } from "../../i18n";
 import type { SubsetUploadPlan } from "../materialIngest";
 
 /** Whole-PDF upload plan — full mode (`digestMaterialPdf`), beta-real 08 Option B. */
@@ -353,8 +353,23 @@ export function createApiClient(config: ApiClientConfig): ApiClient {
   }
 
   return {
+    /**
+     * El `preferredLanguageCode` va SIEMPRE en el body (bug del 2026-09-18):
+     * el server resuelve la locale de la cuenta nueva como body >
+     * Accept-Language > "es" (`apps/server/src/locale.ts`), y este cliente no
+     * manda Accept-Language, así que sin el campo TODA cuenta nacía en
+     * español — incluido el correo del magic-link, que se manda antes de que
+     * exista sesión y por lo tanto antes de que el sync de `PATCH /v1/me`
+     * pueda corregir nada.
+     *
+     * El default sale del espejo del catálogo activo (`i18n/index.ts`), que
+     * el LocaleProvider mantiene al día con override + idioma del
+     * dispositivo: se resuelve acá y no en la pantalla para que ningún
+     * llamador futuro pueda olvidarlo.
+     */
     signup(input) {
-      return requestVoid("/v1/auth/signup", { method: "POST", body: JSON.stringify(input) });
+      const body = { ...input, preferredLanguageCode: input.preferredLanguageCode ?? getActiveLocale() };
+      return requestVoid("/v1/auth/signup", { method: "POST", body: JSON.stringify(body) });
     },
     login(email) {
       return requestVoid("/v1/auth/login", { method: "POST", body: JSON.stringify({ email }) });

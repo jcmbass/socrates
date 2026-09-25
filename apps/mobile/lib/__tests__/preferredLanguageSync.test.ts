@@ -55,19 +55,32 @@ describe("syncPreferredLanguage", () => {
   });
 });
 
-describe("shouldSyncPreferredLanguage (moment c — una vez por locale efectivo)", () => {
-  it("fires when the locale was never synced", () => {
-    expect(shouldSyncPreferredLanguage(null, "es")).toBe(true);
-    expect(shouldSyncPreferredLanguage(null, "en")).toBe(true);
+describe("shouldSyncPreferredLanguage (una vez por token + locale efectivo)", () => {
+  it("fires when nothing was synced yet", () => {
+    expect(shouldSyncPreferredLanguage(null, { token: "t", locale: "es" })).toBe(true);
+    expect(shouldSyncPreferredLanguage(null, { token: "t", locale: "en" })).toBe(true);
   });
 
-  it("skips when the effective locale is already the last synced one", () => {
-    expect(shouldSyncPreferredLanguage("es", "es")).toBe(false);
-    expect(shouldSyncPreferredLanguage("en", "en")).toBe(false);
+  it("skips when the same token already got the same locale", () => {
+    expect(shouldSyncPreferredLanguage({ token: "t", locale: "es" }, { token: "t", locale: "es" })).toBe(false);
+    expect(shouldSyncPreferredLanguage({ token: "t", locale: "en" }, { token: "t", locale: "en" })).toBe(false);
   });
 
-  it("fires again only on an actual change", () => {
-    expect(shouldSyncPreferredLanguage("es", "en")).toBe(true);
-    expect(shouldSyncPreferredLanguage("en", "es")).toBe(true);
+  it("fires again on an actual locale change", () => {
+    expect(shouldSyncPreferredLanguage({ token: "t", locale: "es" }, { token: "t", locale: "en" })).toBe(true);
+    expect(shouldSyncPreferredLanguage({ token: "t", locale: "en" }, { token: "t", locale: "es" })).toBe(true);
+  });
+
+  /**
+   * Bug del 2026-09-18, verificado montando el provider real en jsdom: con la
+   * llave vieja (solo locale) un logout + login de OTRA cuenta sin cerrar la
+   * app no sincronizaba nada, y la cuenta nueva se quedaba con la locale
+   * guardada en su fila (normalmente "es") hasta el siguiente arranque en
+   * frío. El PATCH escribe en la fila del dueño del token: "ya sincronicé
+   * 'en'" no dice nada sobre otra fila.
+   */
+  it("fires again when the TOKEN changed even if the locale did not", () => {
+    expect(shouldSyncPreferredLanguage({ token: "tok-A", locale: "en" }, { token: "tok-B", locale: "en" })).toBe(true);
+    expect(shouldSyncPreferredLanguage({ token: "tok-A", locale: "es" }, { token: "tok-B", locale: "es" })).toBe(true);
   });
 });

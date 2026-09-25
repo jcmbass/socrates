@@ -35,6 +35,62 @@ describe("auth routes: signup -> verify -> bearer session (DF-6.2 magic-link)", 
     expect(emailSender.sent[0]).toMatchObject({ to: "student@example.com", purpose: "signup" });
   });
 
+  /**
+   * Bug del 2026-09-18 (tester en inglés): la app NO mandaba
+   * `preferredLanguageCode` ni Accept-Language, así que TODA cuenta nueva
+   * nacía en "es" — incluido el correo del magic-link, que sale antes de que
+   * exista sesión y por lo tanto antes de que `PATCH /v1/me` pueda corregir
+   * nada. `resolveSignupLocale` ya estaba bien; lo que faltaba era el body.
+   * Este test congela la cadena COMPLETA (body → correo → fila persistida),
+   * no solo la función pura.
+   */
+  it("signup con preferredLanguageCode 'en' manda el correo en inglés y persiste la fila en 'en'", async () => {
+    ctx = await buildTestDeps();
+    const app = createApp(ctx.deps);
+
+    const res = await app.request("/v1/auth/signup", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({
+        email: "english@example.com",
+        displayName: "Ada",
+        preferredLanguageCode: "en",
+        ageConfirmedAt: new Date().toISOString(),
+        consents: [
+          { type: "terms_13plus", policyVersion: "v1" },
+          { type: "privacy_policy", policyVersion: "v1" },
+        ],
+      }),
+    });
+    expect(res.status).toBe(202);
+
+    const emailSender = ctx.deps.emailSender as RecordingEmailSender;
+    const sent = emailSender.sent[0]!;
+    expect(sent.locale).toBe("en");
+
+    const token = new URL(emailSender.lastLinkFor("english@example.com")!).searchParams.get("token")!;
+    const verified = await readJson<{ userId: string }>(
+      await app.request("/v1/auth/verify", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ token }),
+      }),
+    );
+
+    const { findUserById } = await import("../../src/repositories/users");
+    const user = await findUserById(ctx.deps.db, verified.userId);
+    expect(user?.preferredLanguageCode).toBe("en");
+  });
+
+  it("signup sin preferredLanguageCode ni Accept-Language sigue naciendo en 'es'", async () => {
+    ctx = await buildTestDeps();
+    const app = createApp(ctx.deps);
+
+    const { userId } = await signupAndVerify(app, ctx.deps, "spanish-default@example.com");
+    const { findUserById } = await import("../../src/repositories/users");
+    expect((await findUserById(ctx.deps.db, userId))?.preferredLanguageCode).toBe("es");
+  });
+
   it("rejects signup missing DF-3 required consents", async () => {
     ctx = await buildTestDeps();
     const app = createApp(ctx.deps);

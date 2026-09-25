@@ -44,6 +44,14 @@ describe("i18nLength (C2-e — guardia de copy para superficies de una línea)",
     expect(en.courses.streak.broken.length, `en '${en.courses.streak.broken}'`).toBeLessThanOrEqual(48);
   });
 
+  it("coldStart.bootLines rotate one short line (≤ 40) with the same count in both locales", () => {
+    expect(t.coldStart.bootLines.length).toBeGreaterThanOrEqual(3);
+    expect(en.coldStart.bootLines.length).toBe(t.coldStart.bootLines.length);
+    for (const line of [...t.coldStart.bootLines, ...en.coldStart.bootLines]) {
+      expect(line.length, `'${line}'`).toBeLessThanOrEqual(40);
+    }
+  });
+
   it("subject.materialInEnglish stays a short caption (≤ 24) in both locales", () => {
     expect(t.subject.materialInEnglish.length, `es '${t.subject.materialInEnglish}'`).toBeLessThanOrEqual(24);
     expect(en.subject.materialInEnglish.length, `en '${en.subject.materialInEnglish}'`).toBeLessThanOrEqual(24);

@@ -15,7 +15,50 @@
  * `projectTemarioVisibility` (P4), so whatever this module receives is
  * already antifuga-safe; it does no visibility logic of its own.
  */
-import type { Hito, Tema, Temario } from "./api/types";
+import type { GuidedProgress, Hito, Tema, Temario } from "./api/types";
+
+/** Intra-topic guided progress ready to render ("3/10 · 30%"). */
+export interface TopicGuidedProgress {
+  completed: number;
+  total: number;
+  /** 0-100, rounded. */
+  percent: number;
+}
+
+/**
+ * `null` when the topic has no generated items (field omitted or
+ * `total <= 0`) — the card then shows no fraction at all. `completed` is
+ * clamped to `[0, total]` so a stale payload never renders "11/10" or 110%.
+ */
+export function deriveTopicGuidedProgress(progress: GuidedProgress | undefined): TopicGuidedProgress | null {
+  if (!progress || !(progress.total > 0)) return null;
+  const completed = Math.min(Math.max(progress.completed, 0), progress.total);
+  return { completed, total: progress.total, percent: Math.round((completed / progress.total) * 100) };
+}
+
+function isGuidedComplete(topic: Tema): boolean {
+  const progress = deriveTopicGuidedProgress(topic.guidedProgress);
+  return progress !== null && progress.completed >= progress.total;
+}
+
+/**
+ * Target of the syllabus "Continue" button. Keeps `recommendedId` unless
+ * that topic's guided items are all answered — then it moves to the next
+ * topic in syllabus order (wrapping around) that is neither `done` nor
+ * guided-complete. Falls back to `recommendedId` when no such topic exists.
+ * Never mutates status: a guided-complete topic is still not `done`.
+ */
+export function resolveContinueTopicId(topics: readonly Tema[], recommendedId: string | null): string | null {
+  if (recommendedId === null) return null;
+  const sorted = [...topics].sort((a, b) => a.order - b.order);
+  const index = sorted.findIndex((topic) => topic.id === recommendedId);
+  if (index === -1 || !isGuidedComplete(sorted[index]!)) return recommendedId;
+  for (let step = 1; step < sorted.length; step++) {
+    const candidate = sorted[(index + step) % sorted.length]!;
+    if (candidate.status !== "done" && !isGuidedComplete(candidate)) return candidate.id;
+  }
+  return recommendedId;
+}
 
 export type SkillTreeNode =
   | {
@@ -26,6 +69,7 @@ export type SkillTreeNode =
       status: Tema["status"];
       stars: Tema["stars"];
       recommended: boolean;
+      guidedProgress: TopicGuidedProgress | null;
       /** DF-P02: always false. Never gated by a "previous topic done" check. */
       locked: false;
     }
@@ -112,6 +156,7 @@ export function buildSkillTreeNodes(
     status: topic.status,
     stars: topic.stars,
     recommended: topic.id === recommendedId,
+    guidedProgress: deriveTopicGuidedProgress(topic.guidedProgress),
     locked: false,
   }));
 

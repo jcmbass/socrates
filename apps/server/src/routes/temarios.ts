@@ -19,8 +19,10 @@ import { errorResponse } from "../errors";
 import { findSubjectById } from "../repositories/subjects";
 import { findFuenteById } from "../repositories/fuentes";
 import { findUserById } from "../repositories/users";
-import { hitos, temas } from "../db/schema";
-import type { Temario, TemarioGeneratedBy } from "@buxo/domain/temario";
+import { listGuidedAnsweredItemIdsByTopic } from "../repositories/xp";
+import { hitos, temas, topicItems } from "../db/schema";
+import type { Tema, Temario, TemarioGeneratedBy } from "@buxo/domain/temario";
+import { TOPIC_ITEMS_SCHEMA_VERSION, TopicItemsPayloadSchema } from "@buxo/domain/guided-item";
 import { projectTemarioVisibility, projectTemasVisibility } from "@buxo/domain/temario";
 import { seedAttributionFor, seedSourceLangFor } from "@buxo/domain/seed-catalog";
 import {
@@ -102,6 +104,34 @@ async function milestoneAndTemario(db: AppDeps["db"], milestoneId: string) {
   return temario ? { hito, temario } : null;
 }
 
+/**
+ * Per-topic guided progress. Topics without a settled items batch are absent
+ * from the map so the client can tell "not generated yet" from "0 answered".
+ * `expose` items are never answered, so they do not count toward `total`.
+ */
+async function loadGuidedProgress(
+  db: AppDeps["db"],
+  userId: string,
+  subjectId: string,
+  topics: readonly Tema[],
+): Promise<Map<string, { completed: number; total: number }>> {
+  const progress = new Map<string, { completed: number; total: number }>();
+  if (topics.length === 0) return progress;
+  const rows = await db.select().from(topicItems).where(eq(topicItems.subjectId, subjectId));
+  const answeredByTopic = await listGuidedAnsweredItemIdsByTopic(db, userId, topics.map((t) => t.id));
+  for (const row of rows) {
+    if (row.schemaVersion !== TOPIC_ITEMS_SCHEMA_VERSION) continue;
+    const parsed = TopicItemsPayloadSchema.safeParse(row.payload);
+    if (!parsed.success) continue;
+    const answerable = parsed.data.items.filter((item) => item.type !== "expose");
+    if (answerable.length === 0) continue;
+    const answered = answeredByTopic.get(row.topicId);
+    const completed = answered ? answerable.filter((item) => answered.has(item.id)).length : 0;
+    progress.set(row.topicId, { completed, total: answerable.length });
+  }
+  return progress;
+}
+
 async function maybeMarkAiEdited(db: AppDeps["db"], temario: Temario | null) {
   if (temario && temario.generatedBy === "ai") {
     await updateTemarioGeneratedBy(db, temario.id, "ai-edited");
@@ -143,8 +173,13 @@ export function createTemarioRoutes(deps: AppDeps): Hono<{ Variables: AuthVariab
     const seedLang: "en" | "es" = subject.seedLang === "en" ? "en" : "es";
     const seedAttribution = subject.seedCatalogKey ? seedAttributionFor(subject.seedCatalogKey, seedLang) : null;
     const seedMaterialLang = subject.seedCatalogKey ? seedSourceLangFor(subject.seedCatalogKey, seedLang) : null;
+    const guidedProgress = await loadGuidedProgress(deps.db, userId, subject.id, projected.topics);
     return c.json({
       ...projected,
+      topics: projected.topics.map((topic) => {
+        const progress = guidedProgress.get(topic.id);
+        return progress ? { ...topic, guidedProgress: progress } : topic;
+      }),
       visibility: deps.env.MASTERY_VISIBILITY_MODE,
       seedCatalogKey: subject.seedCatalogKey,
       seedAttribution,

@@ -12,9 +12,15 @@
  *
  * Server sync (AJUSTE 1): every effective-locale change PATCHes
  * /v1/me fire-and-forget (lib/preferredLanguageSync.ts) — moments (a)
- * selector change and (c) once per start when authenticated. Moment (b)
- * post-login lives in app/login.tsx (the provider isn't mounted around the
- * login flow's token acquisition order).
+ * selector change, (b) post-login y (c) una vez por arranque con sesión.
+ *
+ * (b) y (c) son EL MISMO efecto (el de `auth?.token` más abajo), no dos: el
+ * provider está montado en la raíz (`app/_layout.tsx`), por fuera del gate de
+ * hidratación, así que ve aparecer el token tanto cuando `completeLogin()`
+ * lo escribe tras `POST /v1/auth/verify` como cuando `hydrate()` lo restaura
+ * de AsyncStorage al arrancar. `app/login.tsx` NO sincroniza nada (el
+ * comentario que decía que sí quedó viejo; verificado con grep el 2026-09-18
+ * y con el provider montado en jsdom).
  */
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 
@@ -22,6 +28,7 @@ import { apiClient } from "../lib/api/expoClient";
 import {
   shouldSyncPreferredLanguage,
   syncPreferredLanguage,
+  type PreferredLanguageSyncMark,
 } from "../lib/preferredLanguageSync";
 import { useAppState } from "../lib/appStore";
 import { asyncStorageLocalePrefsStore } from "./asyncStorageLocalePrefs";
@@ -68,16 +75,20 @@ function LocaleProviderBody({ children, prefs, deviceLang }: { children: ReactNo
   const [locale, setLocaleState] = useState<Locale>(DEFAULT_LOCALE);
   const [override, setOverrideState] = useState<LocaleOverride>(null);
   const [resolved, setResolved] = useState(false);
-  // Last locale successfully handed to the server this session — dedupes
-  // the app-start sync (moment c) and keeps selector churn cheap.
-  const lastSyncedRef = useRef<"es" | "en" | null>(null);
+  // Last (token, locale) successfully handed to the server this session —
+  // dedupes the app-start sync (moment c) and keeps selector churn cheap.
+  // El token entra en la llave porque un logout+login de otra cuenta sin
+  // cerrar la app cambia la FILA que el PATCH escribe (ver
+  // shouldSyncPreferredLanguage).
+  const lastSyncedRef = useRef<PreferredLanguageSyncMark | null>(null);
 
   const syncToServer = useCallback(
     (next: Locale, token: string | null | undefined) => {
       if (!token) return;
-      if (!shouldSyncPreferredLanguage(lastSyncedRef.current, next)) return;
+      const mark: PreferredLanguageSyncMark = { token, locale: next };
+      if (!shouldSyncPreferredLanguage(lastSyncedRef.current, mark)) return;
       void syncPreferredLanguage(apiClient, token, next).then((ok) => {
-        if (ok) lastSyncedRef.current = next;
+        if (ok) lastSyncedRef.current = mark;
       });
     },
     [],
@@ -102,15 +113,18 @@ function LocaleProviderBody({ children, prefs, deviceLang }: { children: ReactNo
     return () => {
       cancelled = true;
     };
-    // Runs ONCE per mount. `auth` is read at resolution time — moment (c)
-    // for sessions resumed from storage; fresh logins sync via (b) + the
-    // token effect below.
+    // Runs ONCE per mount. Ojo: `auth` acá es el del PRIMER render (deps []),
+    // y en un arranque real el store todavía no hidrató, así que este
+    // `syncToServer` casi siempre sale por el `if (!token) return`. Quien
+    // sincroniza de verdad es el efecto de abajo; éste solo cubre el caso
+    // borde de un remontaje con sesión ya en memoria.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // Moment (c) redux + login race: a token can appear AFTER hydration
-  // (login completing while the app runs). When it does and the effective
-  // locale was never synced with it, sync once.
+  // Momentos (b) y (c): el token aparece DESPUÉS de resolver la locale — o
+  // porque el login terminó con la app abierta, o porque `hydrate()` restauró
+  // la sesión guardada al arrancar. En los dos casos se sincroniza una vez
+  // por (token, locale).
   useEffect(() => {
     if (!resolved || !auth?.token) return;
     syncToServer(locale, auth.token);

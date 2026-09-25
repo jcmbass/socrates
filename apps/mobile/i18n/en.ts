@@ -164,6 +164,14 @@ export const en: Strings = {
     title: "Waking Socrates up…",
     subtitle: "The server is starting. It can take a couple of minutes the first time.",
     retrying: "Retrying…",
+    bootLines: [
+      "Firing up the engines…",
+      "Socrates is stretching…",
+      "Brewing the coffee…",
+      "Dusting off the scrolls…",
+      "Sharpening the questions…",
+      "Looking for the sandals…",
+    ],
   },
 
   // P4 — home (subject cards + total XP). Replaces the content of
@@ -207,6 +215,9 @@ export const en: Strings = {
     topicLabel: (order1based: number) => `TOPIC ${order1based}`,
     completedLabel: "Completed",
     progressLabel: (doneCount: number, total: number, percent: number) => `Topic ${doneCount} / ${total} · ${percent}%`,
+    topicGuidedProgress: (completed: number, total: number, percent: number) => `${completed}/${total} · ${percent}%`,
+    topicGuidedProgressA11y: (completed: number, total: number, percent: number) =>
+      `${completed} of ${total} exercises, ${percent}%`,
     routeLabel: "YOUR LEARNING PATH",
     /** No lock language (DF-P02) — topics "appear", they are never "unlocked". */
     routeHint: "Advanced topics appear at the top",

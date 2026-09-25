@@ -7,6 +7,8 @@ import { topicItems } from "../db/schema";
 import {
   GUIDED_ITEMS_GENERATOR_VERSION,
   TOPIC_ITEMS_SCHEMA_VERSION,
+  topicItemsLocale,
+  type GuidedItemLocale,
   type TopicItemsPayload,
   TopicItemsPayloadSchema,
 } from "@buxo/domain/guided-item";
@@ -69,6 +71,12 @@ export interface EnsureTopicItemsInput {
   sourcesText?: string;
   requireSources: boolean;
   structuredAdapter: StructuredAdapter;
+  /**
+   * Idioma del estudiante. Omitirlo = "es" (el default de la base instalada):
+   * mismo render y mismo schema que antes de la localización. Un batch
+   * cacheado en otro idioma deja de contar como fresco y se regenera una vez.
+   */
+  locale?: GuidedItemLocale;
   now?: Date;
   quota?: {
     accountKind: AccountKind;
@@ -169,18 +177,30 @@ function degradedResult(
   };
 }
 
+/**
+ * Un batch cacheado sirve si es de esta versión del generador, no está
+ * reclamado, y no hay nada que MEJORAR: ni grounding (general → sources) ni
+ * idioma (el del estudiante cambió respecto del que generó el batch).
+ *
+ * Cuando sí hay algo que mejorar, el cooldown de fallo manda: si el último
+ * intento de regenerar falló hace poco, se sigue sirviendo lo que hay en vez
+ * de gastar una llamada por request. Esa es la regla que ya existía para el
+ * upgrade de grounding; el idioma entra por la misma puerta.
+ */
 function isFreshSuccess(
   existing: TopicItemsRecord | null,
   grounding: "sources" | "general",
   now: Date,
+  locale: GuidedItemLocale,
 ): boolean {
   if (!existing) return false;
   if (existing.payload.generatorVersion !== GUIDED_ITEMS_GENERATOR_VERSION) return false;
   if (existing.payload.regeneratingAt && withinMs(existing.payload.regeneratingAt, now, GUIDED_ITEMS_CLAIM_ORPHAN_MS)) {
     return false;
   }
-  if (existing.payload.grounding === "sources") return true;
-  if (grounding === "general") return true;
+  const groundingUpgrade = existing.payload.grounding !== "sources" && grounding === "sources";
+  const localeMismatch = topicItemsLocale(existing.payload) !== locale;
+  if (!groundingUpgrade && !localeMismatch) return true;
   return Boolean(
     existing.payload.generationFailedAt &&
       withinMs(existing.payload.generationFailedAt, now, GUIDED_ITEMS_FAILURE_COOLDOWN_MS),
@@ -329,12 +349,13 @@ async function waitForClaim(
   input: EnsureTopicItemsInput,
   grounding: "sources" | "general",
   now: Date,
+  locale: GuidedItemLocale,
 ): Promise<EnsureTopicItemsResult> {
   const deadline = Date.now() + WAIT_TIMEOUT_MS;
   while (Date.now() < deadline) {
     await sleep(WAIT_POLL_MS);
     const existing = await findTopicItems(db, input.subjectId, input.topicId);
-    if (existing && isFreshSuccess(existing, grounding, now)) return successResult(existing);
+    if (existing && isFreshSuccess(existing, grounding, now, locale)) return successResult(existing);
     const raw = await findRawTopicItems(db, input.subjectId, input.topicId);
     if (
       raw &&
@@ -364,12 +385,13 @@ async function waitForClaim(
 export async function ensureTopicItems(db: Db, input: EnsureTopicItemsInput): Promise<EnsureTopicItemsResult> {
   const now = input.now ?? new Date();
   const grounding = input.sourcesText?.trim() ? "sources" : "general";
+  const locale: GuidedItemLocale = input.locale === "en" ? "en" : "es";
   if (input.requireSources && grounding === "general") {
     return degradedResult("sources_required", grounding);
   }
 
   const existing = await findTopicItems(db, input.subjectId, input.topicId);
-  if (existing && isFreshSuccess(existing, grounding, now)) {
+  if (existing && isFreshSuccess(existing, grounding, now, locale)) {
     return successResult(existing);
   }
 
@@ -390,7 +412,7 @@ export async function ensureTopicItems(db: Db, input: EnsureTopicItemsInput): Pr
 
   const claim = await acquireGenerationClaim(db, input, grounding, now);
   if (claim.kind === "lost") {
-    return waitForClaim(db, input, grounding, now);
+    return waitForClaim(db, input, grounding, now, locale);
   }
 
   let costUsd: number | null = null;
@@ -401,6 +423,7 @@ export async function ensureTopicItems(db: Db, input: EnsureTopicItemsInput): Pr
       unitLabel: input.unitLabel,
       sourcesText: input.sourcesText,
       structuredAdapter: input.structuredAdapter,
+      locale,
     });
     calledModel = true;
     costUsd = generated.costUsd;

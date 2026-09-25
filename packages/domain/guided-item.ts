@@ -42,11 +42,23 @@ export const GuidedItemSchema: z.ZodType<GuidedItem> = z.object({
   explanation: z.string().min(1),
 });
 
+/** Idiomas en los que se puede generar un batch (catálogo del producto). */
+export const GUIDED_ITEM_LOCALES = ["es", "en"] as const;
+export type GuidedItemLocale = (typeof GUIDED_ITEM_LOCALES)[number];
+
 /** JSON persisted in `topic_items.payload`. */
 export interface TopicItemsPayload {
   items: GuidedItem[];
   grounding: GuidedGrounding;
   generatorVersion: string;
+  /**
+   * Idioma en el que se generó el batch. OPCIONAL a propósito: las filas
+   * escritas antes de la localización de la sesión guiada (2026-09-18) no lo
+   * traen y se leen como "es" — que es literalmente el idioma en el que se
+   * generaron. Sin este campo, un estudiante que cambia de idioma seguiría
+   * recibiendo para siempre el batch cacheado en el idioma anterior.
+   */
+  locale?: GuidedItemLocale;
   /** In-flight regeneration claim (CAS). Absent on a settled cache row. */
   regeneratingAt?: string;
   /** Last failed generation while this success payload is still servable (upgrade cooldown). */
@@ -57,9 +69,15 @@ export const TopicItemsPayloadSchema: z.ZodType<TopicItemsPayload> = z.object({
   items: z.array(GuidedItemSchema).min(1).max(10),
   grounding: z.enum(GUIDED_GROUNDING_VALUES),
   generatorVersion: z.string().min(1),
+  locale: z.enum(GUIDED_ITEM_LOCALES).optional(),
   regeneratingAt: z.string().min(1).optional(),
   generationFailedAt: z.string().min(1).optional(),
 });
+
+/** Idioma efectivo de un batch cacheado — ausencia = "es" (ver `locale`). */
+export function topicItemsLocale(payload: TopicItemsPayload): GuidedItemLocale {
+  return payload.locale ?? "es";
+}
 
 export function parseGuidedItem(value: unknown): GuidedItem {
   return GuidedItemSchema.parse(value);

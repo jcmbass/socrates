@@ -16,10 +16,24 @@ import type { StudySession, MaterialEvent } from "@buxo/domain/study-session";
 import type { Exchange } from "@buxo/domain/exchange";
 import type { SessionOpening } from "@buxo/domain/session-opening";
 import type { MaterialAsset } from "@buxo/domain/material-asset";
-import type { Temario, Tema, Hito } from "@buxo/domain/temario";
+import type { Temario as DomainTemario, Tema as DomainTema, Hito } from "@buxo/domain/temario";
 import type { Fuente, FuenteKind } from "@buxo/domain/fuente";
 
-export type { Course, Subject, StudySession, Exchange, MaterialAsset, MaterialEvent, Temario, Tema, Hito, Fuente, FuenteKind, SessionOpening };
+export type { Course, Subject, StudySession, Exchange, MaterialAsset, MaterialEvent, Hito, Fuente, FuenteKind, SessionOpening };
+
+/**
+ * Guided-item progress inside ONE topic, attached by the temario payload.
+ * `completed` = items already answered (XP already granted), `total` = items
+ * generated for the topic. Omitted by the server when the topic has no
+ * generated items yet.
+ */
+export interface GuidedProgress {
+  completed: number;
+  total: number;
+}
+
+export type Tema = DomainTema & { guidedProgress?: GuidedProgress };
+export type Temario = Omit<DomainTemario, "topics"> & { topics: Tema[] };
 
 /** POST /v1/auth/signup body — C-backend §2.4, DF-6.2 magic-link signup payload. */
 export interface SignupInput {
@@ -27,6 +41,12 @@ export interface SignupInput {
   displayName: string;
   ageConfirmedAt: string;
   consents: Array<{ type: "terms_13plus" | "privacy_policy"; policyVersion: string }>;
+  /**
+   * Idioma con el que nace la cuenta. Opcional: `createApiClient.signup` lo
+   * rellena con el catálogo activo cuando el llamador no lo pasa — ninguna
+   * pantalla tiene que acordarse (ver el comentario en `client.ts`).
+   */
+  preferredLanguageCode?: "es" | "en";
 }
 
 /**
@@ -203,6 +223,8 @@ export interface TopicItemsResult {
   degradedReason: "generation_failed" | "sources_required" | null;
   grounding: "sources" | "general";
   generatorVersion: string;
+  /** Item ids in this batch that already earned guided-item XP. Absent on older payloads. */
+  answeredItemIds?: string[];
 }
 
 /** POST .../items/:itemId/answer response. */
